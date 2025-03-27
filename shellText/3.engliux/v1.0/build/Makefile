@@ -129,6 +129,78 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+src/clear/clear.o: src/clear/clear.c.o
+.PHONY : src/clear/clear.o
+
+# target to build an object file
+src/clear/clear.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/clear/clear.c.o
+.PHONY : src/clear/clear.c.o
+
+src/clear/clear.i: src/clear/clear.c.i
+.PHONY : src/clear/clear.i
+
+# target to preprocess a source file
+src/clear/clear.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/clear/clear.c.i
+.PHONY : src/clear/clear.c.i
+
+src/clear/clear.s: src/clear/clear.c.s
+.PHONY : src/clear/clear.s
+
+# target to generate assembly for a file
+src/clear/clear.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/clear/clear.c.s
+.PHONY : src/clear/clear.c.s
+
+src/copyRight/copyRight.o: src/copyRight/copyRight.c.o
+.PHONY : src/copyRight/copyRight.o
+
+# target to build an object file
+src/copyRight/copyRight.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/copyRight/copyRight.c.o
+.PHONY : src/copyRight/copyRight.c.o
+
+src/copyRight/copyRight.i: src/copyRight/copyRight.c.i
+.PHONY : src/copyRight/copyRight.i
+
+# target to preprocess a source file
+src/copyRight/copyRight.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/copyRight/copyRight.c.i
+.PHONY : src/copyRight/copyRight.c.i
+
+src/copyRight/copyRight.s: src/copyRight/copyRight.c.s
+.PHONY : src/copyRight/copyRight.s
+
+# target to generate assembly for a file
+src/copyRight/copyRight.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/copyRight/copyRight.c.s
+.PHONY : src/copyRight/copyRight.c.s
+
+src/endSay/endSay.o: src/endSay/endSay.c.o
+.PHONY : src/endSay/endSay.o
+
+# target to build an object file
+src/endSay/endSay.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/endSay/endSay.c.o
+.PHONY : src/endSay/endSay.c.o
+
+src/endSay/endSay.i: src/endSay/endSay.c.i
+.PHONY : src/endSay/endSay.i
+
+# target to preprocess a source file
+src/endSay/endSay.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/endSay/endSay.c.i
+.PHONY : src/endSay/endSay.c.i
+
+src/endSay/endSay.s: src/endSay/endSay.c.s
+.PHONY : src/endSay/endSay.s
+
+# target to generate assembly for a file
+src/endSay/endSay.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/endSay/endSay.c.s
+.PHONY : src/endSay/endSay.c.s
+
 src/execute/execute.o: src/execute/execute.c.o
 .PHONY : src/execute/execute.o
 
@@ -153,6 +225,54 @@ src/execute/execute.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/execute.c.s
 .PHONY : src/execute/execute.c.s
 
+src/findSimilarInstructions/similarInstructions.o: src/findSimilarInstructions/similarInstructions.c.o
+.PHONY : src/findSimilarInstructions/similarInstructions.o
+
+# target to build an object file
+src/findSimilarInstructions/similarInstructions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/findSimilarInstructions/similarInstructions.c.o
+.PHONY : src/findSimilarInstructions/similarInstructions.c.o
+
+src/findSimilarInstructions/similarInstructions.i: src/findSimilarInstructions/similarInstructions.c.i
+.PHONY : src/findSimilarInstructions/similarInstructions.i
+
+# target to preprocess a source file
+src/findSimilarInstructions/similarInstructions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/findSimilarInstructions/similarInstructions.c.i
+.PHONY : src/findSimilarInstructions/similarInstructions.c.i
+
+src/findSimilarInstructions/similarInstructions.s: src/findSimilarInstructions/similarInstructions.c.s
+.PHONY : src/findSimilarInstructions/similarInstructions.s
+
+# target to generate assembly for a file
+src/findSimilarInstructions/similarInstructions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/findSimilarInstructions/similarInstructions.c.s
+.PHONY : src/findSimilarInstructions/similarInstructions.c.s
+
+src/help/help.o: src/help/help.c.o
+.PHONY : src/help/help.o
+
+# target to build an object file
+src/help/help.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/help/help.c.o
+.PHONY : src/help/help.c.o
+
+src/help/help.i: src/help/help.c.i
+.PHONY : src/help/help.i
+
+# target to preprocess a source file
+src/help/help.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/help/help.c.i
+.PHONY : src/help/help.c.i
+
+src/help/help.s: src/help/help.c.s
+.PHONY : src/help/help.s
+
+# target to generate assembly for a file
+src/help/help.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/help/help.c.s
+.PHONY : src/help/help.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -176,6 +296,30 @@ src/main.s: src/main.c.s
 src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.c.s
 .PHONY : src/main.c.s
+
+src/search/search.o: src/search/search.c.o
+.PHONY : src/search/search.o
+
+# target to build an object file
+src/search/search.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/search/search.c.o
+.PHONY : src/search/search.c.o
+
+src/search/search.i: src/search/search.c.i
+.PHONY : src/search/search.i
+
+# target to preprocess a source file
+src/search/search.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/search/search.c.i
+.PHONY : src/search/search.c.i
+
+src/search/search.s: src/search/search.c.s
+.PHONY : src/search/search.s
+
+# target to generate assembly for a file
+src/search/search.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/search/search.c.s
+.PHONY : src/search/search.c.s
 
 src/words/a.o: src/words/a.c.o
 .PHONY : src/words/a.o
@@ -258,12 +402,30 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... src/clear/clear.o"
+	@echo "... src/clear/clear.i"
+	@echo "... src/clear/clear.s"
+	@echo "... src/copyRight/copyRight.o"
+	@echo "... src/copyRight/copyRight.i"
+	@echo "... src/copyRight/copyRight.s"
+	@echo "... src/endSay/endSay.o"
+	@echo "... src/endSay/endSay.i"
+	@echo "... src/endSay/endSay.s"
 	@echo "... src/execute/execute.o"
 	@echo "... src/execute/execute.i"
 	@echo "... src/execute/execute.s"
+	@echo "... src/findSimilarInstructions/similarInstructions.o"
+	@echo "... src/findSimilarInstructions/similarInstructions.i"
+	@echo "... src/findSimilarInstructions/similarInstructions.s"
+	@echo "... src/help/help.o"
+	@echo "... src/help/help.i"
+	@echo "... src/help/help.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/search/search.o"
+	@echo "... src/search/search.i"
+	@echo "... src/search/search.s"
 	@echo "... src/words/a.o"
 	@echo "... src/words/a.i"
 	@echo "... src/words/a.s"

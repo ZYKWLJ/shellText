@@ -1,15 +1,44 @@
 #include "../include/main.h"
+
 int main()
 {
-    for (int i = 0; words[i]; i++)
+    // 注册信号处理函数
+    signal(SIGINT, exit_signal_handler);
+    char *str;
+    print();
+    while (1)
     {
-        for (int j = 0; words[i][j]; j++)
-        {
-            puts(words[i][j]);
+        char prompt[100];
+        sprintf(prompt, "%s%s[请输入指令]> %s", BOLD, GREEN, RESET);
+        str = readline(prompt);
+
+        if (str == NULL) {
+            // 用户按下 Ctrl+D
+            printf("\n程序终止\n");
+            break;
         }
+
+        if (strlen(str) == 0) {
+            // 空输入，继续循环
+            free(str);
+            continue;
+        }
+
+        // 执行指令
+        execute(str);
+
+        // 添加到历史记录
+        add_history(str);
+
+        // 释放 readline 分配的内存
+        free(str);
     }
     return 0;
 }
+
+/*
+只实现find命令
+*/
 
 
 /*

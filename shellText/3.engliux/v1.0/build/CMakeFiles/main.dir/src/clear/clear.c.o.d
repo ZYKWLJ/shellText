@@ -1,7 +1,7 @@
-CMakeFiles/main.dir/src/execute/execute.c.o: \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/execute.c \
+CMakeFiles/main.dir/src/clear/clear.c.o: \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/clear/clear.c \
  /usr/include/stdc-predef.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/execute.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/clear/../../include/clear.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -53,42 +53,10 @@ CMakeFiles/main.dir/src/execute/execute.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/words.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/words/a.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/words/b.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/search.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/color.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/endSay.h \
- /usr/include/signal.h \
- /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
- /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
- /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
- /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
- /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
- /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
- /usr/include/x86_64-linux-gnu/bits/sigaction.h \
- /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
- /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
- /usr/include/x86_64-linux-gnu/sys/ucontext.h \
- /usr/include/x86_64-linux-gnu/bits/sigstack.h \
- /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
- /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
- /usr/include/x86_64-linux-gnu/bits/sigthread.h \
- /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/help.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/clear.h \
- /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/strings.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/similarInstructions.h \
- /usr/include/ctype.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/execute.h
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h

@@ -1,7 +1,7 @@
-CMakeFiles/main.dir/src/main.c.o: \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/main.c \
+CMakeFiles/main.dir/src/findSimilarInstructions/similarInstructions.c.o: \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/similarInstructions.c \
  /usr/include/stdc-predef.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/main.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/similarInstructions.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -50,16 +50,18 @@ CMakeFiles/main.dir/src/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
- /usr/include/x86_64-linux-gnu/bits/environments.h \
- /usr/include/x86_64-linux-gnu/bits/confname.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h /usr/include/signal.h \
+ /usr/include/strings.h /usr/include/ctype.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/execute.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/words.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/words/a.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/words/b.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/search.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/color.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/endSay.h \
+ /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
@@ -80,22 +82,12 @@ CMakeFiles/main.dir/src/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
- /usr/include/readline/history.h /usr/include/time.h \
- /usr/include/x86_64-linux-gnu/bits/time.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /usr/include/readline/rlstdc.h /usr/include/readline/rltypedefs.h \
- /usr/include/readline/readline.h /usr/include/readline/keymaps.h \
- /usr/include/readline/chardefs.h /usr/include/ctype.h \
- /usr/include/readline/tilde.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/color.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/execute.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/words.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/words/a.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/words/b.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/search.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/endSay.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/help.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/clear.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/similarInstructions.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/copyRight.h
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/help.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/clear.h \
+ /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/similarInstructions.h
