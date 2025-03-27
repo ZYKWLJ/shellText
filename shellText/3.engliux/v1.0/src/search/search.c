@@ -1,12 +1,7 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
 #include "../../include/search.h"
-// 假设 words 数组已经在其他地方定义
-// extern const char **words[27];
 
 // 查找特定单词
-char **search_word(char *str) {
+char **search_word(char *str,int library) {
     int count = 0;
     // 先统计符合条件的单词数量
     for (int i = 0; i < 26; i++) {
@@ -42,7 +37,7 @@ char **search_word(char *str) {
 }
 
 // 查找以特定前缀开头的单词，返回单词集合
-char **search_prefix(char *str) {
+char **search_prefix(char *str,int library) {
     if (str[0] < 'a' || str[0] > 'z') {
         return NULL;
     }
@@ -78,7 +73,7 @@ char **search_prefix(char *str) {
 }
 
 // 查找以特定后缀结尾的单词，返回单词集合
-char **search_suffix(char *str) {
+char **search_suffix(char *str,int library) {
     int suffix_len = strlen(str);
     int count = 0;
     // 统计符合条件的单词数量
@@ -117,7 +112,7 @@ char **search_suffix(char *str) {
 }
 
 // 查找包含特定字符串的单词，返回单词集合
-char **search_contains(char *str) {
+char **search_contains(char *str,int library) {
     int count = 0;
     // 统计符合条件的单词数量
     for (int i = 0; i < 26; i++) {

@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <signal.h>
+#include "lib.h"
 
 // 假设这些函数已经实现，现在改为两个参数
 char **search_word(const char *word, int library){
