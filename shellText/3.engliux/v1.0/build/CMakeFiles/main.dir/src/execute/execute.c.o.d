@@ -55,8 +55,12 @@ CMakeFiles/main.dir/src/execute/execute.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/words.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/words/a.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/words/b.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/words_lib/words_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/words_lib/lib4/a_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/words_lib/lib4/b_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/words_lib/words_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/words_lib/lib6/a_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/words_lib/lib6/b_6.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/search.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/color.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/endSay.h \

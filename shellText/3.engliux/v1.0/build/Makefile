@@ -225,6 +225,30 @@ src/execute/execute.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/execute.c.s
 .PHONY : src/execute/execute.c.s
 
+src/findAndHighlight/findAndHighlight.o: src/findAndHighlight/findAndHighlight.c.o
+.PHONY : src/findAndHighlight/findAndHighlight.o
+
+# target to build an object file
+src/findAndHighlight/findAndHighlight.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/findAndHighlight/findAndHighlight.c.o
+.PHONY : src/findAndHighlight/findAndHighlight.c.o
+
+src/findAndHighlight/findAndHighlight.i: src/findAndHighlight/findAndHighlight.c.i
+.PHONY : src/findAndHighlight/findAndHighlight.i
+
+# target to preprocess a source file
+src/findAndHighlight/findAndHighlight.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/findAndHighlight/findAndHighlight.c.i
+.PHONY : src/findAndHighlight/findAndHighlight.c.i
+
+src/findAndHighlight/findAndHighlight.s: src/findAndHighlight/findAndHighlight.c.s
+.PHONY : src/findAndHighlight/findAndHighlight.s
+
+# target to generate assembly for a file
+src/findAndHighlight/findAndHighlight.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/findAndHighlight/findAndHighlight.c.s
+.PHONY : src/findAndHighlight/findAndHighlight.c.s
+
 src/findSimilarInstructions/similarInstructions.o: src/findSimilarInstructions/similarInstructions.c.o
 .PHONY : src/findSimilarInstructions/similarInstructions.o
 
@@ -321,77 +345,173 @@ src/search/search.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/search/search.c.s
 .PHONY : src/search/search.c.s
 
-src/words/a.o: src/words/a.c.o
-.PHONY : src/words/a.o
+src/words_lib/lib4/a_4.o: src/words_lib/lib4/a_4.c.o
+.PHONY : src/words_lib/lib4/a_4.o
 
 # target to build an object file
-src/words/a.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words/a.c.o
-.PHONY : src/words/a.c.o
+src/words_lib/lib4/a_4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4/a_4.c.o
+.PHONY : src/words_lib/lib4/a_4.c.o
 
-src/words/a.i: src/words/a.c.i
-.PHONY : src/words/a.i
+src/words_lib/lib4/a_4.i: src/words_lib/lib4/a_4.c.i
+.PHONY : src/words_lib/lib4/a_4.i
 
 # target to preprocess a source file
-src/words/a.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words/a.c.i
-.PHONY : src/words/a.c.i
+src/words_lib/lib4/a_4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4/a_4.c.i
+.PHONY : src/words_lib/lib4/a_4.c.i
 
-src/words/a.s: src/words/a.c.s
-.PHONY : src/words/a.s
+src/words_lib/lib4/a_4.s: src/words_lib/lib4/a_4.c.s
+.PHONY : src/words_lib/lib4/a_4.s
 
 # target to generate assembly for a file
-src/words/a.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words/a.c.s
-.PHONY : src/words/a.c.s
+src/words_lib/lib4/a_4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4/a_4.c.s
+.PHONY : src/words_lib/lib4/a_4.c.s
 
-src/words/b.o: src/words/b.c.o
-.PHONY : src/words/b.o
+src/words_lib/lib4/b_4.o: src/words_lib/lib4/b_4.c.o
+.PHONY : src/words_lib/lib4/b_4.o
 
 # target to build an object file
-src/words/b.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words/b.c.o
-.PHONY : src/words/b.c.o
+src/words_lib/lib4/b_4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4/b_4.c.o
+.PHONY : src/words_lib/lib4/b_4.c.o
 
-src/words/b.i: src/words/b.c.i
-.PHONY : src/words/b.i
+src/words_lib/lib4/b_4.i: src/words_lib/lib4/b_4.c.i
+.PHONY : src/words_lib/lib4/b_4.i
 
 # target to preprocess a source file
-src/words/b.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words/b.c.i
-.PHONY : src/words/b.c.i
+src/words_lib/lib4/b_4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4/b_4.c.i
+.PHONY : src/words_lib/lib4/b_4.c.i
 
-src/words/b.s: src/words/b.c.s
-.PHONY : src/words/b.s
+src/words_lib/lib4/b_4.s: src/words_lib/lib4/b_4.c.s
+.PHONY : src/words_lib/lib4/b_4.s
 
 # target to generate assembly for a file
-src/words/b.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words/b.c.s
-.PHONY : src/words/b.c.s
+src/words_lib/lib4/b_4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4/b_4.c.s
+.PHONY : src/words_lib/lib4/b_4.c.s
 
-src/words/words.o: src/words/words.c.o
-.PHONY : src/words/words.o
+src/words_lib/lib6/a_6.o: src/words_lib/lib6/a_6.c.o
+.PHONY : src/words_lib/lib6/a_6.o
 
 # target to build an object file
-src/words/words.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words/words.c.o
-.PHONY : src/words/words.c.o
+src/words_lib/lib6/a_6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6/a_6.c.o
+.PHONY : src/words_lib/lib6/a_6.c.o
 
-src/words/words.i: src/words/words.c.i
-.PHONY : src/words/words.i
+src/words_lib/lib6/a_6.i: src/words_lib/lib6/a_6.c.i
+.PHONY : src/words_lib/lib6/a_6.i
 
 # target to preprocess a source file
-src/words/words.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words/words.c.i
-.PHONY : src/words/words.c.i
+src/words_lib/lib6/a_6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6/a_6.c.i
+.PHONY : src/words_lib/lib6/a_6.c.i
 
-src/words/words.s: src/words/words.c.s
-.PHONY : src/words/words.s
+src/words_lib/lib6/a_6.s: src/words_lib/lib6/a_6.c.s
+.PHONY : src/words_lib/lib6/a_6.s
 
 # target to generate assembly for a file
-src/words/words.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words/words.c.s
-.PHONY : src/words/words.c.s
+src/words_lib/lib6/a_6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6/a_6.c.s
+.PHONY : src/words_lib/lib6/a_6.c.s
+
+src/words_lib/lib6/b_6.o: src/words_lib/lib6/b_6.c.o
+.PHONY : src/words_lib/lib6/b_6.o
+
+# target to build an object file
+src/words_lib/lib6/b_6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6/b_6.c.o
+.PHONY : src/words_lib/lib6/b_6.c.o
+
+src/words_lib/lib6/b_6.i: src/words_lib/lib6/b_6.c.i
+.PHONY : src/words_lib/lib6/b_6.i
+
+# target to preprocess a source file
+src/words_lib/lib6/b_6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6/b_6.c.i
+.PHONY : src/words_lib/lib6/b_6.c.i
+
+src/words_lib/lib6/b_6.s: src/words_lib/lib6/b_6.c.s
+.PHONY : src/words_lib/lib6/b_6.s
+
+# target to generate assembly for a file
+src/words_lib/lib6/b_6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6/b_6.c.s
+.PHONY : src/words_lib/lib6/b_6.c.s
+
+src/words_lib/words.o: src/words_lib/words.c.o
+.PHONY : src/words_lib/words.o
+
+# target to build an object file
+src/words_lib/words.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/words.c.o
+.PHONY : src/words_lib/words.c.o
+
+src/words_lib/words.i: src/words_lib/words.c.i
+.PHONY : src/words_lib/words.i
+
+# target to preprocess a source file
+src/words_lib/words.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/words.c.i
+.PHONY : src/words_lib/words.c.i
+
+src/words_lib/words.s: src/words_lib/words.c.s
+.PHONY : src/words_lib/words.s
+
+# target to generate assembly for a file
+src/words_lib/words.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/words.c.s
+.PHONY : src/words_lib/words.c.s
+
+src/words_lib/words_4.o: src/words_lib/words_4.c.o
+.PHONY : src/words_lib/words_4.o
+
+# target to build an object file
+src/words_lib/words_4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/words_4.c.o
+.PHONY : src/words_lib/words_4.c.o
+
+src/words_lib/words_4.i: src/words_lib/words_4.c.i
+.PHONY : src/words_lib/words_4.i
+
+# target to preprocess a source file
+src/words_lib/words_4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/words_4.c.i
+.PHONY : src/words_lib/words_4.c.i
+
+src/words_lib/words_4.s: src/words_lib/words_4.c.s
+.PHONY : src/words_lib/words_4.s
+
+# target to generate assembly for a file
+src/words_lib/words_4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/words_4.c.s
+.PHONY : src/words_lib/words_4.c.s
+
+src/words_lib/words_6.o: src/words_lib/words_6.c.o
+.PHONY : src/words_lib/words_6.o
+
+# target to build an object file
+src/words_lib/words_6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/words_6.c.o
+.PHONY : src/words_lib/words_6.c.o
+
+src/words_lib/words_6.i: src/words_lib/words_6.c.i
+.PHONY : src/words_lib/words_6.i
+
+# target to preprocess a source file
+src/words_lib/words_6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/words_6.c.i
+.PHONY : src/words_lib/words_6.c.i
+
+src/words_lib/words_6.s: src/words_lib/words_6.c.s
+.PHONY : src/words_lib/words_6.s
+
+# target to generate assembly for a file
+src/words_lib/words_6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/words_6.c.s
+.PHONY : src/words_lib/words_6.c.s
 
 # Help Target
 help:
@@ -414,6 +534,9 @@ help:
 	@echo "... src/execute/execute.o"
 	@echo "... src/execute/execute.i"
 	@echo "... src/execute/execute.s"
+	@echo "... src/findAndHighlight/findAndHighlight.o"
+	@echo "... src/findAndHighlight/findAndHighlight.i"
+	@echo "... src/findAndHighlight/findAndHighlight.s"
 	@echo "... src/findSimilarInstructions/similarInstructions.o"
 	@echo "... src/findSimilarInstructions/similarInstructions.i"
 	@echo "... src/findSimilarInstructions/similarInstructions.s"
@@ -426,15 +549,27 @@ help:
 	@echo "... src/search/search.o"
 	@echo "... src/search/search.i"
 	@echo "... src/search/search.s"
-	@echo "... src/words/a.o"
-	@echo "... src/words/a.i"
-	@echo "... src/words/a.s"
-	@echo "... src/words/b.o"
-	@echo "... src/words/b.i"
-	@echo "... src/words/b.s"
-	@echo "... src/words/words.o"
-	@echo "... src/words/words.i"
-	@echo "... src/words/words.s"
+	@echo "... src/words_lib/lib4/a_4.o"
+	@echo "... src/words_lib/lib4/a_4.i"
+	@echo "... src/words_lib/lib4/a_4.s"
+	@echo "... src/words_lib/lib4/b_4.o"
+	@echo "... src/words_lib/lib4/b_4.i"
+	@echo "... src/words_lib/lib4/b_4.s"
+	@echo "... src/words_lib/lib6/a_6.o"
+	@echo "... src/words_lib/lib6/a_6.i"
+	@echo "... src/words_lib/lib6/a_6.s"
+	@echo "... src/words_lib/lib6/b_6.o"
+	@echo "... src/words_lib/lib6/b_6.i"
+	@echo "... src/words_lib/lib6/b_6.s"
+	@echo "... src/words_lib/words.o"
+	@echo "... src/words_lib/words.i"
+	@echo "... src/words_lib/words.s"
+	@echo "... src/words_lib/words_4.o"
+	@echo "... src/words_lib/words_4.i"
+	@echo "... src/words_lib/words_4.s"
+	@echo "... src/words_lib/words_6.o"
+	@echo "... src/words_lib/words_6.i"
+	@echo "... src/words_lib/words_6.s"
 .PHONY : help
 
 

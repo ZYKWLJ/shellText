@@ -91,8 +91,12 @@ CMakeFiles/main.dir/src/main.c.o: \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/color.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/execute.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/words.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/words/a.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/words/b.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/words_lib/words_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/words_lib/lib4/a_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/words_lib/lib4/b_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/words_lib/words_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/words_lib/lib6/a_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/words_lib/lib6/b_6.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/search.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/endSay.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/help.h \

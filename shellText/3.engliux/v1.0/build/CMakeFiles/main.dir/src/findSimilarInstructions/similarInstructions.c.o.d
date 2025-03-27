@@ -56,8 +56,12 @@ CMakeFiles/main.dir/src/findSimilarInstructions/similarInstructions.c.o: \
  /usr/include/strings.h /usr/include/ctype.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/execute.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/words.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/words/a.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/words/b.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/words_lib/words_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/words_lib/lib4/a_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/words_lib/lib4/b_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/words_lib/words_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/words_lib/lib6/a_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/words_lib/lib6/b_6.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/search.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/color.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findSimilarInstructions/../../include/endSay.h \
