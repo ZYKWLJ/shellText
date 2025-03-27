@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/main.dir/src/execute/execute.c.o CMakeFiles/main.dir/src/main.c.o CMakeFiles/main.dir/src/words/a.c.o CMakeFiles/main.dir/src/words/b.c.o CMakeFiles/main.dir/src/words/words.c.o -o /home/eyk/1code/shellText/shellText/3.engliux/v1.0/bin/main  /usr/lib/x86_64-linux-gnu/libreadline.so 
