@@ -1,0 +1,146 @@
+(myenv) eyk@DB1:build
+$ make
+[  5%] Building C object CMakeFiles/main.dir/src/chapters/chapter_show.c.o
+[ 11%] Building C object CMakeFiles/main.dir/src/execute/execute.c.o
+[ 17%] Building C object CMakeFiles/main.dir/src/findSimilarInstructions/similarInstructions.c.o
+[ 23%] Building C object CMakeFiles/main.dir/src/guide/guide_one_by_one/choose_language.c.o
+[ 29%] Building C object CMakeFiles/main.dir/src/guide/guide_one_by_one/enter_help.c.o
+[ 35%] Building C object CMakeFiles/main.dir/src/instructionsLists/instructionList.c.o
+[ 41%] Building C object CMakeFiles/main.dir/src/main.c.o
+[ 47%] Linking C executable /home/eyk/1code/毕业设计/毕业设计/05定制化大气内容/1.总命令行架构/1.test/2.second/v1.1/bin/main
+/usr/bin/ld: CMakeFiles/main.dir/src/execute/execute.c.o: in function `display_chapter1':
+execute.c:(.text+0x0): multiple definition of `display_chapter1'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x0): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/execute/execute.c.o: in function `display_chapter2':
+execute.c:(.text+0x879): multiple definition of `display_chapter2'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x879): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/execute/execute.c.o: in function `display_chapter3':
+execute.c:(.text+0x1549): multiple definition of `display_chapter3'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x1549): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/execute/execute.c.o: in function `display_chapter4':
+execute.c:(.text+0x2ea6): multiple definition of `display_chapter4'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x2ea6): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/execute/execute.c.o: in function `display_chapter5':
+execute.c:(.text+0x338f): multiple definition of `display_chapter5'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x338f): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/execute/execute.c.o: in function `display_chapter6':
+execute.c:(.text+0x4329): multiple definition of `display_chapter6'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x4329): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/execute/execute.c.o: in function `display_chapter7':
+execute.c:(.text+0x533a): multiple definition of `display_chapter7'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x533a): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/execute/execute.c.o: in function `display_chapter8':
+execute.c:(.text+0x59ff): multiple definition of `display_chapter8'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x59ff): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/execute/execute.c.o: in function `display_chapter9':
+execute.c:(.text+0x693b): multiple definition of `display_chapter9'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x693b): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/findSimilarInstructions/similarInstructions.c.o: in function `display_chapter1':
+similarInstructions.c:(.text+0x0): multiple definition of `display_chapter1'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x0): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/findSimilarInstructions/similarInstructions.c.o: in function `display_chapter2':
+similarInstructions.c:(.text+0x879): multiple definition of `display_chapter2'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x879): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/findSimilarInstructions/similarInstructions.c.o: in function `display_chapter3':
+similarInstructions.c:(.text+0x1549): multiple definition of `display_chapter3'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x1549): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/findSimilarInstructions/similarInstructions.c.o: in function `display_chapter4':
+similarInstructions.c:(.text+0x2ea6): multiple definition of `display_chapter4'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x2ea6): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/findSimilarInstructions/similarInstructions.c.o: in function `display_chapter5':
+similarInstructions.c:(.text+0x338f): multiple definition of `display_chapter5'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x338f): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/findSimilarInstructions/similarInstructions.c.o: in function `display_chapter6':
+similarInstructions.c:(.text+0x4329): multiple definition of `display_chapter6'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x4329): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/findSimilarInstructions/similarInstructions.c.o: in function `display_chapter7':
+similarInstructions.c:(.text+0x533a): multiple definition of `display_chapter7'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x533a): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/findSimilarInstructions/similarInstructions.c.o: in function `display_chapter8':
+similarInstructions.c:(.text+0x59ff): multiple definition of `display_chapter8'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x59ff): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/findSimilarInstructions/similarInstructions.c.o: in function `display_chapter9':
+similarInstructions.c:(.text+0x693b): multiple definition of `display_chapter9'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x693b): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/findSimilarInstructions/similarInstructions.c.o: in function `help_list':
+similarInstructions.c:(.text+0x6dad): multiple definition of `help_list'; CMakeFiles/main.dir/src/execute/execute.c.o:execute.c:(.text+0x6dad): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/guide/guide_one_by_one/choose_language.c.o: in function `display_chapter1':
+choose_language.c:(.text+0x0): multiple definition of `display_chapter1'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x0): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/guide/guide_one_by_one/choose_language.c.o: in function `display_chapter2':
+choose_language.c:(.text+0x879): multiple definition of `display_chapter2'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x879): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/guide/guide_one_by_one/choose_language.c.o: in function `display_chapter3':
+choose_language.c:(.text+0x1549): multiple definition of `display_chapter3'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x1549): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/guide/guide_one_by_one/choose_language.c.o: in function `display_chapter4':
+choose_language.c:(.text+0x2ea6): multiple definition of `display_chapter4'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x2ea6): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/guide/guide_one_by_one/choose_language.c.o: in function `display_chapter5':
+choose_language.c:(.text+0x338f): multiple definition of `display_chapter5'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x338f): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/guide/guide_one_by_one/choose_language.c.o: in function `display_chapter6':
+choose_language.c:(.text+0x4329): multiple definition of `display_chapter6'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x4329): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/guide/guide_one_by_one/choose_language.c.o: in function `display_chapter7':
+choose_language.c:(.text+0x533a): multiple definition of `display_chapter7'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x533a): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/guide/guide_one_by_one/choose_language.c.o: in function `display_chapter8':
+choose_language.c:(.text+0x59ff): multiple definition of `display_chapter8'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x59ff): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/guide/guide_one_by_one/choose_language.c.o: in function `display_chapter9':
+choose_language.c:(.text+0x693b): multiple definition of `display_chapter9'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x693b): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/guide/guide_one_by_one/choose_language.c.o: in function `help_list':
+choose_language.c:(.text+0x6dad): multiple definition of `help_list'; CMakeFiles/main.dir/src/execute/execute.c.o:execute.c:(.text+0x6dad): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/guide/guide_one_by_one/enter_help.c.o: in function `display_chapter1':
+enter_help.c:(.text+0x0): multiple definition of `display_chapter1'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x0): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/guide/guide_one_by_one/enter_help.c.o: in function `display_chapter2':
+enter_help.c:(.text+0x879): multiple definition of `display_chapter2'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x879): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/guide/guide_one_by_one/enter_help.c.o: in function `display_chapter3':
+enter_help.c:(.text+0x1549): multiple definition of `display_chapter3'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x1549): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/guide/guide_one_by_one/enter_help.c.o: in function `display_chapter4':
+enter_help.c:(.text+0x2ea6): multiple definition of `display_chapter4'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x2ea6): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/guide/guide_one_by_one/enter_help.c.o: in function `display_chapter5':
+enter_help.c:(.text+0x338f): multiple definition of `display_chapter5'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x338f): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/guide/guide_one_by_one/enter_help.c.o: in function `display_chapter6':
+enter_help.c:(.text+0x4329): multiple definition of `display_chapter6'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x4329): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/guide/guide_one_by_one/enter_help.c.o: in function `display_chapter7':
+enter_help.c:(.text+0x533a): multiple definition of `display_chapter7'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x533a): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/guide/guide_one_by_one/enter_help.c.o: in function `display_chapter8':
+enter_help.c:(.text+0x59ff): multiple definition of `display_chapter8'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x59ff): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/guide/guide_one_by_one/enter_help.c.o: in function `display_chapter9':
+enter_help.c:(.text+0x693b): multiple definition of `display_chapter9'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x693b): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/guide/guide_one_by_one/enter_help.c.o: in function `help_list':
+enter_help.c:(.text+0x6dad): multiple definition of `help_list'; CMakeFiles/main.dir/src/execute/execute.c.o:execute.c:(.text+0x6dad): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/instructionsLists/instructionList.c.o: in function `display_chapter1':
+instructionList.c:(.text+0x0): multiple definition of `display_chapter1'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x0): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/instructionsLists/instructionList.c.o: in function `display_chapter2':
+instructionList.c:(.text+0x879): multiple definition of `display_chapter2'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x879): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/instructionsLists/instructionList.c.o: in function `display_chapter3':
+instructionList.c:(.text+0x1549): multiple definition of `display_chapter3'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x1549): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/instructionsLists/instructionList.c.o: in function `display_chapter4':
+instructionList.c:(.text+0x2ea6): multiple definition of `display_chapter4'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x2ea6): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/instructionsLists/instructionList.c.o: in function `display_chapter5':
+instructionList.c:(.text+0x338f): multiple definition of `display_chapter5'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x338f): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/instructionsLists/instructionList.c.o: in function `display_chapter6':
+instructionList.c:(.text+0x4329): multiple definition of `display_chapter6'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x4329): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/instructionsLists/instructionList.c.o: in function `display_chapter7':
+instructionList.c:(.text+0x533a): multiple definition of `display_chapter7'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x533a): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/instructionsLists/instructionList.c.o: in function `display_chapter8':
+instructionList.c:(.text+0x59ff): multiple definition of `display_chapter8'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x59ff): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/instructionsLists/instructionList.c.o: in function `display_chapter9':
+instructionList.c:(.text+0x693b): multiple definition of `display_chapter9'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x693b): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/instructionsLists/instructionList.c.o: in function `help_list':
+instructionList.c:(.text+0x6dad): multiple definition of `help_list'; CMakeFiles/main.dir/src/execute/execute.c.o:execute.c:(.text+0x6dad): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/main.c.o: in function `display_chapter1':
+main.c:(.text+0x0): multiple definition of `display_chapter1'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x0): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/main.c.o: in function `display_chapter2':
+main.c:(.text+0x879): multiple definition of `display_chapter2'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x879): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/main.c.o: in function `display_chapter3':
+main.c:(.text+0x1549): multiple definition of `display_chapter3'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x1549): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/main.c.o: in function `display_chapter4':
+main.c:(.text+0x2ea6): multiple definition of `display_chapter4'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x2ea6): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/main.c.o: in function `display_chapter5':
+main.c:(.text+0x338f): multiple definition of `display_chapter5'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x338f): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/main.c.o: in function `display_chapter6':
+main.c:(.text+0x4329): multiple definition of `display_chapter6'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x4329): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/main.c.o: in function `display_chapter7':
+main.c:(.text+0x533a): multiple definition of `display_chapter7'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x533a): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/main.c.o: in function `display_chapter8':
+main.c:(.text+0x59ff): multiple definition of `display_chapter8'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x59ff): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/main.c.o: in function `display_chapter9':
+main.c:(.text+0x693b): multiple definition of `display_chapter9'; CMakeFiles/main.dir/src/chapters/chapter_show.c.o:chapter_show.c:(.text+0x693b): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/main.c.o: in function `help_list':
+main.c:(.text+0x6dad): multiple definition of `help_list'; CMakeFiles/main.dir/src/execute/execute.c.o:execute.c:(.text+0x6dad): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/other/myTime.c.o: in function `clear_screen':
+myTime.c:(.text+0x0): multiple definition of `clear_screen'; CMakeFiles/main.dir/src/instructionsLists/instructionList.c.o:instructionList.c:(.text+0x7261): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/other/myTime.c.o: in function `main':
+myTime.c:(.text+0x424): multiple definition of `main'; CMakeFiles/main.dir/src/main.c.o:main.c:(.text+0x71d2): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/other/rain.c.o: in function `clear_screen':
+rain.c:(.text+0xde): multiple definition of `clear_screen'; CMakeFiles/main.dir/src/instructionsLists/instructionList.c.o:instructionList.c:(.text+0x7261): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/other/rain.c.o: in function `main':
+rain.c:(.text+0x37d): multiple definition of `main'; CMakeFiles/main.dir/src/main.c.o:main.c:(.text+0x71d2): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/other/snakeGame.c.o: in function `clear_screen':
+snakeGame.c:(.text+0xcc): multiple definition of `clear_screen'; CMakeFiles/main.dir/src/instructionsLists/instructionList.c.o:instructionList.c:(.text+0x7261): first defined here
+/usr/bin/ld: CMakeFiles/main.dir/src/other/snakeGame.c.o: in function `main':
+snakeGame.c:(.text+0x8a8): multiple definition of `main'; CMakeFiles/main.dir/src/main.c.o:main.c:(.text+0x71d2): first defined here
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/main.dir/build.make:337：/home/eyk/1code/毕业设计/毕业设计/05定制化大气内容/1.总命令行架构/1.test/2.second/v1.1/bin/main] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:83：CMakeFiles/main.dir/all] 错误 2
+make: *** [Makefile:91：all] 错误 2
+(myenv) eyk@DB1:build
+$ 

@@ -1,0 +1,249 @@
+#include "main.h"
+
+
+void help_page(int sleep_time1, int sleep_time2, int sleep_time3, int interval_num_to_sleep)
+{
+    printf("\033[?25l");
+
+    //    œµÕ≥÷∏¡Ó 
+    
+    Dynamic_input_red(INSTRUCTIONOF_BASIC_SYSTEM, SLEEP_TIME1,1);
+    Dynamic_input_red(INSTRUCTIONOF_ENTER_SYSTEM1, SLEEP_TIME1,1);
+    Dynamic_input_green(INSTRUCTIONOF_ENTER_SYSTEM2, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_ENTER_SYSTEM3, SLEEP_TIME2,1);
+    // Dynamic_input(INSTRUCTIONOF_ENTER_SYSTEM3); 
+    Dynamic_input_green(INSTRUCTIONOF_OFF_SYSTEM1, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_OFF_SYSTEM2, SLEEP_TIME2,1);
+    // Dynamic_input(INSTRUCTIONOF_OFF_SYSTEM2); 
+
+        //PRINT_INSTRUCTIONOF_DIR
+    Dynamic_input_red(INSTRUCTIONOF_DIR_LEVEL1_HEAD, SLEEP_TIME1,1);
+    Dynamic_input_green(INSTRUCTIONOF_DIR_LEVEL1_COLOR_RED, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_DIR_LEVEL1_TAIL, SLEEP_TIME2,1);
+
+    Dynamic_input_green(INSTRUCTIONOF_DIR_LEVEL2_1th_GREED, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_DIR_LEVEL2_1th_TAIL, SLEEP_TIME2,1);
+
+    Dynamic_input_green(INSTRUCTIONOF_DIR_LEVEL2_2th_GREED, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_DIR_LEVEL2_2th_TAIL, SLEEP_TIME2,1);
+
+    Dynamic_input_green(INSTRUCTIONOF_DIR_LEVEL2_3th_GREED, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_DIR_LEVEL2_3th_TAIL, SLEEP_TIME2,1);
+
+    Dynamic_input_green(INSTRUCTIONOF_DIR_LEVEL2_4th_GREED, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_DIR_LEVEL2_4th_TAIL, SLEEP_TIME2,1);
+
+    Dynamic_input_green(INSTRUCTIONOF_DIR_LEVEL2_5th_GREED, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_DIR_LEVEL2_5th_TAIL, SLEEP_TIME2,1);
+
+    fast_Dynamic_input_green(INSTRUCTIONOF_DOT_GREED, SLEEP_TIME3, interval_num_to_sleep);
+    fast_Dynamic_input_green(INSTRUCTIONOF_DOT_GREED, SLEEP_TIME3, interval_num_to_sleep);
+    fast_Dynamic_input_green(INSTRUCTIONOF_DOT_GREED, SLEEP_TIME3, interval_num_to_sleep);
+    fast_Dynamic_input_green(INSTRUCTIONOF_DOT_GREED, SLEEP_TIME3, interval_num_to_sleep);
+
+    Dynamic_input_green(INSTRUCTIONOF_DIR_LEVEL2_6th_GREED, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_DIR_LEVEL2_6th_TAIL, SLEEP_TIME2,1);
+
+    //PRINT_INSTRUCTIONOF_DATABASE	
+    Dynamic_input_red(INSTRUCTIONOF_DATABASE_LEVEL1_HEAD, SLEEP_TIME1,1);
+    Dynamic_input_green(INSTRUCTIONOF_DATABASE_LEVEL1_COLOR_RED, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_DATABASE_LEVEL1_TAIL, SLEEP_TIME2,1);
+
+    Dynamic_input_green(INSTRUCTIONOF_DATABASE_LEVEL2_1th_GREED, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_DATABASE_LEVEL2_1th_TAIL, SLEEP_TIME2,1);
+
+    Dynamic_input_green(INSTRUCTIONOF_DATABASE_LEVEL2_11th_GREED, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_DATABASE_LEVEL2_11th_TAIL, SLEEP_TIME2,1);
+
+
+    Dynamic_input_green(INSTRUCTIONOF_DATABASE_LEVEL2_3th_GREED, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_DATABASE_LEVEL2_3th_TAIL, SLEEP_TIME2,1);
+
+    Dynamic_input_green(INSTRUCTIONOF_DATABASE_LEVEL2_4th_GREED, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_DATABASE_LEVEL2_4th_TAIL, SLEEP_TIME2,1);
+
+    Dynamic_input_green(INSTRUCTIONOF_DATABASE_LEVEL2_5th_GREED, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_DATABASE_LEVEL2_5th_TAIL, SLEEP_TIME2,1);
+
+    fast_Dynamic_input_green(INSTRUCTIONOF_DOT_GREED, SLEEP_TIME3, interval_num_to_sleep);
+    fast_Dynamic_input_green(INSTRUCTIONOF_DOT_GREED, SLEEP_TIME3, interval_num_to_sleep);
+    fast_Dynamic_input_green(INSTRUCTIONOF_DOT_GREED, SLEEP_TIME3, interval_num_to_sleep);
+    fast_Dynamic_input_green(INSTRUCTIONOF_DOT_GREED, SLEEP_TIME3, interval_num_to_sleep);
+
+    Dynamic_input_green(INSTRUCTIONOF_DATABASE_LEVEL2_6th_GREED, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_DATABASE_LEVEL2_6th_TAIL, SLEEP_TIME2,1);
+
+
+    Dynamic_input_red(INSTRUCTIONOF_CHAPTER_LEVEL1_HEAD, SLEEP_TIME1,1);
+    Dynamic_input_green(INSTRUCTIONOF_CHAPTER_LEVEL1_COLOR_RED, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_CHAPTER_LEVEL1_TAIL, SLEEP_TIME2,1);
+
+    Dynamic_input_green(INSTRUCTIONOF_CHAPTER_LEVEL2_1th_GREED, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_CHAPTER_LEVEL2_1th_TAIL, SLEEP_TIME2,1);
+
+    Dynamic_input_green(INSTRUCTIONOF_CHAPTER_LEVEL2_2th_GREED, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_CHAPTER_LEVEL2_2th_TAIL, SLEEP_TIME2,1);
+
+    Dynamic_input_green(INSTRUCTIONOF_CHAPTER_LEVEL2_3th_GREED, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_CHAPTER_LEVEL2_3th_TAIL, SLEEP_TIME2,1);
+
+    fast_Dynamic_input_green(INSTRUCTIONOF_DOT_GREED, SLEEP_TIME3, interval_num_to_sleep);
+    fast_Dynamic_input_green(INSTRUCTIONOF_DOT_GREED, SLEEP_TIME3, interval_num_to_sleep);
+    fast_Dynamic_input_green(INSTRUCTIONOF_DOT_GREED, SLEEP_TIME3, interval_num_to_sleep);
+    fast_Dynamic_input_green(INSTRUCTIONOF_DOT_GREED, SLEEP_TIME3, interval_num_to_sleep);
+
+    Dynamic_input_green(INSTRUCTIONOF_CHAPTER_LEVEL2_4th_GREED, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_CHAPTER_LEVEL2_4th_TAIL, SLEEP_TIME2,1);
+
+    //	 PRINT_INSTRUCTIONOF_DATABASE	
+    Dynamic_input_red(INSTRUCTIONOF_HELP_LEVEL1_HEAD, SLEEP_TIME1,1);
+    Dynamic_input_green(INSTRUCTIONOF_HELP_LEVEL1_COLOR_RED, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_HELP_LEVEL1_TAIL, SLEEP_TIME2,1);
+
+    Dynamic_input_green(INSTRUCTIONOF_HELP_LEVEL2_1th_GREED, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_HELP_LEVEL2_1th_TAIL, SLEEP_TIME2,1);
+
+    Dynamic_input_green(INSTRUCTIONOF_HELP_LEVEL2_2th_GREED, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_HELP_LEVEL2_2th_TAIL, SLEEP_TIME2,1);
+
+
+    Dynamic_input_red(INSTRUCTIONOF_GIRL1, SLEEP_TIME1,1);
+    Dynamic_input_green(INSTRUCTIONOF_GIRL2, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_GIRL3, SLEEP_TIME2,1);
+
+
+    Dynamic_input_green(INSTRUCTIONOF_STORY1, SLEEP_TIME1,1);
+    Dynamic_input(INSTRUCTIONOF_STORY2, SLEEP_TIME2,1);
+
+
+    // 	 Dynamic_input(COPYRIGHT); 
+    printf("%s%s%s%s%s", DOTTED_LINE_FORNT, GREEN_TEXT, DOTTED_LINE_HELP_MIDDLE, RESET_COLOR, DOTTED_LINE_BACK);
+
+
+}
+
+
+
+
+void help_static() {
+	print_red_instruction(INSTRUCTIONOF_BASIC_SYSTEM);
+
+	print_red_instruction(INSTRUCTIONOF_ENTER_SYSTEM1);
+	print_green_instruction(INSTRUCTIONOF_ENTER_SYSTEM2);
+	printf(INSTRUCTIONOF_ENTER_SYSTEM3);
+
+	print_green_instruction(INSTRUCTIONOF_OFF_SYSTEM1);
+	printf(INSTRUCTIONOF_OFF_SYSTEM2);
+
+
+	//PRINT_INSTRUCTIONOF_DIR
+	print_red_instruction(INSTRUCTIONOF_DIR_LEVEL1_HEAD);
+	print_green_instruction(INSTRUCTIONOF_DIR_LEVEL1_COLOR_RED);
+	printf(INSTRUCTIONOF_DIR_LEVEL1_TAIL);
+
+	print_green_instruction(INSTRUCTIONOF_DIR_LEVEL2_1th_GREED);
+	printf(INSTRUCTIONOF_DIR_LEVEL2_1th_TAIL);
+
+	print_green_instruction(INSTRUCTIONOF_DIR_LEVEL2_2th_GREED);
+	printf(INSTRUCTIONOF_DIR_LEVEL2_2th_TAIL);
+
+	print_green_instruction(INSTRUCTIONOF_DIR_LEVEL2_3th_GREED);
+	printf(INSTRUCTIONOF_DIR_LEVEL2_3th_TAIL);
+
+	print_green_instruction(INSTRUCTIONOF_DIR_LEVEL2_4th_GREED);
+	printf(INSTRUCTIONOF_DIR_LEVEL2_4th_TAIL);
+
+	print_green_instruction(INSTRUCTIONOF_DIR_LEVEL2_5th_GREED);
+	printf(INSTRUCTIONOF_DIR_LEVEL2_5th_TAIL);
+
+	print_green_instruction(INSTRUCTIONOF_DOT_GREED);
+	print_green_instruction(INSTRUCTIONOF_DOT_GREED);
+	print_green_instruction(INSTRUCTIONOF_DOT_GREED);
+	print_green_instruction(INSTRUCTIONOF_DOT_GREED);
+
+	print_green_instruction(INSTRUCTIONOF_DIR_LEVEL2_6th_GREED);
+	printf(INSTRUCTIONOF_DIR_LEVEL2_6th_TAIL);
+
+
+
+	//PRINT_INSTRUCTIONOF_DATABASE	
+	print_red_instruction(INSTRUCTIONOF_DATABASE_LEVEL1_HEAD);
+	print_green_instruction(INSTRUCTIONOF_DATABASE_LEVEL1_COLOR_RED);
+	printf(INSTRUCTIONOF_DATABASE_LEVEL1_TAIL);
+
+	print_green_instruction(INSTRUCTIONOF_DATABASE_LEVEL2_1th_GREED);
+	printf(INSTRUCTIONOF_DATABASE_LEVEL2_1th_TAIL);
+
+	print_green_instruction(INSTRUCTIONOF_DATABASE_LEVEL2_11th_GREED);
+	printf(INSTRUCTIONOF_DATABASE_LEVEL2_11th_TAIL);
+
+
+	print_green_instruction(INSTRUCTIONOF_DATABASE_LEVEL2_3th_GREED);
+	printf(INSTRUCTIONOF_DATABASE_LEVEL2_3th_TAIL);
+
+	print_green_instruction(INSTRUCTIONOF_DATABASE_LEVEL2_4th_GREED);
+	printf(INSTRUCTIONOF_DATABASE_LEVEL2_4th_TAIL);
+
+	print_green_instruction(INSTRUCTIONOF_DATABASE_LEVEL2_5th_GREED);
+	printf(INSTRUCTIONOF_DATABASE_LEVEL2_5th_TAIL);
+
+	print_green_instruction(INSTRUCTIONOF_DOT_GREED);
+	print_green_instruction(INSTRUCTIONOF_DOT_GREED);
+	print_green_instruction(INSTRUCTIONOF_DOT_GREED);
+	print_green_instruction(INSTRUCTIONOF_DOT_GREED);
+
+	print_green_instruction(INSTRUCTIONOF_DATABASE_LEVEL2_6th_GREED);
+	printf(INSTRUCTIONOF_DATABASE_LEVEL2_6th_TAIL);
+
+
+
+
+
+
+	print_red_instruction(INSTRUCTIONOF_CHAPTER_LEVEL1_HEAD);
+	print_green_instruction(INSTRUCTIONOF_CHAPTER_LEVEL1_COLOR_RED);
+	printf(INSTRUCTIONOF_CHAPTER_LEVEL1_TAIL);
+
+	print_green_instruction(INSTRUCTIONOF_CHAPTER_LEVEL2_1th_GREED);
+	printf(INSTRUCTIONOF_CHAPTER_LEVEL2_1th_TAIL);
+
+	print_green_instruction(INSTRUCTIONOF_CHAPTER_LEVEL2_2th_GREED);
+	printf(INSTRUCTIONOF_CHAPTER_LEVEL2_2th_TAIL);
+
+	print_green_instruction(INSTRUCTIONOF_CHAPTER_LEVEL2_3th_GREED);
+	printf(INSTRUCTIONOF_CHAPTER_LEVEL2_3th_TAIL);
+
+	print_green_instruction(INSTRUCTIONOF_DOT_GREED);
+	print_green_instruction(INSTRUCTIONOF_DOT_GREED);
+	print_green_instruction(INSTRUCTIONOF_DOT_GREED);
+	print_green_instruction(INSTRUCTIONOF_DOT_GREED);
+
+	print_green_instruction(INSTRUCTIONOF_CHAPTER_LEVEL2_4th_GREED);
+	printf(INSTRUCTIONOF_CHAPTER_LEVEL2_4th_TAIL);
+
+
+
+	//	printf(INSTRUCTIONOF_HELP1);
+	//	print_red_instruction(INSTRUCTIONOF_HELP2);
+	//	printf(INSTRUCTIONOF_HELP3);
+
+	//	 PRINT_INSTRUCTIONOF_DATABASE	
+	print_red_instruction(INSTRUCTIONOF_HELP_LEVEL1_HEAD);
+	print_green_instruction(INSTRUCTIONOF_HELP_LEVEL1_COLOR_RED);
+	printf(INSTRUCTIONOF_HELP_LEVEL1_TAIL);
+
+	print_green_instruction(INSTRUCTIONOF_HELP_LEVEL2_1th_GREED);
+	printf(INSTRUCTIONOF_HELP_LEVEL2_1th_TAIL);
+
+	print_green_instruction(INSTRUCTIONOF_HELP_LEVEL2_2th_GREED);
+	printf(INSTRUCTIONOF_HELP_LEVEL2_2th_TAIL);
+
+
+	print_red_instruction(INSTRUCTIONOF_GIRL1);
+	print_green_instruction(INSTRUCTIONOF_GIRL2);
+	printf(INSTRUCTIONOF_GIRL3);
+
+
+	print_green_instruction(INSTRUCTIONOF_STORY1);
+	printf(INSTRUCTIONOF_STORY2);
+}
