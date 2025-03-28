@@ -98,6 +98,7 @@ CMakeFiles/main.dir/src/main.c.o: \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/words_lib/lib6/a_6.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/words_lib/lib6/b_6.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/search.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/findAndHighlight.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/endSay.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/help.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/../include/clear.h \

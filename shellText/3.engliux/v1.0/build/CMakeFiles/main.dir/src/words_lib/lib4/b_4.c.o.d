@@ -1,10 +1,7 @@
-CMakeFiles/main.dir/src/search/search.c.o: \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/search/search.c \
+CMakeFiles/main.dir/src/words_lib/lib4/b_4.c.o: \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/lib4/b_4.c \
  /usr/include/stdc-predef.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/search/../../include/search.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/search/../../include/words.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/search/../../include/words_lib/words_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/search/../../include/words_lib/lib4/a_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/lib4/../../../include/words_lib/lib4/b_4.h \
  /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -44,22 +41,4 @@ CMakeFiles/main.dir/src/search/search.c.o: \
  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/search/../../include/words_lib/lib4/b_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/search/../../include/words_lib/words_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/search/../../include/words_lib/lib6/a_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/search/../../include/words_lib/lib6/b_6.h \
- /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
- /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/string.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/search/../../include/findAndHighlight.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/search/../../include/color.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h

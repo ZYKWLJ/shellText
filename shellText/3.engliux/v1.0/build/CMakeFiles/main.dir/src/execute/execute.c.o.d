@@ -62,6 +62,7 @@ CMakeFiles/main.dir/src/execute/execute.c.o: \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/words_lib/lib6/a_6.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/words_lib/lib6/b_6.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/search.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/findAndHighlight.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/color.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/execute/../../include/endSay.h \
  /usr/include/signal.h \

@@ -8,8 +8,7 @@ char *instructions_all[50] = {
     "exit",  // 退出程序 3
     "find",  // 查找单词4
     "f",     // 同find 5
-    "NULL"
-};
+    "NULL"};
 
 // 去除字符串首尾的空白字符
 void trim(char *str)
@@ -76,7 +75,7 @@ void execute(char *str)
                 return;
             }
 
-           if (third_token[0] == '-')
+            if (third_token[0] == '-')
             {
                 library = atoi(third_token + 1);
                 if (library <= 0)
@@ -92,6 +91,7 @@ void execute(char *str)
             }
         }
 
+        // 这里是返回查找集，下面统一打印
         char **results = NULL;
         if (strstr(token, "%") == NULL)
         {
@@ -115,7 +115,7 @@ void execute(char *str)
             token[strlen(token) - 1] = '\0';
             results = search_prefix(token, library);
         }
-
+        // 这里统一打印
         if (results != NULL)
         {
             if (results[0] == NULL)
@@ -133,6 +133,7 @@ void execute(char *str)
         }
         else
         {
+            printf("第二分支未匹配.......");
             printf("%s%s%s%s%s%s--未找到匹配的单词。%s\n", BLUE, BOLD, token, RESET, RED, BOLD, RESET);
         }
     }
@@ -166,7 +167,7 @@ void execute(char *str)
         printf("%s%s%s%s--错误指令！(输入%s%shelp%s查看手册)\n", RED, BOLD, full_command, RESET, BOLD, RED, RESET);
         find_similar_commands(full_command);
     }
-}    
+}
 
 /*
 find 命令的形式：

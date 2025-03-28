@@ -1,149 +1,141 @@
 #include "../../include/search.h"
 
-// 查找特定单词
-char **search_word(char *str,int library) {
-    int count = 0;
-    // 先统计符合条件的单词数量
-    for (int i = 0; i < 26; i++) {
-        if (words[i] != NULL) {
-            for (int j = 0; words[i][j] != NULL; j++) {
-                if (strcmp(words[i][j], str) == 0) {
-                    count++;
-                }
-            }
-        }
-    }
+// // 查找特定单词
+// char **search_word(char *str, int library)
+// {
+//     // 根据library的规则在指定库里面精确查询，并返回结果！
+//     // 注意，查询的时候，用find_and_highlight(char **s, int s_size, char *t)这个函数。因为方便高亮
+// }
 
-    // 动态分配数组来存储符合条件的单词
-    char **result = (char **)malloc((count + 1) * sizeof(char *));
-    if (result == NULL) {
+// // 查找以特定前缀开头的单词，返回单词集合
+// char **search_prefix(char *str, int library)
+// {
+//      // 根据library的规则在指定库里面前缀查询，并返回结果！
+//     // 注意，查询的时候，用find_and_highlight(char **s, int s_size, char *t)这个函数。因为方便高亮
+// }
+
+
+// // 查找以特定后缀结尾的单词，返回单词集合
+// char **search_suffix(char *str, int library)
+// {
+   
+//      // 根据library的规则在指定库里面后缀查询，并返回结果！
+//     // 注意，查询的时候，用find_and_highlight(char **s, int s_size, char *t)这个函数。因为方便高亮
+
+// }
+
+// // 查找包含特定字符串的单词，返回单词集合
+// char **search_contains(char *str, int library)
+// {
+    
+//      // 根据library的规则在指定库里面包含查询，并返回结果！
+//     // 注意，查询的时候，用find_and_highlight(char **s, int s_size, char *t)这个函数。因为方便高亮
+
+// }
+
+// 查找特定单词
+char **search_word(char *str, int library_index)
+{
+    printf("search_word.......\n");
+    if (library_index < 0 || library[library_index] == NULL) {
         return NULL;
     }
 
-    int index = 0;
-    // 将符合条件的单词存入数组
-    for (int i = 0; i < 26; i++) {
-        if (words[i] != NULL) {
-            for (int j = 0; words[i][j] != NULL; j++) {
-                if (strcmp(words[i][j], str) == 0) {
-                    result[index++] = (char *)words[i][j];
-                }
+    int result_count = 0;
+    char **result = NULL;
+    for (int i = 0; library[library_index][i] != NULL; i++) {
+        for (int j = 0; library[library_index][i][j] != NULL; j++) {
+            if (strcmp(library[library_index][i][j], str) == 0) {
+                result = (char **)realloc(result, (result_count + 1) * sizeof(char *));
+                result[result_count] = strdup(library[library_index][i][j]);
+                result_count++;
             }
         }
     }
-    result[index] = NULL; // 数组末尾添加 NULL 指针
-
+    if (result_count > 0) {
+        result = (char **)realloc(result, (result_count + 1) * sizeof(char *));
+        result[result_count] = NULL;
+        find_and_highlight(result, result_count, str);
+    }
     return result;
 }
 
 // 查找以特定前缀开头的单词，返回单词集合
-char **search_prefix(char *str,int library) {
-    if (str[0] < 'a' || str[0] > 'z') {
-        return NULL;
-    }
-    int index = str[0] - 'a';
-    int count = 0;
-    // 统计符合条件的单词数量
-    if (words[index] != NULL) {
-        for (int j = 0; words[index][j] != NULL; j++) {
-            if (strstr(words[index][j], str) == words[index][j]) {
-                count++;
-            }
-        }
-    }
-
-    // 动态分配数组来存储符合条件的单词
-    char **result = (char **)malloc((count + 1) * sizeof(char *));
-    if (result == NULL) {
+char **search_prefix(char *str, int library_index)
+{
+    if (library_index < 0 || library[library_index] == NULL) {
         return NULL;
     }
 
-    int res_index = 0;
-    // 将符合条件的单词存入数组
-    if (words[index] != NULL) {
-        for (int j = 0; words[index][j] != NULL; j++) {
-            if (strstr(words[index][j], str) == words[index][j]) {
-                result[res_index++] = (char *)words[index][j];
+    int result_count = 0;
+    char **result = NULL;
+    for (int i = 0; library[library_index][i] != NULL; i++) {
+        for (int j = 0; library[library_index][i][j] != NULL; j++) {
+            if (strncmp(library[library_index][i][j], str, strlen(str)) == 0) {
+                result = (char **)realloc(result, (result_count + 1) * sizeof(char *));
+                result[result_count] = strdup(library[library_index][i][j]);
+                result_count++;
             }
         }
     }
-    result[res_index] = NULL; // 数组末尾添加 NULL 指针
-
+    if (result_count > 0) {
+        result = (char **)realloc(result, (result_count + 1) * sizeof(char *));
+        result[result_count] = NULL;
+        find_and_highlight(result, result_count, str);
+    }
     return result;
 }
 
 // 查找以特定后缀结尾的单词，返回单词集合
-char **search_suffix(char *str,int library) {
-    int suffix_len = strlen(str);
-    int count = 0;
-    // 统计符合条件的单词数量
-    for (int i = 0; i < 26; i++) {
-        if (words[i] != NULL) {
-            for (int j = 0; words[i][j] != NULL; j++) {
-                int word_len = strlen(words[i][j]);
-                if (word_len >= suffix_len && strcmp(words[i][j] + word_len - suffix_len, str) == 0) {
-                    count++;
-                }
-            }
-        }
-    }
-
-    // 动态分配数组来存储符合条件的单词
-    char **result = (char **)malloc((count + 1) * sizeof(char *));
-    if (result == NULL) {
+char **search_suffix(char *str, int library_index)
+{
+    if (library_index < 0 || library[library_index] == NULL) {
         return NULL;
     }
 
-    int res_index = 0;
-    // 将符合条件的单词存入数组
-    for (int i = 0; i < 26; i++) {
-        if (words[i] != NULL) {
-            for (int j = 0; words[i][j] != NULL; j++) {
-                int word_len = strlen(words[i][j]);
-                if (word_len >= suffix_len && strcmp(words[i][j] + word_len - suffix_len, str) == 0) {
-                    result[res_index++] = (char *)words[i][j];
-                }
+    int result_count = 0;
+    char **result = NULL;
+    size_t suffix_len = strlen(str);
+    for (int i = 0; library[library_index][i] != NULL; i++) {
+        for (int j = 0; library[library_index][i][j] != NULL; j++) {
+            size_t word_len = strlen(library[library_index][i][j]);
+            if (word_len >= suffix_len && strcmp(library[library_index][i][j] + word_len - suffix_len, str) == 0) {
+                result = (char **)realloc(result, (result_count + 1) * sizeof(char *));
+                result[result_count] = strdup(library[library_index][i][j]);
+                result_count++;
             }
         }
     }
-    result[res_index] = NULL; // 数组末尾添加 NULL 指针
-
+    if (result_count > 0) {
+        result = (char **)realloc(result, (result_count + 1) * sizeof(char *));
+        result[result_count] = NULL;
+        find_and_highlight(result, result_count, str);
+    }
     return result;
 }
 
 // 查找包含特定字符串的单词，返回单词集合
-char **search_contains(char *str,int library) {
-    int count = 0;
-    // 统计符合条件的单词数量
-    for (int i = 0; i < 26; i++) {
-        if (words[i] != NULL) {
-            for (int j = 0; words[i][j] != NULL; j++) {
-                if (strstr(words[i][j], str) != NULL) {
-                    count++;
-                }
-            }
-        }
-    }
-
-    // 动态分配数组来存储符合条件的单词
-    char **result = (char **)malloc((count + 1) * sizeof(char *));
-    if (result == NULL) {
+char **search_contains(char *str, int library_index)
+{
+    if (library_index < 0 || library[library_index] == NULL) {
         return NULL;
     }
 
-    int res_index = 0;
-    // 将符合条件的单词存入数组
-    for (int i = 0; i < 26; i++) {
-        if (words[i] != NULL) {
-            for (int j = 0; words[i][j] != NULL; j++) {
-                if (strstr(words[i][j], str) != NULL) {
-                    result[res_index++] = (char *)words[i][j];
-                }
+    int result_count = 0;
+    char **result = NULL;
+    for (int i = 0; library[library_index][i] != NULL; i++) {
+        for (int j = 0; library[library_index][i][j] != NULL; j++) {
+            if (strstr(library[library_index][i][j], str) != NULL) {
+                result = (char **)realloc(result, (result_count + 1) * sizeof(char *));
+                result[result_count] = strdup(library[library_index][i][j]);
+                result_count++;
             }
         }
     }
-    result[res_index] = NULL; // 数组末尾添加 NULL 指针
-
+    if (result_count > 0) {
+        result = (char **)realloc(result, (result_count + 1) * sizeof(char *));
+        result[result_count] = NULL;
+        find_and_highlight(result, result_count, str);
+    }
     return result;
-}
-    
+}    

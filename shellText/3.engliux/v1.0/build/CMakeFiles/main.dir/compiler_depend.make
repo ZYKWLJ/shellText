@@ -194,6 +194,7 @@ CMakeFiles/main.dir/src/execute/execute.c.o: /home/eyk/1code/shellText/shellText
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/color.h \
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/endSay.h \
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/execute.h \
+  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/findAndHighlight.h \
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/help.h \
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/search.h \
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/similarInstructions.h \
@@ -331,6 +332,7 @@ CMakeFiles/main.dir/src/findSimilarInstructions/similarInstructions.c.o: /home/e
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/color.h \
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/endSay.h \
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/execute.h \
+  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/findAndHighlight.h \
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/help.h \
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/search.h \
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/similarInstructions.h \
@@ -465,6 +467,7 @@ CMakeFiles/main.dir/src/main.c.o: /home/eyk/1code/shellText/shellText/3.engliux/
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/copyRight.h \
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/endSay.h \
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/execute.h \
+  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/findAndHighlight.h \
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/help.h \
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/main.h \
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/search.h \
@@ -576,6 +579,8 @@ CMakeFiles/main.dir/src/main.c.o: /home/eyk/1code/shellText/shellText/3.engliux/
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 CMakeFiles/main.dir/src/search/search.c.o: /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/search/search.c \
+  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/color.h \
+  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/findAndHighlight.h \
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/search.h \
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/words.h \
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/words_lib/lib4/a_4.h \
