@@ -9,7 +9,7 @@
 #include <readline/readline.h>
 #include "color.h"
 #include "execute.h"
-#include "endSay.h"
-#include "copyRight.h"
+// #include "endSay.h"
+// #include "copyRight.h"
 
 #endif

@@ -6,9 +6,10 @@ char *instructions_all[50] = {
     "find",  // 查找知识点 1
     "clear", // 清屏 2
     "exit",  // 退出程序 3
-    "find",  // 查找单词4
+    // "find",  // 查找单词4
     "f",     // 同find 5
-    "NULL"};
+    "NULL"
+};
 
 // 去除字符串首尾的空白字符
 void trim(char *str)
@@ -112,7 +113,7 @@ void execute(char *str)
 
             if (!is_valid)
             {
-                printf("%s%s无效的查找参数格式！(输入%s%shelp%s查看手册)\n", RED, BOLD, RESET, BOLD, YELLOW, RESET);
+                printf("%s%s无效的查找参数格式！%s(输入%s%shelp%s查看手册)\n", RED, BOLD, RESET, BOLD, YELLOW, RESET);
                 return;
             }
         }
@@ -258,35 +259,11 @@ void execute(char *str)
 
         search_word(token, library, search_mod, first_show, second_show, third_show);
     }
-    // 2.判断exit指令
-    else if (strcasecmp(token, "exit") == 0)
-    {
-        token = strtok(NULL, " ");
-        if (token == NULL)
-        {
-            // printf("%s%s退出程序！%s\n", RED, BOLD, RESET);
-            exit_signal_handler(1); // 和ctrl+c一样的效果
-        }
-        else
-        {
-            printf("%s%s%s%s--错误指令！(输入%s%shelp%s查看手册)\n", RED, BOLD, full_command + strlen("exit "), RESET, BOLD, RED, RESET);
-        }
-    }
-    // 3.判断help指令
-    else if (strcasecmp(token, "help") == 0)
-    {
-        help_list();
-    }
-    // 4.判断clear指令
-    else if (strcasecmp(token, "clear") == 0)
-    {
-        clear();
-    }
+    
     // 4.判断其他指令
     else
     {
         printf("%s%s%s%s--错误指令！(输入%s%shelp%s查看手册)\n", RED, BOLD, full_command, RESET, BOLD, RED, RESET);
-        find_similar_commands(full_command);
     }
 }
 

@@ -153,6 +153,7 @@ int find_if_exist(const char ***word_list, int list_size, const char *target, in
 
     for (int i = 0; i < list_size && word_list[i] != NULL; i++) {
         // 获取单词条目
+        printf("检查单词列表中的第 %d 个条目...\n", i);
         const char *word = word_list[i][0];
         if (word == NULL) continue;
 
