@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/help/help.c" "CMakeFiles/main.dir/src/help/help.c.o" "gcc" "CMakeFiles/main.dir/src/help/help.c.o.d"
   "/home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/main.c" "CMakeFiles/main.dir/src/main.c.o" "gcc" "CMakeFiles/main.dir/src/main.c.o.d"
   "/home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/search/search.c" "CMakeFiles/main.dir/src/search/search.c.o" "gcc" "CMakeFiles/main.dir/src/search/search.c.o.d"
+  "/home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/test/searchtest.c" "CMakeFiles/main.dir/src/test/searchtest.c.o" "gcc" "CMakeFiles/main.dir/src/test/searchtest.c.o.d"
   "/home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/lib4/a_4.c" "CMakeFiles/main.dir/src/words_lib/lib4/a_4.c.o" "gcc" "CMakeFiles/main.dir/src/words_lib/lib4/a_4.c.o.d"
   "/home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/lib4/b_4.c" "CMakeFiles/main.dir/src/words_lib/lib4/b_4.c.o" "gcc" "CMakeFiles/main.dir/src/words_lib/lib4/b_4.c.o.d"
   "/home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/lib6/a_6.c" "CMakeFiles/main.dir/src/words_lib/lib6/a_6.c.o" "gcc" "CMakeFiles/main.dir/src/words_lib/lib6/a_6.c.o.d"

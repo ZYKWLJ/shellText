@@ -77,7 +77,13 @@ void execute(char *str)
 
             if (third_token[0] == '-')
             {
+                // 判断是否是 -4 或者 -6
                 library = atoi(third_token + 1);
+                if (library !=4&&library!=6)
+                {
+                    printf("%s%s当前%d库暂未录入！%s\n", RED, BOLD, library, RESET);
+                    return;
+                }
                 if (library <= 0)
                 {
                     printf("%s%s%s%s--错误指令！(输入%s%shelp%s查看手册)\n", RED, BOLD, full_command + strlen("find "), RESET, BOLD, RED, RESET);
@@ -91,8 +97,8 @@ void execute(char *str)
             }
         }
 
-        // 这里是返回查找集，下面统一打印
-        char **results = NULL;
+        // 这里是返回条数的判断
+        int results = 0;
         if (strstr(token, "%") == NULL)
         {
             // 查找特定单词
@@ -102,38 +108,22 @@ void execute(char *str)
         {
             // 去除前后的 %
             token[strlen(token) - 1] = '\0';
-            results = search_contains(token + 1, library);
+            results = search_word(token, library);
         }
         else if (token[0] == '%')
         {
             // 查找以特定后缀结尾的单词
-            results = search_suffix(token + 1, library);
+            results = search_word(token, library);
         }
         else if (token[strlen(token) - 1] == '%')
         {
             // 去除结尾的 %
             token[strlen(token) - 1] = '\0';
-            results = search_prefix(token, library);
+            results = search_word(token, library);
         }
-        // 这里统一打印
-        if (results != NULL)
+        // 这里提示没有找到匹配的单词
+        if (results == 0)
         {
-            if (results[0] == NULL)
-            {
-                printf("%s%s%s%s%s%s--未找到匹配的单词。%s\n", BLUE, BOLD, token, RESET, RED, BOLD, RESET);
-            }
-            else
-            {
-                for (int i = 0; results[i] != NULL; i++)
-                {
-                    printf("%s\n", results[i]);
-                }
-            }
-            free(results);
-        }
-        else
-        {
-            printf("第二分支未匹配.......");
             printf("%s%s%s%s%s%s--未找到匹配的单词。%s\n", BLUE, BOLD, token, RESET, RED, BOLD, RESET);
         }
     }

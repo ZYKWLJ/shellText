@@ -10,6 +10,7 @@
 # include "help.h"
 #include "clear.h"
 #include "similarInstructions.h"
+#include "words.h"
 extern const char **words[27];
 void execute(char *str);
 #endif

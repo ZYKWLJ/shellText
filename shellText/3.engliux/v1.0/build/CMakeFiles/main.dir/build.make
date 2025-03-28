@@ -195,10 +195,24 @@ CMakeFiles/main.dir/src/search/search.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/src/search/search.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/search/search.c -o CMakeFiles/main.dir/src/search/search.c.s
 
+CMakeFiles/main.dir/src/test/searchtest.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/test/searchtest.c.o: /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/test/searchtest.c
+CMakeFiles/main.dir/src/test/searchtest.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/shellText/shellText/3.engliux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/main.dir/src/test/searchtest.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/test/searchtest.c.o -MF CMakeFiles/main.dir/src/test/searchtest.c.o.d -o CMakeFiles/main.dir/src/test/searchtest.c.o -c /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/test/searchtest.c
+
+CMakeFiles/main.dir/src/test/searchtest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/src/test/searchtest.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/test/searchtest.c > CMakeFiles/main.dir/src/test/searchtest.c.i
+
+CMakeFiles/main.dir/src/test/searchtest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/src/test/searchtest.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/test/searchtest.c -o CMakeFiles/main.dir/src/test/searchtest.c.s
+
 CMakeFiles/main.dir/src/words_lib/lib4/a_4.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/lib4/a_4.c.o: /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/lib4/a_4.c
 CMakeFiles/main.dir/src/words_lib/lib4/a_4.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/shellText/shellText/3.engliux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/main.dir/src/words_lib/lib4/a_4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/shellText/shellText/3.engliux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/main.dir/src/words_lib/lib4/a_4.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/lib4/a_4.c.o -MF CMakeFiles/main.dir/src/words_lib/lib4/a_4.c.o.d -o CMakeFiles/main.dir/src/words_lib/lib4/a_4.c.o -c /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/lib4/a_4.c
 
 CMakeFiles/main.dir/src/words_lib/lib4/a_4.c.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/main.dir/src/words_lib/lib4/a_4.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/lib4/b_4.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/lib4/b_4.c.o: /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/lib4/b_4.c
 CMakeFiles/main.dir/src/words_lib/lib4/b_4.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/shellText/shellText/3.engliux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/main.dir/src/words_lib/lib4/b_4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/shellText/shellText/3.engliux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/main.dir/src/words_lib/lib4/b_4.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/lib4/b_4.c.o -MF CMakeFiles/main.dir/src/words_lib/lib4/b_4.c.o.d -o CMakeFiles/main.dir/src/words_lib/lib4/b_4.c.o -c /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/lib4/b_4.c
 
 CMakeFiles/main.dir/src/words_lib/lib4/b_4.c.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/main.dir/src/words_lib/lib4/b_4.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/lib6/a_6.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/lib6/a_6.c.o: /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/lib6/a_6.c
 CMakeFiles/main.dir/src/words_lib/lib6/a_6.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/shellText/shellText/3.engliux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/main.dir/src/words_lib/lib6/a_6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/shellText/shellText/3.engliux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/main.dir/src/words_lib/lib6/a_6.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/lib6/a_6.c.o -MF CMakeFiles/main.dir/src/words_lib/lib6/a_6.c.o.d -o CMakeFiles/main.dir/src/words_lib/lib6/a_6.c.o -c /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/lib6/a_6.c
 
 CMakeFiles/main.dir/src/words_lib/lib6/a_6.c.i: cmake_force
@@ -240,7 +254,7 @@ CMakeFiles/main.dir/src/words_lib/lib6/a_6.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/lib6/b_6.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/lib6/b_6.c.o: /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/lib6/b_6.c
 CMakeFiles/main.dir/src/words_lib/lib6/b_6.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/shellText/shellText/3.engliux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/main.dir/src/words_lib/lib6/b_6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/shellText/shellText/3.engliux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/main.dir/src/words_lib/lib6/b_6.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/lib6/b_6.c.o -MF CMakeFiles/main.dir/src/words_lib/lib6/b_6.c.o.d -o CMakeFiles/main.dir/src/words_lib/lib6/b_6.c.o -c /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/lib6/b_6.c
 
 CMakeFiles/main.dir/src/words_lib/lib6/b_6.c.i: cmake_force
@@ -254,7 +268,7 @@ CMakeFiles/main.dir/src/words_lib/lib6/b_6.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/words.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/words.c.o: /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/words.c
 CMakeFiles/main.dir/src/words_lib/words.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/shellText/shellText/3.engliux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/main.dir/src/words_lib/words.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/shellText/shellText/3.engliux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/main.dir/src/words_lib/words.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/words.c.o -MF CMakeFiles/main.dir/src/words_lib/words.c.o.d -o CMakeFiles/main.dir/src/words_lib/words.c.o -c /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/words.c
 
 CMakeFiles/main.dir/src/words_lib/words.c.i: cmake_force
@@ -268,7 +282,7 @@ CMakeFiles/main.dir/src/words_lib/words.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/words_4.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/words_4.c.o: /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/words_4.c
 CMakeFiles/main.dir/src/words_lib/words_4.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/shellText/shellText/3.engliux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/main.dir/src/words_lib/words_4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/shellText/shellText/3.engliux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/main.dir/src/words_lib/words_4.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/words_4.c.o -MF CMakeFiles/main.dir/src/words_lib/words_4.c.o.d -o CMakeFiles/main.dir/src/words_lib/words_4.c.o -c /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/words_4.c
 
 CMakeFiles/main.dir/src/words_lib/words_4.c.i: cmake_force
@@ -282,7 +296,7 @@ CMakeFiles/main.dir/src/words_lib/words_4.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/words_6.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/words_6.c.o: /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/words_6.c
 CMakeFiles/main.dir/src/words_lib/words_6.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/shellText/shellText/3.engliux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/main.dir/src/words_lib/words_6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/shellText/shellText/3.engliux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/main.dir/src/words_lib/words_6.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/words_6.c.o -MF CMakeFiles/main.dir/src/words_lib/words_6.c.o.d -o CMakeFiles/main.dir/src/words_lib/words_6.c.o -c /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/words_6.c
 
 CMakeFiles/main.dir/src/words_lib/words_6.c.i: cmake_force
@@ -304,6 +318,7 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/src/help/help.c.o" \
 "CMakeFiles/main.dir/src/main.c.o" \
 "CMakeFiles/main.dir/src/search/search.c.o" \
+"CMakeFiles/main.dir/src/test/searchtest.c.o" \
 "CMakeFiles/main.dir/src/words_lib/lib4/a_4.c.o" \
 "CMakeFiles/main.dir/src/words_lib/lib4/b_4.c.o" \
 "CMakeFiles/main.dir/src/words_lib/lib6/a_6.c.o" \
@@ -324,6 +339,7 @@ main_EXTERNAL_OBJECTS =
 /home/eyk/1code/shellText/shellText/3.engliux/v1.0/bin/main: CMakeFiles/main.dir/src/help/help.c.o
 /home/eyk/1code/shellText/shellText/3.engliux/v1.0/bin/main: CMakeFiles/main.dir/src/main.c.o
 /home/eyk/1code/shellText/shellText/3.engliux/v1.0/bin/main: CMakeFiles/main.dir/src/search/search.c.o
+/home/eyk/1code/shellText/shellText/3.engliux/v1.0/bin/main: CMakeFiles/main.dir/src/test/searchtest.c.o
 /home/eyk/1code/shellText/shellText/3.engliux/v1.0/bin/main: CMakeFiles/main.dir/src/words_lib/lib4/a_4.c.o
 /home/eyk/1code/shellText/shellText/3.engliux/v1.0/bin/main: CMakeFiles/main.dir/src/words_lib/lib4/b_4.c.o
 /home/eyk/1code/shellText/shellText/3.engliux/v1.0/bin/main: CMakeFiles/main.dir/src/words_lib/lib6/a_6.c.o
@@ -334,7 +350,7 @@ main_EXTERNAL_OBJECTS =
 /home/eyk/1code/shellText/shellText/3.engliux/v1.0/bin/main: CMakeFiles/main.dir/build.make
 /home/eyk/1code/shellText/shellText/3.engliux/v1.0/bin/main: /usr/lib/x86_64-linux-gnu/libreadline.so
 /home/eyk/1code/shellText/shellText/3.engliux/v1.0/bin/main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/eyk/1code/shellText/shellText/3.engliux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C executable /home/eyk/1code/shellText/shellText/3.engliux/v1.0/bin/main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/eyk/1code/shellText/shellText/3.engliux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking C executable /home/eyk/1code/shellText/shellText/3.engliux/v1.0/bin/main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/main.c.o.d"
   "CMakeFiles/main.dir/src/search/search.c.o"
   "CMakeFiles/main.dir/src/search/search.c.o.d"
+  "CMakeFiles/main.dir/src/test/searchtest.c.o"
+  "CMakeFiles/main.dir/src/test/searchtest.c.o.d"
   "CMakeFiles/main.dir/src/words_lib/lib4/a_4.c.o"
   "CMakeFiles/main.dir/src/words_lib/lib4/a_4.c.o.d"
   "CMakeFiles/main.dir/src/words_lib/lib4/b_4.c.o"

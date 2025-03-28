@@ -345,6 +345,30 @@ src/search/search.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/search/search.c.s
 .PHONY : src/search/search.c.s
 
+src/test/searchtest.o: src/test/searchtest.c.o
+.PHONY : src/test/searchtest.o
+
+# target to build an object file
+src/test/searchtest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/test/searchtest.c.o
+.PHONY : src/test/searchtest.c.o
+
+src/test/searchtest.i: src/test/searchtest.c.i
+.PHONY : src/test/searchtest.i
+
+# target to preprocess a source file
+src/test/searchtest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/test/searchtest.c.i
+.PHONY : src/test/searchtest.c.i
+
+src/test/searchtest.s: src/test/searchtest.c.s
+.PHONY : src/test/searchtest.s
+
+# target to generate assembly for a file
+src/test/searchtest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/test/searchtest.c.s
+.PHONY : src/test/searchtest.c.s
+
 src/words_lib/lib4/a_4.o: src/words_lib/lib4/a_4.c.o
 .PHONY : src/words_lib/lib4/a_4.o
 
@@ -549,6 +573,9 @@ help:
 	@echo "... src/search/search.o"
 	@echo "... src/search/search.i"
 	@echo "... src/search/search.s"
+	@echo "... src/test/searchtest.o"
+	@echo "... src/test/searchtest.i"
+	@echo "... src/test/searchtest.s"
 	@echo "... src/words_lib/lib4/a_4.o"
 	@echo "... src/words_lib/lib4/a_4.i"
 	@echo "... src/words_lib/lib4/a_4.s"
