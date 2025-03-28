@@ -2,9 +2,9 @@
 
 int main() {
     // 注册信号处理函数
-    // signal(SIGINT, exit_signal_handler);
+    signal(SIGINT, exit_signal_handler);
     char *str;
-    // print();
+    print();
     while (1) {
         char prompt[100];
         sprintf(prompt, "%s%s[请输入指令]> %s", BOLD, GREEN, RESET);

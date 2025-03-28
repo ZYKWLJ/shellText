@@ -3,6 +3,8 @@ const char *b_4[] = {
     "bin",
     "bing",
     "bound",
+    "bubble",
+    "bump",
     NULL,
 
 };

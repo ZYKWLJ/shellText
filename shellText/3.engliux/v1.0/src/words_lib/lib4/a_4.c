@@ -3,5 +3,9 @@ const char *a_4[] = {
     "a",
     "an",
     "and",
+    "andand",
+    "andandand",
+    "andandandand",
+    "andandandandand",
     NULL,
 };

@@ -79,7 +79,7 @@ void execute(char *str)
             {
                 // 判断是否是 -4 或者 -6
                 library = atoi(third_token + 1);
-                if (library !=4&&library!=6)
+                if (library != 4 && library != 6)
                 {
                     printf("%s%s当前%d库暂未录入！%s\n", RED, BOLD, library, RESET);
                     return;
@@ -101,30 +101,64 @@ void execute(char *str)
         int results = 0;
         if (strstr(token, "%") == NULL)
         {
+            // printf("%s%s%s%s--%s%s%s%s\n", RED, BOLD, token, RESET, BLUE, BOLD, token, RESET);
+
             // 查找特定单词
-            results = search_word(token, library);
+            results = search_word(token, library, 1); // 1代表查找单词
         }
         else if (token[0] == '%' && token[strlen(token) - 1] == '%')
         {
             // 去除前后的 %
-            token[strlen(token) - 1] = '\0';
-            results = search_word(token, library);
-        }
-        else if (token[0] == '%')
-        {
-            // 查找以特定后缀结尾的单词
-            results = search_word(token, library);
+            size_t len = strlen(token);
+            char *new_token = (char *)malloc(len - 1);
+            if (new_token != NULL)
+            {
+                strncpy(new_token, token + 1, len - 2);
+                new_token[len - 2] = '\0';
+                // printf("%s%s%s%s--%s%s%s%s\n", RED, BOLD, token, RESET, BLUE, BOLD, new_token, RESET);
+
+                results = search_word(new_token, library, 2); // 2代表查找包含单词
+                free(new_token);
+            }
         }
         else if (token[strlen(token) - 1] == '%')
         {
-            // 去除结尾的 %
-            token[strlen(token) - 1] = '\0';
-            results = search_word(token, library);
+            // 查找以特定后缀结尾的单词
+            // 因为%在后面，所以是后缀
+            size_t len = strlen(token);
+            char *new_token = (char *)malloc(len - 1);
+            if (new_token != NULL)
+            {
+                strncpy(new_token, token, len - 1);
+                new_token[len - 1] = '\0';
+                // printf("%s%s%s%s--%s%s%s%s\n", RED, BOLD, token, RESET, BLUE, BOLD, new_token, RESET);
+
+                results = search_word(new_token, library, 3); // 4代表查找以单词为后缀
+                free(new_token);
+            }
         }
+        else if (token[0] == '%')
+        {
+            // 查找以特定前缀结尾的单词
+            // 因为%在前面，所以是前缀
+            size_t len = strlen(token);
+            char *new_token = (char *)malloc(len - 1);
+            if (new_token != NULL)
+            {
+                strncpy(new_token, token + 1, len - 1);
+                new_token[len - 1] = '\0';
+                // printf("%s%s%s%s--%s%s%s%s\n", RED, BOLD, token, RESET, BLUE, BOLD, new_token, RESET);
+
+                results = search_word(new_token, library, 4); // 3代表查找以单词为前缀
+                free(new_token);
+            }
+        }
+
         // 这里提示没有找到匹配的单词
         if (results == 0)
         {
-            printf("%s%s%s%s%s%s--未找到匹配的单词。%s\n", BLUE, BOLD, token, RESET, RED, BOLD, RESET);
+            // printf("%s%s%s%s%s%s--未找到匹配的单词。%s\n", BLUE, BOLD, token, RESET, RED, BOLD, RESET);
+            return;
         }
     }
     // 2.判断exit指令
