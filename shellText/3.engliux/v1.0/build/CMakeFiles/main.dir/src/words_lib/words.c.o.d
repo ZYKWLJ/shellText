@@ -3,7 +3,7 @@ CMakeFiles/main.dir/src/words_lib/words.c.o: \
  /usr/include/stdc-predef.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/words_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4/a_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/a_4.h \
  /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -44,7 +44,55 @@ CMakeFiles/main.dir/src/words_lib/words.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4/b_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/b_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/c_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/d_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/e_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/f_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/g_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/h_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/i_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/j_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/k_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/l_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/m_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/n_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/o_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/p_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/q_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/r_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/s_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/t_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/u_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/v_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/w_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/x_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/y_4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib4_3/z_4.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/words_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6/a_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6/b_6.h
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/a_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/b_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/c_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/d_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/e_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/f_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/g_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/h_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/i_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/j_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/k_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/l_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/m_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/n_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/o_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/p_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/q_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/r_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/s_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/t_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/u_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/v_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/w_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/x_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/y_6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/words_lib/../../include/words_lib/lib6_3/z_6.h

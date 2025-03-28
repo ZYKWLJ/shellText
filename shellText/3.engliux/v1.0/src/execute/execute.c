@@ -37,6 +37,20 @@ void trim(char *str)
     }
     str[i] = '\0';
 }
+
+int is_all_alpha(char *token, int begin, int end)
+{
+    // %str% 形式
+    for (int i = begin; i < end; i++)
+    {
+        if (!isalpha((unsigned char)token[i]))
+        {
+            return 0;
+            break;
+        }
+    }
+    return 1;
+}
 // 执行命令的函数
 void execute(char *str)
 {
@@ -62,21 +76,63 @@ void execute(char *str)
             printf("%s%s请输入要查找的单词！%s\n", RED, BOLD, RESET);
             return;
         }
-
-        char *third_token = strtok(NULL, " ");
-        int library = 0;
-        if (third_token != NULL)
+        // 单词形式判断，必须是str、%str、str%、%str% 的形式，并且 str 只能全是字母，不是则直接报错。
+        else
         {
-            char *fourth_token = strtok(NULL, " ");
-            if (fourth_token != NULL)
+            int is_valid = 1;
+            int len = strlen(token);
+            if (len > 0)
             {
-                // 有超过第三个单词，报错
-                printf("%s%s%s%s--错误指令！(输入%s%shelp%s查看手册)\n", RED, BOLD, full_command + strlen("find "), RESET, BOLD, RED, RESET);
+
+                if (token[0] == '%' && token[len - 1] == '%')
+                {
+                    // %str% 形式
+                    is_valid = is_all_alpha(token, 1, len - 1);
+                }
+                else if (token[0] == '%')
+                {
+                    // %str 形式
+                    is_valid = is_all_alpha(token, 1, len);
+                }
+                else if (token[len - 1] == '%')
+                {
+                    // str% 形式
+                    is_valid = is_all_alpha(token, 0, len - 1);
+                }
+                else
+                {
+                    // str 形式
+                    is_valid = is_all_alpha(token, 0, len);
+                }
+            }
+            else
+            {
+                is_valid = 0;
+            }
+
+            if (!is_valid)
+            {
+                printf("%s%s无效的查找参数格式！(输入%s%shelp%s查看手册)\n", RED, BOLD, RESET, BOLD, YELLOW, RESET);
                 return;
             }
+        }
+
+        int library = 0;
+        int search_mod = 0;
+        int first_show = 1, second_show = 0, third_show = 3; // 默认显示单词和释义
+
+        char *third_token = strtok(NULL, " ");
+        if (third_token != NULL)
+        {
 
             if (third_token[0] == '-')
             {
+                // 检查 - 后面是否为数字
+                if (!isdigit((unsigned char)third_token[1]))
+                {
+                    printf("%s%s非数字！请输入有效的数字词库编号。(输入%s%shelp%s查看手册)\n", RED, BOLD, BOLD, RED, RESET);
+                    return;
+                }
                 // 判断是否是 -4 或者 -6
                 library = atoi(third_token + 1);
                 if (library != 4 && library != 6)
@@ -89,7 +145,7 @@ void execute(char *str)
                     printf("%s%s%s%s--错误指令！(输入%s%shelp%s查看手册)\n", RED, BOLD, full_command + strlen("find "), RESET, BOLD, RED, RESET);
                     return;
                 }
-            }
+            } // 第三个指令不以-开头，报错！
             else
             {
                 printf("%s%s%s%s--错误指令！(输入%s%shelp%s查看手册)\n", RED, BOLD, full_command + strlen("find "), RESET, BOLD, RED, RESET);
@@ -97,14 +153,65 @@ void execute(char *str)
             }
         }
 
-        // 这里是返回条数的判断
-        int results = 0;
+        // 判断第四个指令是否以-开头
+        char *fourth_token = strtok(NULL, " ");
+        if (fourth_token != NULL)
+        {
+            int len = strlen(fourth_token);
+            int has_dash = 0;
+            if (fourth_token[0] == '-')
+            {
+                has_dash = 1;
+                fourth_token++;
+                len--;
+            }
+            else
+            {
+                printf("%s%s无效的显示选项！(输入%s%shelp%s查看手册)\n", RED, BOLD, BOLD, RED, RESET);
+                return; // 指令出错，必须以-开头！
+            }
+            // 只能最多显示3列，超出直接报错！
+            if (len > 3)
+            {
+                printf("%s%s无效的显示选项！(输入%s%shelp%s查看手册)\n", RED, BOLD, BOLD, RED, RESET);
+                return;
+            }
+            // 补齐到3位
+            char padded_token[4] = "000";
+            strncpy(padded_token + 3 - len, fourth_token, len);
+
+            // 检查每个字符是否为 0 - 3
+            for (int i = 0; i < 3; i++)
+            {
+                if (padded_token[i] < '0' || padded_token[i] > '3')
+                {
+                    printf("%s%s无效的显示选项！(输入%s%shelp%s查看手册)\n", RED, BOLD, BOLD, RED, RESET);
+                    return;
+                }
+            }
+
+            first_show = padded_token[0] - '0';
+            second_show = padded_token[1] - '0';
+            third_show = padded_token[2] - '0';
+
+            if ((first_show + second_show + third_show == 0))
+            {
+                printf("%s%s无效的显示选项！(输入%s%shelp%s查看手册)\n", RED, BOLD, BOLD, RED, RESET);
+                return;
+            }
+        }
+        else
+        {
+            // 如果没有第四个指令，默认显示单词和释义
+            first_show = 1;
+            second_show = 0;
+            third_show = 3;
+        }
+
+        // 精确查找
         if (strstr(token, "%") == NULL)
         {
-            // printf("%s%s%s%s--%s%s%s%s\n", RED, BOLD, token, RESET, BLUE, BOLD, token, RESET);
-
-            // 查找特定单词
-            results = search_word(token, library, 1); // 1代表查找单词
+            search_mod = 1; // 1代表查找单词
         }
         else if (token[0] == '%' && token[strlen(token) - 1] == '%')
         {
@@ -115,10 +222,8 @@ void execute(char *str)
             {
                 strncpy(new_token, token + 1, len - 2);
                 new_token[len - 2] = '\0';
-                // printf("%s%s%s%s--%s%s%s%s\n", RED, BOLD, token, RESET, BLUE, BOLD, new_token, RESET);
-
-                results = search_word(new_token, library, 2); // 2代表查找包含单词
-                free(new_token);
+                search_mod = 2; // 2代表查找包含单词
+                token = new_token;
             }
         }
         else if (token[strlen(token) - 1] == '%')
@@ -131,10 +236,8 @@ void execute(char *str)
             {
                 strncpy(new_token, token, len - 1);
                 new_token[len - 1] = '\0';
-                // printf("%s%s%s%s--%s%s%s%s\n", RED, BOLD, token, RESET, BLUE, BOLD, new_token, RESET);
-
-                results = search_word(new_token, library, 3); // 3代表查找以单词为前缀
-                free(new_token);
+                search_mod = 3; // 3代表查找以单词为前缀
+                token = new_token;
             }
         }
         else if (token[0] == '%')
@@ -147,12 +250,13 @@ void execute(char *str)
             {
                 strncpy(new_token, token + 1, len - 1);
                 new_token[len - 1] = '\0';
-                // printf("%s%s%s%s--%s%s%s%s\n", RED, BOLD, token, RESET, BLUE, BOLD, new_token, RESET);
-
-                results = search_word(new_token, library, 4); // 4代表查找以单词为后缀
-                free(new_token);
+                search_mod = 4; // 4代表查找以单词为后缀
+                token = new_token;
             }
         }
+        printf("搜索单词: %s, 词库: %d, 搜索模式: %d, 第一列显示: %d, 第二列显示: %d, 第三列显示: %d\n", token, library, search_mod, first_show, second_show, third_show);
+
+        search_word(token, library, search_mod, first_show, second_show, third_show);
     }
     // 2.判断exit指令
     else if (strcasecmp(token, "exit") == 0)
@@ -161,7 +265,7 @@ void execute(char *str)
         if (token == NULL)
         {
             // printf("%s%s退出程序！%s\n", RED, BOLD, RESET);
-            exit_signal_handler(SIGINT); // 和ctrl+c一样的效果
+            exit_signal_handler(1); // 和ctrl+c一样的效果
         }
         else
         {
@@ -244,7 +348,7 @@ if(如果第一个单词是find或者f，那么跳转到以下逻辑：){
 
         如果有第四个单词，那么是指定了查询字段：其中    1代表单词   2代表音标      3代表释义
         // 其中，先后按下的顺序是在电脑上显示的顺序，电脑上一共最多显示3列，但是可以自定义显示方式！从数量上，可以自定义显示1~3列，从位置上，可以自定义1~3列的位置显示什么内容！我们不提供不同列显示相内容，这无实际意义并且占用空间！
-        
+
         // 首先是第四个单词不足3位的情况：自动扩展！
             如果第四个单词是1，那么扩展为100，即只显示单词，则first_show=1，second_show=0，third_show=0
             如果第四个单词是2，那么扩展为200，即只显示音标，则first_show=2，second_show=，third_show=0

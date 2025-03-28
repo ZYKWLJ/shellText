@@ -6,8 +6,8 @@ const char ****library[] = {
     NULL, // 代替 "NO"
     NULL, // 代替 "NO"
     NULL, // 代替 "NO"
-    words_4,
+     (const char****)&words_4,
     NULL, // 代替 "NO"
-    words_6,
+     (const char****)&words_6,
     NULL // 结束标记
 };
