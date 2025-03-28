@@ -1,6 +1,7 @@
 #include "../../include/search.h"
 // 辅助函数：在单个库中搜索单词
 
+// 单个单词集的长度！
 int words_len(const char **single_lwords_set)
 {
     int len = 0;
