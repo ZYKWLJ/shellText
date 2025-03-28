@@ -1,7 +1,7 @@
 #include "../../include/words.h"
 
 // 库文件定义
-const char ***library[] = {
+const char ****library[] = {
     NULL, // 代替 "NO"
     NULL, // 代替 "NO"
     NULL, // 代替 "NO"
