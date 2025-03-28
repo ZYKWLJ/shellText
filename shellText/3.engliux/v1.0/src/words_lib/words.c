@@ -1,6 +1,6 @@
 #include "../../include/words.h"
 
-// 总库定义
+// 总库定义(四维数组)
 const char ***library[] = {
     NULL, NULL, NULL, NULL,  // 0-3
     words_4,                 // 4

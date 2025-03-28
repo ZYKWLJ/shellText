@@ -55,4 +55,5 @@ CMakeFiles/main.dir/src/findAndHighlight/findAndHighlight.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findAndHighlight/../../include/color.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findAndHighlight/../../include/display.h
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/findAndHighlight/../../include/display.h \
+ /usr/include/ctype.h

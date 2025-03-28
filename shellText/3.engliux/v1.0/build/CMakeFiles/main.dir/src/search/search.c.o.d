@@ -61,4 +61,5 @@ CMakeFiles/main.dir/src/search/search.c.o: \
  /usr/include/strings.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/search/../../include/findAndHighlight.h \
  /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/search/../../include/color.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/search/../../include/display.h
+ /home/eyk/1code/shellText/shellText/3.engliux/v1.0/src/search/../../include/display.h \
+ /usr/include/ctype.h

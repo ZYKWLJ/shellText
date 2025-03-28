@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include "color.h"
 #include "display.h"
+#include <ctype.h>
 int find_if_exist(const char **word_set, int set_size, const char *target, int mode);
 void find_and_highlight(const char **word_set, int set_size, const char *target, 
                        int mode, int col1, int col2, int col3) ;

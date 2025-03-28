@@ -111,6 +111,7 @@ CMakeFiles/main.dir/src/findAndHighlight/findAndHighlight.c.o: /home/eyk/1code/s
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/display.h \
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/findAndHighlight.h \
   /usr/include/alloca.h \
+  /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
@@ -291,6 +292,7 @@ CMakeFiles/main.dir/src/search/search.c.o: /home/eyk/1code/shellText/shellText/3
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/words_lib/words_4.h \
   /home/eyk/1code/shellText/shellText/3.engliux/v1.0/include/words_lib/words_6.h \
   /usr/include/alloca.h \
+  /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \

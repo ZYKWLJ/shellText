@@ -87,6 +87,15 @@
         "stdexcept": "c",
         "streambuf": "c",
         "cinttypes": "c",
-        "cstdbool": "c"
+        "cstdbool": "c",
+        "compare": "c",
+        "new": "c",
+        "word_set.h": "c",
+        "words_cet4_b.h": "c",
+        "words_cet4_a.h": "c",
+        "cet4.h": "c",
+        "words_cet4_c.h": "c",
+        "words_cet4_w.h": "c",
+        "words_cet4_v.h": "c"
     }
 }
