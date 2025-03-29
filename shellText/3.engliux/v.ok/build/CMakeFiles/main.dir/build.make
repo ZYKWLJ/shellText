@@ -97,19 +97,19 @@ CMakeFiles/main.dir/src/copyRight/copyRight.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/src/copyRight/copyRight.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/copyRight/copyRight.c -o CMakeFiles/main.dir/src/copyRight/copyRight.c.s
 
-CMakeFiles/main.dir/src/display/display.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/display/display.c.o: /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/display/display.c
-CMakeFiles/main.dir/src/display/display.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/shellText/shellText/3.engliux/v.ok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/src/display/display.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/display/display.c.o -MF CMakeFiles/main.dir/src/display/display.c.o.d -o CMakeFiles/main.dir/src/display/display.c.o -c /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/display/display.c
+CMakeFiles/main.dir/src/display/align.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/display/align.c.o: /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/display/align.c
+CMakeFiles/main.dir/src/display/align.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/shellText/shellText/3.engliux/v.ok/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/src/display/align.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/display/align.c.o -MF CMakeFiles/main.dir/src/display/align.c.o.d -o CMakeFiles/main.dir/src/display/align.c.o -c /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/display/align.c
 
-CMakeFiles/main.dir/src/display/display.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/src/display/display.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/display/display.c > CMakeFiles/main.dir/src/display/display.c.i
+CMakeFiles/main.dir/src/display/align.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/src/display/align.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/display/align.c > CMakeFiles/main.dir/src/display/align.c.i
 
-CMakeFiles/main.dir/src/display/display.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/src/display/display.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/display/display.c -o CMakeFiles/main.dir/src/display/display.c.s
+CMakeFiles/main.dir/src/display/align.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/src/display/align.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/display/align.c -o CMakeFiles/main.dir/src/display/align.c.s
 
 CMakeFiles/main.dir/src/endSay/endSay.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/endSay/endSay.c.o: /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/endSay/endSay.c
@@ -1025,7 +1025,7 @@ CMakeFiles/main.dir/src/words_lib/words.c.s: cmake_force
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/clear/clear.c.o" \
 "CMakeFiles/main.dir/src/copyRight/copyRight.c.o" \
-"CMakeFiles/main.dir/src/display/display.c.o" \
+"CMakeFiles/main.dir/src/display/align.c.o" \
 "CMakeFiles/main.dir/src/endSay/endSay.c.o" \
 "CMakeFiles/main.dir/src/execute/execute.c.o" \
 "CMakeFiles/main.dir/src/execute/find.c.o" \
@@ -1097,7 +1097,7 @@ main_EXTERNAL_OBJECTS =
 
 /home/eyk/1code/shellText/shellText/3.engliux/v.ok/bin/main: CMakeFiles/main.dir/src/clear/clear.c.o
 /home/eyk/1code/shellText/shellText/3.engliux/v.ok/bin/main: CMakeFiles/main.dir/src/copyRight/copyRight.c.o
-/home/eyk/1code/shellText/shellText/3.engliux/v.ok/bin/main: CMakeFiles/main.dir/src/display/display.c.o
+/home/eyk/1code/shellText/shellText/3.engliux/v.ok/bin/main: CMakeFiles/main.dir/src/display/align.c.o
 /home/eyk/1code/shellText/shellText/3.engliux/v.ok/bin/main: CMakeFiles/main.dir/src/endSay/endSay.c.o
 /home/eyk/1code/shellText/shellText/3.engliux/v.ok/bin/main: CMakeFiles/main.dir/src/execute/execute.c.o
 /home/eyk/1code/shellText/shellText/3.engliux/v.ok/bin/main: CMakeFiles/main.dir/src/execute/find.c.o

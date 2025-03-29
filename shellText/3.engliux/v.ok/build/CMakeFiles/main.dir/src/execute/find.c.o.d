@@ -54,4 +54,11 @@ CMakeFiles/main.dir/src/execute/find.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
- /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/execute/../../include/search.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/execute/../../include/words.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/execute/../../include/words_lib/cet4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/execute/../../include/words_lib/word_set.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/execute/../../include/words_lib/cet6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/execute/../../include/findAndHighlight.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/execute/../../include/display.h

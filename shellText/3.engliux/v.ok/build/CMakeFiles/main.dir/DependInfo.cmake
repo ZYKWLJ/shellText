@@ -10,7 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/clear/clear.c" "CMakeFiles/main.dir/src/clear/clear.c.o" "gcc" "CMakeFiles/main.dir/src/clear/clear.c.o.d"
   "/home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/copyRight/copyRight.c" "CMakeFiles/main.dir/src/copyRight/copyRight.c.o" "gcc" "CMakeFiles/main.dir/src/copyRight/copyRight.c.o.d"
-  "/home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/display/display.c" "CMakeFiles/main.dir/src/display/display.c.o" "gcc" "CMakeFiles/main.dir/src/display/display.c.o.d"
+  "/home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/display/align.c" "CMakeFiles/main.dir/src/display/align.c.o" "gcc" "CMakeFiles/main.dir/src/display/align.c.o.d"
   "/home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/endSay/endSay.c" "CMakeFiles/main.dir/src/endSay/endSay.c.o" "gcc" "CMakeFiles/main.dir/src/endSay/endSay.c.o.d"
   "/home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/execute/execute.c" "CMakeFiles/main.dir/src/execute/execute.c.o" "gcc" "CMakeFiles/main.dir/src/execute/execute.c.o.d"
   "/home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/execute/find.c" "CMakeFiles/main.dir/src/execute/find.c.o" "gcc" "CMakeFiles/main.dir/src/execute/find.c.o.d"

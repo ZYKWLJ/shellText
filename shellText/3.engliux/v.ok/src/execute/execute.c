@@ -14,32 +14,31 @@ char *instructions_all[50] = {
 // 执行命令的函数
 void execute(char *str)
 {
-    printf("执行前命令: %s\n", str);
+    // printf("执行前命令: %s\n", str);
     trim(str);
-    printf("减枝后命令: %s\n", str);
+    // printf("减枝后命令: %s\n", str);
 
     char full_command[256] = {0};
     strcpy(full_command, str);
 
     // 分割命令为单词
+    // 第一个单词
     char *token = strtok(str, " ");
     if (token == NULL)
     {
         printf("提示：命令不存在！\n请重新输入！\n");
         return;
     }
-    int library = 0;
-    int search_mod = 0;
-    int first_show = 1, second_show = 0, third_show = 3; // 默认显示单词和释义
+    // int library = 0;
+    // int search_mod = 0;
+    // int first_show = 1, second_show = 0, third_show = 3; // 默认显示单词和释义
     // 1.判读find指令
+    // printf("第一个单词为:%s\n", token);
     if (strcasecmp(token, "find") == 0 || strcasecmp(token, "f") == 0)
     {
-        printf("第一个单词为find指令\n");
-        find_parser(token, full_command, &library, &search_mod, &first_show, &second_show, &third_show);
+        // printf("第一个单词为find指令\n");
+        find_parser(token, full_command);
 
-        printf("搜索单词: %s, 词库: %d, 搜索模式: %d, 第一列显示: %d, 第二列显示: %d, 第三列显示: %d\n", token, library, search_mod, first_show, second_show, third_show);
-
-        search_word(token, library, search_mod, first_show, second_show, third_show);
     }
     // 2.判断exit指令
     else if (strcasecmp(token, "exit") == 0)

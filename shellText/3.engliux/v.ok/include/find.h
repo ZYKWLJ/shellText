@@ -5,5 +5,7 @@
 #include <ctype.h>
 #include <string.h>
 #include <stdio.h>
-void find_parser(char *token, char *full_command, int *library, int *search_mod, int *first_show, int *second_show, int *third_show);
+#include "search.h"
+
+void find_parser(char *token, char *full_command);
 #endif

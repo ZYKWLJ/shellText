@@ -13,6 +13,7 @@
 #include "words.h"
 #include "trim.h"
 #include "find.h"
+#include <ctype.h>
 // extern const char **words[27];
 void execute(char *str);
 #endif

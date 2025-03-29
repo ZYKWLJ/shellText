@@ -74,6 +74,8 @@ int KMPSearch(const char *pat, const char *txt)
 
 int find_if_exist(word_entry *word_list /*单个单词集*/, int list_size, const char *target, int search_mode)
 {
+    printf("1--find_if_exist--通过这里了\n");
+    
     // 参数检查
     if (word_list == NULL || target == NULL || *target == '\0')
     {
@@ -81,7 +83,7 @@ int find_if_exist(word_entry *word_list /*单个单词集*/, int list_size, cons
         return 0;
     }
 
-    printf("正在查找: %s (模式: %d)\n", target, search_mode);
+    // printf("正在查找: %s (模式: %d)\n", target, search_mode);
     int total_count = 0;
 
     for (int i = 0; i < list_size; i++)
@@ -89,7 +91,7 @@ int find_if_exist(word_entry *word_list /*单个单词集*/, int list_size, cons
         // 获取单词条目
         printf("检查单词列表中的第 %d 个条目...\n", i);
         const char *word = word_list[i].word;
-        printf("检查单词: %s\n", word);
+        // printf("检查单词: %s\n", word);
         int match = 0;
         switch (search_mode)
         {
@@ -118,11 +120,12 @@ int find_if_exist(word_entry *word_list /*单个单词集*/, int list_size, cons
         if (match)
         {
             total_count++;
-            printf(">>> 匹配 #%d: %s\n", total_count, word);
+            // printf(">>> 匹配 #%d: %s\n", total_count, word);
         }
     }
+    printf("3--find_if_exist--通过这里了\n");
 
-    printf("查找完成，共找到 %d 个匹配项\n", total_count);
+    // printf("查找完成，共找到 %d 个匹配项\n", total_count);
     return total_count;
 }
 
@@ -176,23 +179,23 @@ int find_and_highlight(word_entry *word_list /*单个单词集*/, int s_size, ch
             // 包含查找
             if (search_mod == 2)
             {
-                printf("进入包含显示阶段：\n");
+                // printf("进入包含显示阶段：\n");
                 show_contains_columns(word_list, i, t, first_show, second_show, third_show);
             }
             else if (search_mod == 3) // 前缀查找
             {
-                printf("进入前缀显示阶段：\n");
+                // printf("进入前缀显示阶段：\n");
                 show_prefix_columns(word_list, i, t, first_show, second_show, third_show);
             }
             else if (search_mod == 4) // 后缀查找
             {
-                printf("进入后缀显示阶段：\n");
+                // printf("进入后缀显示阶段：\n");
                 show_suffix_columns(word_list, i, t, first_show, second_show, third_show);
             }
             // 精确查找
             else
             {
-                printf("进入精确显示阶段：\n");
+                // printf("进入精确显示阶段：\n");
                 show_exact_columns(word_list, i, t, first_show, second_show, third_show);
             }
             first = 0;
@@ -203,58 +206,58 @@ int find_and_highlight(word_entry *word_list /*单个单词集*/, int s_size, ch
     // return flag;
 }
 
-int main()
-{
-    word_entry s1[] = {
-        {
-            "378",
-            "baby",
-            "/ˈbeɪbi/",
-            "n. 婴儿，婴孩；孩子气的人vt. 纵容，娇纵；把……当婴儿般对待adj. 婴儿的；幼小的n. (Baby)人名；(法、葡)巴比；(英)巴比，芭比(女名)；(俄)巴贝",
-        },
-        {
-            "379",
-            "bachelor",
-            "/ˈbætʃələr/",
-            "n. 学士；单身汉；（尚未交配的）小雄兽n. (Bachelor)人名；(英)巴彻勒",
-        },
-        {NULL, NULL, NULL, NULL}};
-    word_entry s2[] = {
-        {
-            "378",
-            "baby",
-            "/ˈbeɪbi/",
-            "n. 婴儿，婴孩；孩子气的人vt. 纵容，娇纵；把……当婴儿般对待adj. 婴儿的；幼小的n. (Baby)人名；(法、葡)巴比；(英)巴比，芭比(女名)；(俄)巴贝",
-        },
-        {
-            "379",
-            "bachelor",
-            "/ˈbætʃələr/",
-            "n. 学士；单身汉；（尚未交配的）小雄兽n. (Bachelor)人名；(英)巴彻勒",
-        },
-        {NULL, NULL, NULL, NULL}
+// int main()
+// {
+//     word_entry s1[] = {
+//         {
+//             "378",
+//             "baby",
+//             "/ˈbeɪbi/",
+//             "n. 婴儿，婴孩；孩子气的人vt. 纵容，娇纵；把……当婴儿般对待adj. 婴儿的；幼小的n. (Baby)人名；(法、葡)巴比；(英)巴比，芭比(女名)；(俄)巴贝",
+//         },
+//         {
+//             "379",
+//             "bachelor",
+//             "/ˈbætʃələr/",
+//             "n. 学士；单身汉；（尚未交配的）小雄兽n. (Bachelor)人名；(英)巴彻勒",
+//         },
+//         {NULL, NULL, NULL, NULL}};
+//     word_entry s2[] = {
+//         {
+//             "378",
+//             "baby",
+//             "/ˈbeɪbi/",
+//             "n. 婴儿，婴孩；孩子气的人vt. 纵容，娇纵；把……当婴儿般对待adj. 婴儿的；幼小的n. (Baby)人名；(法、葡)巴比；(英)巴比，芭比(女名)；(俄)巴贝",
+//         },
+//         {
+//             "379",
+//             "bachelor",
+//             "/ˈbætʃələr/",
+//             "n. 学士；单身汉；（尚未交配的）小雄兽n. (Bachelor)人名；(英)巴彻勒",
+//         },
+//         {NULL, NULL, NULL, NULL}
 
-    };
-    word_entry *s[] = {
-        s1,
-        s2,
-        NULL,
-    };
+//     };
+//     word_entry *s[] = {
+//         s1,
+//         s2,
+//         NULL,
+//     };
 
-    char t[] = "baby";
-    int s_size = sizeof(s1) / sizeof(s1[0]); // 每一个指针的大小相等！所以这里可以借此得到长度！
-    puts("精确查找:");
-    // printf("find_if_exist(s, s_size, t, 1) = %d\n", find_if_exist(s, s_size, t, 1));
-    find_and_highlight(s1, s_size, t, 1, 1, 1, 1);
-    puts("包含查找:");
+//     char t[] = "baby";
+//     int s_size = sizeof(s1) / sizeof(s1[0]); // 每一个指针的大小相等！所以这里可以借此得到长度！
+//     puts("精确查找:");
+//     // printf("find_if_exist(s, s_size, t, 1) = %d\n", find_if_exist(s, s_size, t, 1));
+//     find_and_highlight(s1, s_size, t, 1, 1, 1, 1);
+//     puts("包含查找:");
 
-    find_and_highlight(s1, s_size, t, 2, 1, 1, 1);
-    puts("前缀查找:");
+//     find_and_highlight(s1, s_size, t, 2, 1, 1, 1);
+//     puts("前缀查找:");
 
-    find_and_highlight(s1, s_size, t, 3, 1, 2, 3);
-    puts("后缀查找:");
+//     find_and_highlight(s1, s_size, t, 3, 1, 2, 3);
+//     puts("后缀查找:");
 
-    find_and_highlight(s1, s_size, t, 4, 3, 3, 3);
+//     find_and_highlight(s1, s_size, t, 4, 3, 3, 3);
 
-    return 0;
-}
+//     return 0;
+// }

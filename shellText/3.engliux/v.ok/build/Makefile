@@ -177,29 +177,29 @@ src/copyRight/copyRight.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/copyRight/copyRight.c.s
 .PHONY : src/copyRight/copyRight.c.s
 
-src/display/display.o: src/display/display.c.o
-.PHONY : src/display/display.o
+src/display/align.o: src/display/align.c.o
+.PHONY : src/display/align.o
 
 # target to build an object file
-src/display/display.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/display/display.c.o
-.PHONY : src/display/display.c.o
+src/display/align.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/display/align.c.o
+.PHONY : src/display/align.c.o
 
-src/display/display.i: src/display/display.c.i
-.PHONY : src/display/display.i
+src/display/align.i: src/display/align.c.i
+.PHONY : src/display/align.i
 
 # target to preprocess a source file
-src/display/display.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/display/display.c.i
-.PHONY : src/display/display.c.i
+src/display/align.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/display/align.c.i
+.PHONY : src/display/align.c.i
 
-src/display/display.s: src/display/display.c.s
-.PHONY : src/display/display.s
+src/display/align.s: src/display/align.c.s
+.PHONY : src/display/align.s
 
 # target to generate assembly for a file
-src/display/display.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/display/display.c.s
-.PHONY : src/display/display.c.s
+src/display/align.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/display/align.c.s
+.PHONY : src/display/align.c.s
 
 src/endSay/endSay.o: src/endSay/endSay.c.o
 .PHONY : src/endSay/endSay.o
@@ -1776,9 +1776,9 @@ help:
 	@echo "... src/copyRight/copyRight.o"
 	@echo "... src/copyRight/copyRight.i"
 	@echo "... src/copyRight/copyRight.s"
-	@echo "... src/display/display.o"
-	@echo "... src/display/display.i"
-	@echo "... src/display/display.s"
+	@echo "... src/display/align.o"
+	@echo "... src/display/align.i"
+	@echo "... src/display/align.s"
 	@echo "... src/endSay/endSay.o"
 	@echo "... src/endSay/endSay.i"
 	@echo "... src/endSay/endSay.s"
