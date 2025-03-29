@@ -99,6 +99,7 @@
         "words_cet4_v.h": "c",
         "cet6.h": "c",
         "trim.h": "c",
-        "cet6_a.h": "c"
+        "cet6_a.h": "c",
+        "ctype.h": "c"
     }
 }
