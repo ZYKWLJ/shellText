@@ -5,53 +5,53 @@ int words_len(word_entry *single_library)
 {
     if (single_library == NULL)
     {
-        printf("错误: 传入的单词库指针为空！\n");
+        // printf("错误: 传入的单词库指针为空！\n");
         return 0;
     }
 
-    printf("进入了单个单词集的长度函数, 传入的指针: %p\n", single_library);
-    printf("检查 single_library[0].index: %p\n", single_library[0].index);/*这里为什么会一直报空指针、段错误的信息？？？*/
+    // printf("进入了单个单词集的长度函数, 传入的指针: %p\n", single_library);
+    // printf("检查 single_library[0].index: %p\n", single_library[0].index);/*这里为什么会一直报空指针、段错误的信息？？？*/
 
     int len = 0;
     while (len < 1000 && single_library[len].index != NULL)
     {
-        printf("%d--通过这里了\n", len);
+        // printf("%d--通过这里了\n", len);
         len++;
     }
 
-    printf("单词集个数为: %d\n", len);
+    // printf("单词集个数为: %d\n", len);
     return len;
 }
 
 // 单个库的条数！
 int is_exist_in_single_library(word_entry **single_library /*单个四六级库，二维数组*/, char *str, int lib_index, int search_mod)
 {
-    printf("%s%s来到%d库查询\n", RED, BOLD, lib_index);
+    // printf("%s%s来到%d库查询\n", RED, BOLD, lib_index);
 
     // if (single_library == NULL)
     // {
     //     return 0;
     // }
-    printf("1--is_exist_in_single_library--通过这里了\n");
+    // printf("1--is_exist_in_single_library--通过这里了\n");
     int total = 0;
     for (int i = 0; single_library[i] != NULL /*以字母开头的单词集合,NULL为标记结尾*/; i++)
     {
-        printf("2--is_exist_in_single_library--通过这里了\n");
+        // printf("2--is_exist_in_single_library--通过这里了\n");
 
         // 即时调用判存函数，有一个库有一个单词就返回1，否则返回0
         total += find_if_exist(single_library[i] /*这里是每一个库每一个开头单词集合,一维数组*/, words_len(single_library[i]) /*返回单个单词集的个数*/, str, search_mod);
-        printf("3--is_exist_in_single_library--通过这里了\n");
+        // printf("3--is_exist_in_single_library--通过这里了\n");
     }
     // printf("2通过这里了\n");
     return total; // 返回一个库的总匹配条数
 }
 int search_in_single_library(word_entry **single_library /*单个库只需二维数组*/, char *str, int lib_index, int search_mod, int first_show, int second_show, int third_show)
 {
-    printf("1通过这里了\n");
-    printf("search_in_single_library: lib_index = %d\n", lib_index);
+    // printf("1通过这里了\n");
+    // printf("search_in_single_library: lib_index = %d\n", lib_index);
     if (single_library == NULL)
     {
-        printf("错误: single_library 为空！\n");/*六级词库在这里会报错！*/
+        // printf("错误: single_library 为空！\n");/*六级词库在这里会报错！*/
         return 0;
     }
 
@@ -59,16 +59,16 @@ int search_in_single_library(word_entry **single_library /*单个库只需二维
     if (total != 0)
     {
         printf("%s%s查询%d级库[%d条]%s\n", BOLD, BLUE, lib_index == 0 ? 4 : 6, total, RESET);
-        printf("2通过这里了\n");
+        // printf("2通过这里了\n");
 
         for (int i = 0; single_library[i] != NULL /*单个库的列表里面就是二维数组，直接用高亮函数*/; i++)
         {
-            printf("3通过这里了\n");
+            // printf("3通过这里了\n");
 
             // printf("打印%s%s%d库%d条结果%s\n", BLUE, BOLD, lib_index, i, RESET);
             // 即时调用 find_and_highlight 函数
             find_and_highlight(single_library[i] /*这里是每一个库每一个开头单词集合，二维数组*/, words_len(single_library[i]), str, search_mod, first_show, second_show, third_show);
-            printf("4通过这里了\n");
+            // printf("4通过这里了\n");
         }
     }
     return total;
@@ -87,7 +87,7 @@ void search_word(char *str, int library_index, int search_mod, int first_show, i
     }
     else
     {
-        printf("%s%s查询%d级词库\n", BLUE, BOLD, library_index);
+        // printf("%s%s查询%d级词库\n", BLUE, BOLD, library_index);
         library_index == 4 ? 0 : 1; // 只有两个库！
         // if (single_library == NULL)
         // {

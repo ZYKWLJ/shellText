@@ -74,7 +74,7 @@ int KMPSearch(const char *pat, const char *txt)
 
 int find_if_exist(word_entry *word_list /*单个单词集*/, int list_size, const char *target, int search_mode)
 {
-    printf("1--find_if_exist--通过这里了\n");
+    // printf("1--find_if_exist--通过这里了\n");
     
     // 参数检查
     if (word_list == NULL || target == NULL || *target == '\0')
@@ -89,7 +89,7 @@ int find_if_exist(word_entry *word_list /*单个单词集*/, int list_size, cons
     for (int i = 0; i < list_size; i++)
     {
         // 获取单词条目
-        printf("检查单词列表中的第 %d 个条目...\n", i);
+        // printf("检查单词列表中的第 %d 个条目...\n", i);
         const char *word = word_list[i].word;
         // printf("检查单词: %s\n", word);
         int match = 0;
@@ -123,7 +123,7 @@ int find_if_exist(word_entry *word_list /*单个单词集*/, int list_size, cons
             // printf(">>> 匹配 #%d: %s\n", total_count, word);
         }
     }
-    printf("3--find_if_exist--通过这里了\n");
+    // printf("3--find_if_exist--通过这里了\n");
 
     // printf("查找完成，共找到 %d 个匹配项\n", total_count);
     return total_count;
