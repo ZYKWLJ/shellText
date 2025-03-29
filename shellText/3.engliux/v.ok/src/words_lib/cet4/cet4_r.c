@@ -1674,5 +1674,5 @@ word_entry cet4_r[1000] = {
         "/ˈrʌsti/",
         "adj. 生锈的，腐蚀的；铁锈色的，锈色的；迟钝的",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

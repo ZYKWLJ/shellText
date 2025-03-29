@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/src/copyRight/copyRight.c.o: \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/copyRight/copyRight.c \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/copyRight/copyRight.c \
  /usr/include/stdc-predef.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/copyRight/../../include/copyRight.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/copyRight/../../include/copyRight.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -35,4 +35,4 @@ CMakeFiles/main.dir/src/copyRight/copyRight.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/copyRight/../../include/color.h
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/copyRight/../../include/color.h

@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/src/clear/clear.c.o: \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/clear/clear.c \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/clear/clear.c \
  /usr/include/stdc-predef.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/clear/../../include/clear.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/clear/../../include/clear.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

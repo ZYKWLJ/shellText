@@ -1572,5 +1572,5 @@ word_entry cet6_m[1000] = {
         "/mɪθ/",
         "n. 神话；虚构的人，虚构的事",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

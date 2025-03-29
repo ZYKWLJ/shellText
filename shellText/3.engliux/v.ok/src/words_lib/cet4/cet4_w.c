@@ -876,5 +876,5 @@ word_entry cet4_w[1000] = {
         "/rɔːŋ/",
         "adj.错误的,不正当的,道德不好的,失常的adv.错误地n.坏事,错误,不公正",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

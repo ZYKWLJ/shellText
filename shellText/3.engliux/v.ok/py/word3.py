@@ -73,7 +73,7 @@ def generate_source_content(excel_filename, first_letter, data):
         # content += '        NULL\n'
         content += '    },\n'
     # 在每个单词集最后添加结尾标记
-    content += '    {"-1", NULL, NULL, NULL, NULL},\n'
+    content += '    {NULL, NULL, NULL, NULL},\n'
     content += '};\n'
     return content
 
@@ -90,7 +90,7 @@ def save_files(excel_filename, first_letter, header_content, source_content, hea
 
 # 主函数
 def main():
-    excel_file_path = "cet4.xls"  # 请改成实际的 Excel 文件名
+    excel_file_path = "cet6.xls"  # 请改成实际的 Excel 文件名
     excel_filename = os.path.splitext(os.path.basename(excel_file_path))[0]
     header_dir = "/home/eyk/1code/shellText/shellText/3.engliux/v.ok/include/words_lib/" + excel_filename
     source_dir = "/home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/words_lib/" + excel_filename

@@ -1092,5 +1092,5 @@ word_entry cet6_h[1000] = {
         "/hɪˈsterɪkl/",
         "adj. 歇斯底里的；异常兴奋的",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

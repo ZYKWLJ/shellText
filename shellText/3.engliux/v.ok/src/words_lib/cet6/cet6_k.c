@@ -174,5 +174,5 @@ word_entry cet6_k[1000] = {
         "/ˈnɑːlɪdʒ/",
         "n. 知识，学问；知道，认识；学科n. (Knowledge)人名；(南非)诺利奇",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

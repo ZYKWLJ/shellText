@@ -1578,5 +1578,5 @@ word_entry cet4_t[1000] = {
         "/ˈtaɪər/",
         "n. 轮胎，轮箍v. 装轮胎于……n. (Tyre)  （美、英、加）泰尔（人名）",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

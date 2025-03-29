@@ -786,5 +786,5 @@ word_entry cet4_g[1000] = {
         "/dʒɪmˈneɪziəm/",
         "n. 体育馆；健身房",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

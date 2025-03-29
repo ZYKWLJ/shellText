@@ -1,3 +1,3 @@
-/home/eyk/1code/shellText/shellText/3.engliux/v0.01/build/CMakeFiles/main.dir
-/home/eyk/1code/shellText/shellText/3.engliux/v0.01/build/CMakeFiles/edit_cache.dir
-/home/eyk/1code/shellText/shellText/3.engliux/v0.01/build/CMakeFiles/rebuild_cache.dir
+/home/eyk/1code/shellText/shellText/3.engliux/v.ok/build/CMakeFiles/main.dir
+/home/eyk/1code/shellText/shellText/3.engliux/v.ok/build/CMakeFiles/edit_cache.dir
+/home/eyk/1code/shellText/shellText/3.engliux/v.ok/build/CMakeFiles/rebuild_cache.dir

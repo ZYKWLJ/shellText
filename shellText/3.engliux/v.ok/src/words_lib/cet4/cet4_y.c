@@ -96,5 +96,5 @@ word_entry cet4_y[1000] = {
         "/ˈjuːθfl/",
         "adj. 年轻的；早期的",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

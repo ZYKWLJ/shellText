@@ -870,5 +870,5 @@ word_entry cet6_o[1000] = {
         "/ˈɑːksaɪd/",
         "n. [化学] 氧化物",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

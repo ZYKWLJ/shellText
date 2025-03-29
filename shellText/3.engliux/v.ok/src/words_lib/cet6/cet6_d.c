@@ -1962,5 +1962,5 @@ word_entry cet6_d[1000] = {
         "/daɪˈnæmɪk/",
         "adj. 动态的；动力的；动力学的；有活力的n. 动态；动力",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

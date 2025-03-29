@@ -432,5 +432,5 @@ word_entry cet4_v[1000] = {
         "/ˈvɔɪɪdʒ/",
         "n. 航行；航程；旅行记vi. 航行；航海vt. 飞过；渡过",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

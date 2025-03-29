@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eyk/1code/shellText/shellText/3.engliux/v0.01
+CMAKE_SOURCE_DIR = /home/eyk/1code/shellText/shellText/3.engliux/v.ok
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eyk/1code/shellText/shellText/3.engliux/v0.01/build
+CMAKE_BINARY_DIR = /home/eyk/1code/shellText/shellText/3.engliux/v.ok/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eyk/1code/shellText/shellText/3.engliux/v0.01/build/CMakeFiles /home/eyk/1code/shellText/shellText/3.engliux/v0.01/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eyk/1code/shellText/shellText/3.engliux/v.ok/build/CMakeFiles /home/eyk/1code/shellText/shellText/3.engliux/v.ok/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eyk/1code/shellText/shellText/3.engliux/v0.01/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eyk/1code/shellText/shellText/3.engliux/v.ok/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -249,6 +249,54 @@ src/execute/execute.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/execute.c.s
 .PHONY : src/execute/execute.c.s
 
+src/execute/find.o: src/execute/find.c.o
+.PHONY : src/execute/find.o
+
+# target to build an object file
+src/execute/find.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/find.c.o
+.PHONY : src/execute/find.c.o
+
+src/execute/find.i: src/execute/find.c.i
+.PHONY : src/execute/find.i
+
+# target to preprocess a source file
+src/execute/find.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/find.c.i
+.PHONY : src/execute/find.c.i
+
+src/execute/find.s: src/execute/find.c.s
+.PHONY : src/execute/find.s
+
+# target to generate assembly for a file
+src/execute/find.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/find.c.s
+.PHONY : src/execute/find.c.s
+
+src/execute/trim.o: src/execute/trim.c.o
+.PHONY : src/execute/trim.o
+
+# target to build an object file
+src/execute/trim.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/trim.c.o
+.PHONY : src/execute/trim.c.o
+
+src/execute/trim.i: src/execute/trim.c.i
+.PHONY : src/execute/trim.i
+
+# target to preprocess a source file
+src/execute/trim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/trim.c.i
+.PHONY : src/execute/trim.c.i
+
+src/execute/trim.s: src/execute/trim.c.s
+.PHONY : src/execute/trim.s
+
+# target to generate assembly for a file
+src/execute/trim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/trim.c.s
+.PHONY : src/execute/trim.c.s
+
 src/findAndHighlight/findAndHighlight.o: src/findAndHighlight/findAndHighlight.c.o
 .PHONY : src/findAndHighlight/findAndHighlight.o
 
@@ -393,1253 +441,1301 @@ src/test/searchtest.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/test/searchtest.c.s
 .PHONY : src/test/searchtest.c.s
 
-src/words_lib/lib4_3/a_4.o: src/words_lib/lib4_3/a_4.c.o
-.PHONY : src/words_lib/lib4_3/a_4.o
+src/words_lib/cet4.o: src/words_lib/cet4.c.o
+.PHONY : src/words_lib/cet4.o
 
 # target to build an object file
-src/words_lib/lib4_3/a_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/a_4.c.o
-.PHONY : src/words_lib/lib4_3/a_4.c.o
+src/words_lib/cet4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4.c.o
+.PHONY : src/words_lib/cet4.c.o
 
-src/words_lib/lib4_3/a_4.i: src/words_lib/lib4_3/a_4.c.i
-.PHONY : src/words_lib/lib4_3/a_4.i
+src/words_lib/cet4.i: src/words_lib/cet4.c.i
+.PHONY : src/words_lib/cet4.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/a_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/a_4.c.i
-.PHONY : src/words_lib/lib4_3/a_4.c.i
+src/words_lib/cet4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4.c.i
+.PHONY : src/words_lib/cet4.c.i
 
-src/words_lib/lib4_3/a_4.s: src/words_lib/lib4_3/a_4.c.s
-.PHONY : src/words_lib/lib4_3/a_4.s
+src/words_lib/cet4.s: src/words_lib/cet4.c.s
+.PHONY : src/words_lib/cet4.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/a_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/a_4.c.s
-.PHONY : src/words_lib/lib4_3/a_4.c.s
+src/words_lib/cet4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4.c.s
+.PHONY : src/words_lib/cet4.c.s
 
-src/words_lib/lib4_3/b_4.o: src/words_lib/lib4_3/b_4.c.o
-.PHONY : src/words_lib/lib4_3/b_4.o
+src/words_lib/cet4/cet4_a.o: src/words_lib/cet4/cet4_a.c.o
+.PHONY : src/words_lib/cet4/cet4_a.o
 
 # target to build an object file
-src/words_lib/lib4_3/b_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/b_4.c.o
-.PHONY : src/words_lib/lib4_3/b_4.c.o
+src/words_lib/cet4/cet4_a.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_a.c.o
+.PHONY : src/words_lib/cet4/cet4_a.c.o
 
-src/words_lib/lib4_3/b_4.i: src/words_lib/lib4_3/b_4.c.i
-.PHONY : src/words_lib/lib4_3/b_4.i
+src/words_lib/cet4/cet4_a.i: src/words_lib/cet4/cet4_a.c.i
+.PHONY : src/words_lib/cet4/cet4_a.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/b_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/b_4.c.i
-.PHONY : src/words_lib/lib4_3/b_4.c.i
+src/words_lib/cet4/cet4_a.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_a.c.i
+.PHONY : src/words_lib/cet4/cet4_a.c.i
 
-src/words_lib/lib4_3/b_4.s: src/words_lib/lib4_3/b_4.c.s
-.PHONY : src/words_lib/lib4_3/b_4.s
+src/words_lib/cet4/cet4_a.s: src/words_lib/cet4/cet4_a.c.s
+.PHONY : src/words_lib/cet4/cet4_a.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/b_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/b_4.c.s
-.PHONY : src/words_lib/lib4_3/b_4.c.s
+src/words_lib/cet4/cet4_a.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_a.c.s
+.PHONY : src/words_lib/cet4/cet4_a.c.s
 
-src/words_lib/lib4_3/c_4.o: src/words_lib/lib4_3/c_4.c.o
-.PHONY : src/words_lib/lib4_3/c_4.o
+src/words_lib/cet4/cet4_b.o: src/words_lib/cet4/cet4_b.c.o
+.PHONY : src/words_lib/cet4/cet4_b.o
 
 # target to build an object file
-src/words_lib/lib4_3/c_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/c_4.c.o
-.PHONY : src/words_lib/lib4_3/c_4.c.o
+src/words_lib/cet4/cet4_b.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_b.c.o
+.PHONY : src/words_lib/cet4/cet4_b.c.o
 
-src/words_lib/lib4_3/c_4.i: src/words_lib/lib4_3/c_4.c.i
-.PHONY : src/words_lib/lib4_3/c_4.i
+src/words_lib/cet4/cet4_b.i: src/words_lib/cet4/cet4_b.c.i
+.PHONY : src/words_lib/cet4/cet4_b.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/c_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/c_4.c.i
-.PHONY : src/words_lib/lib4_3/c_4.c.i
+src/words_lib/cet4/cet4_b.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_b.c.i
+.PHONY : src/words_lib/cet4/cet4_b.c.i
 
-src/words_lib/lib4_3/c_4.s: src/words_lib/lib4_3/c_4.c.s
-.PHONY : src/words_lib/lib4_3/c_4.s
+src/words_lib/cet4/cet4_b.s: src/words_lib/cet4/cet4_b.c.s
+.PHONY : src/words_lib/cet4/cet4_b.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/c_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/c_4.c.s
-.PHONY : src/words_lib/lib4_3/c_4.c.s
+src/words_lib/cet4/cet4_b.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_b.c.s
+.PHONY : src/words_lib/cet4/cet4_b.c.s
 
-src/words_lib/lib4_3/d_4.o: src/words_lib/lib4_3/d_4.c.o
-.PHONY : src/words_lib/lib4_3/d_4.o
+src/words_lib/cet4/cet4_c.o: src/words_lib/cet4/cet4_c.c.o
+.PHONY : src/words_lib/cet4/cet4_c.o
 
 # target to build an object file
-src/words_lib/lib4_3/d_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/d_4.c.o
-.PHONY : src/words_lib/lib4_3/d_4.c.o
+src/words_lib/cet4/cet4_c.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_c.c.o
+.PHONY : src/words_lib/cet4/cet4_c.c.o
 
-src/words_lib/lib4_3/d_4.i: src/words_lib/lib4_3/d_4.c.i
-.PHONY : src/words_lib/lib4_3/d_4.i
+src/words_lib/cet4/cet4_c.i: src/words_lib/cet4/cet4_c.c.i
+.PHONY : src/words_lib/cet4/cet4_c.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/d_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/d_4.c.i
-.PHONY : src/words_lib/lib4_3/d_4.c.i
+src/words_lib/cet4/cet4_c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_c.c.i
+.PHONY : src/words_lib/cet4/cet4_c.c.i
 
-src/words_lib/lib4_3/d_4.s: src/words_lib/lib4_3/d_4.c.s
-.PHONY : src/words_lib/lib4_3/d_4.s
+src/words_lib/cet4/cet4_c.s: src/words_lib/cet4/cet4_c.c.s
+.PHONY : src/words_lib/cet4/cet4_c.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/d_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/d_4.c.s
-.PHONY : src/words_lib/lib4_3/d_4.c.s
+src/words_lib/cet4/cet4_c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_c.c.s
+.PHONY : src/words_lib/cet4/cet4_c.c.s
 
-src/words_lib/lib4_3/e_4.o: src/words_lib/lib4_3/e_4.c.o
-.PHONY : src/words_lib/lib4_3/e_4.o
+src/words_lib/cet4/cet4_d.o: src/words_lib/cet4/cet4_d.c.o
+.PHONY : src/words_lib/cet4/cet4_d.o
 
 # target to build an object file
-src/words_lib/lib4_3/e_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/e_4.c.o
-.PHONY : src/words_lib/lib4_3/e_4.c.o
+src/words_lib/cet4/cet4_d.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_d.c.o
+.PHONY : src/words_lib/cet4/cet4_d.c.o
 
-src/words_lib/lib4_3/e_4.i: src/words_lib/lib4_3/e_4.c.i
-.PHONY : src/words_lib/lib4_3/e_4.i
+src/words_lib/cet4/cet4_d.i: src/words_lib/cet4/cet4_d.c.i
+.PHONY : src/words_lib/cet4/cet4_d.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/e_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/e_4.c.i
-.PHONY : src/words_lib/lib4_3/e_4.c.i
+src/words_lib/cet4/cet4_d.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_d.c.i
+.PHONY : src/words_lib/cet4/cet4_d.c.i
 
-src/words_lib/lib4_3/e_4.s: src/words_lib/lib4_3/e_4.c.s
-.PHONY : src/words_lib/lib4_3/e_4.s
+src/words_lib/cet4/cet4_d.s: src/words_lib/cet4/cet4_d.c.s
+.PHONY : src/words_lib/cet4/cet4_d.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/e_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/e_4.c.s
-.PHONY : src/words_lib/lib4_3/e_4.c.s
+src/words_lib/cet4/cet4_d.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_d.c.s
+.PHONY : src/words_lib/cet4/cet4_d.c.s
 
-src/words_lib/lib4_3/f_4.o: src/words_lib/lib4_3/f_4.c.o
-.PHONY : src/words_lib/lib4_3/f_4.o
+src/words_lib/cet4/cet4_e.o: src/words_lib/cet4/cet4_e.c.o
+.PHONY : src/words_lib/cet4/cet4_e.o
 
 # target to build an object file
-src/words_lib/lib4_3/f_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/f_4.c.o
-.PHONY : src/words_lib/lib4_3/f_4.c.o
+src/words_lib/cet4/cet4_e.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_e.c.o
+.PHONY : src/words_lib/cet4/cet4_e.c.o
 
-src/words_lib/lib4_3/f_4.i: src/words_lib/lib4_3/f_4.c.i
-.PHONY : src/words_lib/lib4_3/f_4.i
+src/words_lib/cet4/cet4_e.i: src/words_lib/cet4/cet4_e.c.i
+.PHONY : src/words_lib/cet4/cet4_e.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/f_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/f_4.c.i
-.PHONY : src/words_lib/lib4_3/f_4.c.i
+src/words_lib/cet4/cet4_e.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_e.c.i
+.PHONY : src/words_lib/cet4/cet4_e.c.i
 
-src/words_lib/lib4_3/f_4.s: src/words_lib/lib4_3/f_4.c.s
-.PHONY : src/words_lib/lib4_3/f_4.s
+src/words_lib/cet4/cet4_e.s: src/words_lib/cet4/cet4_e.c.s
+.PHONY : src/words_lib/cet4/cet4_e.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/f_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/f_4.c.s
-.PHONY : src/words_lib/lib4_3/f_4.c.s
+src/words_lib/cet4/cet4_e.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_e.c.s
+.PHONY : src/words_lib/cet4/cet4_e.c.s
 
-src/words_lib/lib4_3/g_4.o: src/words_lib/lib4_3/g_4.c.o
-.PHONY : src/words_lib/lib4_3/g_4.o
+src/words_lib/cet4/cet4_f.o: src/words_lib/cet4/cet4_f.c.o
+.PHONY : src/words_lib/cet4/cet4_f.o
 
 # target to build an object file
-src/words_lib/lib4_3/g_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/g_4.c.o
-.PHONY : src/words_lib/lib4_3/g_4.c.o
+src/words_lib/cet4/cet4_f.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_f.c.o
+.PHONY : src/words_lib/cet4/cet4_f.c.o
 
-src/words_lib/lib4_3/g_4.i: src/words_lib/lib4_3/g_4.c.i
-.PHONY : src/words_lib/lib4_3/g_4.i
+src/words_lib/cet4/cet4_f.i: src/words_lib/cet4/cet4_f.c.i
+.PHONY : src/words_lib/cet4/cet4_f.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/g_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/g_4.c.i
-.PHONY : src/words_lib/lib4_3/g_4.c.i
+src/words_lib/cet4/cet4_f.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_f.c.i
+.PHONY : src/words_lib/cet4/cet4_f.c.i
 
-src/words_lib/lib4_3/g_4.s: src/words_lib/lib4_3/g_4.c.s
-.PHONY : src/words_lib/lib4_3/g_4.s
+src/words_lib/cet4/cet4_f.s: src/words_lib/cet4/cet4_f.c.s
+.PHONY : src/words_lib/cet4/cet4_f.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/g_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/g_4.c.s
-.PHONY : src/words_lib/lib4_3/g_4.c.s
+src/words_lib/cet4/cet4_f.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_f.c.s
+.PHONY : src/words_lib/cet4/cet4_f.c.s
 
-src/words_lib/lib4_3/h_4.o: src/words_lib/lib4_3/h_4.c.o
-.PHONY : src/words_lib/lib4_3/h_4.o
+src/words_lib/cet4/cet4_g.o: src/words_lib/cet4/cet4_g.c.o
+.PHONY : src/words_lib/cet4/cet4_g.o
 
 # target to build an object file
-src/words_lib/lib4_3/h_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/h_4.c.o
-.PHONY : src/words_lib/lib4_3/h_4.c.o
+src/words_lib/cet4/cet4_g.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_g.c.o
+.PHONY : src/words_lib/cet4/cet4_g.c.o
 
-src/words_lib/lib4_3/h_4.i: src/words_lib/lib4_3/h_4.c.i
-.PHONY : src/words_lib/lib4_3/h_4.i
+src/words_lib/cet4/cet4_g.i: src/words_lib/cet4/cet4_g.c.i
+.PHONY : src/words_lib/cet4/cet4_g.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/h_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/h_4.c.i
-.PHONY : src/words_lib/lib4_3/h_4.c.i
+src/words_lib/cet4/cet4_g.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_g.c.i
+.PHONY : src/words_lib/cet4/cet4_g.c.i
 
-src/words_lib/lib4_3/h_4.s: src/words_lib/lib4_3/h_4.c.s
-.PHONY : src/words_lib/lib4_3/h_4.s
+src/words_lib/cet4/cet4_g.s: src/words_lib/cet4/cet4_g.c.s
+.PHONY : src/words_lib/cet4/cet4_g.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/h_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/h_4.c.s
-.PHONY : src/words_lib/lib4_3/h_4.c.s
+src/words_lib/cet4/cet4_g.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_g.c.s
+.PHONY : src/words_lib/cet4/cet4_g.c.s
 
-src/words_lib/lib4_3/i_4.o: src/words_lib/lib4_3/i_4.c.o
-.PHONY : src/words_lib/lib4_3/i_4.o
+src/words_lib/cet4/cet4_h.o: src/words_lib/cet4/cet4_h.c.o
+.PHONY : src/words_lib/cet4/cet4_h.o
 
 # target to build an object file
-src/words_lib/lib4_3/i_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/i_4.c.o
-.PHONY : src/words_lib/lib4_3/i_4.c.o
+src/words_lib/cet4/cet4_h.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_h.c.o
+.PHONY : src/words_lib/cet4/cet4_h.c.o
 
-src/words_lib/lib4_3/i_4.i: src/words_lib/lib4_3/i_4.c.i
-.PHONY : src/words_lib/lib4_3/i_4.i
+src/words_lib/cet4/cet4_h.i: src/words_lib/cet4/cet4_h.c.i
+.PHONY : src/words_lib/cet4/cet4_h.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/i_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/i_4.c.i
-.PHONY : src/words_lib/lib4_3/i_4.c.i
+src/words_lib/cet4/cet4_h.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_h.c.i
+.PHONY : src/words_lib/cet4/cet4_h.c.i
 
-src/words_lib/lib4_3/i_4.s: src/words_lib/lib4_3/i_4.c.s
-.PHONY : src/words_lib/lib4_3/i_4.s
+src/words_lib/cet4/cet4_h.s: src/words_lib/cet4/cet4_h.c.s
+.PHONY : src/words_lib/cet4/cet4_h.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/i_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/i_4.c.s
-.PHONY : src/words_lib/lib4_3/i_4.c.s
+src/words_lib/cet4/cet4_h.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_h.c.s
+.PHONY : src/words_lib/cet4/cet4_h.c.s
 
-src/words_lib/lib4_3/j_4.o: src/words_lib/lib4_3/j_4.c.o
-.PHONY : src/words_lib/lib4_3/j_4.o
+src/words_lib/cet4/cet4_i.o: src/words_lib/cet4/cet4_i.c.o
+.PHONY : src/words_lib/cet4/cet4_i.o
 
 # target to build an object file
-src/words_lib/lib4_3/j_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/j_4.c.o
-.PHONY : src/words_lib/lib4_3/j_4.c.o
+src/words_lib/cet4/cet4_i.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_i.c.o
+.PHONY : src/words_lib/cet4/cet4_i.c.o
 
-src/words_lib/lib4_3/j_4.i: src/words_lib/lib4_3/j_4.c.i
-.PHONY : src/words_lib/lib4_3/j_4.i
+src/words_lib/cet4/cet4_i.i: src/words_lib/cet4/cet4_i.c.i
+.PHONY : src/words_lib/cet4/cet4_i.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/j_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/j_4.c.i
-.PHONY : src/words_lib/lib4_3/j_4.c.i
+src/words_lib/cet4/cet4_i.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_i.c.i
+.PHONY : src/words_lib/cet4/cet4_i.c.i
 
-src/words_lib/lib4_3/j_4.s: src/words_lib/lib4_3/j_4.c.s
-.PHONY : src/words_lib/lib4_3/j_4.s
+src/words_lib/cet4/cet4_i.s: src/words_lib/cet4/cet4_i.c.s
+.PHONY : src/words_lib/cet4/cet4_i.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/j_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/j_4.c.s
-.PHONY : src/words_lib/lib4_3/j_4.c.s
+src/words_lib/cet4/cet4_i.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_i.c.s
+.PHONY : src/words_lib/cet4/cet4_i.c.s
 
-src/words_lib/lib4_3/k_4.o: src/words_lib/lib4_3/k_4.c.o
-.PHONY : src/words_lib/lib4_3/k_4.o
+src/words_lib/cet4/cet4_j.o: src/words_lib/cet4/cet4_j.c.o
+.PHONY : src/words_lib/cet4/cet4_j.o
 
 # target to build an object file
-src/words_lib/lib4_3/k_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/k_4.c.o
-.PHONY : src/words_lib/lib4_3/k_4.c.o
+src/words_lib/cet4/cet4_j.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_j.c.o
+.PHONY : src/words_lib/cet4/cet4_j.c.o
 
-src/words_lib/lib4_3/k_4.i: src/words_lib/lib4_3/k_4.c.i
-.PHONY : src/words_lib/lib4_3/k_4.i
+src/words_lib/cet4/cet4_j.i: src/words_lib/cet4/cet4_j.c.i
+.PHONY : src/words_lib/cet4/cet4_j.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/k_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/k_4.c.i
-.PHONY : src/words_lib/lib4_3/k_4.c.i
+src/words_lib/cet4/cet4_j.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_j.c.i
+.PHONY : src/words_lib/cet4/cet4_j.c.i
 
-src/words_lib/lib4_3/k_4.s: src/words_lib/lib4_3/k_4.c.s
-.PHONY : src/words_lib/lib4_3/k_4.s
+src/words_lib/cet4/cet4_j.s: src/words_lib/cet4/cet4_j.c.s
+.PHONY : src/words_lib/cet4/cet4_j.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/k_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/k_4.c.s
-.PHONY : src/words_lib/lib4_3/k_4.c.s
+src/words_lib/cet4/cet4_j.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_j.c.s
+.PHONY : src/words_lib/cet4/cet4_j.c.s
 
-src/words_lib/lib4_3/l_4.o: src/words_lib/lib4_3/l_4.c.o
-.PHONY : src/words_lib/lib4_3/l_4.o
+src/words_lib/cet4/cet4_k.o: src/words_lib/cet4/cet4_k.c.o
+.PHONY : src/words_lib/cet4/cet4_k.o
 
 # target to build an object file
-src/words_lib/lib4_3/l_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/l_4.c.o
-.PHONY : src/words_lib/lib4_3/l_4.c.o
+src/words_lib/cet4/cet4_k.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_k.c.o
+.PHONY : src/words_lib/cet4/cet4_k.c.o
 
-src/words_lib/lib4_3/l_4.i: src/words_lib/lib4_3/l_4.c.i
-.PHONY : src/words_lib/lib4_3/l_4.i
+src/words_lib/cet4/cet4_k.i: src/words_lib/cet4/cet4_k.c.i
+.PHONY : src/words_lib/cet4/cet4_k.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/l_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/l_4.c.i
-.PHONY : src/words_lib/lib4_3/l_4.c.i
+src/words_lib/cet4/cet4_k.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_k.c.i
+.PHONY : src/words_lib/cet4/cet4_k.c.i
 
-src/words_lib/lib4_3/l_4.s: src/words_lib/lib4_3/l_4.c.s
-.PHONY : src/words_lib/lib4_3/l_4.s
+src/words_lib/cet4/cet4_k.s: src/words_lib/cet4/cet4_k.c.s
+.PHONY : src/words_lib/cet4/cet4_k.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/l_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/l_4.c.s
-.PHONY : src/words_lib/lib4_3/l_4.c.s
+src/words_lib/cet4/cet4_k.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_k.c.s
+.PHONY : src/words_lib/cet4/cet4_k.c.s
 
-src/words_lib/lib4_3/m_4.o: src/words_lib/lib4_3/m_4.c.o
-.PHONY : src/words_lib/lib4_3/m_4.o
+src/words_lib/cet4/cet4_l.o: src/words_lib/cet4/cet4_l.c.o
+.PHONY : src/words_lib/cet4/cet4_l.o
 
 # target to build an object file
-src/words_lib/lib4_3/m_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/m_4.c.o
-.PHONY : src/words_lib/lib4_3/m_4.c.o
+src/words_lib/cet4/cet4_l.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_l.c.o
+.PHONY : src/words_lib/cet4/cet4_l.c.o
 
-src/words_lib/lib4_3/m_4.i: src/words_lib/lib4_3/m_4.c.i
-.PHONY : src/words_lib/lib4_3/m_4.i
+src/words_lib/cet4/cet4_l.i: src/words_lib/cet4/cet4_l.c.i
+.PHONY : src/words_lib/cet4/cet4_l.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/m_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/m_4.c.i
-.PHONY : src/words_lib/lib4_3/m_4.c.i
+src/words_lib/cet4/cet4_l.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_l.c.i
+.PHONY : src/words_lib/cet4/cet4_l.c.i
 
-src/words_lib/lib4_3/m_4.s: src/words_lib/lib4_3/m_4.c.s
-.PHONY : src/words_lib/lib4_3/m_4.s
+src/words_lib/cet4/cet4_l.s: src/words_lib/cet4/cet4_l.c.s
+.PHONY : src/words_lib/cet4/cet4_l.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/m_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/m_4.c.s
-.PHONY : src/words_lib/lib4_3/m_4.c.s
+src/words_lib/cet4/cet4_l.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_l.c.s
+.PHONY : src/words_lib/cet4/cet4_l.c.s
 
-src/words_lib/lib4_3/n_4.o: src/words_lib/lib4_3/n_4.c.o
-.PHONY : src/words_lib/lib4_3/n_4.o
+src/words_lib/cet4/cet4_m.o: src/words_lib/cet4/cet4_m.c.o
+.PHONY : src/words_lib/cet4/cet4_m.o
 
 # target to build an object file
-src/words_lib/lib4_3/n_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/n_4.c.o
-.PHONY : src/words_lib/lib4_3/n_4.c.o
+src/words_lib/cet4/cet4_m.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_m.c.o
+.PHONY : src/words_lib/cet4/cet4_m.c.o
 
-src/words_lib/lib4_3/n_4.i: src/words_lib/lib4_3/n_4.c.i
-.PHONY : src/words_lib/lib4_3/n_4.i
+src/words_lib/cet4/cet4_m.i: src/words_lib/cet4/cet4_m.c.i
+.PHONY : src/words_lib/cet4/cet4_m.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/n_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/n_4.c.i
-.PHONY : src/words_lib/lib4_3/n_4.c.i
+src/words_lib/cet4/cet4_m.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_m.c.i
+.PHONY : src/words_lib/cet4/cet4_m.c.i
 
-src/words_lib/lib4_3/n_4.s: src/words_lib/lib4_3/n_4.c.s
-.PHONY : src/words_lib/lib4_3/n_4.s
+src/words_lib/cet4/cet4_m.s: src/words_lib/cet4/cet4_m.c.s
+.PHONY : src/words_lib/cet4/cet4_m.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/n_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/n_4.c.s
-.PHONY : src/words_lib/lib4_3/n_4.c.s
+src/words_lib/cet4/cet4_m.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_m.c.s
+.PHONY : src/words_lib/cet4/cet4_m.c.s
 
-src/words_lib/lib4_3/o_4.o: src/words_lib/lib4_3/o_4.c.o
-.PHONY : src/words_lib/lib4_3/o_4.o
+src/words_lib/cet4/cet4_n.o: src/words_lib/cet4/cet4_n.c.o
+.PHONY : src/words_lib/cet4/cet4_n.o
 
 # target to build an object file
-src/words_lib/lib4_3/o_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/o_4.c.o
-.PHONY : src/words_lib/lib4_3/o_4.c.o
+src/words_lib/cet4/cet4_n.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_n.c.o
+.PHONY : src/words_lib/cet4/cet4_n.c.o
 
-src/words_lib/lib4_3/o_4.i: src/words_lib/lib4_3/o_4.c.i
-.PHONY : src/words_lib/lib4_3/o_4.i
+src/words_lib/cet4/cet4_n.i: src/words_lib/cet4/cet4_n.c.i
+.PHONY : src/words_lib/cet4/cet4_n.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/o_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/o_4.c.i
-.PHONY : src/words_lib/lib4_3/o_4.c.i
+src/words_lib/cet4/cet4_n.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_n.c.i
+.PHONY : src/words_lib/cet4/cet4_n.c.i
 
-src/words_lib/lib4_3/o_4.s: src/words_lib/lib4_3/o_4.c.s
-.PHONY : src/words_lib/lib4_3/o_4.s
+src/words_lib/cet4/cet4_n.s: src/words_lib/cet4/cet4_n.c.s
+.PHONY : src/words_lib/cet4/cet4_n.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/o_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/o_4.c.s
-.PHONY : src/words_lib/lib4_3/o_4.c.s
+src/words_lib/cet4/cet4_n.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_n.c.s
+.PHONY : src/words_lib/cet4/cet4_n.c.s
 
-src/words_lib/lib4_3/p_4.o: src/words_lib/lib4_3/p_4.c.o
-.PHONY : src/words_lib/lib4_3/p_4.o
+src/words_lib/cet4/cet4_o.o: src/words_lib/cet4/cet4_o.c.o
+.PHONY : src/words_lib/cet4/cet4_o.o
 
 # target to build an object file
-src/words_lib/lib4_3/p_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/p_4.c.o
-.PHONY : src/words_lib/lib4_3/p_4.c.o
+src/words_lib/cet4/cet4_o.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_o.c.o
+.PHONY : src/words_lib/cet4/cet4_o.c.o
 
-src/words_lib/lib4_3/p_4.i: src/words_lib/lib4_3/p_4.c.i
-.PHONY : src/words_lib/lib4_3/p_4.i
+src/words_lib/cet4/cet4_o.i: src/words_lib/cet4/cet4_o.c.i
+.PHONY : src/words_lib/cet4/cet4_o.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/p_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/p_4.c.i
-.PHONY : src/words_lib/lib4_3/p_4.c.i
+src/words_lib/cet4/cet4_o.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_o.c.i
+.PHONY : src/words_lib/cet4/cet4_o.c.i
 
-src/words_lib/lib4_3/p_4.s: src/words_lib/lib4_3/p_4.c.s
-.PHONY : src/words_lib/lib4_3/p_4.s
+src/words_lib/cet4/cet4_o.s: src/words_lib/cet4/cet4_o.c.s
+.PHONY : src/words_lib/cet4/cet4_o.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/p_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/p_4.c.s
-.PHONY : src/words_lib/lib4_3/p_4.c.s
+src/words_lib/cet4/cet4_o.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_o.c.s
+.PHONY : src/words_lib/cet4/cet4_o.c.s
 
-src/words_lib/lib4_3/q_4.o: src/words_lib/lib4_3/q_4.c.o
-.PHONY : src/words_lib/lib4_3/q_4.o
+src/words_lib/cet4/cet4_p.o: src/words_lib/cet4/cet4_p.c.o
+.PHONY : src/words_lib/cet4/cet4_p.o
 
 # target to build an object file
-src/words_lib/lib4_3/q_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/q_4.c.o
-.PHONY : src/words_lib/lib4_3/q_4.c.o
+src/words_lib/cet4/cet4_p.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_p.c.o
+.PHONY : src/words_lib/cet4/cet4_p.c.o
 
-src/words_lib/lib4_3/q_4.i: src/words_lib/lib4_3/q_4.c.i
-.PHONY : src/words_lib/lib4_3/q_4.i
+src/words_lib/cet4/cet4_p.i: src/words_lib/cet4/cet4_p.c.i
+.PHONY : src/words_lib/cet4/cet4_p.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/q_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/q_4.c.i
-.PHONY : src/words_lib/lib4_3/q_4.c.i
+src/words_lib/cet4/cet4_p.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_p.c.i
+.PHONY : src/words_lib/cet4/cet4_p.c.i
 
-src/words_lib/lib4_3/q_4.s: src/words_lib/lib4_3/q_4.c.s
-.PHONY : src/words_lib/lib4_3/q_4.s
+src/words_lib/cet4/cet4_p.s: src/words_lib/cet4/cet4_p.c.s
+.PHONY : src/words_lib/cet4/cet4_p.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/q_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/q_4.c.s
-.PHONY : src/words_lib/lib4_3/q_4.c.s
+src/words_lib/cet4/cet4_p.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_p.c.s
+.PHONY : src/words_lib/cet4/cet4_p.c.s
 
-src/words_lib/lib4_3/r_4.o: src/words_lib/lib4_3/r_4.c.o
-.PHONY : src/words_lib/lib4_3/r_4.o
+src/words_lib/cet4/cet4_q.o: src/words_lib/cet4/cet4_q.c.o
+.PHONY : src/words_lib/cet4/cet4_q.o
 
 # target to build an object file
-src/words_lib/lib4_3/r_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/r_4.c.o
-.PHONY : src/words_lib/lib4_3/r_4.c.o
+src/words_lib/cet4/cet4_q.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_q.c.o
+.PHONY : src/words_lib/cet4/cet4_q.c.o
 
-src/words_lib/lib4_3/r_4.i: src/words_lib/lib4_3/r_4.c.i
-.PHONY : src/words_lib/lib4_3/r_4.i
+src/words_lib/cet4/cet4_q.i: src/words_lib/cet4/cet4_q.c.i
+.PHONY : src/words_lib/cet4/cet4_q.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/r_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/r_4.c.i
-.PHONY : src/words_lib/lib4_3/r_4.c.i
+src/words_lib/cet4/cet4_q.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_q.c.i
+.PHONY : src/words_lib/cet4/cet4_q.c.i
 
-src/words_lib/lib4_3/r_4.s: src/words_lib/lib4_3/r_4.c.s
-.PHONY : src/words_lib/lib4_3/r_4.s
+src/words_lib/cet4/cet4_q.s: src/words_lib/cet4/cet4_q.c.s
+.PHONY : src/words_lib/cet4/cet4_q.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/r_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/r_4.c.s
-.PHONY : src/words_lib/lib4_3/r_4.c.s
+src/words_lib/cet4/cet4_q.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_q.c.s
+.PHONY : src/words_lib/cet4/cet4_q.c.s
 
-src/words_lib/lib4_3/s_4.o: src/words_lib/lib4_3/s_4.c.o
-.PHONY : src/words_lib/lib4_3/s_4.o
+src/words_lib/cet4/cet4_r.o: src/words_lib/cet4/cet4_r.c.o
+.PHONY : src/words_lib/cet4/cet4_r.o
 
 # target to build an object file
-src/words_lib/lib4_3/s_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/s_4.c.o
-.PHONY : src/words_lib/lib4_3/s_4.c.o
+src/words_lib/cet4/cet4_r.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_r.c.o
+.PHONY : src/words_lib/cet4/cet4_r.c.o
 
-src/words_lib/lib4_3/s_4.i: src/words_lib/lib4_3/s_4.c.i
-.PHONY : src/words_lib/lib4_3/s_4.i
+src/words_lib/cet4/cet4_r.i: src/words_lib/cet4/cet4_r.c.i
+.PHONY : src/words_lib/cet4/cet4_r.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/s_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/s_4.c.i
-.PHONY : src/words_lib/lib4_3/s_4.c.i
+src/words_lib/cet4/cet4_r.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_r.c.i
+.PHONY : src/words_lib/cet4/cet4_r.c.i
 
-src/words_lib/lib4_3/s_4.s: src/words_lib/lib4_3/s_4.c.s
-.PHONY : src/words_lib/lib4_3/s_4.s
+src/words_lib/cet4/cet4_r.s: src/words_lib/cet4/cet4_r.c.s
+.PHONY : src/words_lib/cet4/cet4_r.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/s_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/s_4.c.s
-.PHONY : src/words_lib/lib4_3/s_4.c.s
+src/words_lib/cet4/cet4_r.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_r.c.s
+.PHONY : src/words_lib/cet4/cet4_r.c.s
 
-src/words_lib/lib4_3/t_4.o: src/words_lib/lib4_3/t_4.c.o
-.PHONY : src/words_lib/lib4_3/t_4.o
+src/words_lib/cet4/cet4_s.o: src/words_lib/cet4/cet4_s.c.o
+.PHONY : src/words_lib/cet4/cet4_s.o
 
 # target to build an object file
-src/words_lib/lib4_3/t_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/t_4.c.o
-.PHONY : src/words_lib/lib4_3/t_4.c.o
+src/words_lib/cet4/cet4_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_s.c.o
+.PHONY : src/words_lib/cet4/cet4_s.c.o
 
-src/words_lib/lib4_3/t_4.i: src/words_lib/lib4_3/t_4.c.i
-.PHONY : src/words_lib/lib4_3/t_4.i
+src/words_lib/cet4/cet4_s.i: src/words_lib/cet4/cet4_s.c.i
+.PHONY : src/words_lib/cet4/cet4_s.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/t_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/t_4.c.i
-.PHONY : src/words_lib/lib4_3/t_4.c.i
+src/words_lib/cet4/cet4_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_s.c.i
+.PHONY : src/words_lib/cet4/cet4_s.c.i
 
-src/words_lib/lib4_3/t_4.s: src/words_lib/lib4_3/t_4.c.s
-.PHONY : src/words_lib/lib4_3/t_4.s
+src/words_lib/cet4/cet4_s.s: src/words_lib/cet4/cet4_s.c.s
+.PHONY : src/words_lib/cet4/cet4_s.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/t_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/t_4.c.s
-.PHONY : src/words_lib/lib4_3/t_4.c.s
+src/words_lib/cet4/cet4_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_s.c.s
+.PHONY : src/words_lib/cet4/cet4_s.c.s
 
-src/words_lib/lib4_3/u_4.o: src/words_lib/lib4_3/u_4.c.o
-.PHONY : src/words_lib/lib4_3/u_4.o
+src/words_lib/cet4/cet4_t.o: src/words_lib/cet4/cet4_t.c.o
+.PHONY : src/words_lib/cet4/cet4_t.o
 
 # target to build an object file
-src/words_lib/lib4_3/u_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/u_4.c.o
-.PHONY : src/words_lib/lib4_3/u_4.c.o
+src/words_lib/cet4/cet4_t.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_t.c.o
+.PHONY : src/words_lib/cet4/cet4_t.c.o
 
-src/words_lib/lib4_3/u_4.i: src/words_lib/lib4_3/u_4.c.i
-.PHONY : src/words_lib/lib4_3/u_4.i
+src/words_lib/cet4/cet4_t.i: src/words_lib/cet4/cet4_t.c.i
+.PHONY : src/words_lib/cet4/cet4_t.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/u_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/u_4.c.i
-.PHONY : src/words_lib/lib4_3/u_4.c.i
+src/words_lib/cet4/cet4_t.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_t.c.i
+.PHONY : src/words_lib/cet4/cet4_t.c.i
 
-src/words_lib/lib4_3/u_4.s: src/words_lib/lib4_3/u_4.c.s
-.PHONY : src/words_lib/lib4_3/u_4.s
+src/words_lib/cet4/cet4_t.s: src/words_lib/cet4/cet4_t.c.s
+.PHONY : src/words_lib/cet4/cet4_t.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/u_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/u_4.c.s
-.PHONY : src/words_lib/lib4_3/u_4.c.s
+src/words_lib/cet4/cet4_t.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_t.c.s
+.PHONY : src/words_lib/cet4/cet4_t.c.s
 
-src/words_lib/lib4_3/v_4.o: src/words_lib/lib4_3/v_4.c.o
-.PHONY : src/words_lib/lib4_3/v_4.o
+src/words_lib/cet4/cet4_u.o: src/words_lib/cet4/cet4_u.c.o
+.PHONY : src/words_lib/cet4/cet4_u.o
 
 # target to build an object file
-src/words_lib/lib4_3/v_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/v_4.c.o
-.PHONY : src/words_lib/lib4_3/v_4.c.o
+src/words_lib/cet4/cet4_u.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_u.c.o
+.PHONY : src/words_lib/cet4/cet4_u.c.o
 
-src/words_lib/lib4_3/v_4.i: src/words_lib/lib4_3/v_4.c.i
-.PHONY : src/words_lib/lib4_3/v_4.i
+src/words_lib/cet4/cet4_u.i: src/words_lib/cet4/cet4_u.c.i
+.PHONY : src/words_lib/cet4/cet4_u.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/v_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/v_4.c.i
-.PHONY : src/words_lib/lib4_3/v_4.c.i
+src/words_lib/cet4/cet4_u.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_u.c.i
+.PHONY : src/words_lib/cet4/cet4_u.c.i
 
-src/words_lib/lib4_3/v_4.s: src/words_lib/lib4_3/v_4.c.s
-.PHONY : src/words_lib/lib4_3/v_4.s
+src/words_lib/cet4/cet4_u.s: src/words_lib/cet4/cet4_u.c.s
+.PHONY : src/words_lib/cet4/cet4_u.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/v_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/v_4.c.s
-.PHONY : src/words_lib/lib4_3/v_4.c.s
+src/words_lib/cet4/cet4_u.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_u.c.s
+.PHONY : src/words_lib/cet4/cet4_u.c.s
 
-src/words_lib/lib4_3/w_4.o: src/words_lib/lib4_3/w_4.c.o
-.PHONY : src/words_lib/lib4_3/w_4.o
+src/words_lib/cet4/cet4_v.o: src/words_lib/cet4/cet4_v.c.o
+.PHONY : src/words_lib/cet4/cet4_v.o
 
 # target to build an object file
-src/words_lib/lib4_3/w_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/w_4.c.o
-.PHONY : src/words_lib/lib4_3/w_4.c.o
+src/words_lib/cet4/cet4_v.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_v.c.o
+.PHONY : src/words_lib/cet4/cet4_v.c.o
 
-src/words_lib/lib4_3/w_4.i: src/words_lib/lib4_3/w_4.c.i
-.PHONY : src/words_lib/lib4_3/w_4.i
+src/words_lib/cet4/cet4_v.i: src/words_lib/cet4/cet4_v.c.i
+.PHONY : src/words_lib/cet4/cet4_v.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/w_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/w_4.c.i
-.PHONY : src/words_lib/lib4_3/w_4.c.i
+src/words_lib/cet4/cet4_v.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_v.c.i
+.PHONY : src/words_lib/cet4/cet4_v.c.i
 
-src/words_lib/lib4_3/w_4.s: src/words_lib/lib4_3/w_4.c.s
-.PHONY : src/words_lib/lib4_3/w_4.s
+src/words_lib/cet4/cet4_v.s: src/words_lib/cet4/cet4_v.c.s
+.PHONY : src/words_lib/cet4/cet4_v.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/w_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/w_4.c.s
-.PHONY : src/words_lib/lib4_3/w_4.c.s
+src/words_lib/cet4/cet4_v.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_v.c.s
+.PHONY : src/words_lib/cet4/cet4_v.c.s
 
-src/words_lib/lib4_3/x_4.o: src/words_lib/lib4_3/x_4.c.o
-.PHONY : src/words_lib/lib4_3/x_4.o
+src/words_lib/cet4/cet4_w.o: src/words_lib/cet4/cet4_w.c.o
+.PHONY : src/words_lib/cet4/cet4_w.o
 
 # target to build an object file
-src/words_lib/lib4_3/x_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/x_4.c.o
-.PHONY : src/words_lib/lib4_3/x_4.c.o
+src/words_lib/cet4/cet4_w.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_w.c.o
+.PHONY : src/words_lib/cet4/cet4_w.c.o
 
-src/words_lib/lib4_3/x_4.i: src/words_lib/lib4_3/x_4.c.i
-.PHONY : src/words_lib/lib4_3/x_4.i
+src/words_lib/cet4/cet4_w.i: src/words_lib/cet4/cet4_w.c.i
+.PHONY : src/words_lib/cet4/cet4_w.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/x_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/x_4.c.i
-.PHONY : src/words_lib/lib4_3/x_4.c.i
+src/words_lib/cet4/cet4_w.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_w.c.i
+.PHONY : src/words_lib/cet4/cet4_w.c.i
 
-src/words_lib/lib4_3/x_4.s: src/words_lib/lib4_3/x_4.c.s
-.PHONY : src/words_lib/lib4_3/x_4.s
+src/words_lib/cet4/cet4_w.s: src/words_lib/cet4/cet4_w.c.s
+.PHONY : src/words_lib/cet4/cet4_w.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/x_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/x_4.c.s
-.PHONY : src/words_lib/lib4_3/x_4.c.s
+src/words_lib/cet4/cet4_w.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_w.c.s
+.PHONY : src/words_lib/cet4/cet4_w.c.s
 
-src/words_lib/lib4_3/y_4.o: src/words_lib/lib4_3/y_4.c.o
-.PHONY : src/words_lib/lib4_3/y_4.o
+src/words_lib/cet4/cet4_y.o: src/words_lib/cet4/cet4_y.c.o
+.PHONY : src/words_lib/cet4/cet4_y.o
 
 # target to build an object file
-src/words_lib/lib4_3/y_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/y_4.c.o
-.PHONY : src/words_lib/lib4_3/y_4.c.o
+src/words_lib/cet4/cet4_y.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_y.c.o
+.PHONY : src/words_lib/cet4/cet4_y.c.o
 
-src/words_lib/lib4_3/y_4.i: src/words_lib/lib4_3/y_4.c.i
-.PHONY : src/words_lib/lib4_3/y_4.i
+src/words_lib/cet4/cet4_y.i: src/words_lib/cet4/cet4_y.c.i
+.PHONY : src/words_lib/cet4/cet4_y.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/y_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/y_4.c.i
-.PHONY : src/words_lib/lib4_3/y_4.c.i
+src/words_lib/cet4/cet4_y.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_y.c.i
+.PHONY : src/words_lib/cet4/cet4_y.c.i
 
-src/words_lib/lib4_3/y_4.s: src/words_lib/lib4_3/y_4.c.s
-.PHONY : src/words_lib/lib4_3/y_4.s
+src/words_lib/cet4/cet4_y.s: src/words_lib/cet4/cet4_y.c.s
+.PHONY : src/words_lib/cet4/cet4_y.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/y_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/y_4.c.s
-.PHONY : src/words_lib/lib4_3/y_4.c.s
+src/words_lib/cet4/cet4_y.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_y.c.s
+.PHONY : src/words_lib/cet4/cet4_y.c.s
 
-src/words_lib/lib4_3/z_4.o: src/words_lib/lib4_3/z_4.c.o
-.PHONY : src/words_lib/lib4_3/z_4.o
+src/words_lib/cet4/cet4_z.o: src/words_lib/cet4/cet4_z.c.o
+.PHONY : src/words_lib/cet4/cet4_z.o
 
 # target to build an object file
-src/words_lib/lib4_3/z_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/z_4.c.o
-.PHONY : src/words_lib/lib4_3/z_4.c.o
+src/words_lib/cet4/cet4_z.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_z.c.o
+.PHONY : src/words_lib/cet4/cet4_z.c.o
 
-src/words_lib/lib4_3/z_4.i: src/words_lib/lib4_3/z_4.c.i
-.PHONY : src/words_lib/lib4_3/z_4.i
+src/words_lib/cet4/cet4_z.i: src/words_lib/cet4/cet4_z.c.i
+.PHONY : src/words_lib/cet4/cet4_z.i
 
 # target to preprocess a source file
-src/words_lib/lib4_3/z_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/z_4.c.i
-.PHONY : src/words_lib/lib4_3/z_4.c.i
+src/words_lib/cet4/cet4_z.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_z.c.i
+.PHONY : src/words_lib/cet4/cet4_z.c.i
 
-src/words_lib/lib4_3/z_4.s: src/words_lib/lib4_3/z_4.c.s
-.PHONY : src/words_lib/lib4_3/z_4.s
+src/words_lib/cet4/cet4_z.s: src/words_lib/cet4/cet4_z.c.s
+.PHONY : src/words_lib/cet4/cet4_z.s
 
 # target to generate assembly for a file
-src/words_lib/lib4_3/z_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib4_3/z_4.c.s
-.PHONY : src/words_lib/lib4_3/z_4.c.s
+src/words_lib/cet4/cet4_z.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet4/cet4_z.c.s
+.PHONY : src/words_lib/cet4/cet4_z.c.s
 
-src/words_lib/lib6_3/a_6.o: src/words_lib/lib6_3/a_6.c.o
-.PHONY : src/words_lib/lib6_3/a_6.o
+src/words_lib/cet6.o: src/words_lib/cet6.c.o
+.PHONY : src/words_lib/cet6.o
 
 # target to build an object file
-src/words_lib/lib6_3/a_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/a_6.c.o
-.PHONY : src/words_lib/lib6_3/a_6.c.o
+src/words_lib/cet6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6.c.o
+.PHONY : src/words_lib/cet6.c.o
 
-src/words_lib/lib6_3/a_6.i: src/words_lib/lib6_3/a_6.c.i
-.PHONY : src/words_lib/lib6_3/a_6.i
+src/words_lib/cet6.i: src/words_lib/cet6.c.i
+.PHONY : src/words_lib/cet6.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/a_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/a_6.c.i
-.PHONY : src/words_lib/lib6_3/a_6.c.i
+src/words_lib/cet6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6.c.i
+.PHONY : src/words_lib/cet6.c.i
 
-src/words_lib/lib6_3/a_6.s: src/words_lib/lib6_3/a_6.c.s
-.PHONY : src/words_lib/lib6_3/a_6.s
+src/words_lib/cet6.s: src/words_lib/cet6.c.s
+.PHONY : src/words_lib/cet6.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/a_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/a_6.c.s
-.PHONY : src/words_lib/lib6_3/a_6.c.s
+src/words_lib/cet6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6.c.s
+.PHONY : src/words_lib/cet6.c.s
 
-src/words_lib/lib6_3/b_6.o: src/words_lib/lib6_3/b_6.c.o
-.PHONY : src/words_lib/lib6_3/b_6.o
+src/words_lib/cet6/cet6_a.o: src/words_lib/cet6/cet6_a.c.o
+.PHONY : src/words_lib/cet6/cet6_a.o
 
 # target to build an object file
-src/words_lib/lib6_3/b_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/b_6.c.o
-.PHONY : src/words_lib/lib6_3/b_6.c.o
+src/words_lib/cet6/cet6_a.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_a.c.o
+.PHONY : src/words_lib/cet6/cet6_a.c.o
 
-src/words_lib/lib6_3/b_6.i: src/words_lib/lib6_3/b_6.c.i
-.PHONY : src/words_lib/lib6_3/b_6.i
+src/words_lib/cet6/cet6_a.i: src/words_lib/cet6/cet6_a.c.i
+.PHONY : src/words_lib/cet6/cet6_a.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/b_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/b_6.c.i
-.PHONY : src/words_lib/lib6_3/b_6.c.i
+src/words_lib/cet6/cet6_a.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_a.c.i
+.PHONY : src/words_lib/cet6/cet6_a.c.i
 
-src/words_lib/lib6_3/b_6.s: src/words_lib/lib6_3/b_6.c.s
-.PHONY : src/words_lib/lib6_3/b_6.s
+src/words_lib/cet6/cet6_a.s: src/words_lib/cet6/cet6_a.c.s
+.PHONY : src/words_lib/cet6/cet6_a.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/b_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/b_6.c.s
-.PHONY : src/words_lib/lib6_3/b_6.c.s
+src/words_lib/cet6/cet6_a.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_a.c.s
+.PHONY : src/words_lib/cet6/cet6_a.c.s
 
-src/words_lib/lib6_3/c_6.o: src/words_lib/lib6_3/c_6.c.o
-.PHONY : src/words_lib/lib6_3/c_6.o
+src/words_lib/cet6/cet6_b.o: src/words_lib/cet6/cet6_b.c.o
+.PHONY : src/words_lib/cet6/cet6_b.o
 
 # target to build an object file
-src/words_lib/lib6_3/c_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/c_6.c.o
-.PHONY : src/words_lib/lib6_3/c_6.c.o
+src/words_lib/cet6/cet6_b.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_b.c.o
+.PHONY : src/words_lib/cet6/cet6_b.c.o
 
-src/words_lib/lib6_3/c_6.i: src/words_lib/lib6_3/c_6.c.i
-.PHONY : src/words_lib/lib6_3/c_6.i
+src/words_lib/cet6/cet6_b.i: src/words_lib/cet6/cet6_b.c.i
+.PHONY : src/words_lib/cet6/cet6_b.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/c_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/c_6.c.i
-.PHONY : src/words_lib/lib6_3/c_6.c.i
+src/words_lib/cet6/cet6_b.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_b.c.i
+.PHONY : src/words_lib/cet6/cet6_b.c.i
 
-src/words_lib/lib6_3/c_6.s: src/words_lib/lib6_3/c_6.c.s
-.PHONY : src/words_lib/lib6_3/c_6.s
+src/words_lib/cet6/cet6_b.s: src/words_lib/cet6/cet6_b.c.s
+.PHONY : src/words_lib/cet6/cet6_b.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/c_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/c_6.c.s
-.PHONY : src/words_lib/lib6_3/c_6.c.s
+src/words_lib/cet6/cet6_b.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_b.c.s
+.PHONY : src/words_lib/cet6/cet6_b.c.s
 
-src/words_lib/lib6_3/d_6.o: src/words_lib/lib6_3/d_6.c.o
-.PHONY : src/words_lib/lib6_3/d_6.o
+src/words_lib/cet6/cet6_c.o: src/words_lib/cet6/cet6_c.c.o
+.PHONY : src/words_lib/cet6/cet6_c.o
 
 # target to build an object file
-src/words_lib/lib6_3/d_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/d_6.c.o
-.PHONY : src/words_lib/lib6_3/d_6.c.o
+src/words_lib/cet6/cet6_c.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_c.c.o
+.PHONY : src/words_lib/cet6/cet6_c.c.o
 
-src/words_lib/lib6_3/d_6.i: src/words_lib/lib6_3/d_6.c.i
-.PHONY : src/words_lib/lib6_3/d_6.i
+src/words_lib/cet6/cet6_c.i: src/words_lib/cet6/cet6_c.c.i
+.PHONY : src/words_lib/cet6/cet6_c.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/d_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/d_6.c.i
-.PHONY : src/words_lib/lib6_3/d_6.c.i
+src/words_lib/cet6/cet6_c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_c.c.i
+.PHONY : src/words_lib/cet6/cet6_c.c.i
 
-src/words_lib/lib6_3/d_6.s: src/words_lib/lib6_3/d_6.c.s
-.PHONY : src/words_lib/lib6_3/d_6.s
+src/words_lib/cet6/cet6_c.s: src/words_lib/cet6/cet6_c.c.s
+.PHONY : src/words_lib/cet6/cet6_c.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/d_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/d_6.c.s
-.PHONY : src/words_lib/lib6_3/d_6.c.s
+src/words_lib/cet6/cet6_c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_c.c.s
+.PHONY : src/words_lib/cet6/cet6_c.c.s
 
-src/words_lib/lib6_3/e_6.o: src/words_lib/lib6_3/e_6.c.o
-.PHONY : src/words_lib/lib6_3/e_6.o
+src/words_lib/cet6/cet6_d.o: src/words_lib/cet6/cet6_d.c.o
+.PHONY : src/words_lib/cet6/cet6_d.o
 
 # target to build an object file
-src/words_lib/lib6_3/e_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/e_6.c.o
-.PHONY : src/words_lib/lib6_3/e_6.c.o
+src/words_lib/cet6/cet6_d.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_d.c.o
+.PHONY : src/words_lib/cet6/cet6_d.c.o
 
-src/words_lib/lib6_3/e_6.i: src/words_lib/lib6_3/e_6.c.i
-.PHONY : src/words_lib/lib6_3/e_6.i
+src/words_lib/cet6/cet6_d.i: src/words_lib/cet6/cet6_d.c.i
+.PHONY : src/words_lib/cet6/cet6_d.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/e_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/e_6.c.i
-.PHONY : src/words_lib/lib6_3/e_6.c.i
+src/words_lib/cet6/cet6_d.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_d.c.i
+.PHONY : src/words_lib/cet6/cet6_d.c.i
 
-src/words_lib/lib6_3/e_6.s: src/words_lib/lib6_3/e_6.c.s
-.PHONY : src/words_lib/lib6_3/e_6.s
+src/words_lib/cet6/cet6_d.s: src/words_lib/cet6/cet6_d.c.s
+.PHONY : src/words_lib/cet6/cet6_d.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/e_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/e_6.c.s
-.PHONY : src/words_lib/lib6_3/e_6.c.s
+src/words_lib/cet6/cet6_d.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_d.c.s
+.PHONY : src/words_lib/cet6/cet6_d.c.s
 
-src/words_lib/lib6_3/f_6.o: src/words_lib/lib6_3/f_6.c.o
-.PHONY : src/words_lib/lib6_3/f_6.o
+src/words_lib/cet6/cet6_e.o: src/words_lib/cet6/cet6_e.c.o
+.PHONY : src/words_lib/cet6/cet6_e.o
 
 # target to build an object file
-src/words_lib/lib6_3/f_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/f_6.c.o
-.PHONY : src/words_lib/lib6_3/f_6.c.o
+src/words_lib/cet6/cet6_e.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_e.c.o
+.PHONY : src/words_lib/cet6/cet6_e.c.o
 
-src/words_lib/lib6_3/f_6.i: src/words_lib/lib6_3/f_6.c.i
-.PHONY : src/words_lib/lib6_3/f_6.i
+src/words_lib/cet6/cet6_e.i: src/words_lib/cet6/cet6_e.c.i
+.PHONY : src/words_lib/cet6/cet6_e.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/f_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/f_6.c.i
-.PHONY : src/words_lib/lib6_3/f_6.c.i
+src/words_lib/cet6/cet6_e.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_e.c.i
+.PHONY : src/words_lib/cet6/cet6_e.c.i
 
-src/words_lib/lib6_3/f_6.s: src/words_lib/lib6_3/f_6.c.s
-.PHONY : src/words_lib/lib6_3/f_6.s
+src/words_lib/cet6/cet6_e.s: src/words_lib/cet6/cet6_e.c.s
+.PHONY : src/words_lib/cet6/cet6_e.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/f_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/f_6.c.s
-.PHONY : src/words_lib/lib6_3/f_6.c.s
+src/words_lib/cet6/cet6_e.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_e.c.s
+.PHONY : src/words_lib/cet6/cet6_e.c.s
 
-src/words_lib/lib6_3/g_6.o: src/words_lib/lib6_3/g_6.c.o
-.PHONY : src/words_lib/lib6_3/g_6.o
+src/words_lib/cet6/cet6_f.o: src/words_lib/cet6/cet6_f.c.o
+.PHONY : src/words_lib/cet6/cet6_f.o
 
 # target to build an object file
-src/words_lib/lib6_3/g_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/g_6.c.o
-.PHONY : src/words_lib/lib6_3/g_6.c.o
+src/words_lib/cet6/cet6_f.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_f.c.o
+.PHONY : src/words_lib/cet6/cet6_f.c.o
 
-src/words_lib/lib6_3/g_6.i: src/words_lib/lib6_3/g_6.c.i
-.PHONY : src/words_lib/lib6_3/g_6.i
+src/words_lib/cet6/cet6_f.i: src/words_lib/cet6/cet6_f.c.i
+.PHONY : src/words_lib/cet6/cet6_f.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/g_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/g_6.c.i
-.PHONY : src/words_lib/lib6_3/g_6.c.i
+src/words_lib/cet6/cet6_f.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_f.c.i
+.PHONY : src/words_lib/cet6/cet6_f.c.i
 
-src/words_lib/lib6_3/g_6.s: src/words_lib/lib6_3/g_6.c.s
-.PHONY : src/words_lib/lib6_3/g_6.s
+src/words_lib/cet6/cet6_f.s: src/words_lib/cet6/cet6_f.c.s
+.PHONY : src/words_lib/cet6/cet6_f.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/g_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/g_6.c.s
-.PHONY : src/words_lib/lib6_3/g_6.c.s
+src/words_lib/cet6/cet6_f.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_f.c.s
+.PHONY : src/words_lib/cet6/cet6_f.c.s
 
-src/words_lib/lib6_3/h_6.o: src/words_lib/lib6_3/h_6.c.o
-.PHONY : src/words_lib/lib6_3/h_6.o
+src/words_lib/cet6/cet6_g.o: src/words_lib/cet6/cet6_g.c.o
+.PHONY : src/words_lib/cet6/cet6_g.o
 
 # target to build an object file
-src/words_lib/lib6_3/h_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/h_6.c.o
-.PHONY : src/words_lib/lib6_3/h_6.c.o
+src/words_lib/cet6/cet6_g.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_g.c.o
+.PHONY : src/words_lib/cet6/cet6_g.c.o
 
-src/words_lib/lib6_3/h_6.i: src/words_lib/lib6_3/h_6.c.i
-.PHONY : src/words_lib/lib6_3/h_6.i
+src/words_lib/cet6/cet6_g.i: src/words_lib/cet6/cet6_g.c.i
+.PHONY : src/words_lib/cet6/cet6_g.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/h_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/h_6.c.i
-.PHONY : src/words_lib/lib6_3/h_6.c.i
+src/words_lib/cet6/cet6_g.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_g.c.i
+.PHONY : src/words_lib/cet6/cet6_g.c.i
 
-src/words_lib/lib6_3/h_6.s: src/words_lib/lib6_3/h_6.c.s
-.PHONY : src/words_lib/lib6_3/h_6.s
+src/words_lib/cet6/cet6_g.s: src/words_lib/cet6/cet6_g.c.s
+.PHONY : src/words_lib/cet6/cet6_g.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/h_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/h_6.c.s
-.PHONY : src/words_lib/lib6_3/h_6.c.s
+src/words_lib/cet6/cet6_g.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_g.c.s
+.PHONY : src/words_lib/cet6/cet6_g.c.s
 
-src/words_lib/lib6_3/i_6.o: src/words_lib/lib6_3/i_6.c.o
-.PHONY : src/words_lib/lib6_3/i_6.o
+src/words_lib/cet6/cet6_h.o: src/words_lib/cet6/cet6_h.c.o
+.PHONY : src/words_lib/cet6/cet6_h.o
 
 # target to build an object file
-src/words_lib/lib6_3/i_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/i_6.c.o
-.PHONY : src/words_lib/lib6_3/i_6.c.o
+src/words_lib/cet6/cet6_h.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_h.c.o
+.PHONY : src/words_lib/cet6/cet6_h.c.o
 
-src/words_lib/lib6_3/i_6.i: src/words_lib/lib6_3/i_6.c.i
-.PHONY : src/words_lib/lib6_3/i_6.i
+src/words_lib/cet6/cet6_h.i: src/words_lib/cet6/cet6_h.c.i
+.PHONY : src/words_lib/cet6/cet6_h.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/i_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/i_6.c.i
-.PHONY : src/words_lib/lib6_3/i_6.c.i
+src/words_lib/cet6/cet6_h.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_h.c.i
+.PHONY : src/words_lib/cet6/cet6_h.c.i
 
-src/words_lib/lib6_3/i_6.s: src/words_lib/lib6_3/i_6.c.s
-.PHONY : src/words_lib/lib6_3/i_6.s
+src/words_lib/cet6/cet6_h.s: src/words_lib/cet6/cet6_h.c.s
+.PHONY : src/words_lib/cet6/cet6_h.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/i_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/i_6.c.s
-.PHONY : src/words_lib/lib6_3/i_6.c.s
+src/words_lib/cet6/cet6_h.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_h.c.s
+.PHONY : src/words_lib/cet6/cet6_h.c.s
 
-src/words_lib/lib6_3/j_6.o: src/words_lib/lib6_3/j_6.c.o
-.PHONY : src/words_lib/lib6_3/j_6.o
+src/words_lib/cet6/cet6_i.o: src/words_lib/cet6/cet6_i.c.o
+.PHONY : src/words_lib/cet6/cet6_i.o
 
 # target to build an object file
-src/words_lib/lib6_3/j_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/j_6.c.o
-.PHONY : src/words_lib/lib6_3/j_6.c.o
+src/words_lib/cet6/cet6_i.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_i.c.o
+.PHONY : src/words_lib/cet6/cet6_i.c.o
 
-src/words_lib/lib6_3/j_6.i: src/words_lib/lib6_3/j_6.c.i
-.PHONY : src/words_lib/lib6_3/j_6.i
+src/words_lib/cet6/cet6_i.i: src/words_lib/cet6/cet6_i.c.i
+.PHONY : src/words_lib/cet6/cet6_i.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/j_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/j_6.c.i
-.PHONY : src/words_lib/lib6_3/j_6.c.i
+src/words_lib/cet6/cet6_i.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_i.c.i
+.PHONY : src/words_lib/cet6/cet6_i.c.i
 
-src/words_lib/lib6_3/j_6.s: src/words_lib/lib6_3/j_6.c.s
-.PHONY : src/words_lib/lib6_3/j_6.s
+src/words_lib/cet6/cet6_i.s: src/words_lib/cet6/cet6_i.c.s
+.PHONY : src/words_lib/cet6/cet6_i.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/j_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/j_6.c.s
-.PHONY : src/words_lib/lib6_3/j_6.c.s
+src/words_lib/cet6/cet6_i.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_i.c.s
+.PHONY : src/words_lib/cet6/cet6_i.c.s
 
-src/words_lib/lib6_3/k_6.o: src/words_lib/lib6_3/k_6.c.o
-.PHONY : src/words_lib/lib6_3/k_6.o
+src/words_lib/cet6/cet6_j.o: src/words_lib/cet6/cet6_j.c.o
+.PHONY : src/words_lib/cet6/cet6_j.o
 
 # target to build an object file
-src/words_lib/lib6_3/k_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/k_6.c.o
-.PHONY : src/words_lib/lib6_3/k_6.c.o
+src/words_lib/cet6/cet6_j.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_j.c.o
+.PHONY : src/words_lib/cet6/cet6_j.c.o
 
-src/words_lib/lib6_3/k_6.i: src/words_lib/lib6_3/k_6.c.i
-.PHONY : src/words_lib/lib6_3/k_6.i
+src/words_lib/cet6/cet6_j.i: src/words_lib/cet6/cet6_j.c.i
+.PHONY : src/words_lib/cet6/cet6_j.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/k_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/k_6.c.i
-.PHONY : src/words_lib/lib6_3/k_6.c.i
+src/words_lib/cet6/cet6_j.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_j.c.i
+.PHONY : src/words_lib/cet6/cet6_j.c.i
 
-src/words_lib/lib6_3/k_6.s: src/words_lib/lib6_3/k_6.c.s
-.PHONY : src/words_lib/lib6_3/k_6.s
+src/words_lib/cet6/cet6_j.s: src/words_lib/cet6/cet6_j.c.s
+.PHONY : src/words_lib/cet6/cet6_j.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/k_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/k_6.c.s
-.PHONY : src/words_lib/lib6_3/k_6.c.s
+src/words_lib/cet6/cet6_j.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_j.c.s
+.PHONY : src/words_lib/cet6/cet6_j.c.s
 
-src/words_lib/lib6_3/l_6.o: src/words_lib/lib6_3/l_6.c.o
-.PHONY : src/words_lib/lib6_3/l_6.o
+src/words_lib/cet6/cet6_k.o: src/words_lib/cet6/cet6_k.c.o
+.PHONY : src/words_lib/cet6/cet6_k.o
 
 # target to build an object file
-src/words_lib/lib6_3/l_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/l_6.c.o
-.PHONY : src/words_lib/lib6_3/l_6.c.o
+src/words_lib/cet6/cet6_k.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_k.c.o
+.PHONY : src/words_lib/cet6/cet6_k.c.o
 
-src/words_lib/lib6_3/l_6.i: src/words_lib/lib6_3/l_6.c.i
-.PHONY : src/words_lib/lib6_3/l_6.i
+src/words_lib/cet6/cet6_k.i: src/words_lib/cet6/cet6_k.c.i
+.PHONY : src/words_lib/cet6/cet6_k.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/l_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/l_6.c.i
-.PHONY : src/words_lib/lib6_3/l_6.c.i
+src/words_lib/cet6/cet6_k.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_k.c.i
+.PHONY : src/words_lib/cet6/cet6_k.c.i
 
-src/words_lib/lib6_3/l_6.s: src/words_lib/lib6_3/l_6.c.s
-.PHONY : src/words_lib/lib6_3/l_6.s
+src/words_lib/cet6/cet6_k.s: src/words_lib/cet6/cet6_k.c.s
+.PHONY : src/words_lib/cet6/cet6_k.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/l_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/l_6.c.s
-.PHONY : src/words_lib/lib6_3/l_6.c.s
+src/words_lib/cet6/cet6_k.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_k.c.s
+.PHONY : src/words_lib/cet6/cet6_k.c.s
 
-src/words_lib/lib6_3/m_6.o: src/words_lib/lib6_3/m_6.c.o
-.PHONY : src/words_lib/lib6_3/m_6.o
+src/words_lib/cet6/cet6_l.o: src/words_lib/cet6/cet6_l.c.o
+.PHONY : src/words_lib/cet6/cet6_l.o
 
 # target to build an object file
-src/words_lib/lib6_3/m_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/m_6.c.o
-.PHONY : src/words_lib/lib6_3/m_6.c.o
+src/words_lib/cet6/cet6_l.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_l.c.o
+.PHONY : src/words_lib/cet6/cet6_l.c.o
 
-src/words_lib/lib6_3/m_6.i: src/words_lib/lib6_3/m_6.c.i
-.PHONY : src/words_lib/lib6_3/m_6.i
+src/words_lib/cet6/cet6_l.i: src/words_lib/cet6/cet6_l.c.i
+.PHONY : src/words_lib/cet6/cet6_l.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/m_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/m_6.c.i
-.PHONY : src/words_lib/lib6_3/m_6.c.i
+src/words_lib/cet6/cet6_l.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_l.c.i
+.PHONY : src/words_lib/cet6/cet6_l.c.i
 
-src/words_lib/lib6_3/m_6.s: src/words_lib/lib6_3/m_6.c.s
-.PHONY : src/words_lib/lib6_3/m_6.s
+src/words_lib/cet6/cet6_l.s: src/words_lib/cet6/cet6_l.c.s
+.PHONY : src/words_lib/cet6/cet6_l.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/m_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/m_6.c.s
-.PHONY : src/words_lib/lib6_3/m_6.c.s
+src/words_lib/cet6/cet6_l.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_l.c.s
+.PHONY : src/words_lib/cet6/cet6_l.c.s
 
-src/words_lib/lib6_3/n_6.o: src/words_lib/lib6_3/n_6.c.o
-.PHONY : src/words_lib/lib6_3/n_6.o
+src/words_lib/cet6/cet6_m.o: src/words_lib/cet6/cet6_m.c.o
+.PHONY : src/words_lib/cet6/cet6_m.o
 
 # target to build an object file
-src/words_lib/lib6_3/n_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/n_6.c.o
-.PHONY : src/words_lib/lib6_3/n_6.c.o
+src/words_lib/cet6/cet6_m.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_m.c.o
+.PHONY : src/words_lib/cet6/cet6_m.c.o
 
-src/words_lib/lib6_3/n_6.i: src/words_lib/lib6_3/n_6.c.i
-.PHONY : src/words_lib/lib6_3/n_6.i
+src/words_lib/cet6/cet6_m.i: src/words_lib/cet6/cet6_m.c.i
+.PHONY : src/words_lib/cet6/cet6_m.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/n_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/n_6.c.i
-.PHONY : src/words_lib/lib6_3/n_6.c.i
+src/words_lib/cet6/cet6_m.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_m.c.i
+.PHONY : src/words_lib/cet6/cet6_m.c.i
 
-src/words_lib/lib6_3/n_6.s: src/words_lib/lib6_3/n_6.c.s
-.PHONY : src/words_lib/lib6_3/n_6.s
+src/words_lib/cet6/cet6_m.s: src/words_lib/cet6/cet6_m.c.s
+.PHONY : src/words_lib/cet6/cet6_m.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/n_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/n_6.c.s
-.PHONY : src/words_lib/lib6_3/n_6.c.s
+src/words_lib/cet6/cet6_m.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_m.c.s
+.PHONY : src/words_lib/cet6/cet6_m.c.s
 
-src/words_lib/lib6_3/o_6.o: src/words_lib/lib6_3/o_6.c.o
-.PHONY : src/words_lib/lib6_3/o_6.o
+src/words_lib/cet6/cet6_n.o: src/words_lib/cet6/cet6_n.c.o
+.PHONY : src/words_lib/cet6/cet6_n.o
 
 # target to build an object file
-src/words_lib/lib6_3/o_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/o_6.c.o
-.PHONY : src/words_lib/lib6_3/o_6.c.o
+src/words_lib/cet6/cet6_n.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_n.c.o
+.PHONY : src/words_lib/cet6/cet6_n.c.o
 
-src/words_lib/lib6_3/o_6.i: src/words_lib/lib6_3/o_6.c.i
-.PHONY : src/words_lib/lib6_3/o_6.i
+src/words_lib/cet6/cet6_n.i: src/words_lib/cet6/cet6_n.c.i
+.PHONY : src/words_lib/cet6/cet6_n.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/o_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/o_6.c.i
-.PHONY : src/words_lib/lib6_3/o_6.c.i
+src/words_lib/cet6/cet6_n.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_n.c.i
+.PHONY : src/words_lib/cet6/cet6_n.c.i
 
-src/words_lib/lib6_3/o_6.s: src/words_lib/lib6_3/o_6.c.s
-.PHONY : src/words_lib/lib6_3/o_6.s
+src/words_lib/cet6/cet6_n.s: src/words_lib/cet6/cet6_n.c.s
+.PHONY : src/words_lib/cet6/cet6_n.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/o_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/o_6.c.s
-.PHONY : src/words_lib/lib6_3/o_6.c.s
+src/words_lib/cet6/cet6_n.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_n.c.s
+.PHONY : src/words_lib/cet6/cet6_n.c.s
 
-src/words_lib/lib6_3/p_6.o: src/words_lib/lib6_3/p_6.c.o
-.PHONY : src/words_lib/lib6_3/p_6.o
+src/words_lib/cet6/cet6_o.o: src/words_lib/cet6/cet6_o.c.o
+.PHONY : src/words_lib/cet6/cet6_o.o
 
 # target to build an object file
-src/words_lib/lib6_3/p_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/p_6.c.o
-.PHONY : src/words_lib/lib6_3/p_6.c.o
+src/words_lib/cet6/cet6_o.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_o.c.o
+.PHONY : src/words_lib/cet6/cet6_o.c.o
 
-src/words_lib/lib6_3/p_6.i: src/words_lib/lib6_3/p_6.c.i
-.PHONY : src/words_lib/lib6_3/p_6.i
+src/words_lib/cet6/cet6_o.i: src/words_lib/cet6/cet6_o.c.i
+.PHONY : src/words_lib/cet6/cet6_o.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/p_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/p_6.c.i
-.PHONY : src/words_lib/lib6_3/p_6.c.i
+src/words_lib/cet6/cet6_o.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_o.c.i
+.PHONY : src/words_lib/cet6/cet6_o.c.i
 
-src/words_lib/lib6_3/p_6.s: src/words_lib/lib6_3/p_6.c.s
-.PHONY : src/words_lib/lib6_3/p_6.s
+src/words_lib/cet6/cet6_o.s: src/words_lib/cet6/cet6_o.c.s
+.PHONY : src/words_lib/cet6/cet6_o.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/p_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/p_6.c.s
-.PHONY : src/words_lib/lib6_3/p_6.c.s
+src/words_lib/cet6/cet6_o.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_o.c.s
+.PHONY : src/words_lib/cet6/cet6_o.c.s
 
-src/words_lib/lib6_3/q_6.o: src/words_lib/lib6_3/q_6.c.o
-.PHONY : src/words_lib/lib6_3/q_6.o
+src/words_lib/cet6/cet6_p.o: src/words_lib/cet6/cet6_p.c.o
+.PHONY : src/words_lib/cet6/cet6_p.o
 
 # target to build an object file
-src/words_lib/lib6_3/q_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/q_6.c.o
-.PHONY : src/words_lib/lib6_3/q_6.c.o
+src/words_lib/cet6/cet6_p.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_p.c.o
+.PHONY : src/words_lib/cet6/cet6_p.c.o
 
-src/words_lib/lib6_3/q_6.i: src/words_lib/lib6_3/q_6.c.i
-.PHONY : src/words_lib/lib6_3/q_6.i
+src/words_lib/cet6/cet6_p.i: src/words_lib/cet6/cet6_p.c.i
+.PHONY : src/words_lib/cet6/cet6_p.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/q_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/q_6.c.i
-.PHONY : src/words_lib/lib6_3/q_6.c.i
+src/words_lib/cet6/cet6_p.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_p.c.i
+.PHONY : src/words_lib/cet6/cet6_p.c.i
 
-src/words_lib/lib6_3/q_6.s: src/words_lib/lib6_3/q_6.c.s
-.PHONY : src/words_lib/lib6_3/q_6.s
+src/words_lib/cet6/cet6_p.s: src/words_lib/cet6/cet6_p.c.s
+.PHONY : src/words_lib/cet6/cet6_p.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/q_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/q_6.c.s
-.PHONY : src/words_lib/lib6_3/q_6.c.s
+src/words_lib/cet6/cet6_p.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_p.c.s
+.PHONY : src/words_lib/cet6/cet6_p.c.s
 
-src/words_lib/lib6_3/r_6.o: src/words_lib/lib6_3/r_6.c.o
-.PHONY : src/words_lib/lib6_3/r_6.o
+src/words_lib/cet6/cet6_q.o: src/words_lib/cet6/cet6_q.c.o
+.PHONY : src/words_lib/cet6/cet6_q.o
 
 # target to build an object file
-src/words_lib/lib6_3/r_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/r_6.c.o
-.PHONY : src/words_lib/lib6_3/r_6.c.o
+src/words_lib/cet6/cet6_q.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_q.c.o
+.PHONY : src/words_lib/cet6/cet6_q.c.o
 
-src/words_lib/lib6_3/r_6.i: src/words_lib/lib6_3/r_6.c.i
-.PHONY : src/words_lib/lib6_3/r_6.i
+src/words_lib/cet6/cet6_q.i: src/words_lib/cet6/cet6_q.c.i
+.PHONY : src/words_lib/cet6/cet6_q.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/r_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/r_6.c.i
-.PHONY : src/words_lib/lib6_3/r_6.c.i
+src/words_lib/cet6/cet6_q.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_q.c.i
+.PHONY : src/words_lib/cet6/cet6_q.c.i
 
-src/words_lib/lib6_3/r_6.s: src/words_lib/lib6_3/r_6.c.s
-.PHONY : src/words_lib/lib6_3/r_6.s
+src/words_lib/cet6/cet6_q.s: src/words_lib/cet6/cet6_q.c.s
+.PHONY : src/words_lib/cet6/cet6_q.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/r_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/r_6.c.s
-.PHONY : src/words_lib/lib6_3/r_6.c.s
+src/words_lib/cet6/cet6_q.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_q.c.s
+.PHONY : src/words_lib/cet6/cet6_q.c.s
 
-src/words_lib/lib6_3/s_6.o: src/words_lib/lib6_3/s_6.c.o
-.PHONY : src/words_lib/lib6_3/s_6.o
+src/words_lib/cet6/cet6_r.o: src/words_lib/cet6/cet6_r.c.o
+.PHONY : src/words_lib/cet6/cet6_r.o
 
 # target to build an object file
-src/words_lib/lib6_3/s_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/s_6.c.o
-.PHONY : src/words_lib/lib6_3/s_6.c.o
+src/words_lib/cet6/cet6_r.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_r.c.o
+.PHONY : src/words_lib/cet6/cet6_r.c.o
 
-src/words_lib/lib6_3/s_6.i: src/words_lib/lib6_3/s_6.c.i
-.PHONY : src/words_lib/lib6_3/s_6.i
+src/words_lib/cet6/cet6_r.i: src/words_lib/cet6/cet6_r.c.i
+.PHONY : src/words_lib/cet6/cet6_r.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/s_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/s_6.c.i
-.PHONY : src/words_lib/lib6_3/s_6.c.i
+src/words_lib/cet6/cet6_r.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_r.c.i
+.PHONY : src/words_lib/cet6/cet6_r.c.i
 
-src/words_lib/lib6_3/s_6.s: src/words_lib/lib6_3/s_6.c.s
-.PHONY : src/words_lib/lib6_3/s_6.s
+src/words_lib/cet6/cet6_r.s: src/words_lib/cet6/cet6_r.c.s
+.PHONY : src/words_lib/cet6/cet6_r.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/s_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/s_6.c.s
-.PHONY : src/words_lib/lib6_3/s_6.c.s
+src/words_lib/cet6/cet6_r.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_r.c.s
+.PHONY : src/words_lib/cet6/cet6_r.c.s
 
-src/words_lib/lib6_3/t_6.o: src/words_lib/lib6_3/t_6.c.o
-.PHONY : src/words_lib/lib6_3/t_6.o
+src/words_lib/cet6/cet6_s.o: src/words_lib/cet6/cet6_s.c.o
+.PHONY : src/words_lib/cet6/cet6_s.o
 
 # target to build an object file
-src/words_lib/lib6_3/t_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/t_6.c.o
-.PHONY : src/words_lib/lib6_3/t_6.c.o
+src/words_lib/cet6/cet6_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_s.c.o
+.PHONY : src/words_lib/cet6/cet6_s.c.o
 
-src/words_lib/lib6_3/t_6.i: src/words_lib/lib6_3/t_6.c.i
-.PHONY : src/words_lib/lib6_3/t_6.i
+src/words_lib/cet6/cet6_s.i: src/words_lib/cet6/cet6_s.c.i
+.PHONY : src/words_lib/cet6/cet6_s.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/t_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/t_6.c.i
-.PHONY : src/words_lib/lib6_3/t_6.c.i
+src/words_lib/cet6/cet6_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_s.c.i
+.PHONY : src/words_lib/cet6/cet6_s.c.i
 
-src/words_lib/lib6_3/t_6.s: src/words_lib/lib6_3/t_6.c.s
-.PHONY : src/words_lib/lib6_3/t_6.s
+src/words_lib/cet6/cet6_s.s: src/words_lib/cet6/cet6_s.c.s
+.PHONY : src/words_lib/cet6/cet6_s.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/t_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/t_6.c.s
-.PHONY : src/words_lib/lib6_3/t_6.c.s
+src/words_lib/cet6/cet6_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_s.c.s
+.PHONY : src/words_lib/cet6/cet6_s.c.s
 
-src/words_lib/lib6_3/u_6.o: src/words_lib/lib6_3/u_6.c.o
-.PHONY : src/words_lib/lib6_3/u_6.o
+src/words_lib/cet6/cet6_t.o: src/words_lib/cet6/cet6_t.c.o
+.PHONY : src/words_lib/cet6/cet6_t.o
 
 # target to build an object file
-src/words_lib/lib6_3/u_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/u_6.c.o
-.PHONY : src/words_lib/lib6_3/u_6.c.o
+src/words_lib/cet6/cet6_t.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_t.c.o
+.PHONY : src/words_lib/cet6/cet6_t.c.o
 
-src/words_lib/lib6_3/u_6.i: src/words_lib/lib6_3/u_6.c.i
-.PHONY : src/words_lib/lib6_3/u_6.i
+src/words_lib/cet6/cet6_t.i: src/words_lib/cet6/cet6_t.c.i
+.PHONY : src/words_lib/cet6/cet6_t.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/u_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/u_6.c.i
-.PHONY : src/words_lib/lib6_3/u_6.c.i
+src/words_lib/cet6/cet6_t.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_t.c.i
+.PHONY : src/words_lib/cet6/cet6_t.c.i
 
-src/words_lib/lib6_3/u_6.s: src/words_lib/lib6_3/u_6.c.s
-.PHONY : src/words_lib/lib6_3/u_6.s
+src/words_lib/cet6/cet6_t.s: src/words_lib/cet6/cet6_t.c.s
+.PHONY : src/words_lib/cet6/cet6_t.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/u_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/u_6.c.s
-.PHONY : src/words_lib/lib6_3/u_6.c.s
+src/words_lib/cet6/cet6_t.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_t.c.s
+.PHONY : src/words_lib/cet6/cet6_t.c.s
 
-src/words_lib/lib6_3/v_6.o: src/words_lib/lib6_3/v_6.c.o
-.PHONY : src/words_lib/lib6_3/v_6.o
+src/words_lib/cet6/cet6_u.o: src/words_lib/cet6/cet6_u.c.o
+.PHONY : src/words_lib/cet6/cet6_u.o
 
 # target to build an object file
-src/words_lib/lib6_3/v_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/v_6.c.o
-.PHONY : src/words_lib/lib6_3/v_6.c.o
+src/words_lib/cet6/cet6_u.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_u.c.o
+.PHONY : src/words_lib/cet6/cet6_u.c.o
 
-src/words_lib/lib6_3/v_6.i: src/words_lib/lib6_3/v_6.c.i
-.PHONY : src/words_lib/lib6_3/v_6.i
+src/words_lib/cet6/cet6_u.i: src/words_lib/cet6/cet6_u.c.i
+.PHONY : src/words_lib/cet6/cet6_u.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/v_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/v_6.c.i
-.PHONY : src/words_lib/lib6_3/v_6.c.i
+src/words_lib/cet6/cet6_u.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_u.c.i
+.PHONY : src/words_lib/cet6/cet6_u.c.i
 
-src/words_lib/lib6_3/v_6.s: src/words_lib/lib6_3/v_6.c.s
-.PHONY : src/words_lib/lib6_3/v_6.s
+src/words_lib/cet6/cet6_u.s: src/words_lib/cet6/cet6_u.c.s
+.PHONY : src/words_lib/cet6/cet6_u.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/v_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/v_6.c.s
-.PHONY : src/words_lib/lib6_3/v_6.c.s
+src/words_lib/cet6/cet6_u.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_u.c.s
+.PHONY : src/words_lib/cet6/cet6_u.c.s
 
-src/words_lib/lib6_3/w_6.o: src/words_lib/lib6_3/w_6.c.o
-.PHONY : src/words_lib/lib6_3/w_6.o
+src/words_lib/cet6/cet6_v.o: src/words_lib/cet6/cet6_v.c.o
+.PHONY : src/words_lib/cet6/cet6_v.o
 
 # target to build an object file
-src/words_lib/lib6_3/w_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/w_6.c.o
-.PHONY : src/words_lib/lib6_3/w_6.c.o
+src/words_lib/cet6/cet6_v.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_v.c.o
+.PHONY : src/words_lib/cet6/cet6_v.c.o
 
-src/words_lib/lib6_3/w_6.i: src/words_lib/lib6_3/w_6.c.i
-.PHONY : src/words_lib/lib6_3/w_6.i
+src/words_lib/cet6/cet6_v.i: src/words_lib/cet6/cet6_v.c.i
+.PHONY : src/words_lib/cet6/cet6_v.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/w_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/w_6.c.i
-.PHONY : src/words_lib/lib6_3/w_6.c.i
+src/words_lib/cet6/cet6_v.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_v.c.i
+.PHONY : src/words_lib/cet6/cet6_v.c.i
 
-src/words_lib/lib6_3/w_6.s: src/words_lib/lib6_3/w_6.c.s
-.PHONY : src/words_lib/lib6_3/w_6.s
+src/words_lib/cet6/cet6_v.s: src/words_lib/cet6/cet6_v.c.s
+.PHONY : src/words_lib/cet6/cet6_v.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/w_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/w_6.c.s
-.PHONY : src/words_lib/lib6_3/w_6.c.s
+src/words_lib/cet6/cet6_v.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_v.c.s
+.PHONY : src/words_lib/cet6/cet6_v.c.s
 
-src/words_lib/lib6_3/x_6.o: src/words_lib/lib6_3/x_6.c.o
-.PHONY : src/words_lib/lib6_3/x_6.o
+src/words_lib/cet6/cet6_w.o: src/words_lib/cet6/cet6_w.c.o
+.PHONY : src/words_lib/cet6/cet6_w.o
 
 # target to build an object file
-src/words_lib/lib6_3/x_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/x_6.c.o
-.PHONY : src/words_lib/lib6_3/x_6.c.o
+src/words_lib/cet6/cet6_w.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_w.c.o
+.PHONY : src/words_lib/cet6/cet6_w.c.o
 
-src/words_lib/lib6_3/x_6.i: src/words_lib/lib6_3/x_6.c.i
-.PHONY : src/words_lib/lib6_3/x_6.i
+src/words_lib/cet6/cet6_w.i: src/words_lib/cet6/cet6_w.c.i
+.PHONY : src/words_lib/cet6/cet6_w.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/x_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/x_6.c.i
-.PHONY : src/words_lib/lib6_3/x_6.c.i
+src/words_lib/cet6/cet6_w.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_w.c.i
+.PHONY : src/words_lib/cet6/cet6_w.c.i
 
-src/words_lib/lib6_3/x_6.s: src/words_lib/lib6_3/x_6.c.s
-.PHONY : src/words_lib/lib6_3/x_6.s
+src/words_lib/cet6/cet6_w.s: src/words_lib/cet6/cet6_w.c.s
+.PHONY : src/words_lib/cet6/cet6_w.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/x_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/x_6.c.s
-.PHONY : src/words_lib/lib6_3/x_6.c.s
+src/words_lib/cet6/cet6_w.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_w.c.s
+.PHONY : src/words_lib/cet6/cet6_w.c.s
 
-src/words_lib/lib6_3/y_6.o: src/words_lib/lib6_3/y_6.c.o
-.PHONY : src/words_lib/lib6_3/y_6.o
+src/words_lib/cet6/cet6_y.o: src/words_lib/cet6/cet6_y.c.o
+.PHONY : src/words_lib/cet6/cet6_y.o
 
 # target to build an object file
-src/words_lib/lib6_3/y_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/y_6.c.o
-.PHONY : src/words_lib/lib6_3/y_6.c.o
+src/words_lib/cet6/cet6_y.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_y.c.o
+.PHONY : src/words_lib/cet6/cet6_y.c.o
 
-src/words_lib/lib6_3/y_6.i: src/words_lib/lib6_3/y_6.c.i
-.PHONY : src/words_lib/lib6_3/y_6.i
+src/words_lib/cet6/cet6_y.i: src/words_lib/cet6/cet6_y.c.i
+.PHONY : src/words_lib/cet6/cet6_y.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/y_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/y_6.c.i
-.PHONY : src/words_lib/lib6_3/y_6.c.i
+src/words_lib/cet6/cet6_y.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_y.c.i
+.PHONY : src/words_lib/cet6/cet6_y.c.i
 
-src/words_lib/lib6_3/y_6.s: src/words_lib/lib6_3/y_6.c.s
-.PHONY : src/words_lib/lib6_3/y_6.s
+src/words_lib/cet6/cet6_y.s: src/words_lib/cet6/cet6_y.c.s
+.PHONY : src/words_lib/cet6/cet6_y.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/y_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/y_6.c.s
-.PHONY : src/words_lib/lib6_3/y_6.c.s
+src/words_lib/cet6/cet6_y.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_y.c.s
+.PHONY : src/words_lib/cet6/cet6_y.c.s
 
-src/words_lib/lib6_3/z_6.o: src/words_lib/lib6_3/z_6.c.o
-.PHONY : src/words_lib/lib6_3/z_6.o
+src/words_lib/cet6/cet6_z.o: src/words_lib/cet6/cet6_z.c.o
+.PHONY : src/words_lib/cet6/cet6_z.o
 
 # target to build an object file
-src/words_lib/lib6_3/z_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/z_6.c.o
-.PHONY : src/words_lib/lib6_3/z_6.c.o
+src/words_lib/cet6/cet6_z.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_z.c.o
+.PHONY : src/words_lib/cet6/cet6_z.c.o
 
-src/words_lib/lib6_3/z_6.i: src/words_lib/lib6_3/z_6.c.i
-.PHONY : src/words_lib/lib6_3/z_6.i
+src/words_lib/cet6/cet6_z.i: src/words_lib/cet6/cet6_z.c.i
+.PHONY : src/words_lib/cet6/cet6_z.i
 
 # target to preprocess a source file
-src/words_lib/lib6_3/z_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/z_6.c.i
-.PHONY : src/words_lib/lib6_3/z_6.c.i
+src/words_lib/cet6/cet6_z.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_z.c.i
+.PHONY : src/words_lib/cet6/cet6_z.c.i
 
-src/words_lib/lib6_3/z_6.s: src/words_lib/lib6_3/z_6.c.s
-.PHONY : src/words_lib/lib6_3/z_6.s
+src/words_lib/cet6/cet6_z.s: src/words_lib/cet6/cet6_z.c.s
+.PHONY : src/words_lib/cet6/cet6_z.s
 
 # target to generate assembly for a file
-src/words_lib/lib6_3/z_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/lib6_3/z_6.c.s
-.PHONY : src/words_lib/lib6_3/z_6.c.s
+src/words_lib/cet6/cet6_z.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/cet6/cet6_z.c.s
+.PHONY : src/words_lib/cet6/cet6_z.c.s
+
+src/words_lib/testPrint.o: src/words_lib/testPrint.c.o
+.PHONY : src/words_lib/testPrint.o
+
+# target to build an object file
+src/words_lib/testPrint.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/testPrint.c.o
+.PHONY : src/words_lib/testPrint.c.o
+
+src/words_lib/testPrint.i: src/words_lib/testPrint.c.i
+.PHONY : src/words_lib/testPrint.i
+
+# target to preprocess a source file
+src/words_lib/testPrint.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/testPrint.c.i
+.PHONY : src/words_lib/testPrint.c.i
+
+src/words_lib/testPrint.s: src/words_lib/testPrint.c.s
+.PHONY : src/words_lib/testPrint.s
+
+# target to generate assembly for a file
+src/words_lib/testPrint.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/testPrint.c.s
+.PHONY : src/words_lib/testPrint.c.s
+
+src/words_lib/word_set.o: src/words_lib/word_set.c.o
+.PHONY : src/words_lib/word_set.o
+
+# target to build an object file
+src/words_lib/word_set.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/word_set.c.o
+.PHONY : src/words_lib/word_set.c.o
+
+src/words_lib/word_set.i: src/words_lib/word_set.c.i
+.PHONY : src/words_lib/word_set.i
+
+# target to preprocess a source file
+src/words_lib/word_set.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/word_set.c.i
+.PHONY : src/words_lib/word_set.c.i
+
+src/words_lib/word_set.s: src/words_lib/word_set.c.s
+.PHONY : src/words_lib/word_set.s
+
+# target to generate assembly for a file
+src/words_lib/word_set.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/word_set.c.s
+.PHONY : src/words_lib/word_set.c.s
 
 src/words_lib/words.o: src/words_lib/words.c.o
 .PHONY : src/words_lib/words.o
@@ -1665,54 +1761,6 @@ src/words_lib/words.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/words.c.s
 .PHONY : src/words_lib/words.c.s
 
-src/words_lib/words_4.o: src/words_lib/words_4.c.o
-.PHONY : src/words_lib/words_4.o
-
-# target to build an object file
-src/words_lib/words_4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/words_4.c.o
-.PHONY : src/words_lib/words_4.c.o
-
-src/words_lib/words_4.i: src/words_lib/words_4.c.i
-.PHONY : src/words_lib/words_4.i
-
-# target to preprocess a source file
-src/words_lib/words_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/words_4.c.i
-.PHONY : src/words_lib/words_4.c.i
-
-src/words_lib/words_4.s: src/words_lib/words_4.c.s
-.PHONY : src/words_lib/words_4.s
-
-# target to generate assembly for a file
-src/words_lib/words_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/words_4.c.s
-.PHONY : src/words_lib/words_4.c.s
-
-src/words_lib/words_6.o: src/words_lib/words_6.c.o
-.PHONY : src/words_lib/words_6.o
-
-# target to build an object file
-src/words_lib/words_6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/words_6.c.o
-.PHONY : src/words_lib/words_6.c.o
-
-src/words_lib/words_6.i: src/words_lib/words_6.c.i
-.PHONY : src/words_lib/words_6.i
-
-# target to preprocess a source file
-src/words_lib/words_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/words_6.c.i
-.PHONY : src/words_lib/words_6.c.i
-
-src/words_lib/words_6.s: src/words_lib/words_6.c.s
-.PHONY : src/words_lib/words_6.s
-
-# target to generate assembly for a file
-src/words_lib/words_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/words_lib/words_6.c.s
-.PHONY : src/words_lib/words_6.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1737,6 +1785,12 @@ help:
 	@echo "... src/execute/execute.o"
 	@echo "... src/execute/execute.i"
 	@echo "... src/execute/execute.s"
+	@echo "... src/execute/find.o"
+	@echo "... src/execute/find.i"
+	@echo "... src/execute/find.s"
+	@echo "... src/execute/trim.o"
+	@echo "... src/execute/trim.i"
+	@echo "... src/execute/trim.s"
 	@echo "... src/findAndHighlight/findAndHighlight.o"
 	@echo "... src/findAndHighlight/findAndHighlight.i"
 	@echo "... src/findAndHighlight/findAndHighlight.s"
@@ -1755,171 +1809,171 @@ help:
 	@echo "... src/test/searchtest.o"
 	@echo "... src/test/searchtest.i"
 	@echo "... src/test/searchtest.s"
-	@echo "... src/words_lib/lib4_3/a_4.o"
-	@echo "... src/words_lib/lib4_3/a_4.i"
-	@echo "... src/words_lib/lib4_3/a_4.s"
-	@echo "... src/words_lib/lib4_3/b_4.o"
-	@echo "... src/words_lib/lib4_3/b_4.i"
-	@echo "... src/words_lib/lib4_3/b_4.s"
-	@echo "... src/words_lib/lib4_3/c_4.o"
-	@echo "... src/words_lib/lib4_3/c_4.i"
-	@echo "... src/words_lib/lib4_3/c_4.s"
-	@echo "... src/words_lib/lib4_3/d_4.o"
-	@echo "... src/words_lib/lib4_3/d_4.i"
-	@echo "... src/words_lib/lib4_3/d_4.s"
-	@echo "... src/words_lib/lib4_3/e_4.o"
-	@echo "... src/words_lib/lib4_3/e_4.i"
-	@echo "... src/words_lib/lib4_3/e_4.s"
-	@echo "... src/words_lib/lib4_3/f_4.o"
-	@echo "... src/words_lib/lib4_3/f_4.i"
-	@echo "... src/words_lib/lib4_3/f_4.s"
-	@echo "... src/words_lib/lib4_3/g_4.o"
-	@echo "... src/words_lib/lib4_3/g_4.i"
-	@echo "... src/words_lib/lib4_3/g_4.s"
-	@echo "... src/words_lib/lib4_3/h_4.o"
-	@echo "... src/words_lib/lib4_3/h_4.i"
-	@echo "... src/words_lib/lib4_3/h_4.s"
-	@echo "... src/words_lib/lib4_3/i_4.o"
-	@echo "... src/words_lib/lib4_3/i_4.i"
-	@echo "... src/words_lib/lib4_3/i_4.s"
-	@echo "... src/words_lib/lib4_3/j_4.o"
-	@echo "... src/words_lib/lib4_3/j_4.i"
-	@echo "... src/words_lib/lib4_3/j_4.s"
-	@echo "... src/words_lib/lib4_3/k_4.o"
-	@echo "... src/words_lib/lib4_3/k_4.i"
-	@echo "... src/words_lib/lib4_3/k_4.s"
-	@echo "... src/words_lib/lib4_3/l_4.o"
-	@echo "... src/words_lib/lib4_3/l_4.i"
-	@echo "... src/words_lib/lib4_3/l_4.s"
-	@echo "... src/words_lib/lib4_3/m_4.o"
-	@echo "... src/words_lib/lib4_3/m_4.i"
-	@echo "... src/words_lib/lib4_3/m_4.s"
-	@echo "... src/words_lib/lib4_3/n_4.o"
-	@echo "... src/words_lib/lib4_3/n_4.i"
-	@echo "... src/words_lib/lib4_3/n_4.s"
-	@echo "... src/words_lib/lib4_3/o_4.o"
-	@echo "... src/words_lib/lib4_3/o_4.i"
-	@echo "... src/words_lib/lib4_3/o_4.s"
-	@echo "... src/words_lib/lib4_3/p_4.o"
-	@echo "... src/words_lib/lib4_3/p_4.i"
-	@echo "... src/words_lib/lib4_3/p_4.s"
-	@echo "... src/words_lib/lib4_3/q_4.o"
-	@echo "... src/words_lib/lib4_3/q_4.i"
-	@echo "... src/words_lib/lib4_3/q_4.s"
-	@echo "... src/words_lib/lib4_3/r_4.o"
-	@echo "... src/words_lib/lib4_3/r_4.i"
-	@echo "... src/words_lib/lib4_3/r_4.s"
-	@echo "... src/words_lib/lib4_3/s_4.o"
-	@echo "... src/words_lib/lib4_3/s_4.i"
-	@echo "... src/words_lib/lib4_3/s_4.s"
-	@echo "... src/words_lib/lib4_3/t_4.o"
-	@echo "... src/words_lib/lib4_3/t_4.i"
-	@echo "... src/words_lib/lib4_3/t_4.s"
-	@echo "... src/words_lib/lib4_3/u_4.o"
-	@echo "... src/words_lib/lib4_3/u_4.i"
-	@echo "... src/words_lib/lib4_3/u_4.s"
-	@echo "... src/words_lib/lib4_3/v_4.o"
-	@echo "... src/words_lib/lib4_3/v_4.i"
-	@echo "... src/words_lib/lib4_3/v_4.s"
-	@echo "... src/words_lib/lib4_3/w_4.o"
-	@echo "... src/words_lib/lib4_3/w_4.i"
-	@echo "... src/words_lib/lib4_3/w_4.s"
-	@echo "... src/words_lib/lib4_3/x_4.o"
-	@echo "... src/words_lib/lib4_3/x_4.i"
-	@echo "... src/words_lib/lib4_3/x_4.s"
-	@echo "... src/words_lib/lib4_3/y_4.o"
-	@echo "... src/words_lib/lib4_3/y_4.i"
-	@echo "... src/words_lib/lib4_3/y_4.s"
-	@echo "... src/words_lib/lib4_3/z_4.o"
-	@echo "... src/words_lib/lib4_3/z_4.i"
-	@echo "... src/words_lib/lib4_3/z_4.s"
-	@echo "... src/words_lib/lib6_3/a_6.o"
-	@echo "... src/words_lib/lib6_3/a_6.i"
-	@echo "... src/words_lib/lib6_3/a_6.s"
-	@echo "... src/words_lib/lib6_3/b_6.o"
-	@echo "... src/words_lib/lib6_3/b_6.i"
-	@echo "... src/words_lib/lib6_3/b_6.s"
-	@echo "... src/words_lib/lib6_3/c_6.o"
-	@echo "... src/words_lib/lib6_3/c_6.i"
-	@echo "... src/words_lib/lib6_3/c_6.s"
-	@echo "... src/words_lib/lib6_3/d_6.o"
-	@echo "... src/words_lib/lib6_3/d_6.i"
-	@echo "... src/words_lib/lib6_3/d_6.s"
-	@echo "... src/words_lib/lib6_3/e_6.o"
-	@echo "... src/words_lib/lib6_3/e_6.i"
-	@echo "... src/words_lib/lib6_3/e_6.s"
-	@echo "... src/words_lib/lib6_3/f_6.o"
-	@echo "... src/words_lib/lib6_3/f_6.i"
-	@echo "... src/words_lib/lib6_3/f_6.s"
-	@echo "... src/words_lib/lib6_3/g_6.o"
-	@echo "... src/words_lib/lib6_3/g_6.i"
-	@echo "... src/words_lib/lib6_3/g_6.s"
-	@echo "... src/words_lib/lib6_3/h_6.o"
-	@echo "... src/words_lib/lib6_3/h_6.i"
-	@echo "... src/words_lib/lib6_3/h_6.s"
-	@echo "... src/words_lib/lib6_3/i_6.o"
-	@echo "... src/words_lib/lib6_3/i_6.i"
-	@echo "... src/words_lib/lib6_3/i_6.s"
-	@echo "... src/words_lib/lib6_3/j_6.o"
-	@echo "... src/words_lib/lib6_3/j_6.i"
-	@echo "... src/words_lib/lib6_3/j_6.s"
-	@echo "... src/words_lib/lib6_3/k_6.o"
-	@echo "... src/words_lib/lib6_3/k_6.i"
-	@echo "... src/words_lib/lib6_3/k_6.s"
-	@echo "... src/words_lib/lib6_3/l_6.o"
-	@echo "... src/words_lib/lib6_3/l_6.i"
-	@echo "... src/words_lib/lib6_3/l_6.s"
-	@echo "... src/words_lib/lib6_3/m_6.o"
-	@echo "... src/words_lib/lib6_3/m_6.i"
-	@echo "... src/words_lib/lib6_3/m_6.s"
-	@echo "... src/words_lib/lib6_3/n_6.o"
-	@echo "... src/words_lib/lib6_3/n_6.i"
-	@echo "... src/words_lib/lib6_3/n_6.s"
-	@echo "... src/words_lib/lib6_3/o_6.o"
-	@echo "... src/words_lib/lib6_3/o_6.i"
-	@echo "... src/words_lib/lib6_3/o_6.s"
-	@echo "... src/words_lib/lib6_3/p_6.o"
-	@echo "... src/words_lib/lib6_3/p_6.i"
-	@echo "... src/words_lib/lib6_3/p_6.s"
-	@echo "... src/words_lib/lib6_3/q_6.o"
-	@echo "... src/words_lib/lib6_3/q_6.i"
-	@echo "... src/words_lib/lib6_3/q_6.s"
-	@echo "... src/words_lib/lib6_3/r_6.o"
-	@echo "... src/words_lib/lib6_3/r_6.i"
-	@echo "... src/words_lib/lib6_3/r_6.s"
-	@echo "... src/words_lib/lib6_3/s_6.o"
-	@echo "... src/words_lib/lib6_3/s_6.i"
-	@echo "... src/words_lib/lib6_3/s_6.s"
-	@echo "... src/words_lib/lib6_3/t_6.o"
-	@echo "... src/words_lib/lib6_3/t_6.i"
-	@echo "... src/words_lib/lib6_3/t_6.s"
-	@echo "... src/words_lib/lib6_3/u_6.o"
-	@echo "... src/words_lib/lib6_3/u_6.i"
-	@echo "... src/words_lib/lib6_3/u_6.s"
-	@echo "... src/words_lib/lib6_3/v_6.o"
-	@echo "... src/words_lib/lib6_3/v_6.i"
-	@echo "... src/words_lib/lib6_3/v_6.s"
-	@echo "... src/words_lib/lib6_3/w_6.o"
-	@echo "... src/words_lib/lib6_3/w_6.i"
-	@echo "... src/words_lib/lib6_3/w_6.s"
-	@echo "... src/words_lib/lib6_3/x_6.o"
-	@echo "... src/words_lib/lib6_3/x_6.i"
-	@echo "... src/words_lib/lib6_3/x_6.s"
-	@echo "... src/words_lib/lib6_3/y_6.o"
-	@echo "... src/words_lib/lib6_3/y_6.i"
-	@echo "... src/words_lib/lib6_3/y_6.s"
-	@echo "... src/words_lib/lib6_3/z_6.o"
-	@echo "... src/words_lib/lib6_3/z_6.i"
-	@echo "... src/words_lib/lib6_3/z_6.s"
+	@echo "... src/words_lib/cet4.o"
+	@echo "... src/words_lib/cet4.i"
+	@echo "... src/words_lib/cet4.s"
+	@echo "... src/words_lib/cet4/cet4_a.o"
+	@echo "... src/words_lib/cet4/cet4_a.i"
+	@echo "... src/words_lib/cet4/cet4_a.s"
+	@echo "... src/words_lib/cet4/cet4_b.o"
+	@echo "... src/words_lib/cet4/cet4_b.i"
+	@echo "... src/words_lib/cet4/cet4_b.s"
+	@echo "... src/words_lib/cet4/cet4_c.o"
+	@echo "... src/words_lib/cet4/cet4_c.i"
+	@echo "... src/words_lib/cet4/cet4_c.s"
+	@echo "... src/words_lib/cet4/cet4_d.o"
+	@echo "... src/words_lib/cet4/cet4_d.i"
+	@echo "... src/words_lib/cet4/cet4_d.s"
+	@echo "... src/words_lib/cet4/cet4_e.o"
+	@echo "... src/words_lib/cet4/cet4_e.i"
+	@echo "... src/words_lib/cet4/cet4_e.s"
+	@echo "... src/words_lib/cet4/cet4_f.o"
+	@echo "... src/words_lib/cet4/cet4_f.i"
+	@echo "... src/words_lib/cet4/cet4_f.s"
+	@echo "... src/words_lib/cet4/cet4_g.o"
+	@echo "... src/words_lib/cet4/cet4_g.i"
+	@echo "... src/words_lib/cet4/cet4_g.s"
+	@echo "... src/words_lib/cet4/cet4_h.o"
+	@echo "... src/words_lib/cet4/cet4_h.i"
+	@echo "... src/words_lib/cet4/cet4_h.s"
+	@echo "... src/words_lib/cet4/cet4_i.o"
+	@echo "... src/words_lib/cet4/cet4_i.i"
+	@echo "... src/words_lib/cet4/cet4_i.s"
+	@echo "... src/words_lib/cet4/cet4_j.o"
+	@echo "... src/words_lib/cet4/cet4_j.i"
+	@echo "... src/words_lib/cet4/cet4_j.s"
+	@echo "... src/words_lib/cet4/cet4_k.o"
+	@echo "... src/words_lib/cet4/cet4_k.i"
+	@echo "... src/words_lib/cet4/cet4_k.s"
+	@echo "... src/words_lib/cet4/cet4_l.o"
+	@echo "... src/words_lib/cet4/cet4_l.i"
+	@echo "... src/words_lib/cet4/cet4_l.s"
+	@echo "... src/words_lib/cet4/cet4_m.o"
+	@echo "... src/words_lib/cet4/cet4_m.i"
+	@echo "... src/words_lib/cet4/cet4_m.s"
+	@echo "... src/words_lib/cet4/cet4_n.o"
+	@echo "... src/words_lib/cet4/cet4_n.i"
+	@echo "... src/words_lib/cet4/cet4_n.s"
+	@echo "... src/words_lib/cet4/cet4_o.o"
+	@echo "... src/words_lib/cet4/cet4_o.i"
+	@echo "... src/words_lib/cet4/cet4_o.s"
+	@echo "... src/words_lib/cet4/cet4_p.o"
+	@echo "... src/words_lib/cet4/cet4_p.i"
+	@echo "... src/words_lib/cet4/cet4_p.s"
+	@echo "... src/words_lib/cet4/cet4_q.o"
+	@echo "... src/words_lib/cet4/cet4_q.i"
+	@echo "... src/words_lib/cet4/cet4_q.s"
+	@echo "... src/words_lib/cet4/cet4_r.o"
+	@echo "... src/words_lib/cet4/cet4_r.i"
+	@echo "... src/words_lib/cet4/cet4_r.s"
+	@echo "... src/words_lib/cet4/cet4_s.o"
+	@echo "... src/words_lib/cet4/cet4_s.i"
+	@echo "... src/words_lib/cet4/cet4_s.s"
+	@echo "... src/words_lib/cet4/cet4_t.o"
+	@echo "... src/words_lib/cet4/cet4_t.i"
+	@echo "... src/words_lib/cet4/cet4_t.s"
+	@echo "... src/words_lib/cet4/cet4_u.o"
+	@echo "... src/words_lib/cet4/cet4_u.i"
+	@echo "... src/words_lib/cet4/cet4_u.s"
+	@echo "... src/words_lib/cet4/cet4_v.o"
+	@echo "... src/words_lib/cet4/cet4_v.i"
+	@echo "... src/words_lib/cet4/cet4_v.s"
+	@echo "... src/words_lib/cet4/cet4_w.o"
+	@echo "... src/words_lib/cet4/cet4_w.i"
+	@echo "... src/words_lib/cet4/cet4_w.s"
+	@echo "... src/words_lib/cet4/cet4_y.o"
+	@echo "... src/words_lib/cet4/cet4_y.i"
+	@echo "... src/words_lib/cet4/cet4_y.s"
+	@echo "... src/words_lib/cet4/cet4_z.o"
+	@echo "... src/words_lib/cet4/cet4_z.i"
+	@echo "... src/words_lib/cet4/cet4_z.s"
+	@echo "... src/words_lib/cet6.o"
+	@echo "... src/words_lib/cet6.i"
+	@echo "... src/words_lib/cet6.s"
+	@echo "... src/words_lib/cet6/cet6_a.o"
+	@echo "... src/words_lib/cet6/cet6_a.i"
+	@echo "... src/words_lib/cet6/cet6_a.s"
+	@echo "... src/words_lib/cet6/cet6_b.o"
+	@echo "... src/words_lib/cet6/cet6_b.i"
+	@echo "... src/words_lib/cet6/cet6_b.s"
+	@echo "... src/words_lib/cet6/cet6_c.o"
+	@echo "... src/words_lib/cet6/cet6_c.i"
+	@echo "... src/words_lib/cet6/cet6_c.s"
+	@echo "... src/words_lib/cet6/cet6_d.o"
+	@echo "... src/words_lib/cet6/cet6_d.i"
+	@echo "... src/words_lib/cet6/cet6_d.s"
+	@echo "... src/words_lib/cet6/cet6_e.o"
+	@echo "... src/words_lib/cet6/cet6_e.i"
+	@echo "... src/words_lib/cet6/cet6_e.s"
+	@echo "... src/words_lib/cet6/cet6_f.o"
+	@echo "... src/words_lib/cet6/cet6_f.i"
+	@echo "... src/words_lib/cet6/cet6_f.s"
+	@echo "... src/words_lib/cet6/cet6_g.o"
+	@echo "... src/words_lib/cet6/cet6_g.i"
+	@echo "... src/words_lib/cet6/cet6_g.s"
+	@echo "... src/words_lib/cet6/cet6_h.o"
+	@echo "... src/words_lib/cet6/cet6_h.i"
+	@echo "... src/words_lib/cet6/cet6_h.s"
+	@echo "... src/words_lib/cet6/cet6_i.o"
+	@echo "... src/words_lib/cet6/cet6_i.i"
+	@echo "... src/words_lib/cet6/cet6_i.s"
+	@echo "... src/words_lib/cet6/cet6_j.o"
+	@echo "... src/words_lib/cet6/cet6_j.i"
+	@echo "... src/words_lib/cet6/cet6_j.s"
+	@echo "... src/words_lib/cet6/cet6_k.o"
+	@echo "... src/words_lib/cet6/cet6_k.i"
+	@echo "... src/words_lib/cet6/cet6_k.s"
+	@echo "... src/words_lib/cet6/cet6_l.o"
+	@echo "... src/words_lib/cet6/cet6_l.i"
+	@echo "... src/words_lib/cet6/cet6_l.s"
+	@echo "... src/words_lib/cet6/cet6_m.o"
+	@echo "... src/words_lib/cet6/cet6_m.i"
+	@echo "... src/words_lib/cet6/cet6_m.s"
+	@echo "... src/words_lib/cet6/cet6_n.o"
+	@echo "... src/words_lib/cet6/cet6_n.i"
+	@echo "... src/words_lib/cet6/cet6_n.s"
+	@echo "... src/words_lib/cet6/cet6_o.o"
+	@echo "... src/words_lib/cet6/cet6_o.i"
+	@echo "... src/words_lib/cet6/cet6_o.s"
+	@echo "... src/words_lib/cet6/cet6_p.o"
+	@echo "... src/words_lib/cet6/cet6_p.i"
+	@echo "... src/words_lib/cet6/cet6_p.s"
+	@echo "... src/words_lib/cet6/cet6_q.o"
+	@echo "... src/words_lib/cet6/cet6_q.i"
+	@echo "... src/words_lib/cet6/cet6_q.s"
+	@echo "... src/words_lib/cet6/cet6_r.o"
+	@echo "... src/words_lib/cet6/cet6_r.i"
+	@echo "... src/words_lib/cet6/cet6_r.s"
+	@echo "... src/words_lib/cet6/cet6_s.o"
+	@echo "... src/words_lib/cet6/cet6_s.i"
+	@echo "... src/words_lib/cet6/cet6_s.s"
+	@echo "... src/words_lib/cet6/cet6_t.o"
+	@echo "... src/words_lib/cet6/cet6_t.i"
+	@echo "... src/words_lib/cet6/cet6_t.s"
+	@echo "... src/words_lib/cet6/cet6_u.o"
+	@echo "... src/words_lib/cet6/cet6_u.i"
+	@echo "... src/words_lib/cet6/cet6_u.s"
+	@echo "... src/words_lib/cet6/cet6_v.o"
+	@echo "... src/words_lib/cet6/cet6_v.i"
+	@echo "... src/words_lib/cet6/cet6_v.s"
+	@echo "... src/words_lib/cet6/cet6_w.o"
+	@echo "... src/words_lib/cet6/cet6_w.i"
+	@echo "... src/words_lib/cet6/cet6_w.s"
+	@echo "... src/words_lib/cet6/cet6_y.o"
+	@echo "... src/words_lib/cet6/cet6_y.i"
+	@echo "... src/words_lib/cet6/cet6_y.s"
+	@echo "... src/words_lib/cet6/cet6_z.o"
+	@echo "... src/words_lib/cet6/cet6_z.i"
+	@echo "... src/words_lib/cet6/cet6_z.s"
+	@echo "... src/words_lib/testPrint.o"
+	@echo "... src/words_lib/testPrint.i"
+	@echo "... src/words_lib/testPrint.s"
+	@echo "... src/words_lib/word_set.o"
+	@echo "... src/words_lib/word_set.i"
+	@echo "... src/words_lib/word_set.s"
 	@echo "... src/words_lib/words.o"
 	@echo "... src/words_lib/words.i"
 	@echo "... src/words_lib/words.s"
-	@echo "... src/words_lib/words_4.o"
-	@echo "... src/words_lib/words_4.i"
-	@echo "... src/words_lib/words_4.s"
-	@echo "... src/words_lib/words_6.o"
-	@echo "... src/words_lib/words_6.i"
-	@echo "... src/words_lib/words_6.s"
 .PHONY : help
 
 

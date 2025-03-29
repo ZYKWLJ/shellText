@@ -900,5 +900,5 @@ word_entry cet4_h[1000] = {
         "/ˈhaɪdrədʒən/",
         "n. [化学] 氢",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

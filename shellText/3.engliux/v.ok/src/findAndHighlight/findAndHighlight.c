@@ -1,7 +1,5 @@
 #include "../../include/findAndHighlight.h"
-#include <string.h>
-#include <stdlib.h>
-#include <stdio.h>
+
 
 // 计算部分匹配表（next 数组）
 void computeLPSArray(char *pat, int M, int *lps)
@@ -75,73 +73,8 @@ int KMPSearch(char *pat, char *txt)
     return count;
 }
 
-// 在字符串数组 s 中查找字符串 t，返回匹配的条数
-// int find_if_exist(char ***s, int s_size, char *t, int search_mod) {
-//     // 增强参数检查
-//     if (s == NULL || t == NULL || *t == '\0' || s_size <= 0) {
-//         fprintf(stderr, "错误：无效的输入参数！\n");
-//         return 0;
-//     }
 
-//     printf("进入查找是否存在阶段：\n");
-//     int total_count = 0;
-
-//     for (int i = 0; i < s_size; i++) {
-//         // 增强指针检查
-//         if (s[i] == NULL) {
-//             printf("警告：s[%d]为NULL指针\n", i);
-//             continue;
-//         }
-
-//         printf("检查s[%d][0]...", i);
-//         if (s[i][0] == NULL) {
-//             printf("s[%d][0]为NULL\n", i);
-//             continue;
-//         }
-//         printf("OK\n");
-
-//         char *word = s[i][0]; // 单词文本
-//         printf("当前处理单词[%d]: %s\n", i, word);
-
-//         int match = 0;
-//         switch (search_mod) {
-//         case 1: // 精确查找
-//             match = (strcmp(word, t) == 0);
-//             break;
-
-//         case 2: // 包含查找
-//             match = (KMPSearch(t, word) != -1);
-//             break;
-
-//         case 3: // 前缀查找
-//             match = (strncmp(word, t, strlen(t)) == 0);
-//             break;
-
-//         case 4: // 后缀查找
-//             {
-//                 size_t suffix_len = strlen(t);
-//                 size_t word_len = strlen(word);
-//                 match = (word_len >= suffix_len) && 
-//                        (strcmp(word + word_len - suffix_len, t) == 0);
-//             }
-//             break;
-
-//         default:
-//             fprintf(stderr, "警告：无效的查找模式: %d\n", search_mod);
-//             return -1;
-//         }
-
-//         if (match) {
-//             total_count++;
-//             printf(">>> 匹配到: %s\n", word);
-//         }
-//     }
-
-//     printf("查找结束，共找到 %d 个匹配项\n", total_count);
-//     return total_count;
-// }
-
-int find_if_exist(const char ***word_list, int list_size, const char *target, int search_mode) {
+int find_if_exist(word_entry **word_list, int list_size, const char *target, int search_mode) {
     // 参数检查
     if (word_list == NULL || target == NULL || *target == '\0') {
         fprintf(stderr, "错误：无效的输入参数！\n");
@@ -151,7 +84,7 @@ int find_if_exist(const char ***word_list, int list_size, const char *target, in
     printf("正在查找: %s (模式: %d)\n", target, search_mode);
     int total_count = 0;
 
-    for (int i = 0; i < list_size && word_list[i] != NULL; i++) {
+    for (int i = 0; i < list_size ; i++) {
         // 获取单词条目
         printf("检查单词列表中的第 %d 个条目...\n", i);
         const char *word = word_list[i][0];
@@ -239,62 +172,22 @@ int find_and_highlight(const char ***s, int s_size, char *t, int search_mod, int
             {
                 printf("进入包含查找阶段：\n");
                 show_contains_columns(s, i, t, first_show, second_show, third_show);
-                // while (*p)
-                // {
-                //     if (strncmp(p, t, strlen(t)) == 0)
-                //     {
-                //         printf("%s%s%s%s", BOLD, YELLOW, t, RESET);
-                //         p += strlen(t);
-                //         // flag = 1;
-                //     }
-                //     else
-                //     {
-                //         putchar(*p);
-                //         p++;
-                //     }
-                // }
             }
             else if (search_mod == 3) // 前缀查找
             {
                 printf("进入前缀查找阶段：\n");
-                // printf("%s%s", BOLD, YELLOW);
-                // for (int k = 0; k < strlen(t); k++)
-                // {
-                //     putchar(p[k]);
-                // }
-                // printf("%s", RESET);
-                // printf("%s", p + strlen(t));
                 show_prefix_columns(s, i, t, first_show, second_show, third_show);
-
-                // flag = 1;
-                // 输出剩下的两个维度，这里就看传入的参数了！
             }
             else if (search_mod == 4) // 后缀查找
             {
                 printf("进入后缀查找阶段：\n");
                 show_suffix_columns(s, i, t, first_show, second_show, third_show);
-
-                // size_t suffix_len = strlen(t);
-                // size_t word_len = strlen(s[i][0]);
-                // const char *suffix_start = p + word_len - suffix_len;
-                // for (int k = 0; k < word_len - suffix_len; k++)
-                // {
-                //     putchar(p[k]);
-                // }
-                // printf("%s%s", BOLD, YELLOW);
-                // for (int k = 0; k < suffix_len; k++)
-                // {
-                //     putchar(suffix_start[k]);
-                // }
-                // printf("%s", RESET);
-                // flag = 1;
             }
             // 精确查找
             else
             {
                 printf("进入精确查找阶段：\n");
                 show_own_columns(s, i, t, first_show, second_show, third_show);
-                // printf("%s%s%s%s", BOLD, YELLOW, s[i], RESET);
             }
             first = 0;
             printf("\n\n");

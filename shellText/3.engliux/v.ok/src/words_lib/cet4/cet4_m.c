@@ -1296,5 +1296,5 @@ word_entry cet4_m[1000] = {
         "/ˈmɪstəri/",
         "n. 秘密，谜；神秘，神秘的事物；推理小说，推理剧；常作 mysteries 秘技，秘诀",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

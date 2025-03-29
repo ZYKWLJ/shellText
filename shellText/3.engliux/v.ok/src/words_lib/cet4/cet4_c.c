@@ -2592,5 +2592,5 @@ word_entry cet4_c[1000] = {
         "/ˈsaɪkl/",
         "n. 循环；周期；自行车；整套；一段时间vt. 使循环；使轮转vi. 循环；骑自行车；轮转",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

@@ -1,4 +1,4 @@
-# Install script for directory: /home/eyk/1code/shellText/shellText/3.engliux/v0.01
+# Install script for directory: /home/eyk/1code/shellText/shellText/3.engliux/v.ok
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/eyk/1code/shellText/shellText/3.engliux/v0.01/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/eyk/1code/shellText/shellText/3.engliux/v.ok/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

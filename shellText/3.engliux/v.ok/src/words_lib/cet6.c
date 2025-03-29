@@ -1,4 +1,5 @@
 # include "../../include/words_lib/cet6.h"
+
 word_entry *cet6[100]={
     cet6_a,
     cet6_b,

@@ -1356,5 +1356,5 @@ word_entry cet4_b[1000] = {
         "/baɪ/",
         "prep. 由，被；通过；相差……；到……之前；在……旁边adv. 经过；（时间）过去；在旁边；短暂访问n. （体育比赛）轮空晋级adj. 旁边的，侧面的",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

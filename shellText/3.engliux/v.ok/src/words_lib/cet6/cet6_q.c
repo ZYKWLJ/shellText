@@ -180,5 +180,5 @@ word_entry cet6_q[1000] = {
         "/kwoʊt/",
         "vt.引用,引证,提供,提出,报(价)",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

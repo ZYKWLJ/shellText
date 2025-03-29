@@ -2262,5 +2262,5 @@ word_entry cet6_a[1000] = {
         "/ˈæksɪs/",
         "n. 轴；轴线；轴心国",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

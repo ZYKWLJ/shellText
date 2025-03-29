@@ -240,5 +240,5 @@ word_entry cet6_j[1000] = {
         "/ˈdʒʌstɪfaɪ/",
         "vi. 证明合法；整理版面vt. 证明……是正当的；替……辩护",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

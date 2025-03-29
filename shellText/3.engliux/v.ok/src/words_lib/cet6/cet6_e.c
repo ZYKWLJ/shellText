@@ -1722,5 +1722,5 @@ word_entry cet6_e[1000] = {
         "/ˈaɪsaɪt/",
         "n. 视力；目力",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

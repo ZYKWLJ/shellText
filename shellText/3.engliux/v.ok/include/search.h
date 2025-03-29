@@ -9,7 +9,7 @@
 // extern const char **words[27];
 extern const char ***library[];
 // int search_word(char* str, int library,int mod);
-int search_word(char *token, int library, int search_mod, int first_show, int second_show, int third_show);
+void search_word(char *str, int library_index, int search_mod, int first_show, int second_show, int third_show);
 // int search_word(const char *target, int lib_index, int search_mode,
             //    int first_show, int second_show, int third_show) ;
 # endif

@@ -3402,5 +3402,5 @@ word_entry cet6_c[1000] = {
         "/ˈsɪnɪkl/",
         "adj. 愤世嫉俗的；冷嘲的",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

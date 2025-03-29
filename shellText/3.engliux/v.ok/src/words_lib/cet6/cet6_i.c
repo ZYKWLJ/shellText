@@ -1500,5 +1500,5 @@ word_entry cet6_i[1000] = {
         "/ˈaɪvəri/",
         "n. 象牙；乳白色；长牙adj. 乳白色的；象牙制的n. (Ivory)人名；(英)艾沃里",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

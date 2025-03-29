@@ -1554,5 +1554,5 @@ word_entry cet6_f[1000] = {
         "/ˈfjuːtʃər/",
         "n. 未来；前途；期货；将来时adj. 将来的，未来的",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

@@ -1020,5 +1020,5 @@ word_entry cet4_i[1000] = {
         "/ɪtˈself/",
         "pron. 它自己；它本身",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

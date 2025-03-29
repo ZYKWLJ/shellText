@@ -1608,5 +1608,5 @@ word_entry cet6_b[1000] = {
         "/ˈbaɪpæs/",
         "n. 旁路，支路；旁通管，分流术v. 绕过，避开；忽视，不顾（规章制度）；设旁路，迂回",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

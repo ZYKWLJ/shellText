@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/src/findAndHighlight/findAndHighlight.c.o: \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/findAndHighlight/findAndHighlight.c \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/findAndHighlight/findAndHighlight.c \
  /usr/include/stdc-predef.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/findAndHighlight/../../include/findAndHighlight.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/findAndHighlight/../../include/findAndHighlight.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -53,6 +53,10 @@ CMakeFiles/main.dir/src/findAndHighlight/findAndHighlight.c.o: \
  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/findAndHighlight/../../include/color.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/findAndHighlight/../../include/display.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/ctype.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/findAndHighlight/../../include/words.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/findAndHighlight/../../include/words_lib/cet4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/findAndHighlight/../../include/words_lib/word_set.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/findAndHighlight/../../include/words_lib/cet6.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/findAndHighlight/../../include/color.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/findAndHighlight/../../include/display.h

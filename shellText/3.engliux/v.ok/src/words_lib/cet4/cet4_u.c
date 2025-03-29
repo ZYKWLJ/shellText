@@ -468,5 +468,5 @@ word_entry cet4_u[1000] = {
         "/ˈʌtər/",
         "adj. 完全的；彻底的；无条件的v. 说出；发出，表达；发射；使用伪钞n. (Utter) （美、瑞、德、加、法、俄、匈）乌特（人名）",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

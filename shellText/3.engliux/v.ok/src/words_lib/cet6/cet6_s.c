@@ -4056,5 +4056,5 @@ word_entry cet6_s[1000] = {
         "/ˈsɪstəm/",
         "n. 制度，体制；系统；方法",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/src/display/display.c.o: \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/display/display.c \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/display/display.c \
  /usr/include/stdc-predef.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/display/../../include/display.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/display/../../include/display.h \
  /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -29,4 +29,4 @@ CMakeFiles/main.dir/src/display/display.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/display/../../include/color.h
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/display/../../include/color.h

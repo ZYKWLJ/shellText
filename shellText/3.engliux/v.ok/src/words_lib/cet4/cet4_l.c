@@ -990,5 +990,5 @@ word_entry cet4_l[1000] = {
         "/ˈlʌkʃəri/",
         "n. 奢侈，奢华；奢侈品；享受adj. 奢侈的",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

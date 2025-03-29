@@ -96,6 +96,9 @@
         "cet4.h": "c",
         "words_cet4_c.h": "c",
         "words_cet4_w.h": "c",
-        "words_cet4_v.h": "c"
+        "words_cet4_v.h": "c",
+        "cet6.h": "c",
+        "trim.h": "c",
+        "cet6_a.h": "c"
     }
 }

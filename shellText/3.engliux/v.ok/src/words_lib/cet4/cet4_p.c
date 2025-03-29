@@ -1524,5 +1524,5 @@ word_entry cet4_p[1000] = {
         "/ˈpʌzl/",
         "v. 迷惑，（使）困惑；（因迷惑）而苦思；使……为难n. 谜，智力游戏；拼版玩具；不解之谜；谜一样的人或事物",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

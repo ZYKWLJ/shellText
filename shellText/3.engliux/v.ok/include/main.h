@@ -11,5 +11,5 @@
 #include "execute.h"
 #include "endSay.h"
 #include "copyRight.h"
-
+# include "words.h"
 #endif

@@ -1,13 +1,8 @@
 #include "../../include/words.h"
 
 // 库文件定义
-const char ****library[] = {
-    NULL, // 代替 "NO"
-    NULL, // 代替 "NO"
-    NULL, // 代替 "NO"
-    NULL, // 代替 "NO"
-     (const char****)&words_4,
-    NULL, // 代替 "NO"
-     (const char****)&words_6,
-    NULL // 结束标记
+word_entry **library[] = {
+   cet4,
+   cet6,
+    NULL // 结束标记(不用也可以，因为很明显了！只是两者之一！)
 };

@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/src/help/help.c.o: \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/help/help.c \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/help/help.c \
  /usr/include/stdc-predef.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/help/../../include/help.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/help/../../include/help.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -26,4 +26,4 @@ CMakeFiles/main.dir/src/help/help.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/help/../../include/color.h
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/help/../../include/color.h

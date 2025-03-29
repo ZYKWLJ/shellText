@@ -726,5 +726,5 @@ word_entry cet4_o[1000] = {
         "/ɑːks/",
         "n. 牛；公牛",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

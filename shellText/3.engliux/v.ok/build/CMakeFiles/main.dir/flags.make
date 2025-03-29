@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/eyk/1code/shellText/shellText/3.engliux/v0.01/include
+C_INCLUDES = -I/home/eyk/1code/shellText/shellText/3.engliux/v.ok/include
 
 C_FLAGS = 
 

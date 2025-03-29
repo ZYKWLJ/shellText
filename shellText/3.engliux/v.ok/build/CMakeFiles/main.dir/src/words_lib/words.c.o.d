@@ -1,10 +1,10 @@
 CMakeFiles/main.dir/src/words_lib/words.c.o: \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/words.c \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/words_lib/words.c \
  /usr/include/stdc-predef.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/words_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/a_4.h \
- /usr/include/stdlib.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/words_lib/../../include/words.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/words_lib/../../include/words_lib/cet4.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/words_lib/../../include/words_lib/word_set.h \
+ /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -14,14 +14,23 @@ CMakeFiles/main.dir/src/words_lib/words.c.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
- /usr/include/x86_64-linux-gnu/bits/waitflags.h \
- /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
- /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -43,56 +52,8 @@ CMakeFiles/main.dir/src/words_lib/words.c.o: \
  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/b_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/c_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/d_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/e_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/f_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/g_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/h_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/i_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/j_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/k_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/l_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/m_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/n_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/o_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/p_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/q_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/r_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/s_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/t_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/u_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/v_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/w_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/x_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/y_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib4_3/z_4.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/words_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/a_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/b_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/c_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/d_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/e_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/f_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/g_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/h_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/i_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/j_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/k_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/l_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/m_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/n_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/o_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/p_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/q_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/r_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/s_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/t_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/u_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/v_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/w_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/x_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/y_6.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/words_lib/../../include/words_lib/lib6_3/z_6.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/strings.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/words_lib/../../include/words_lib/cet6.h

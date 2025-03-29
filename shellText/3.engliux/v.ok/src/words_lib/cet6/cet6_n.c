@@ -678,5 +678,5 @@ word_entry cet6_n[1000] = {
         "/ˈnaɪlɑːn/",
         "n. 尼龙，[纺] 聚酰胺纤维；尼龙袜",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

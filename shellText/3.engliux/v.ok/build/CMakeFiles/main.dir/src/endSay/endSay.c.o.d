@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/src/endSay/endSay.c.o: \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/endSay/endSay.c \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/endSay/endSay.c \
  /usr/include/stdc-predef.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/endSay/../../include/endSay.h \
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/endSay/../../include/endSay.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -71,4 +71,4 @@ CMakeFiles/main.dir/src/endSay/endSay.c.o: \
  /usr/include/x86_64-linux-gnu/bits/select.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
  /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/eyk/1code/shellText/shellText/3.engliux/v0.01/src/endSay/../../include/color.h
+ /home/eyk/1code/shellText/shellText/3.engliux/v.ok/src/endSay/../../include/color.h

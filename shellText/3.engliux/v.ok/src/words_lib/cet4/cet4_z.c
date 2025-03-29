@@ -36,5 +36,5 @@ word_entry cet4_z[1000] = {
         "/zuː/",
         "n. 动物园n. (Zoo)人名；(朝)朱；(阿拉伯)祖",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };

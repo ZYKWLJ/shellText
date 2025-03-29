@@ -588,5 +588,5 @@ word_entry cet6_v[1000] = {
         "/ˈvʌlnərəbl/",
         "adj. 易受攻击的，易受……的攻击；易受伤害的；有弱点的",
     },
-    {"-1", NULL, NULL, NULL, NULL},
+    {NULL, NULL, NULL, NULL},
 };
