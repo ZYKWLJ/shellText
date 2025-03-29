@@ -9,7 +9,6 @@ typedef struct
     const char *word;
     const char *phonetic;
     const char *meaning;
-    const char *end;
 } word_entry;
 
 #endif

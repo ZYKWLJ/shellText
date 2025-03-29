@@ -141,7 +141,7 @@ int KMPSearch(char *pat, char *txt)
 //     return total_count;
 // }
 
-int find_if_exist(const char ***word_list, int list_size, const char *target, int search_mode) {
+int find_if_exist(word *word_list, int list_size, const char *target, int search_mode) {
     // 参数检查
     if (word_list == NULL || target == NULL || *target == '\0') {
         fprintf(stderr, "错误：无效的输入参数！\n");

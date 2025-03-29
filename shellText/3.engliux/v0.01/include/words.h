@@ -3,6 +3,7 @@
 #include "words_lib/words_4.h"
 #include "words_lib/words_6.h"
 #include "stdlib.h"
+#include "word_set.h"
 #define LIB_NUM 8 // 目前词库数量
 // extern const char **words[27] ;
 extern const char **words_4[27];
