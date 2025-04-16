@@ -1,34 +1,3 @@
-/*
-主程序流程
-1.直接进入指令读取界面
-
-2.按下help获取帮助后，可进入guide界面，进行学习
-
-3.没了！
-
-4.增加指令提示功能，就是看最接近的指令，然后提示正确指令！这是一个难点！
-主打一个简洁！
-
-cmake命令:假设当前是在main.c所在的目录下
-cd ../build && make && ../bin/main
-
-
-有的时候需要请你cmake缓存！————————
-注意头文件不能包含函数实现,否则会重复定义
-
-清理cmake缓存的方法:
-rm -rf CMakeCache.txt CMakeFiles
-
-# 重新运行CMake生成构建文件
-cmake ..
-
-# 执行构建命令，这里以make为例
-make
-*/
-
-
-// 全部变量的定义问题，多文件链编！出错！！自己不会！！！
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -39,6 +8,16 @@ make
 #include "../include/execute.h"
 #include "../include/endSay.h"
 #include "../include/copyRight.h"
+void text(){
+
+
+
+}
+
+
+void englinux(){
+}
+
 
 int main()
 {
@@ -73,6 +52,7 @@ int main()
         // 释放 readline 分配的内存
         free(str);
     }
+    
     return 0;
 }
 

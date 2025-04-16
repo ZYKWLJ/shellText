@@ -100,6 +100,16 @@
         "cet6.h": "c",
         "trim.h": "c",
         "cet6_a.h": "c",
-        "ctype.h": "c"
+        "ctype.h": "c",
+        "chapter_show.h": "c",
+        "page11.h": "c",
+        "page6.h": "c",
+        "page281.h": "c",
+        "page2.h": "c",
+        "page4.h": "c",
+        "page22.h": "c",
+        "page279.h": "c",
+        "page330.h": "c",
+        "page329.h": "c"
     }
 }

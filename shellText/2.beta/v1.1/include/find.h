@@ -3,7 +3,7 @@
 # include "color.h"
 # include "string.h"
 # include "stdio.h"
-# include"pages.h"
+// # include"pages.h"
 #include "all_pages.h"
 // void find_page(int page_num);
 // extern char *all_pages[500];
