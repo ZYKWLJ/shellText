@@ -1,0 +1,984 @@
+.
+├── bin
+│   └── main
+├── build
+│   ├── CMakeCache.txt
+│   ├── CMakeFiles
+│   │   ├── 3.28.3
+│   │   │   ├── CMakeCCompiler.cmake
+│   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   ├── CMakeSystem.cmake
+│   │   │   ├── CompilerIdC
+│   │   │   │   ├── a.out
+│   │   │   │   ├── CMakeCCompilerId.c
+│   │   │   │   └── tmp
+│   │   │   └── CompilerIdCXX
+│   │   │       ├── a.out
+│   │   │       ├── CMakeCXXCompilerId.cpp
+│   │   │       └── tmp
+│   │   ├── cmake.check_cache
+│   │   ├── CMakeConfigureLog.yaml
+│   │   ├── CMakeDirectoryInformation.cmake
+│   │   ├── CMakeScratch
+│   │   ├── main.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   └── src
+│   │   │       ├── englinux
+│   │   │       │   ├── display
+│   │   │       │   │   ├── eg_author.c.o
+│   │   │       │   │   ├── eg_author.c.o.d
+│   │   │       │   │   ├── eg_copyRight.c.o
+│   │   │       │   │   ├── eg_copyRight.c.o.d
+│   │   │       │   │   ├── eg_display.c.o
+│   │   │       │   │   ├── eg_display.c.o.d
+│   │   │       │   │   ├── eg_display_width.c.o
+│   │   │       │   │   ├── eg_display_width.c.o.d
+│   │   │       │   │   ├── eg_endSay.c.o
+│   │   │       │   │   ├── eg_endSay.c.o.d
+│   │   │       │   │   ├── eg_error.c.o
+│   │   │       │   │   ├── eg_error.c.o.d
+│   │   │       │   │   ├── eg_find_help.c.o
+│   │   │       │   │   ├── eg_find_help.c.o.d
+│   │   │       │   │   ├── eg_print_help.c.o
+│   │   │       │   │   ├── eg_print_help.c.o.d
+│   │   │       │   │   ├── eg_print_other.c.o
+│   │   │       │   │   ├── eg_print_other.c.o.d
+│   │   │       │   │   ├── eg_print_words.c.o
+│   │   │       │   │   └── eg_print_words.c.o.d
+│   │   │       │   ├── eg_main.c.o
+│   │   │       │   ├── eg_main.c.o.d
+│   │   │       │   ├── execute
+│   │   │       │   │   ├── eg_clear.c.o
+│   │   │       │   │   ├── eg_clear.c.o.d
+│   │   │       │   │   ├── eg_execute.c.o
+│   │   │       │   │   ├── eg_execute.c.o.d
+│   │   │       │   │   ├── eg_execute_four_token.c.o
+│   │   │       │   │   ├── eg_execute_four_token.c.o.d
+│   │   │       │   │   ├── eg_execute_one_token.c.o
+│   │   │       │   │   ├── eg_execute_one_token.c.o.d
+│   │   │       │   │   ├── eg_execute_three_token.c.o
+│   │   │       │   │   ├── eg_execute_three_token.c.o.d
+│   │   │       │   │   ├── eg_execute_two_token.c.o
+│   │   │       │   │   ├── eg_execute_two_token.c.o.d
+│   │   │       │   │   ├── eg_find.c.o
+│   │   │       │   │   ├── eg_find.c.o.d
+│   │   │       │   │   ├── eg_help.c.o
+│   │   │       │   │   ├── eg_help.c.o.d
+│   │   │       │   │   ├── eg_is_all_digit.c.o
+│   │   │       │   │   ├── eg_is_all_digit.c.o.d
+│   │   │       │   │   ├── eg_match.c.o
+│   │   │       │   │   ├── eg_match.c.o.d
+│   │   │       │   │   ├── eg_parser_first_token.c.o
+│   │   │       │   │   ├── eg_parser_first_token.c.o.d
+│   │   │       │   │   ├── eg_parser_fourth_token.c.o
+│   │   │       │   │   ├── eg_parser_fourth_token.c.o.d
+│   │   │       │   │   ├── eg_parser_second_token.c.o
+│   │   │       │   │   ├── eg_parser_second_token.c.o.d
+│   │   │       │   │   ├── eg_parser_third_token.c.o
+│   │   │       │   │   └── eg_parser_third_token.c.o.d
+│   │   │       │   ├── lexer
+│   │   │       │   │   ├── eg_lexer.c.o
+│   │   │       │   │   └── eg_lexer.c.o.d
+│   │   │       │   └── words_lib
+│   │   │       │       ├── cet4
+│   │   │       │       │   ├── cet4_a.c.o
+│   │   │       │       │   ├── cet4_a.c.o.d
+│   │   │       │       │   ├── cet4_b.c.o
+│   │   │       │       │   ├── cet4_b.c.o.d
+│   │   │       │       │   ├── cet4_c.c.o
+│   │   │       │       │   ├── cet4_c.c.o.d
+│   │   │       │       │   ├── cet4_d.c.o
+│   │   │       │       │   ├── cet4_d.c.o.d
+│   │   │       │       │   ├── cet4_e.c.o
+│   │   │       │       │   ├── cet4_e.c.o.d
+│   │   │       │       │   ├── cet4_f.c.o
+│   │   │       │       │   ├── cet4_f.c.o.d
+│   │   │       │       │   ├── cet4_g.c.o
+│   │   │       │       │   ├── cet4_g.c.o.d
+│   │   │       │       │   ├── cet4_h.c.o
+│   │   │       │       │   ├── cet4_h.c.o.d
+│   │   │       │       │   ├── cet4_i.c.o
+│   │   │       │       │   ├── cet4_i.c.o.d
+│   │   │       │       │   ├── cet4_j.c.o
+│   │   │       │       │   ├── cet4_j.c.o.d
+│   │   │       │       │   ├── cet4_k.c.o
+│   │   │       │       │   ├── cet4_k.c.o.d
+│   │   │       │       │   ├── cet4_l.c.o
+│   │   │       │       │   ├── cet4_l.c.o.d
+│   │   │       │       │   ├── cet4_m.c.o
+│   │   │       │       │   ├── cet4_m.c.o.d
+│   │   │       │       │   ├── cet4_n.c.o
+│   │   │       │       │   ├── cet4_n.c.o.d
+│   │   │       │       │   ├── cet4_o.c.o
+│   │   │       │       │   ├── cet4_o.c.o.d
+│   │   │       │       │   ├── cet4_p.c.o
+│   │   │       │       │   ├── cet4_p.c.o.d
+│   │   │       │       │   ├── cet4_q.c.o
+│   │   │       │       │   ├── cet4_q.c.o.d
+│   │   │       │       │   ├── cet4_r.c.o
+│   │   │       │       │   ├── cet4_r.c.o.d
+│   │   │       │       │   ├── cet4_s.c.o
+│   │   │       │       │   ├── cet4_s.c.o.d
+│   │   │       │       │   ├── cet4_t.c.o
+│   │   │       │       │   ├── cet4_t.c.o.d
+│   │   │       │       │   ├── cet4_u.c.o
+│   │   │       │       │   ├── cet4_u.c.o.d
+│   │   │       │       │   ├── cet4_v.c.o
+│   │   │       │       │   ├── cet4_v.c.o.d
+│   │   │       │       │   ├── cet4_w.c.o
+│   │   │       │       │   ├── cet4_w.c.o.d
+│   │   │       │       │   ├── cet4_y.c.o
+│   │   │       │       │   ├── cet4_y.c.o.d
+│   │   │       │       │   ├── cet4_z.c.o
+│   │   │       │       │   └── cet4_z.c.o.d
+│   │   │       │       ├── cet4.c.o
+│   │   │       │       ├── cet4.c.o.d
+│   │   │       │       ├── cet6
+│   │   │       │       │   ├── cet6_a.c.o
+│   │   │       │       │   ├── cet6_a.c.o.d
+│   │   │       │       │   ├── cet6_b.c.o
+│   │   │       │       │   ├── cet6_b.c.o.d
+│   │   │       │       │   ├── cet6_c.c.o
+│   │   │       │       │   ├── cet6_c.c.o.d
+│   │   │       │       │   ├── cet6_d.c.o
+│   │   │       │       │   ├── cet6_d.c.o.d
+│   │   │       │       │   ├── cet6_e.c.o
+│   │   │       │       │   ├── cet6_e.c.o.d
+│   │   │       │       │   ├── cet6_f.c.o
+│   │   │       │       │   ├── cet6_f.c.o.d
+│   │   │       │       │   ├── cet6_g.c.o
+│   │   │       │       │   ├── cet6_g.c.o.d
+│   │   │       │       │   ├── cet6_h.c.o
+│   │   │       │       │   ├── cet6_h.c.o.d
+│   │   │       │       │   ├── cet6_i.c.o
+│   │   │       │       │   ├── cet6_i.c.o.d
+│   │   │       │       │   ├── cet6_j.c.o
+│   │   │       │       │   ├── cet6_j.c.o.d
+│   │   │       │       │   ├── cet6_k.c.o
+│   │   │       │       │   ├── cet6_k.c.o.d
+│   │   │       │       │   ├── cet6_l.c.o
+│   │   │       │       │   ├── cet6_l.c.o.d
+│   │   │       │       │   ├── cet6_m.c.o
+│   │   │       │       │   ├── cet6_m.c.o.d
+│   │   │       │       │   ├── cet6_n.c.o
+│   │   │       │       │   ├── cet6_n.c.o.d
+│   │   │       │       │   ├── cet6_o.c.o
+│   │   │       │       │   ├── cet6_o.c.o.d
+│   │   │       │       │   ├── cet6_p.c.o
+│   │   │       │       │   ├── cet6_p.c.o.d
+│   │   │       │       │   ├── cet6_q.c.o
+│   │   │       │       │   ├── cet6_q.c.o.d
+│   │   │       │       │   ├── cet6_r.c.o
+│   │   │       │       │   ├── cet6_r.c.o.d
+│   │   │       │       │   ├── cet6_s.c.o
+│   │   │       │       │   ├── cet6_s.c.o.d
+│   │   │       │       │   ├── cet6_t.c.o
+│   │   │       │       │   ├── cet6_t.c.o.d
+│   │   │       │       │   ├── cet6_u.c.o
+│   │   │       │       │   ├── cet6_u.c.o.d
+│   │   │       │       │   ├── cet6_v.c.o
+│   │   │       │       │   ├── cet6_v.c.o.d
+│   │   │       │       │   ├── cet6_w.c.o
+│   │   │       │       │   ├── cet6_w.c.o.d
+│   │   │       │       │   ├── cet6_y.c.o
+│   │   │       │       │   ├── cet6_y.c.o.d
+│   │   │       │       │   ├── cet6_z.c.o
+│   │   │       │       │   └── cet6_z.c.o.d
+│   │   │       │       ├── cet6.c.o
+│   │   │       │       ├── cet6.c.o.d
+│   │   │       │       ├── words.c.o
+│   │   │       │       ├── words.c.o.d
+│   │   │       │       ├── word_set.c.o
+│   │   │       │       └── word_set.c.o.d
+│   │   │       ├── main.c.o
+│   │   │       ├── main.c.o.d
+│   │   │       └── shellText
+│   │   │           ├── all_pages
+│   │   │           │   ├── text_all_pages.c.o
+│   │   │           │   └── text_all_pages.c.o.d
+│   │   │           ├── chapters
+│   │   │           │   ├── text_chapter1.c.o
+│   │   │           │   ├── text_chapter1.c.o.d
+│   │   │           │   ├── text_chapter2.c.o
+│   │   │           │   ├── text_chapter2.c.o.d
+│   │   │           │   ├── text_chapter3.c.o
+│   │   │           │   ├── text_chapter3.c.o.d
+│   │   │           │   ├── text_chapter4.c.o
+│   │   │           │   ├── text_chapter4.c.o.d
+│   │   │           │   ├── text_chapter5.c.o
+│   │   │           │   ├── text_chapter5.c.o.d
+│   │   │           │   ├── text_chapter6.c.o
+│   │   │           │   ├── text_chapter6.c.o.d
+│   │   │           │   ├── text_chapter7.c.o
+│   │   │           │   ├── text_chapter7.c.o.d
+│   │   │           │   ├── text_chapter8.c.o
+│   │   │           │   ├── text_chapter8.c.o.d
+│   │   │           │   ├── text_chapter9.c.o
+│   │   │           │   ├── text_chapter9.c.o.d
+│   │   │           │   ├── text_chapter_show.c.o
+│   │   │           │   ├── text_chapter_show.c.o.d
+│   │   │           │   ├── text_common.c.o
+│   │   │           │   └── text_common.c.o.d
+│   │   │           ├── commonTools
+│   │   │           │   ├── color
+│   │   │           │   │   ├── text_color.c.o
+│   │   │           │   │   └── text_color.c.o.d
+│   │   │           │   └── eliminateSpace
+│   │   │           │       ├── text_eliminateSpace.c.o
+│   │   │           │       └── text_eliminateSpace.c.o.d
+│   │   │           ├── copyRight
+│   │   │           │   ├── text_copyRight.c.o
+│   │   │           │   └── text_copyRight.c.o.d
+│   │   │           ├── endSay
+│   │   │           │   ├── text_endSay.c.o
+│   │   │           │   └── text_endSay.c.o.d
+│   │   │           ├── execute
+│   │   │           │   ├── text_execute.c.o
+│   │   │           │   └── text_execute.c.o.d
+│   │   │           ├── find
+│   │   │           │   ├── text_find_text.c.o
+│   │   │           │   └── text_find_text.c.o.d
+│   │   │           ├── findSimilarInstructions
+│   │   │           │   ├── text_similarInstructions.c.o
+│   │   │           │   └── text_similarInstructions.c.o.d
+│   │   │           ├── help
+│   │   │           │   ├── text_help.c.o
+│   │   │           │   └── text_help.c.o.d
+│   │   │           ├── instructionsLists
+│   │   │           │   ├── text_instructionList.c.o
+│   │   │           │   └── text_instructionList.c.o.d
+│   │   │           ├── other
+│   │   │           │   ├── text_myTime.c.o
+│   │   │           │   ├── text_myTime.c.o.d
+│   │   │           │   ├── text_rain.c.o
+│   │   │           │   └── text_rain.c.o.d
+│   │   │           ├── page_preprocess
+│   │   │           │   ├── text_page_preprocess.c.o
+│   │   │           │   └── text_page_preprocess.c.o.d
+│   │   │           └── show_page
+│   │   │               ├── text_show_page.c.o
+│   │   │               └── text_show_page.c.o.d
+│   │   ├── Makefile2
+│   │   ├── Makefile.cmake
+│   │   ├── pkgRedirects
+│   │   ├── progress.marks
+│   │   └── TargetDirectories.txt
+│   ├── cmake_install.cmake
+│   └── Makefile
+├── CMakeLists.txt
+├── include
+│   ├── englinux
+│   │   ├── display
+│   │   │   ├── eg_author.h
+│   │   │   ├── eg_color.h
+│   │   │   ├── eg_copyRight.h
+│   │   │   ├── eg_display.h
+│   │   │   ├── eg_display_width.h
+│   │   │   ├── eg_endSay.h
+│   │   │   ├── eg_error.h
+│   │   │   ├── eg_find_help.h
+│   │   │   ├── eg_print_help.h
+│   │   │   ├── eg_print_other.h
+│   │   │   └── eg_print_words.h
+│   │   ├── eg_eg_main.c
+│   │   ├── eg_main.h
+│   │   ├── execute
+│   │   │   ├── eg_clear.h
+│   │   │   ├── eg_execute_four_token.h
+│   │   │   ├── eg_execute.h
+│   │   │   ├── eg_execute_one_token.h
+│   │   │   ├── eg_execute_three_token.h
+│   │   │   ├── eg_execute_two_token.h
+│   │   │   ├── eg_find.h
+│   │   │   ├── eg_help.h
+│   │   │   ├── eg_is_all_digit.h
+│   │   │   ├── eg_match.h
+│   │   │   ├── eg_parser_first_token.h
+│   │   │   ├── eg_parser_fourth_token.h
+│   │   │   ├── eg_parser_second_token.h
+│   │   │   └── eg_parser_third_token.h
+│   │   ├── lexer
+│   │   │   └── eg_lexer.h
+│   │   ├── parser
+│   │   └── words_lib
+│   │       ├── cet4
+│   │       │   ├── cet4_a.h
+│   │       │   ├── cet4_b.h
+│   │       │   ├── cet4_c.h
+│   │       │   ├── cet4_d.h
+│   │       │   ├── cet4_e.h
+│   │       │   ├── cet4_f.h
+│   │       │   ├── cet4_g.h
+│   │       │   ├── cet4_h.h
+│   │       │   ├── cet4_i.h
+│   │       │   ├── cet4_j.h
+│   │       │   ├── cet4_k.h
+│   │       │   ├── cet4_l.h
+│   │       │   ├── cet4_m.h
+│   │       │   ├── cet4_n.h
+│   │       │   ├── cet4_o.h
+│   │       │   ├── cet4_p.h
+│   │       │   ├── cet4_q.h
+│   │       │   ├── cet4_r.h
+│   │       │   ├── cet4_s.h
+│   │       │   ├── cet4_t.h
+│   │       │   ├── cet4_u.h
+│   │       │   ├── cet4_v.h
+│   │       │   ├── cet4_w.h
+│   │       │   ├── cet4_y.h
+│   │       │   └── cet4_z.h
+│   │       ├── cet4.h
+│   │       ├── cet6
+│   │       │   ├── cet6_a.h
+│   │       │   ├── cet6_b.h
+│   │       │   ├── cet6_c.h
+│   │       │   ├── cet6_d.h
+│   │       │   ├── cet6_e.h
+│   │       │   ├── cet6_f.h
+│   │       │   ├── cet6_g.h
+│   │       │   ├── cet6_h.h
+│   │       │   ├── cet6_i.h
+│   │       │   ├── cet6_j.h
+│   │       │   ├── cet6_k.h
+│   │       │   ├── cet6_l.h
+│   │       │   ├── cet6_m.h
+│   │       │   ├── cet6_n.h
+│   │       │   ├── cet6_o.h
+│   │       │   ├── cet6_p.h
+│   │       │   ├── cet6_q.h
+│   │       │   ├── cet6_r.h
+│   │       │   ├── cet6_s.h
+│   │       │   ├── cet6_t.h
+│   │       │   ├── cet6_u.h
+│   │       │   ├── cet6_v.h
+│   │       │   ├── cet6_w.h
+│   │       │   ├── cet6_y.h
+│   │       │   └── cet6_z.h
+│   │       ├── cet6.h
+│   │       ├── word_set.h
+│   │       └── words.h
+│   └── shellText
+│       ├── chapters
+│       │   ├── text_chapter1.h
+│       │   ├── text_chapter2.h
+│       │   ├── text_chapter3.h
+│       │   ├── text_chapter4.h
+│       │   ├── text_chapter5.h
+│       │   ├── text_chapter6.h
+│       │   ├── text_chapter7.h
+│       │   ├── text_chapter8.h
+│       │   ├── text_chapter9.h
+│       │   └── text_common.h
+│       ├── pages
+│       │   ├── text_page100.h
+│       │   ├── text_page101.h
+│       │   ├── text_page102.h
+│       │   ├── text_page103.h
+│       │   ├── text_page104.h
+│       │   ├── text_page105.h
+│       │   ├── text_page106.h
+│       │   ├── text_page107.h
+│       │   ├── text_page108.h
+│       │   ├── text_page109.h
+│       │   ├── text_page10.h
+│       │   ├── text_page110.h
+│       │   ├── text_page111.h
+│       │   ├── text_page112.h
+│       │   ├── text_page113.h
+│       │   ├── text_page114.h
+│       │   ├── text_page115.h
+│       │   ├── text_page116.h
+│       │   ├── text_page117.h
+│       │   ├── text_page118.h
+│       │   ├── text_page119.h
+│       │   ├── text_page11.h
+│       │   ├── text_page120.h
+│       │   ├── text_page121.h
+│       │   ├── text_page122.h
+│       │   ├── text_page123.h
+│       │   ├── text_page124.h
+│       │   ├── text_page125.h
+│       │   ├── text_page126.h
+│       │   ├── text_page127.h
+│       │   ├── text_page128.h
+│       │   ├── text_page129.h
+│       │   ├── text_page12.h
+│       │   ├── text_page130.h
+│       │   ├── text_page131.h
+│       │   ├── text_page132.h
+│       │   ├── text_page133.h
+│       │   ├── text_page134.h
+│       │   ├── text_page135.h
+│       │   ├── text_page136.h
+│       │   ├── text_page137.h
+│       │   ├── text_page138.h
+│       │   ├── text_page139.h
+│       │   ├── text_page13.h
+│       │   ├── text_page140.h
+│       │   ├── text_page141.h
+│       │   ├── text_page142.h
+│       │   ├── text_page143.h
+│       │   ├── text_page144.h
+│       │   ├── text_page145.h
+│       │   ├── text_page146.h
+│       │   ├── text_page147.h
+│       │   ├── text_page148.h
+│       │   ├── text_page149.h
+│       │   ├── text_page14.h
+│       │   ├── text_page150.h
+│       │   ├── text_page151.h
+│       │   ├── text_page152.h
+│       │   ├── text_page153.h
+│       │   ├── text_page154.h
+│       │   ├── text_page155.h
+│       │   ├── text_page156.h
+│       │   ├── text_page157.h
+│       │   ├── text_page158.h
+│       │   ├── text_page159.h
+│       │   ├── text_page15.h
+│       │   ├── text_page160.h
+│       │   ├── text_page161.h
+│       │   ├── text_page162.h
+│       │   ├── text_page163.h
+│       │   ├── text_page164.h
+│       │   ├── text_page165.h
+│       │   ├── text_page166.h
+│       │   ├── text_page167.h
+│       │   ├── text_page168.h
+│       │   ├── text_page169.h
+│       │   ├── text_page16.h
+│       │   ├── text_page170.h
+│       │   ├── text_page171.h
+│       │   ├── text_page172.h
+│       │   ├── text_page173.h
+│       │   ├── text_page174.h
+│       │   ├── text_page175.h
+│       │   ├── text_page176.h
+│       │   ├── text_page177.h
+│       │   ├── text_page178.h
+│       │   ├── text_page179.h
+│       │   ├── text_page17.h
+│       │   ├── text_page180.h
+│       │   ├── text_page181.h
+│       │   ├── text_page182.h
+│       │   ├── text_page183.h
+│       │   ├── text_page184.h
+│       │   ├── text_page185.h
+│       │   ├── text_page186.h
+│       │   ├── text_page187.h
+│       │   ├── text_page188.h
+│       │   ├── text_page189.h
+│       │   ├── text_page18.h
+│       │   ├── text_page190.h
+│       │   ├── text_page191.h
+│       │   ├── text_page192.h
+│       │   ├── text_page193.h
+│       │   ├── text_page194.h
+│       │   ├── text_page195.h
+│       │   ├── text_page196.h
+│       │   ├── text_page197.h
+│       │   ├── text_page198.h
+│       │   ├── text_page199.h
+│       │   ├── text_page19.h
+│       │   ├── text_page1.h
+│       │   ├── text_page200.h
+│       │   ├── text_page201.h
+│       │   ├── text_page202.h
+│       │   ├── text_page203.h
+│       │   ├── text_page204.h
+│       │   ├── text_page205.h
+│       │   ├── text_page206.h
+│       │   ├── text_page207.h
+│       │   ├── text_page208.h
+│       │   ├── text_page209.h
+│       │   ├── text_page20.h
+│       │   ├── text_page210.h
+│       │   ├── text_page211.h
+│       │   ├── text_page212.h
+│       │   ├── text_page213.h
+│       │   ├── text_page214.h
+│       │   ├── text_page215.h
+│       │   ├── text_page216.h
+│       │   ├── text_page217.h
+│       │   ├── text_page218.h
+│       │   ├── text_page219.h
+│       │   ├── text_page21.h
+│       │   ├── text_page220.h
+│       │   ├── text_page221.h
+│       │   ├── text_page222.h
+│       │   ├── text_page223.h
+│       │   ├── text_page224.h
+│       │   ├── text_page225.h
+│       │   ├── text_page226.h
+│       │   ├── text_page227.h
+│       │   ├── text_page228.h
+│       │   ├── text_page229.h
+│       │   ├── text_page22.h
+│       │   ├── text_page230.h
+│       │   ├── text_page231.h
+│       │   ├── text_page232.h
+│       │   ├── text_page233.h
+│       │   ├── text_page234.h
+│       │   ├── text_page235.h
+│       │   ├── text_page236.h
+│       │   ├── text_page237.h
+│       │   ├── text_page238.h
+│       │   ├── text_page239.h
+│       │   ├── text_page23.h
+│       │   ├── text_page240.h
+│       │   ├── text_page241.h
+│       │   ├── text_page242.h
+│       │   ├── text_page243.h
+│       │   ├── text_page244.h
+│       │   ├── text_page245.h
+│       │   ├── text_page246.h
+│       │   ├── text_page247.h
+│       │   ├── text_page248.h
+│       │   ├── text_page249.h
+│       │   ├── text_page24.h
+│       │   ├── text_page250.h
+│       │   ├── text_page251.h
+│       │   ├── text_page252.h
+│       │   ├── text_page253.h
+│       │   ├── text_page254.h
+│       │   ├── text_page255.h
+│       │   ├── text_page256.h
+│       │   ├── text_page257.h
+│       │   ├── text_page258.h
+│       │   ├── text_page259.h
+│       │   ├── text_page25.h
+│       │   ├── text_page260.h
+│       │   ├── text_page261.h
+│       │   ├── text_page262.h
+│       │   ├── text_page263.h
+│       │   ├── text_page264.h
+│       │   ├── text_page265.h
+│       │   ├── text_page266.h
+│       │   ├── text_page267.h
+│       │   ├── text_page268.h
+│       │   ├── text_page269.h
+│       │   ├── text_page26.h
+│       │   ├── text_page270.h
+│       │   ├── text_page271.h
+│       │   ├── text_page272.h
+│       │   ├── text_page273.h
+│       │   ├── text_page274.h
+│       │   ├── text_page275.h
+│       │   ├── text_page276.h
+│       │   ├── text_page277.h
+│       │   ├── text_page278.h
+│       │   ├── text_page279.h
+│       │   ├── text_page27.h
+│       │   ├── text_page280.h
+│       │   ├── text_page281.h
+│       │   ├── text_page282.h
+│       │   ├── text_page283.h
+│       │   ├── text_page284.h
+│       │   ├── text_page285.h
+│       │   ├── text_page286.h
+│       │   ├── text_page287.h
+│       │   ├── text_page288.h
+│       │   ├── text_page289.h
+│       │   ├── text_page28.h
+│       │   ├── text_page290.h
+│       │   ├── text_page291.h
+│       │   ├── text_page292.h
+│       │   ├── text_page293.h
+│       │   ├── text_page294.h
+│       │   ├── text_page295.h
+│       │   ├── text_page296.h
+│       │   ├── text_page297.h
+│       │   ├── text_page298.h
+│       │   ├── text_page299.h
+│       │   ├── text_page29.h
+│       │   ├── text_page2.h
+│       │   ├── text_page300.h
+│       │   ├── text_page301.h
+│       │   ├── text_page302.h
+│       │   ├── text_page303.h
+│       │   ├── text_page304.h
+│       │   ├── text_page305.h
+│       │   ├── text_page306.h
+│       │   ├── text_page307.h
+│       │   ├── text_page308.h
+│       │   ├── text_page309.h
+│       │   ├── text_page30.h
+│       │   ├── text_page310.h
+│       │   ├── text_page311.h
+│       │   ├── text_page312.h
+│       │   ├── text_page313.h
+│       │   ├── text_page314.h
+│       │   ├── text_page315.h
+│       │   ├── text_page316.h
+│       │   ├── text_page317.h
+│       │   ├── text_page318.h
+│       │   ├── text_page319.h
+│       │   ├── text_page31.h
+│       │   ├── text_page320.h
+│       │   ├── text_page321.h
+│       │   ├── text_page322.h
+│       │   ├── text_page323.h
+│       │   ├── text_page324.h
+│       │   ├── text_page325.h
+│       │   ├── text_page326.h
+│       │   ├── text_page327.h
+│       │   ├── text_page328.h
+│       │   ├── text_page329.h
+│       │   ├── text_page32.h
+│       │   ├── text_page330.h
+│       │   ├── text_page331.h
+│       │   ├── text_page332.h
+│       │   ├── text_page333.h
+│       │   ├── text_page334.h
+│       │   ├── text_page335.h
+│       │   ├── text_page336.h
+│       │   ├── text_page337.h
+│       │   ├── text_page338.h
+│       │   ├── text_page339.h
+│       │   ├── text_page33.h
+│       │   ├── text_page340.h
+│       │   ├── text_page341.h
+│       │   ├── text_page342.h
+│       │   ├── text_page343.h
+│       │   ├── text_page344.h
+│       │   ├── text_page345.h
+│       │   ├── text_page346.h
+│       │   ├── text_page347.h
+│       │   ├── text_page348.h
+│       │   ├── text_page349.h
+│       │   ├── text_page34.h
+│       │   ├── text_page350.h
+│       │   ├── text_page351.h
+│       │   ├── text_page352.h
+│       │   ├── text_page353.h
+│       │   ├── text_page354.h
+│       │   ├── text_page355.h
+│       │   ├── text_page356.h
+│       │   ├── text_page357.h
+│       │   ├── text_page358.h
+│       │   ├── text_page359.h
+│       │   ├── text_page35.h
+│       │   ├── text_page360.h
+│       │   ├── text_page361.h
+│       │   ├── text_page362.h
+│       │   ├── text_page363.h
+│       │   ├── text_page364.h
+│       │   ├── text_page365.h
+│       │   ├── text_page366.h
+│       │   ├── text_page367.h
+│       │   ├── text_page368.h
+│       │   ├── text_page369.h
+│       │   ├── text_page36.h
+│       │   ├── text_page370.h
+│       │   ├── text_page371.h
+│       │   ├── text_page372.h
+│       │   ├── text_page373.h
+│       │   ├── text_page374.h
+│       │   ├── text_page375.h
+│       │   ├── text_page376.h
+│       │   ├── text_page377.h
+│       │   ├── text_page378.h
+│       │   ├── text_page379.h
+│       │   ├── text_page37.h
+│       │   ├── text_page380.h
+│       │   ├── text_page381.h
+│       │   ├── text_page382.h
+│       │   ├── text_page383.h
+│       │   ├── text_page384.h
+│       │   ├── text_page385.h
+│       │   ├── text_page386.h
+│       │   ├── text_page387.h
+│       │   ├── text_page388.h
+│       │   ├── text_page389.h
+│       │   ├── text_page38.h
+│       │   ├── text_page390.h
+│       │   ├── text_page391.h
+│       │   ├── text_page392.h
+│       │   ├── text_page393.h
+│       │   ├── text_page394.h
+│       │   ├── text_page395.h
+│       │   ├── text_page396.h
+│       │   ├── text_page397.h
+│       │   ├── text_page398.h
+│       │   ├── text_page399.h
+│       │   ├── text_page39.h
+│       │   ├── text_page3.h
+│       │   ├── text_page400.h
+│       │   ├── text_page401.h
+│       │   ├── text_page402.h
+│       │   ├── text_page403.h
+│       │   ├── text_page404.h
+│       │   ├── text_page405.h
+│       │   ├── text_page406.h
+│       │   ├── text_page407.h
+│       │   ├── text_page408.h
+│       │   ├── text_page409.h
+│       │   ├── text_page40.h
+│       │   ├── text_page410.h
+│       │   ├── text_page411.h
+│       │   ├── text_page412.h
+│       │   ├── text_page413.h
+│       │   ├── text_page414.h
+│       │   ├── text_page415.h
+│       │   ├── text_page416.h
+│       │   ├── text_page417.h
+│       │   ├── text_page418.h
+│       │   ├── text_page419.h
+│       │   ├── text_page41.h
+│       │   ├── text_page420.h
+│       │   ├── text_page421.h
+│       │   ├── text_page422.h
+│       │   ├── text_page423.h
+│       │   ├── text_page424.h
+│       │   ├── text_page425.h
+│       │   ├── text_page426.h
+│       │   ├── text_page427.h
+│       │   ├── text_page428.h
+│       │   ├── text_page429.h
+│       │   ├── text_page42.h
+│       │   ├── text_page430.h
+│       │   ├── text_page43.h
+│       │   ├── text_page44.h
+│       │   ├── text_page45.h
+│       │   ├── text_page46.h
+│       │   ├── text_page47.h
+│       │   ├── text_page48.h
+│       │   ├── text_page49.h
+│       │   ├── text_page4.h
+│       │   ├── text_page50.h
+│       │   ├── text_page51.h
+│       │   ├── text_page52.h
+│       │   ├── text_page53.h
+│       │   ├── text_page54.h
+│       │   ├── text_page55.h
+│       │   ├── text_page56.h
+│       │   ├── text_page57.h
+│       │   ├── text_page58.h
+│       │   ├── text_page59.h
+│       │   ├── text_page5.h
+│       │   ├── text_page60.h
+│       │   ├── text_page61.h
+│       │   ├── text_page62.h
+│       │   ├── text_page63.h
+│       │   ├── text_page64.h
+│       │   ├── text_page65.h
+│       │   ├── text_page66.h
+│       │   ├── text_page67.h
+│       │   ├── text_page68.h
+│       │   ├── text_page69.h
+│       │   ├── text_page6.h
+│       │   ├── text_page70.h
+│       │   ├── text_page71.h
+│       │   ├── text_page72.h
+│       │   ├── text_page73.h
+│       │   ├── text_page74.h
+│       │   ├── text_page75.h
+│       │   ├── text_page76.h
+│       │   ├── text_page77.h
+│       │   ├── text_page78.h
+│       │   ├── text_page79.h
+│       │   ├── text_page7.h
+│       │   ├── text_page80.h
+│       │   ├── text_page81.h
+│       │   ├── text_page82.h
+│       │   ├── text_page83.h
+│       │   ├── text_page84.h
+│       │   ├── text_page85.h
+│       │   ├── text_page86.h
+│       │   ├── text_page87.h
+│       │   ├── text_page88.h
+│       │   ├── text_page89.h
+│       │   ├── text_page8.h
+│       │   ├── text_page90.h
+│       │   ├── text_page91.h
+│       │   ├── text_page92.h
+│       │   ├── text_page93.h
+│       │   ├── text_page94.h
+│       │   ├── text_page95.h
+│       │   ├── text_page96.h
+│       │   ├── text_page97.h
+│       │   ├── text_page98.h
+│       │   ├── text_page99.h
+│       │   └── text_page9.h
+│       ├── text_all_pages.h
+│       ├── text_author.h
+│       ├── text_chapter_show.h
+│       ├── text_choose_language.h
+│       ├── text_color.h
+│       ├── text_copyRight.h
+│       ├── text_eliminateSpace.h
+│       ├── text_endSay.h
+│       ├── text_enter_help.h
+│       ├── text_execute.h
+│       ├── text_find.h
+│       ├── text_help.h
+│       ├── text_instructionList.h
+│       ├── text_myTime.h
+│       ├── text_page_preprocess.h
+│       ├── text_rain.h
+│       ├── text_show_page.h
+│       ├── text_similarInstructions.h
+│       ├── text_story.h
+│       └── text_subject.h
+├── nohup.out
+├── other
+│   └── 1.网站.md
+├── py
+│   ├── addInclude.py
+│   ├── addPrefix.py
+│   ├── backName.py
+│   ├── changeName.py
+│   ├── correct.py
+│   ├── deletePrefix.py
+│   ├── getName.py
+│   ├── outputName.py
+│   └── shellText.py
+├── src
+│   ├── englinux
+│   │   ├── display
+│   │   │   ├── eg_author.c
+│   │   │   ├── eg_copyRight.c
+│   │   │   ├── eg_display.c
+│   │   │   ├── eg_display_width.c
+│   │   │   ├── eg_endSay.c
+│   │   │   ├── eg_error.c
+│   │   │   ├── eg_find_help.c
+│   │   │   ├── eg_print_help.c
+│   │   │   ├── eg_print_other.c
+│   │   │   └── eg_print_words.c
+│   │   ├── eg_main.c
+│   │   ├── execute
+│   │   │   ├── eg_clear.c
+│   │   │   ├── eg_execute.c
+│   │   │   ├── eg_execute_four_token.c
+│   │   │   ├── eg_execute_one_token.c
+│   │   │   ├── eg_execute_three_token.c
+│   │   │   ├── eg_execute_two_token.c
+│   │   │   ├── eg_find.c
+│   │   │   ├── eg_help.c
+│   │   │   ├── eg_is_all_digit.c
+│   │   │   ├── eg_match.c
+│   │   │   ├── eg_parser_first_token.c
+│   │   │   ├── eg_parser_fourth_token.c
+│   │   │   ├── eg_parser_second_token.c
+│   │   │   └── eg_parser_third_token.c
+│   │   ├── lexer
+│   │   │   └── eg_lexer.c
+│   │   ├── parser
+│   │   └── words_lib
+│   │       ├── cet4
+│   │       │   ├── cet4_a.c
+│   │       │   ├── cet4_b.c
+│   │       │   ├── cet4_c.c
+│   │       │   ├── cet4_d.c
+│   │       │   ├── cet4_e.c
+│   │       │   ├── cet4_f.c
+│   │       │   ├── cet4_g.c
+│   │       │   ├── cet4_h.c
+│   │       │   ├── cet4_i.c
+│   │       │   ├── cet4_j.c
+│   │       │   ├── cet4_k.c
+│   │       │   ├── cet4_l.c
+│   │       │   ├── cet4_m.c
+│   │       │   ├── cet4_n.c
+│   │       │   ├── cet4_o.c
+│   │       │   ├── cet4_p.c
+│   │       │   ├── cet4_q.c
+│   │       │   ├── cet4_r.c
+│   │       │   ├── cet4_s.c
+│   │       │   ├── cet4_t.c
+│   │       │   ├── cet4_u.c
+│   │       │   ├── cet4_v.c
+│   │       │   ├── cet4_w.c
+│   │       │   ├── cet4_y.c
+│   │       │   └── cet4_z.c
+│   │       ├── cet4.c
+│   │       ├── cet6
+│   │       │   ├── cet6_a.c
+│   │       │   ├── cet6_b.c
+│   │       │   ├── cet6_c.c
+│   │       │   ├── cet6_d.c
+│   │       │   ├── cet6_e.c
+│   │       │   ├── cet6_f.c
+│   │       │   ├── cet6_g.c
+│   │       │   ├── cet6_h.c
+│   │       │   ├── cet6_i.c
+│   │       │   ├── cet6_j.c
+│   │       │   ├── cet6_k.c
+│   │       │   ├── cet6_l.c
+│   │       │   ├── cet6_m.c
+│   │       │   ├── cet6_n.c
+│   │       │   ├── cet6_o.c
+│   │       │   ├── cet6_p.c
+│   │       │   ├── cet6_q.c
+│   │       │   ├── cet6_r.c
+│   │       │   ├── cet6_s.c
+│   │       │   ├── cet6_t.c
+│   │       │   ├── cet6_u.c
+│   │       │   ├── cet6_v.c
+│   │       │   ├── cet6_w.c
+│   │       │   ├── cet6_y.c
+│   │       │   └── cet6_z.c
+│   │       ├── cet6.c
+│   │       ├── words.c
+│   │       ├── word_set.c
+│   │       └── words.txt
+│   ├── main.c
+│   └── shellText
+│       ├── all_pages
+│       │   └── text_all_pages.c
+│       ├── chapters
+│       │   ├── text_chapter1.c
+│       │   ├── text_chapter2.c
+│       │   ├── text_chapter3.c
+│       │   ├── text_chapter4.c
+│       │   ├── text_chapter5.c
+│       │   ├── text_chapter6.c
+│       │   ├── text_chapter7.c
+│       │   ├── text_chapter8.c
+│       │   ├── text_chapter9.c
+│       │   ├── text_chapter_show.c
+│       │   └── text_common.c
+│       ├── commonTools
+│       │   ├── color
+│       │   │   └── text_color.c
+│       │   └── eliminateSpace
+│       │       └── text_eliminateSpace.c
+│       ├── copyRight
+│       │   ├── text_copyRight
+│       │   └── text_copyRight.c
+│       ├── endSay
+│       │   └── text_endSay.c
+│       ├── execute
+│       │   └── text_execute.c
+│       ├── find
+│       │   └── text_find_text.c
+│       ├── findSimilarInstructions
+│       │   └── text_similarInstructions.c
+│       ├── help
+│       │   └── text_help.c
+│       ├── instructionsLists
+│       │   └── text_instructionList.c
+│       ├── other
+│       │   ├── text_myTime
+│       │   ├── text_myTime.c
+│       │   ├── text_rain
+│       │   ├── text_rain.c
+│       │   └── text_snakeGame
+│       ├── page_preprocess
+│       │   └── text_page_preprocess.c
+│       └── show_page
+│           └── text_show_page.c
+└── tree.txt
+
+75 directories, 907 files

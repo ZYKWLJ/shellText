@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/eyk/1code/shellText/shellText/2.beta/v1.1/include
+C_INCLUDES = -I/home/eyk/1code/shellText/shellText/2.beta/v1.1/include/englinux/display -I/home/eyk/1code/shellText/shellText/2.beta/v1.1/include/englinux -I/home/eyk/1code/shellText/shellText/2.beta/v1.1/include/englinux/execute -I/home/eyk/1code/shellText/shellText/2.beta/v1.1/include/englinux/lexer -I/home/eyk/1code/shellText/shellText/2.beta/v1.1/include/englinux/words_lib -I/home/eyk/1code/shellText/shellText/2.beta/v1.1/include/englinux/words_lib/cet4 -I/home/eyk/1code/shellText/shellText/2.beta/v1.1/include/englinux/words_lib/cet6 -I/home/eyk/1code/shellText/shellText/2.beta/v1.1/include/shellText/chapters -I/home/eyk/1code/shellText/shellText/2.beta/v1.1/include/shellText/englinux -I/home/eyk/1code/shellText/shellText/2.beta/v1.1/include/shellText/pages -I/home/eyk/1code/shellText/shellText/2.beta/v1.1/include/shellText
 
 C_FLAGS = 
 

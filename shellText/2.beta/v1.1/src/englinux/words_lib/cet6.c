@@ -1,0 +1,31 @@
+# include "../../../include/englinux/words_lib/cet6.h"
+
+word_entry *cet6[100]={
+    cet6_a,
+    cet6_b,
+    cet6_c,
+    cet6_d,
+    cet6_e,
+    cet6_f,
+    cet6_g,
+    cet6_h,
+    cet6_i,
+    cet6_j,
+    cet6_k,
+    cet6_l,
+    cet6_m,
+    cet6_n,
+    cet6_o,
+    cet6_p,
+    cet6_q,
+    cet6_r,
+    cet6_s,
+    cet6_t,
+    cet6_u,
+    cet6_v,
+    cet6_w,
+    // cet6_x,
+    cet6_y,
+    cet6_z,
+    NULL
+};

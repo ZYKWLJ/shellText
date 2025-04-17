@@ -129,509 +129,1925 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-src/all_pages/all_pages.o: src/all_pages/all_pages.c.o
-.PHONY : src/all_pages/all_pages.o
+src/englinux/display/eg_author.o: src/englinux/display/eg_author.c.o
+.PHONY : src/englinux/display/eg_author.o
 
 # target to build an object file
-src/all_pages/all_pages.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/all_pages/all_pages.c.o
-.PHONY : src/all_pages/all_pages.c.o
+src/englinux/display/eg_author.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_author.c.o
+.PHONY : src/englinux/display/eg_author.c.o
 
-src/all_pages/all_pages.i: src/all_pages/all_pages.c.i
-.PHONY : src/all_pages/all_pages.i
+src/englinux/display/eg_author.i: src/englinux/display/eg_author.c.i
+.PHONY : src/englinux/display/eg_author.i
 
 # target to preprocess a source file
-src/all_pages/all_pages.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/all_pages/all_pages.c.i
-.PHONY : src/all_pages/all_pages.c.i
+src/englinux/display/eg_author.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_author.c.i
+.PHONY : src/englinux/display/eg_author.c.i
 
-src/all_pages/all_pages.s: src/all_pages/all_pages.c.s
-.PHONY : src/all_pages/all_pages.s
+src/englinux/display/eg_author.s: src/englinux/display/eg_author.c.s
+.PHONY : src/englinux/display/eg_author.s
 
 # target to generate assembly for a file
-src/all_pages/all_pages.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/all_pages/all_pages.c.s
-.PHONY : src/all_pages/all_pages.c.s
+src/englinux/display/eg_author.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_author.c.s
+.PHONY : src/englinux/display/eg_author.c.s
 
-src/chapters/chapter1.o: src/chapters/chapter1.c.o
-.PHONY : src/chapters/chapter1.o
+src/englinux/display/eg_copyRight.o: src/englinux/display/eg_copyRight.c.o
+.PHONY : src/englinux/display/eg_copyRight.o
 
 # target to build an object file
-src/chapters/chapter1.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter1.c.o
-.PHONY : src/chapters/chapter1.c.o
+src/englinux/display/eg_copyRight.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_copyRight.c.o
+.PHONY : src/englinux/display/eg_copyRight.c.o
 
-src/chapters/chapter1.i: src/chapters/chapter1.c.i
-.PHONY : src/chapters/chapter1.i
+src/englinux/display/eg_copyRight.i: src/englinux/display/eg_copyRight.c.i
+.PHONY : src/englinux/display/eg_copyRight.i
 
 # target to preprocess a source file
-src/chapters/chapter1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter1.c.i
-.PHONY : src/chapters/chapter1.c.i
+src/englinux/display/eg_copyRight.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_copyRight.c.i
+.PHONY : src/englinux/display/eg_copyRight.c.i
 
-src/chapters/chapter1.s: src/chapters/chapter1.c.s
-.PHONY : src/chapters/chapter1.s
+src/englinux/display/eg_copyRight.s: src/englinux/display/eg_copyRight.c.s
+.PHONY : src/englinux/display/eg_copyRight.s
 
 # target to generate assembly for a file
-src/chapters/chapter1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter1.c.s
-.PHONY : src/chapters/chapter1.c.s
+src/englinux/display/eg_copyRight.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_copyRight.c.s
+.PHONY : src/englinux/display/eg_copyRight.c.s
 
-src/chapters/chapter2.o: src/chapters/chapter2.c.o
-.PHONY : src/chapters/chapter2.o
+src/englinux/display/eg_display.o: src/englinux/display/eg_display.c.o
+.PHONY : src/englinux/display/eg_display.o
 
 # target to build an object file
-src/chapters/chapter2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter2.c.o
-.PHONY : src/chapters/chapter2.c.o
+src/englinux/display/eg_display.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_display.c.o
+.PHONY : src/englinux/display/eg_display.c.o
 
-src/chapters/chapter2.i: src/chapters/chapter2.c.i
-.PHONY : src/chapters/chapter2.i
+src/englinux/display/eg_display.i: src/englinux/display/eg_display.c.i
+.PHONY : src/englinux/display/eg_display.i
 
 # target to preprocess a source file
-src/chapters/chapter2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter2.c.i
-.PHONY : src/chapters/chapter2.c.i
+src/englinux/display/eg_display.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_display.c.i
+.PHONY : src/englinux/display/eg_display.c.i
 
-src/chapters/chapter2.s: src/chapters/chapter2.c.s
-.PHONY : src/chapters/chapter2.s
+src/englinux/display/eg_display.s: src/englinux/display/eg_display.c.s
+.PHONY : src/englinux/display/eg_display.s
 
 # target to generate assembly for a file
-src/chapters/chapter2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter2.c.s
-.PHONY : src/chapters/chapter2.c.s
+src/englinux/display/eg_display.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_display.c.s
+.PHONY : src/englinux/display/eg_display.c.s
 
-src/chapters/chapter3.o: src/chapters/chapter3.c.o
-.PHONY : src/chapters/chapter3.o
+src/englinux/display/eg_display_width.o: src/englinux/display/eg_display_width.c.o
+.PHONY : src/englinux/display/eg_display_width.o
 
 # target to build an object file
-src/chapters/chapter3.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter3.c.o
-.PHONY : src/chapters/chapter3.c.o
+src/englinux/display/eg_display_width.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_display_width.c.o
+.PHONY : src/englinux/display/eg_display_width.c.o
 
-src/chapters/chapter3.i: src/chapters/chapter3.c.i
-.PHONY : src/chapters/chapter3.i
+src/englinux/display/eg_display_width.i: src/englinux/display/eg_display_width.c.i
+.PHONY : src/englinux/display/eg_display_width.i
 
 # target to preprocess a source file
-src/chapters/chapter3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter3.c.i
-.PHONY : src/chapters/chapter3.c.i
+src/englinux/display/eg_display_width.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_display_width.c.i
+.PHONY : src/englinux/display/eg_display_width.c.i
 
-src/chapters/chapter3.s: src/chapters/chapter3.c.s
-.PHONY : src/chapters/chapter3.s
+src/englinux/display/eg_display_width.s: src/englinux/display/eg_display_width.c.s
+.PHONY : src/englinux/display/eg_display_width.s
 
 # target to generate assembly for a file
-src/chapters/chapter3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter3.c.s
-.PHONY : src/chapters/chapter3.c.s
+src/englinux/display/eg_display_width.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_display_width.c.s
+.PHONY : src/englinux/display/eg_display_width.c.s
 
-src/chapters/chapter4.o: src/chapters/chapter4.c.o
-.PHONY : src/chapters/chapter4.o
+src/englinux/display/eg_endSay.o: src/englinux/display/eg_endSay.c.o
+.PHONY : src/englinux/display/eg_endSay.o
 
 # target to build an object file
-src/chapters/chapter4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter4.c.o
-.PHONY : src/chapters/chapter4.c.o
+src/englinux/display/eg_endSay.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_endSay.c.o
+.PHONY : src/englinux/display/eg_endSay.c.o
 
-src/chapters/chapter4.i: src/chapters/chapter4.c.i
-.PHONY : src/chapters/chapter4.i
+src/englinux/display/eg_endSay.i: src/englinux/display/eg_endSay.c.i
+.PHONY : src/englinux/display/eg_endSay.i
 
 # target to preprocess a source file
-src/chapters/chapter4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter4.c.i
-.PHONY : src/chapters/chapter4.c.i
+src/englinux/display/eg_endSay.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_endSay.c.i
+.PHONY : src/englinux/display/eg_endSay.c.i
 
-src/chapters/chapter4.s: src/chapters/chapter4.c.s
-.PHONY : src/chapters/chapter4.s
+src/englinux/display/eg_endSay.s: src/englinux/display/eg_endSay.c.s
+.PHONY : src/englinux/display/eg_endSay.s
 
 # target to generate assembly for a file
-src/chapters/chapter4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter4.c.s
-.PHONY : src/chapters/chapter4.c.s
+src/englinux/display/eg_endSay.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_endSay.c.s
+.PHONY : src/englinux/display/eg_endSay.c.s
 
-src/chapters/chapter5.o: src/chapters/chapter5.c.o
-.PHONY : src/chapters/chapter5.o
+src/englinux/display/eg_error.o: src/englinux/display/eg_error.c.o
+.PHONY : src/englinux/display/eg_error.o
 
 # target to build an object file
-src/chapters/chapter5.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter5.c.o
-.PHONY : src/chapters/chapter5.c.o
+src/englinux/display/eg_error.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_error.c.o
+.PHONY : src/englinux/display/eg_error.c.o
 
-src/chapters/chapter5.i: src/chapters/chapter5.c.i
-.PHONY : src/chapters/chapter5.i
+src/englinux/display/eg_error.i: src/englinux/display/eg_error.c.i
+.PHONY : src/englinux/display/eg_error.i
 
 # target to preprocess a source file
-src/chapters/chapter5.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter5.c.i
-.PHONY : src/chapters/chapter5.c.i
+src/englinux/display/eg_error.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_error.c.i
+.PHONY : src/englinux/display/eg_error.c.i
 
-src/chapters/chapter5.s: src/chapters/chapter5.c.s
-.PHONY : src/chapters/chapter5.s
+src/englinux/display/eg_error.s: src/englinux/display/eg_error.c.s
+.PHONY : src/englinux/display/eg_error.s
 
 # target to generate assembly for a file
-src/chapters/chapter5.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter5.c.s
-.PHONY : src/chapters/chapter5.c.s
+src/englinux/display/eg_error.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_error.c.s
+.PHONY : src/englinux/display/eg_error.c.s
 
-src/chapters/chapter6.o: src/chapters/chapter6.c.o
-.PHONY : src/chapters/chapter6.o
+src/englinux/display/eg_find_help.o: src/englinux/display/eg_find_help.c.o
+.PHONY : src/englinux/display/eg_find_help.o
 
 # target to build an object file
-src/chapters/chapter6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter6.c.o
-.PHONY : src/chapters/chapter6.c.o
+src/englinux/display/eg_find_help.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_find_help.c.o
+.PHONY : src/englinux/display/eg_find_help.c.o
 
-src/chapters/chapter6.i: src/chapters/chapter6.c.i
-.PHONY : src/chapters/chapter6.i
+src/englinux/display/eg_find_help.i: src/englinux/display/eg_find_help.c.i
+.PHONY : src/englinux/display/eg_find_help.i
 
 # target to preprocess a source file
-src/chapters/chapter6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter6.c.i
-.PHONY : src/chapters/chapter6.c.i
+src/englinux/display/eg_find_help.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_find_help.c.i
+.PHONY : src/englinux/display/eg_find_help.c.i
 
-src/chapters/chapter6.s: src/chapters/chapter6.c.s
-.PHONY : src/chapters/chapter6.s
+src/englinux/display/eg_find_help.s: src/englinux/display/eg_find_help.c.s
+.PHONY : src/englinux/display/eg_find_help.s
 
 # target to generate assembly for a file
-src/chapters/chapter6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter6.c.s
-.PHONY : src/chapters/chapter6.c.s
+src/englinux/display/eg_find_help.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_find_help.c.s
+.PHONY : src/englinux/display/eg_find_help.c.s
 
-src/chapters/chapter7.o: src/chapters/chapter7.c.o
-.PHONY : src/chapters/chapter7.o
+src/englinux/display/eg_print_help.o: src/englinux/display/eg_print_help.c.o
+.PHONY : src/englinux/display/eg_print_help.o
 
 # target to build an object file
-src/chapters/chapter7.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter7.c.o
-.PHONY : src/chapters/chapter7.c.o
+src/englinux/display/eg_print_help.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_print_help.c.o
+.PHONY : src/englinux/display/eg_print_help.c.o
 
-src/chapters/chapter7.i: src/chapters/chapter7.c.i
-.PHONY : src/chapters/chapter7.i
+src/englinux/display/eg_print_help.i: src/englinux/display/eg_print_help.c.i
+.PHONY : src/englinux/display/eg_print_help.i
 
 # target to preprocess a source file
-src/chapters/chapter7.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter7.c.i
-.PHONY : src/chapters/chapter7.c.i
+src/englinux/display/eg_print_help.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_print_help.c.i
+.PHONY : src/englinux/display/eg_print_help.c.i
 
-src/chapters/chapter7.s: src/chapters/chapter7.c.s
-.PHONY : src/chapters/chapter7.s
+src/englinux/display/eg_print_help.s: src/englinux/display/eg_print_help.c.s
+.PHONY : src/englinux/display/eg_print_help.s
 
 # target to generate assembly for a file
-src/chapters/chapter7.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter7.c.s
-.PHONY : src/chapters/chapter7.c.s
+src/englinux/display/eg_print_help.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_print_help.c.s
+.PHONY : src/englinux/display/eg_print_help.c.s
 
-src/chapters/chapter8.o: src/chapters/chapter8.c.o
-.PHONY : src/chapters/chapter8.o
+src/englinux/display/eg_print_other.o: src/englinux/display/eg_print_other.c.o
+.PHONY : src/englinux/display/eg_print_other.o
 
 # target to build an object file
-src/chapters/chapter8.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter8.c.o
-.PHONY : src/chapters/chapter8.c.o
+src/englinux/display/eg_print_other.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_print_other.c.o
+.PHONY : src/englinux/display/eg_print_other.c.o
 
-src/chapters/chapter8.i: src/chapters/chapter8.c.i
-.PHONY : src/chapters/chapter8.i
+src/englinux/display/eg_print_other.i: src/englinux/display/eg_print_other.c.i
+.PHONY : src/englinux/display/eg_print_other.i
 
 # target to preprocess a source file
-src/chapters/chapter8.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter8.c.i
-.PHONY : src/chapters/chapter8.c.i
+src/englinux/display/eg_print_other.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_print_other.c.i
+.PHONY : src/englinux/display/eg_print_other.c.i
 
-src/chapters/chapter8.s: src/chapters/chapter8.c.s
-.PHONY : src/chapters/chapter8.s
+src/englinux/display/eg_print_other.s: src/englinux/display/eg_print_other.c.s
+.PHONY : src/englinux/display/eg_print_other.s
 
 # target to generate assembly for a file
-src/chapters/chapter8.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter8.c.s
-.PHONY : src/chapters/chapter8.c.s
+src/englinux/display/eg_print_other.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_print_other.c.s
+.PHONY : src/englinux/display/eg_print_other.c.s
 
-src/chapters/chapter9.o: src/chapters/chapter9.c.o
-.PHONY : src/chapters/chapter9.o
+src/englinux/display/eg_print_words.o: src/englinux/display/eg_print_words.c.o
+.PHONY : src/englinux/display/eg_print_words.o
 
 # target to build an object file
-src/chapters/chapter9.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter9.c.o
-.PHONY : src/chapters/chapter9.c.o
+src/englinux/display/eg_print_words.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_print_words.c.o
+.PHONY : src/englinux/display/eg_print_words.c.o
 
-src/chapters/chapter9.i: src/chapters/chapter9.c.i
-.PHONY : src/chapters/chapter9.i
+src/englinux/display/eg_print_words.i: src/englinux/display/eg_print_words.c.i
+.PHONY : src/englinux/display/eg_print_words.i
 
 # target to preprocess a source file
-src/chapters/chapter9.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter9.c.i
-.PHONY : src/chapters/chapter9.c.i
+src/englinux/display/eg_print_words.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_print_words.c.i
+.PHONY : src/englinux/display/eg_print_words.c.i
 
-src/chapters/chapter9.s: src/chapters/chapter9.c.s
-.PHONY : src/chapters/chapter9.s
+src/englinux/display/eg_print_words.s: src/englinux/display/eg_print_words.c.s
+.PHONY : src/englinux/display/eg_print_words.s
 
 # target to generate assembly for a file
-src/chapters/chapter9.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter9.c.s
-.PHONY : src/chapters/chapter9.c.s
+src/englinux/display/eg_print_words.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/display/eg_print_words.c.s
+.PHONY : src/englinux/display/eg_print_words.c.s
 
-src/chapters/chapter_show.o: src/chapters/chapter_show.c.o
-.PHONY : src/chapters/chapter_show.o
+src/englinux/eg_main.o: src/englinux/eg_main.c.o
+.PHONY : src/englinux/eg_main.o
 
 # target to build an object file
-src/chapters/chapter_show.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter_show.c.o
-.PHONY : src/chapters/chapter_show.c.o
+src/englinux/eg_main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/eg_main.c.o
+.PHONY : src/englinux/eg_main.c.o
 
-src/chapters/chapter_show.i: src/chapters/chapter_show.c.i
-.PHONY : src/chapters/chapter_show.i
+src/englinux/eg_main.i: src/englinux/eg_main.c.i
+.PHONY : src/englinux/eg_main.i
 
 # target to preprocess a source file
-src/chapters/chapter_show.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter_show.c.i
-.PHONY : src/chapters/chapter_show.c.i
+src/englinux/eg_main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/eg_main.c.i
+.PHONY : src/englinux/eg_main.c.i
 
-src/chapters/chapter_show.s: src/chapters/chapter_show.c.s
-.PHONY : src/chapters/chapter_show.s
+src/englinux/eg_main.s: src/englinux/eg_main.c.s
+.PHONY : src/englinux/eg_main.s
 
 # target to generate assembly for a file
-src/chapters/chapter_show.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/chapter_show.c.s
-.PHONY : src/chapters/chapter_show.c.s
+src/englinux/eg_main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/eg_main.c.s
+.PHONY : src/englinux/eg_main.c.s
 
-src/chapters/common.o: src/chapters/common.c.o
-.PHONY : src/chapters/common.o
+src/englinux/execute/eg_clear.o: src/englinux/execute/eg_clear.c.o
+.PHONY : src/englinux/execute/eg_clear.o
 
 # target to build an object file
-src/chapters/common.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/common.c.o
-.PHONY : src/chapters/common.c.o
+src/englinux/execute/eg_clear.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_clear.c.o
+.PHONY : src/englinux/execute/eg_clear.c.o
 
-src/chapters/common.i: src/chapters/common.c.i
-.PHONY : src/chapters/common.i
+src/englinux/execute/eg_clear.i: src/englinux/execute/eg_clear.c.i
+.PHONY : src/englinux/execute/eg_clear.i
 
 # target to preprocess a source file
-src/chapters/common.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/common.c.i
-.PHONY : src/chapters/common.c.i
+src/englinux/execute/eg_clear.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_clear.c.i
+.PHONY : src/englinux/execute/eg_clear.c.i
 
-src/chapters/common.s: src/chapters/common.c.s
-.PHONY : src/chapters/common.s
+src/englinux/execute/eg_clear.s: src/englinux/execute/eg_clear.c.s
+.PHONY : src/englinux/execute/eg_clear.s
 
 # target to generate assembly for a file
-src/chapters/common.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/chapters/common.c.s
-.PHONY : src/chapters/common.c.s
+src/englinux/execute/eg_clear.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_clear.c.s
+.PHONY : src/englinux/execute/eg_clear.c.s
 
-src/commonTools/color/color.o: src/commonTools/color/color.c.o
-.PHONY : src/commonTools/color/color.o
+src/englinux/execute/eg_execute.o: src/englinux/execute/eg_execute.c.o
+.PHONY : src/englinux/execute/eg_execute.o
 
 # target to build an object file
-src/commonTools/color/color.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/commonTools/color/color.c.o
-.PHONY : src/commonTools/color/color.c.o
+src/englinux/execute/eg_execute.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_execute.c.o
+.PHONY : src/englinux/execute/eg_execute.c.o
 
-src/commonTools/color/color.i: src/commonTools/color/color.c.i
-.PHONY : src/commonTools/color/color.i
+src/englinux/execute/eg_execute.i: src/englinux/execute/eg_execute.c.i
+.PHONY : src/englinux/execute/eg_execute.i
 
 # target to preprocess a source file
-src/commonTools/color/color.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/commonTools/color/color.c.i
-.PHONY : src/commonTools/color/color.c.i
+src/englinux/execute/eg_execute.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_execute.c.i
+.PHONY : src/englinux/execute/eg_execute.c.i
 
-src/commonTools/color/color.s: src/commonTools/color/color.c.s
-.PHONY : src/commonTools/color/color.s
+src/englinux/execute/eg_execute.s: src/englinux/execute/eg_execute.c.s
+.PHONY : src/englinux/execute/eg_execute.s
 
 # target to generate assembly for a file
-src/commonTools/color/color.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/commonTools/color/color.c.s
-.PHONY : src/commonTools/color/color.c.s
+src/englinux/execute/eg_execute.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_execute.c.s
+.PHONY : src/englinux/execute/eg_execute.c.s
 
-src/commonTools/eliminateSpace/eliminateSpace.o: src/commonTools/eliminateSpace/eliminateSpace.c.o
-.PHONY : src/commonTools/eliminateSpace/eliminateSpace.o
+src/englinux/execute/eg_execute_four_token.o: src/englinux/execute/eg_execute_four_token.c.o
+.PHONY : src/englinux/execute/eg_execute_four_token.o
 
 # target to build an object file
-src/commonTools/eliminateSpace/eliminateSpace.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/commonTools/eliminateSpace/eliminateSpace.c.o
-.PHONY : src/commonTools/eliminateSpace/eliminateSpace.c.o
+src/englinux/execute/eg_execute_four_token.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_execute_four_token.c.o
+.PHONY : src/englinux/execute/eg_execute_four_token.c.o
 
-src/commonTools/eliminateSpace/eliminateSpace.i: src/commonTools/eliminateSpace/eliminateSpace.c.i
-.PHONY : src/commonTools/eliminateSpace/eliminateSpace.i
+src/englinux/execute/eg_execute_four_token.i: src/englinux/execute/eg_execute_four_token.c.i
+.PHONY : src/englinux/execute/eg_execute_four_token.i
 
 # target to preprocess a source file
-src/commonTools/eliminateSpace/eliminateSpace.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/commonTools/eliminateSpace/eliminateSpace.c.i
-.PHONY : src/commonTools/eliminateSpace/eliminateSpace.c.i
+src/englinux/execute/eg_execute_four_token.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_execute_four_token.c.i
+.PHONY : src/englinux/execute/eg_execute_four_token.c.i
 
-src/commonTools/eliminateSpace/eliminateSpace.s: src/commonTools/eliminateSpace/eliminateSpace.c.s
-.PHONY : src/commonTools/eliminateSpace/eliminateSpace.s
+src/englinux/execute/eg_execute_four_token.s: src/englinux/execute/eg_execute_four_token.c.s
+.PHONY : src/englinux/execute/eg_execute_four_token.s
 
 # target to generate assembly for a file
-src/commonTools/eliminateSpace/eliminateSpace.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/commonTools/eliminateSpace/eliminateSpace.c.s
-.PHONY : src/commonTools/eliminateSpace/eliminateSpace.c.s
+src/englinux/execute/eg_execute_four_token.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_execute_four_token.c.s
+.PHONY : src/englinux/execute/eg_execute_four_token.c.s
 
-src/copyRight/copyRight.o: src/copyRight/copyRight.c.o
-.PHONY : src/copyRight/copyRight.o
+src/englinux/execute/eg_execute_one_token.o: src/englinux/execute/eg_execute_one_token.c.o
+.PHONY : src/englinux/execute/eg_execute_one_token.o
 
 # target to build an object file
-src/copyRight/copyRight.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/copyRight/copyRight.c.o
-.PHONY : src/copyRight/copyRight.c.o
+src/englinux/execute/eg_execute_one_token.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_execute_one_token.c.o
+.PHONY : src/englinux/execute/eg_execute_one_token.c.o
 
-src/copyRight/copyRight.i: src/copyRight/copyRight.c.i
-.PHONY : src/copyRight/copyRight.i
+src/englinux/execute/eg_execute_one_token.i: src/englinux/execute/eg_execute_one_token.c.i
+.PHONY : src/englinux/execute/eg_execute_one_token.i
 
 # target to preprocess a source file
-src/copyRight/copyRight.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/copyRight/copyRight.c.i
-.PHONY : src/copyRight/copyRight.c.i
+src/englinux/execute/eg_execute_one_token.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_execute_one_token.c.i
+.PHONY : src/englinux/execute/eg_execute_one_token.c.i
 
-src/copyRight/copyRight.s: src/copyRight/copyRight.c.s
-.PHONY : src/copyRight/copyRight.s
+src/englinux/execute/eg_execute_one_token.s: src/englinux/execute/eg_execute_one_token.c.s
+.PHONY : src/englinux/execute/eg_execute_one_token.s
 
 # target to generate assembly for a file
-src/copyRight/copyRight.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/copyRight/copyRight.c.s
-.PHONY : src/copyRight/copyRight.c.s
+src/englinux/execute/eg_execute_one_token.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_execute_one_token.c.s
+.PHONY : src/englinux/execute/eg_execute_one_token.c.s
 
-src/endSay/endSay.o: src/endSay/endSay.c.o
-.PHONY : src/endSay/endSay.o
+src/englinux/execute/eg_execute_three_token.o: src/englinux/execute/eg_execute_three_token.c.o
+.PHONY : src/englinux/execute/eg_execute_three_token.o
 
 # target to build an object file
-src/endSay/endSay.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/endSay/endSay.c.o
-.PHONY : src/endSay/endSay.c.o
+src/englinux/execute/eg_execute_three_token.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_execute_three_token.c.o
+.PHONY : src/englinux/execute/eg_execute_three_token.c.o
 
-src/endSay/endSay.i: src/endSay/endSay.c.i
-.PHONY : src/endSay/endSay.i
+src/englinux/execute/eg_execute_three_token.i: src/englinux/execute/eg_execute_three_token.c.i
+.PHONY : src/englinux/execute/eg_execute_three_token.i
 
 # target to preprocess a source file
-src/endSay/endSay.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/endSay/endSay.c.i
-.PHONY : src/endSay/endSay.c.i
+src/englinux/execute/eg_execute_three_token.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_execute_three_token.c.i
+.PHONY : src/englinux/execute/eg_execute_three_token.c.i
 
-src/endSay/endSay.s: src/endSay/endSay.c.s
-.PHONY : src/endSay/endSay.s
+src/englinux/execute/eg_execute_three_token.s: src/englinux/execute/eg_execute_three_token.c.s
+.PHONY : src/englinux/execute/eg_execute_three_token.s
 
 # target to generate assembly for a file
-src/endSay/endSay.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/endSay/endSay.c.s
-.PHONY : src/endSay/endSay.c.s
+src/englinux/execute/eg_execute_three_token.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_execute_three_token.c.s
+.PHONY : src/englinux/execute/eg_execute_three_token.c.s
 
-src/execute/execute.o: src/execute/execute.c.o
-.PHONY : src/execute/execute.o
+src/englinux/execute/eg_execute_two_token.o: src/englinux/execute/eg_execute_two_token.c.o
+.PHONY : src/englinux/execute/eg_execute_two_token.o
 
 # target to build an object file
-src/execute/execute.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/execute.c.o
-.PHONY : src/execute/execute.c.o
+src/englinux/execute/eg_execute_two_token.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_execute_two_token.c.o
+.PHONY : src/englinux/execute/eg_execute_two_token.c.o
 
-src/execute/execute.i: src/execute/execute.c.i
-.PHONY : src/execute/execute.i
+src/englinux/execute/eg_execute_two_token.i: src/englinux/execute/eg_execute_two_token.c.i
+.PHONY : src/englinux/execute/eg_execute_two_token.i
 
 # target to preprocess a source file
-src/execute/execute.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/execute.c.i
-.PHONY : src/execute/execute.c.i
+src/englinux/execute/eg_execute_two_token.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_execute_two_token.c.i
+.PHONY : src/englinux/execute/eg_execute_two_token.c.i
 
-src/execute/execute.s: src/execute/execute.c.s
-.PHONY : src/execute/execute.s
+src/englinux/execute/eg_execute_two_token.s: src/englinux/execute/eg_execute_two_token.c.s
+.PHONY : src/englinux/execute/eg_execute_two_token.s
 
 # target to generate assembly for a file
-src/execute/execute.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/execute.c.s
-.PHONY : src/execute/execute.c.s
+src/englinux/execute/eg_execute_two_token.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_execute_two_token.c.s
+.PHONY : src/englinux/execute/eg_execute_two_token.c.s
 
-src/find/find_text.o: src/find/find_text.c.o
-.PHONY : src/find/find_text.o
+src/englinux/execute/eg_find.o: src/englinux/execute/eg_find.c.o
+.PHONY : src/englinux/execute/eg_find.o
 
 # target to build an object file
-src/find/find_text.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/find/find_text.c.o
-.PHONY : src/find/find_text.c.o
+src/englinux/execute/eg_find.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_find.c.o
+.PHONY : src/englinux/execute/eg_find.c.o
 
-src/find/find_text.i: src/find/find_text.c.i
-.PHONY : src/find/find_text.i
+src/englinux/execute/eg_find.i: src/englinux/execute/eg_find.c.i
+.PHONY : src/englinux/execute/eg_find.i
 
 # target to preprocess a source file
-src/find/find_text.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/find/find_text.c.i
-.PHONY : src/find/find_text.c.i
+src/englinux/execute/eg_find.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_find.c.i
+.PHONY : src/englinux/execute/eg_find.c.i
 
-src/find/find_text.s: src/find/find_text.c.s
-.PHONY : src/find/find_text.s
+src/englinux/execute/eg_find.s: src/englinux/execute/eg_find.c.s
+.PHONY : src/englinux/execute/eg_find.s
 
 # target to generate assembly for a file
-src/find/find_text.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/find/find_text.c.s
-.PHONY : src/find/find_text.c.s
+src/englinux/execute/eg_find.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_find.c.s
+.PHONY : src/englinux/execute/eg_find.c.s
 
-src/findSimilarInstructions/similarInstructions.o: src/findSimilarInstructions/similarInstructions.c.o
-.PHONY : src/findSimilarInstructions/similarInstructions.o
+src/englinux/execute/eg_help.o: src/englinux/execute/eg_help.c.o
+.PHONY : src/englinux/execute/eg_help.o
 
 # target to build an object file
-src/findSimilarInstructions/similarInstructions.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/findSimilarInstructions/similarInstructions.c.o
-.PHONY : src/findSimilarInstructions/similarInstructions.c.o
+src/englinux/execute/eg_help.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_help.c.o
+.PHONY : src/englinux/execute/eg_help.c.o
 
-src/findSimilarInstructions/similarInstructions.i: src/findSimilarInstructions/similarInstructions.c.i
-.PHONY : src/findSimilarInstructions/similarInstructions.i
+src/englinux/execute/eg_help.i: src/englinux/execute/eg_help.c.i
+.PHONY : src/englinux/execute/eg_help.i
 
 # target to preprocess a source file
-src/findSimilarInstructions/similarInstructions.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/findSimilarInstructions/similarInstructions.c.i
-.PHONY : src/findSimilarInstructions/similarInstructions.c.i
+src/englinux/execute/eg_help.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_help.c.i
+.PHONY : src/englinux/execute/eg_help.c.i
 
-src/findSimilarInstructions/similarInstructions.s: src/findSimilarInstructions/similarInstructions.c.s
-.PHONY : src/findSimilarInstructions/similarInstructions.s
+src/englinux/execute/eg_help.s: src/englinux/execute/eg_help.c.s
+.PHONY : src/englinux/execute/eg_help.s
 
 # target to generate assembly for a file
-src/findSimilarInstructions/similarInstructions.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/findSimilarInstructions/similarInstructions.c.s
-.PHONY : src/findSimilarInstructions/similarInstructions.c.s
+src/englinux/execute/eg_help.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_help.c.s
+.PHONY : src/englinux/execute/eg_help.c.s
 
-src/help/help.o: src/help/help.c.o
-.PHONY : src/help/help.o
+src/englinux/execute/eg_is_all_digit.o: src/englinux/execute/eg_is_all_digit.c.o
+.PHONY : src/englinux/execute/eg_is_all_digit.o
 
 # target to build an object file
-src/help/help.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/help/help.c.o
-.PHONY : src/help/help.c.o
+src/englinux/execute/eg_is_all_digit.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_is_all_digit.c.o
+.PHONY : src/englinux/execute/eg_is_all_digit.c.o
 
-src/help/help.i: src/help/help.c.i
-.PHONY : src/help/help.i
+src/englinux/execute/eg_is_all_digit.i: src/englinux/execute/eg_is_all_digit.c.i
+.PHONY : src/englinux/execute/eg_is_all_digit.i
 
 # target to preprocess a source file
-src/help/help.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/help/help.c.i
-.PHONY : src/help/help.c.i
+src/englinux/execute/eg_is_all_digit.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_is_all_digit.c.i
+.PHONY : src/englinux/execute/eg_is_all_digit.c.i
 
-src/help/help.s: src/help/help.c.s
-.PHONY : src/help/help.s
+src/englinux/execute/eg_is_all_digit.s: src/englinux/execute/eg_is_all_digit.c.s
+.PHONY : src/englinux/execute/eg_is_all_digit.s
 
 # target to generate assembly for a file
-src/help/help.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/help/help.c.s
-.PHONY : src/help/help.c.s
+src/englinux/execute/eg_is_all_digit.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_is_all_digit.c.s
+.PHONY : src/englinux/execute/eg_is_all_digit.c.s
 
-src/instructionsLists/instructionList.o: src/instructionsLists/instructionList.c.o
-.PHONY : src/instructionsLists/instructionList.o
+src/englinux/execute/eg_match.o: src/englinux/execute/eg_match.c.o
+.PHONY : src/englinux/execute/eg_match.o
 
 # target to build an object file
-src/instructionsLists/instructionList.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/instructionsLists/instructionList.c.o
-.PHONY : src/instructionsLists/instructionList.c.o
+src/englinux/execute/eg_match.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_match.c.o
+.PHONY : src/englinux/execute/eg_match.c.o
 
-src/instructionsLists/instructionList.i: src/instructionsLists/instructionList.c.i
-.PHONY : src/instructionsLists/instructionList.i
+src/englinux/execute/eg_match.i: src/englinux/execute/eg_match.c.i
+.PHONY : src/englinux/execute/eg_match.i
 
 # target to preprocess a source file
-src/instructionsLists/instructionList.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/instructionsLists/instructionList.c.i
-.PHONY : src/instructionsLists/instructionList.c.i
+src/englinux/execute/eg_match.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_match.c.i
+.PHONY : src/englinux/execute/eg_match.c.i
 
-src/instructionsLists/instructionList.s: src/instructionsLists/instructionList.c.s
-.PHONY : src/instructionsLists/instructionList.s
+src/englinux/execute/eg_match.s: src/englinux/execute/eg_match.c.s
+.PHONY : src/englinux/execute/eg_match.s
 
 # target to generate assembly for a file
-src/instructionsLists/instructionList.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/instructionsLists/instructionList.c.s
-.PHONY : src/instructionsLists/instructionList.c.s
+src/englinux/execute/eg_match.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_match.c.s
+.PHONY : src/englinux/execute/eg_match.c.s
+
+src/englinux/execute/eg_parser_first_token.o: src/englinux/execute/eg_parser_first_token.c.o
+.PHONY : src/englinux/execute/eg_parser_first_token.o
+
+# target to build an object file
+src/englinux/execute/eg_parser_first_token.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_parser_first_token.c.o
+.PHONY : src/englinux/execute/eg_parser_first_token.c.o
+
+src/englinux/execute/eg_parser_first_token.i: src/englinux/execute/eg_parser_first_token.c.i
+.PHONY : src/englinux/execute/eg_parser_first_token.i
+
+# target to preprocess a source file
+src/englinux/execute/eg_parser_first_token.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_parser_first_token.c.i
+.PHONY : src/englinux/execute/eg_parser_first_token.c.i
+
+src/englinux/execute/eg_parser_first_token.s: src/englinux/execute/eg_parser_first_token.c.s
+.PHONY : src/englinux/execute/eg_parser_first_token.s
+
+# target to generate assembly for a file
+src/englinux/execute/eg_parser_first_token.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_parser_first_token.c.s
+.PHONY : src/englinux/execute/eg_parser_first_token.c.s
+
+src/englinux/execute/eg_parser_fourth_token.o: src/englinux/execute/eg_parser_fourth_token.c.o
+.PHONY : src/englinux/execute/eg_parser_fourth_token.o
+
+# target to build an object file
+src/englinux/execute/eg_parser_fourth_token.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_parser_fourth_token.c.o
+.PHONY : src/englinux/execute/eg_parser_fourth_token.c.o
+
+src/englinux/execute/eg_parser_fourth_token.i: src/englinux/execute/eg_parser_fourth_token.c.i
+.PHONY : src/englinux/execute/eg_parser_fourth_token.i
+
+# target to preprocess a source file
+src/englinux/execute/eg_parser_fourth_token.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_parser_fourth_token.c.i
+.PHONY : src/englinux/execute/eg_parser_fourth_token.c.i
+
+src/englinux/execute/eg_parser_fourth_token.s: src/englinux/execute/eg_parser_fourth_token.c.s
+.PHONY : src/englinux/execute/eg_parser_fourth_token.s
+
+# target to generate assembly for a file
+src/englinux/execute/eg_parser_fourth_token.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_parser_fourth_token.c.s
+.PHONY : src/englinux/execute/eg_parser_fourth_token.c.s
+
+src/englinux/execute/eg_parser_second_token.o: src/englinux/execute/eg_parser_second_token.c.o
+.PHONY : src/englinux/execute/eg_parser_second_token.o
+
+# target to build an object file
+src/englinux/execute/eg_parser_second_token.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_parser_second_token.c.o
+.PHONY : src/englinux/execute/eg_parser_second_token.c.o
+
+src/englinux/execute/eg_parser_second_token.i: src/englinux/execute/eg_parser_second_token.c.i
+.PHONY : src/englinux/execute/eg_parser_second_token.i
+
+# target to preprocess a source file
+src/englinux/execute/eg_parser_second_token.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_parser_second_token.c.i
+.PHONY : src/englinux/execute/eg_parser_second_token.c.i
+
+src/englinux/execute/eg_parser_second_token.s: src/englinux/execute/eg_parser_second_token.c.s
+.PHONY : src/englinux/execute/eg_parser_second_token.s
+
+# target to generate assembly for a file
+src/englinux/execute/eg_parser_second_token.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_parser_second_token.c.s
+.PHONY : src/englinux/execute/eg_parser_second_token.c.s
+
+src/englinux/execute/eg_parser_third_token.o: src/englinux/execute/eg_parser_third_token.c.o
+.PHONY : src/englinux/execute/eg_parser_third_token.o
+
+# target to build an object file
+src/englinux/execute/eg_parser_third_token.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_parser_third_token.c.o
+.PHONY : src/englinux/execute/eg_parser_third_token.c.o
+
+src/englinux/execute/eg_parser_third_token.i: src/englinux/execute/eg_parser_third_token.c.i
+.PHONY : src/englinux/execute/eg_parser_third_token.i
+
+# target to preprocess a source file
+src/englinux/execute/eg_parser_third_token.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_parser_third_token.c.i
+.PHONY : src/englinux/execute/eg_parser_third_token.c.i
+
+src/englinux/execute/eg_parser_third_token.s: src/englinux/execute/eg_parser_third_token.c.s
+.PHONY : src/englinux/execute/eg_parser_third_token.s
+
+# target to generate assembly for a file
+src/englinux/execute/eg_parser_third_token.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/execute/eg_parser_third_token.c.s
+.PHONY : src/englinux/execute/eg_parser_third_token.c.s
+
+src/englinux/lexer/eg_lexer.o: src/englinux/lexer/eg_lexer.c.o
+.PHONY : src/englinux/lexer/eg_lexer.o
+
+# target to build an object file
+src/englinux/lexer/eg_lexer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/lexer/eg_lexer.c.o
+.PHONY : src/englinux/lexer/eg_lexer.c.o
+
+src/englinux/lexer/eg_lexer.i: src/englinux/lexer/eg_lexer.c.i
+.PHONY : src/englinux/lexer/eg_lexer.i
+
+# target to preprocess a source file
+src/englinux/lexer/eg_lexer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/lexer/eg_lexer.c.i
+.PHONY : src/englinux/lexer/eg_lexer.c.i
+
+src/englinux/lexer/eg_lexer.s: src/englinux/lexer/eg_lexer.c.s
+.PHONY : src/englinux/lexer/eg_lexer.s
+
+# target to generate assembly for a file
+src/englinux/lexer/eg_lexer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/lexer/eg_lexer.c.s
+.PHONY : src/englinux/lexer/eg_lexer.c.s
+
+src/englinux/words_lib/cet4.o: src/englinux/words_lib/cet4.c.o
+.PHONY : src/englinux/words_lib/cet4.o
+
+# target to build an object file
+src/englinux/words_lib/cet4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4.c.o
+.PHONY : src/englinux/words_lib/cet4.c.o
+
+src/englinux/words_lib/cet4.i: src/englinux/words_lib/cet4.c.i
+.PHONY : src/englinux/words_lib/cet4.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4.c.i
+.PHONY : src/englinux/words_lib/cet4.c.i
+
+src/englinux/words_lib/cet4.s: src/englinux/words_lib/cet4.c.s
+.PHONY : src/englinux/words_lib/cet4.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4.c.s
+.PHONY : src/englinux/words_lib/cet4.c.s
+
+src/englinux/words_lib/cet4/cet4_a.o: src/englinux/words_lib/cet4/cet4_a.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_a.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_a.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_a.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_a.c.o
+
+src/englinux/words_lib/cet4/cet4_a.i: src/englinux/words_lib/cet4/cet4_a.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_a.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_a.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_a.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_a.c.i
+
+src/englinux/words_lib/cet4/cet4_a.s: src/englinux/words_lib/cet4/cet4_a.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_a.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_a.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_a.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_a.c.s
+
+src/englinux/words_lib/cet4/cet4_b.o: src/englinux/words_lib/cet4/cet4_b.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_b.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_b.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_b.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_b.c.o
+
+src/englinux/words_lib/cet4/cet4_b.i: src/englinux/words_lib/cet4/cet4_b.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_b.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_b.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_b.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_b.c.i
+
+src/englinux/words_lib/cet4/cet4_b.s: src/englinux/words_lib/cet4/cet4_b.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_b.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_b.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_b.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_b.c.s
+
+src/englinux/words_lib/cet4/cet4_c.o: src/englinux/words_lib/cet4/cet4_c.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_c.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_c.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_c.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_c.c.o
+
+src/englinux/words_lib/cet4/cet4_c.i: src/englinux/words_lib/cet4/cet4_c.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_c.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_c.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_c.c.i
+
+src/englinux/words_lib/cet4/cet4_c.s: src/englinux/words_lib/cet4/cet4_c.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_c.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_c.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_c.c.s
+
+src/englinux/words_lib/cet4/cet4_d.o: src/englinux/words_lib/cet4/cet4_d.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_d.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_d.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_d.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_d.c.o
+
+src/englinux/words_lib/cet4/cet4_d.i: src/englinux/words_lib/cet4/cet4_d.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_d.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_d.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_d.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_d.c.i
+
+src/englinux/words_lib/cet4/cet4_d.s: src/englinux/words_lib/cet4/cet4_d.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_d.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_d.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_d.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_d.c.s
+
+src/englinux/words_lib/cet4/cet4_e.o: src/englinux/words_lib/cet4/cet4_e.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_e.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_e.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_e.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_e.c.o
+
+src/englinux/words_lib/cet4/cet4_e.i: src/englinux/words_lib/cet4/cet4_e.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_e.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_e.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_e.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_e.c.i
+
+src/englinux/words_lib/cet4/cet4_e.s: src/englinux/words_lib/cet4/cet4_e.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_e.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_e.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_e.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_e.c.s
+
+src/englinux/words_lib/cet4/cet4_f.o: src/englinux/words_lib/cet4/cet4_f.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_f.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_f.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_f.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_f.c.o
+
+src/englinux/words_lib/cet4/cet4_f.i: src/englinux/words_lib/cet4/cet4_f.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_f.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_f.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_f.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_f.c.i
+
+src/englinux/words_lib/cet4/cet4_f.s: src/englinux/words_lib/cet4/cet4_f.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_f.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_f.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_f.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_f.c.s
+
+src/englinux/words_lib/cet4/cet4_g.o: src/englinux/words_lib/cet4/cet4_g.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_g.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_g.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_g.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_g.c.o
+
+src/englinux/words_lib/cet4/cet4_g.i: src/englinux/words_lib/cet4/cet4_g.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_g.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_g.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_g.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_g.c.i
+
+src/englinux/words_lib/cet4/cet4_g.s: src/englinux/words_lib/cet4/cet4_g.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_g.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_g.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_g.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_g.c.s
+
+src/englinux/words_lib/cet4/cet4_h.o: src/englinux/words_lib/cet4/cet4_h.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_h.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_h.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_h.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_h.c.o
+
+src/englinux/words_lib/cet4/cet4_h.i: src/englinux/words_lib/cet4/cet4_h.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_h.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_h.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_h.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_h.c.i
+
+src/englinux/words_lib/cet4/cet4_h.s: src/englinux/words_lib/cet4/cet4_h.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_h.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_h.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_h.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_h.c.s
+
+src/englinux/words_lib/cet4/cet4_i.o: src/englinux/words_lib/cet4/cet4_i.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_i.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_i.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_i.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_i.c.o
+
+src/englinux/words_lib/cet4/cet4_i.i: src/englinux/words_lib/cet4/cet4_i.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_i.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_i.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_i.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_i.c.i
+
+src/englinux/words_lib/cet4/cet4_i.s: src/englinux/words_lib/cet4/cet4_i.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_i.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_i.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_i.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_i.c.s
+
+src/englinux/words_lib/cet4/cet4_j.o: src/englinux/words_lib/cet4/cet4_j.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_j.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_j.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_j.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_j.c.o
+
+src/englinux/words_lib/cet4/cet4_j.i: src/englinux/words_lib/cet4/cet4_j.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_j.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_j.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_j.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_j.c.i
+
+src/englinux/words_lib/cet4/cet4_j.s: src/englinux/words_lib/cet4/cet4_j.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_j.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_j.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_j.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_j.c.s
+
+src/englinux/words_lib/cet4/cet4_k.o: src/englinux/words_lib/cet4/cet4_k.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_k.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_k.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_k.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_k.c.o
+
+src/englinux/words_lib/cet4/cet4_k.i: src/englinux/words_lib/cet4/cet4_k.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_k.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_k.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_k.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_k.c.i
+
+src/englinux/words_lib/cet4/cet4_k.s: src/englinux/words_lib/cet4/cet4_k.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_k.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_k.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_k.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_k.c.s
+
+src/englinux/words_lib/cet4/cet4_l.o: src/englinux/words_lib/cet4/cet4_l.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_l.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_l.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_l.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_l.c.o
+
+src/englinux/words_lib/cet4/cet4_l.i: src/englinux/words_lib/cet4/cet4_l.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_l.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_l.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_l.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_l.c.i
+
+src/englinux/words_lib/cet4/cet4_l.s: src/englinux/words_lib/cet4/cet4_l.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_l.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_l.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_l.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_l.c.s
+
+src/englinux/words_lib/cet4/cet4_m.o: src/englinux/words_lib/cet4/cet4_m.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_m.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_m.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_m.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_m.c.o
+
+src/englinux/words_lib/cet4/cet4_m.i: src/englinux/words_lib/cet4/cet4_m.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_m.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_m.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_m.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_m.c.i
+
+src/englinux/words_lib/cet4/cet4_m.s: src/englinux/words_lib/cet4/cet4_m.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_m.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_m.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_m.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_m.c.s
+
+src/englinux/words_lib/cet4/cet4_n.o: src/englinux/words_lib/cet4/cet4_n.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_n.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_n.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_n.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_n.c.o
+
+src/englinux/words_lib/cet4/cet4_n.i: src/englinux/words_lib/cet4/cet4_n.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_n.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_n.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_n.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_n.c.i
+
+src/englinux/words_lib/cet4/cet4_n.s: src/englinux/words_lib/cet4/cet4_n.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_n.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_n.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_n.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_n.c.s
+
+src/englinux/words_lib/cet4/cet4_o.o: src/englinux/words_lib/cet4/cet4_o.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_o.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_o.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_o.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_o.c.o
+
+src/englinux/words_lib/cet4/cet4_o.i: src/englinux/words_lib/cet4/cet4_o.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_o.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_o.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_o.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_o.c.i
+
+src/englinux/words_lib/cet4/cet4_o.s: src/englinux/words_lib/cet4/cet4_o.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_o.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_o.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_o.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_o.c.s
+
+src/englinux/words_lib/cet4/cet4_p.o: src/englinux/words_lib/cet4/cet4_p.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_p.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_p.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_p.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_p.c.o
+
+src/englinux/words_lib/cet4/cet4_p.i: src/englinux/words_lib/cet4/cet4_p.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_p.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_p.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_p.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_p.c.i
+
+src/englinux/words_lib/cet4/cet4_p.s: src/englinux/words_lib/cet4/cet4_p.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_p.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_p.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_p.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_p.c.s
+
+src/englinux/words_lib/cet4/cet4_q.o: src/englinux/words_lib/cet4/cet4_q.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_q.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_q.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_q.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_q.c.o
+
+src/englinux/words_lib/cet4/cet4_q.i: src/englinux/words_lib/cet4/cet4_q.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_q.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_q.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_q.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_q.c.i
+
+src/englinux/words_lib/cet4/cet4_q.s: src/englinux/words_lib/cet4/cet4_q.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_q.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_q.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_q.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_q.c.s
+
+src/englinux/words_lib/cet4/cet4_r.o: src/englinux/words_lib/cet4/cet4_r.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_r.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_r.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_r.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_r.c.o
+
+src/englinux/words_lib/cet4/cet4_r.i: src/englinux/words_lib/cet4/cet4_r.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_r.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_r.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_r.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_r.c.i
+
+src/englinux/words_lib/cet4/cet4_r.s: src/englinux/words_lib/cet4/cet4_r.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_r.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_r.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_r.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_r.c.s
+
+src/englinux/words_lib/cet4/cet4_s.o: src/englinux/words_lib/cet4/cet4_s.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_s.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_s.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_s.c.o
+
+src/englinux/words_lib/cet4/cet4_s.i: src/englinux/words_lib/cet4/cet4_s.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_s.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_s.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_s.c.i
+
+src/englinux/words_lib/cet4/cet4_s.s: src/englinux/words_lib/cet4/cet4_s.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_s.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_s.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_s.c.s
+
+src/englinux/words_lib/cet4/cet4_t.o: src/englinux/words_lib/cet4/cet4_t.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_t.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_t.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_t.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_t.c.o
+
+src/englinux/words_lib/cet4/cet4_t.i: src/englinux/words_lib/cet4/cet4_t.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_t.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_t.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_t.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_t.c.i
+
+src/englinux/words_lib/cet4/cet4_t.s: src/englinux/words_lib/cet4/cet4_t.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_t.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_t.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_t.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_t.c.s
+
+src/englinux/words_lib/cet4/cet4_u.o: src/englinux/words_lib/cet4/cet4_u.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_u.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_u.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_u.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_u.c.o
+
+src/englinux/words_lib/cet4/cet4_u.i: src/englinux/words_lib/cet4/cet4_u.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_u.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_u.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_u.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_u.c.i
+
+src/englinux/words_lib/cet4/cet4_u.s: src/englinux/words_lib/cet4/cet4_u.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_u.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_u.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_u.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_u.c.s
+
+src/englinux/words_lib/cet4/cet4_v.o: src/englinux/words_lib/cet4/cet4_v.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_v.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_v.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_v.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_v.c.o
+
+src/englinux/words_lib/cet4/cet4_v.i: src/englinux/words_lib/cet4/cet4_v.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_v.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_v.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_v.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_v.c.i
+
+src/englinux/words_lib/cet4/cet4_v.s: src/englinux/words_lib/cet4/cet4_v.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_v.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_v.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_v.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_v.c.s
+
+src/englinux/words_lib/cet4/cet4_w.o: src/englinux/words_lib/cet4/cet4_w.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_w.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_w.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_w.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_w.c.o
+
+src/englinux/words_lib/cet4/cet4_w.i: src/englinux/words_lib/cet4/cet4_w.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_w.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_w.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_w.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_w.c.i
+
+src/englinux/words_lib/cet4/cet4_w.s: src/englinux/words_lib/cet4/cet4_w.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_w.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_w.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_w.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_w.c.s
+
+src/englinux/words_lib/cet4/cet4_y.o: src/englinux/words_lib/cet4/cet4_y.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_y.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_y.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_y.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_y.c.o
+
+src/englinux/words_lib/cet4/cet4_y.i: src/englinux/words_lib/cet4/cet4_y.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_y.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_y.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_y.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_y.c.i
+
+src/englinux/words_lib/cet4/cet4_y.s: src/englinux/words_lib/cet4/cet4_y.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_y.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_y.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_y.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_y.c.s
+
+src/englinux/words_lib/cet4/cet4_z.o: src/englinux/words_lib/cet4/cet4_z.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_z.o
+
+# target to build an object file
+src/englinux/words_lib/cet4/cet4_z.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_z.c.o
+.PHONY : src/englinux/words_lib/cet4/cet4_z.c.o
+
+src/englinux/words_lib/cet4/cet4_z.i: src/englinux/words_lib/cet4/cet4_z.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_z.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet4/cet4_z.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_z.c.i
+.PHONY : src/englinux/words_lib/cet4/cet4_z.c.i
+
+src/englinux/words_lib/cet4/cet4_z.s: src/englinux/words_lib/cet4/cet4_z.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_z.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet4/cet4_z.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet4/cet4_z.c.s
+.PHONY : src/englinux/words_lib/cet4/cet4_z.c.s
+
+src/englinux/words_lib/cet6.o: src/englinux/words_lib/cet6.c.o
+.PHONY : src/englinux/words_lib/cet6.o
+
+# target to build an object file
+src/englinux/words_lib/cet6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6.c.o
+.PHONY : src/englinux/words_lib/cet6.c.o
+
+src/englinux/words_lib/cet6.i: src/englinux/words_lib/cet6.c.i
+.PHONY : src/englinux/words_lib/cet6.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6.c.i
+.PHONY : src/englinux/words_lib/cet6.c.i
+
+src/englinux/words_lib/cet6.s: src/englinux/words_lib/cet6.c.s
+.PHONY : src/englinux/words_lib/cet6.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6.c.s
+.PHONY : src/englinux/words_lib/cet6.c.s
+
+src/englinux/words_lib/cet6/cet6_a.o: src/englinux/words_lib/cet6/cet6_a.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_a.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_a.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_a.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_a.c.o
+
+src/englinux/words_lib/cet6/cet6_a.i: src/englinux/words_lib/cet6/cet6_a.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_a.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_a.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_a.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_a.c.i
+
+src/englinux/words_lib/cet6/cet6_a.s: src/englinux/words_lib/cet6/cet6_a.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_a.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_a.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_a.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_a.c.s
+
+src/englinux/words_lib/cet6/cet6_b.o: src/englinux/words_lib/cet6/cet6_b.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_b.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_b.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_b.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_b.c.o
+
+src/englinux/words_lib/cet6/cet6_b.i: src/englinux/words_lib/cet6/cet6_b.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_b.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_b.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_b.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_b.c.i
+
+src/englinux/words_lib/cet6/cet6_b.s: src/englinux/words_lib/cet6/cet6_b.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_b.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_b.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_b.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_b.c.s
+
+src/englinux/words_lib/cet6/cet6_c.o: src/englinux/words_lib/cet6/cet6_c.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_c.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_c.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_c.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_c.c.o
+
+src/englinux/words_lib/cet6/cet6_c.i: src/englinux/words_lib/cet6/cet6_c.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_c.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_c.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_c.c.i
+
+src/englinux/words_lib/cet6/cet6_c.s: src/englinux/words_lib/cet6/cet6_c.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_c.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_c.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_c.c.s
+
+src/englinux/words_lib/cet6/cet6_d.o: src/englinux/words_lib/cet6/cet6_d.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_d.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_d.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_d.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_d.c.o
+
+src/englinux/words_lib/cet6/cet6_d.i: src/englinux/words_lib/cet6/cet6_d.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_d.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_d.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_d.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_d.c.i
+
+src/englinux/words_lib/cet6/cet6_d.s: src/englinux/words_lib/cet6/cet6_d.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_d.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_d.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_d.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_d.c.s
+
+src/englinux/words_lib/cet6/cet6_e.o: src/englinux/words_lib/cet6/cet6_e.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_e.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_e.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_e.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_e.c.o
+
+src/englinux/words_lib/cet6/cet6_e.i: src/englinux/words_lib/cet6/cet6_e.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_e.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_e.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_e.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_e.c.i
+
+src/englinux/words_lib/cet6/cet6_e.s: src/englinux/words_lib/cet6/cet6_e.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_e.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_e.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_e.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_e.c.s
+
+src/englinux/words_lib/cet6/cet6_f.o: src/englinux/words_lib/cet6/cet6_f.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_f.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_f.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_f.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_f.c.o
+
+src/englinux/words_lib/cet6/cet6_f.i: src/englinux/words_lib/cet6/cet6_f.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_f.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_f.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_f.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_f.c.i
+
+src/englinux/words_lib/cet6/cet6_f.s: src/englinux/words_lib/cet6/cet6_f.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_f.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_f.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_f.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_f.c.s
+
+src/englinux/words_lib/cet6/cet6_g.o: src/englinux/words_lib/cet6/cet6_g.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_g.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_g.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_g.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_g.c.o
+
+src/englinux/words_lib/cet6/cet6_g.i: src/englinux/words_lib/cet6/cet6_g.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_g.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_g.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_g.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_g.c.i
+
+src/englinux/words_lib/cet6/cet6_g.s: src/englinux/words_lib/cet6/cet6_g.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_g.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_g.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_g.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_g.c.s
+
+src/englinux/words_lib/cet6/cet6_h.o: src/englinux/words_lib/cet6/cet6_h.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_h.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_h.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_h.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_h.c.o
+
+src/englinux/words_lib/cet6/cet6_h.i: src/englinux/words_lib/cet6/cet6_h.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_h.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_h.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_h.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_h.c.i
+
+src/englinux/words_lib/cet6/cet6_h.s: src/englinux/words_lib/cet6/cet6_h.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_h.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_h.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_h.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_h.c.s
+
+src/englinux/words_lib/cet6/cet6_i.o: src/englinux/words_lib/cet6/cet6_i.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_i.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_i.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_i.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_i.c.o
+
+src/englinux/words_lib/cet6/cet6_i.i: src/englinux/words_lib/cet6/cet6_i.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_i.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_i.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_i.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_i.c.i
+
+src/englinux/words_lib/cet6/cet6_i.s: src/englinux/words_lib/cet6/cet6_i.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_i.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_i.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_i.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_i.c.s
+
+src/englinux/words_lib/cet6/cet6_j.o: src/englinux/words_lib/cet6/cet6_j.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_j.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_j.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_j.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_j.c.o
+
+src/englinux/words_lib/cet6/cet6_j.i: src/englinux/words_lib/cet6/cet6_j.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_j.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_j.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_j.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_j.c.i
+
+src/englinux/words_lib/cet6/cet6_j.s: src/englinux/words_lib/cet6/cet6_j.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_j.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_j.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_j.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_j.c.s
+
+src/englinux/words_lib/cet6/cet6_k.o: src/englinux/words_lib/cet6/cet6_k.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_k.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_k.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_k.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_k.c.o
+
+src/englinux/words_lib/cet6/cet6_k.i: src/englinux/words_lib/cet6/cet6_k.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_k.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_k.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_k.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_k.c.i
+
+src/englinux/words_lib/cet6/cet6_k.s: src/englinux/words_lib/cet6/cet6_k.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_k.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_k.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_k.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_k.c.s
+
+src/englinux/words_lib/cet6/cet6_l.o: src/englinux/words_lib/cet6/cet6_l.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_l.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_l.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_l.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_l.c.o
+
+src/englinux/words_lib/cet6/cet6_l.i: src/englinux/words_lib/cet6/cet6_l.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_l.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_l.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_l.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_l.c.i
+
+src/englinux/words_lib/cet6/cet6_l.s: src/englinux/words_lib/cet6/cet6_l.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_l.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_l.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_l.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_l.c.s
+
+src/englinux/words_lib/cet6/cet6_m.o: src/englinux/words_lib/cet6/cet6_m.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_m.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_m.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_m.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_m.c.o
+
+src/englinux/words_lib/cet6/cet6_m.i: src/englinux/words_lib/cet6/cet6_m.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_m.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_m.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_m.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_m.c.i
+
+src/englinux/words_lib/cet6/cet6_m.s: src/englinux/words_lib/cet6/cet6_m.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_m.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_m.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_m.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_m.c.s
+
+src/englinux/words_lib/cet6/cet6_n.o: src/englinux/words_lib/cet6/cet6_n.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_n.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_n.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_n.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_n.c.o
+
+src/englinux/words_lib/cet6/cet6_n.i: src/englinux/words_lib/cet6/cet6_n.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_n.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_n.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_n.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_n.c.i
+
+src/englinux/words_lib/cet6/cet6_n.s: src/englinux/words_lib/cet6/cet6_n.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_n.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_n.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_n.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_n.c.s
+
+src/englinux/words_lib/cet6/cet6_o.o: src/englinux/words_lib/cet6/cet6_o.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_o.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_o.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_o.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_o.c.o
+
+src/englinux/words_lib/cet6/cet6_o.i: src/englinux/words_lib/cet6/cet6_o.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_o.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_o.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_o.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_o.c.i
+
+src/englinux/words_lib/cet6/cet6_o.s: src/englinux/words_lib/cet6/cet6_o.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_o.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_o.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_o.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_o.c.s
+
+src/englinux/words_lib/cet6/cet6_p.o: src/englinux/words_lib/cet6/cet6_p.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_p.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_p.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_p.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_p.c.o
+
+src/englinux/words_lib/cet6/cet6_p.i: src/englinux/words_lib/cet6/cet6_p.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_p.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_p.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_p.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_p.c.i
+
+src/englinux/words_lib/cet6/cet6_p.s: src/englinux/words_lib/cet6/cet6_p.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_p.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_p.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_p.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_p.c.s
+
+src/englinux/words_lib/cet6/cet6_q.o: src/englinux/words_lib/cet6/cet6_q.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_q.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_q.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_q.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_q.c.o
+
+src/englinux/words_lib/cet6/cet6_q.i: src/englinux/words_lib/cet6/cet6_q.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_q.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_q.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_q.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_q.c.i
+
+src/englinux/words_lib/cet6/cet6_q.s: src/englinux/words_lib/cet6/cet6_q.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_q.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_q.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_q.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_q.c.s
+
+src/englinux/words_lib/cet6/cet6_r.o: src/englinux/words_lib/cet6/cet6_r.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_r.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_r.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_r.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_r.c.o
+
+src/englinux/words_lib/cet6/cet6_r.i: src/englinux/words_lib/cet6/cet6_r.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_r.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_r.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_r.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_r.c.i
+
+src/englinux/words_lib/cet6/cet6_r.s: src/englinux/words_lib/cet6/cet6_r.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_r.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_r.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_r.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_r.c.s
+
+src/englinux/words_lib/cet6/cet6_s.o: src/englinux/words_lib/cet6/cet6_s.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_s.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_s.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_s.c.o
+
+src/englinux/words_lib/cet6/cet6_s.i: src/englinux/words_lib/cet6/cet6_s.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_s.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_s.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_s.c.i
+
+src/englinux/words_lib/cet6/cet6_s.s: src/englinux/words_lib/cet6/cet6_s.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_s.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_s.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_s.c.s
+
+src/englinux/words_lib/cet6/cet6_t.o: src/englinux/words_lib/cet6/cet6_t.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_t.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_t.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_t.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_t.c.o
+
+src/englinux/words_lib/cet6/cet6_t.i: src/englinux/words_lib/cet6/cet6_t.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_t.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_t.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_t.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_t.c.i
+
+src/englinux/words_lib/cet6/cet6_t.s: src/englinux/words_lib/cet6/cet6_t.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_t.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_t.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_t.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_t.c.s
+
+src/englinux/words_lib/cet6/cet6_u.o: src/englinux/words_lib/cet6/cet6_u.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_u.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_u.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_u.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_u.c.o
+
+src/englinux/words_lib/cet6/cet6_u.i: src/englinux/words_lib/cet6/cet6_u.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_u.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_u.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_u.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_u.c.i
+
+src/englinux/words_lib/cet6/cet6_u.s: src/englinux/words_lib/cet6/cet6_u.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_u.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_u.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_u.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_u.c.s
+
+src/englinux/words_lib/cet6/cet6_v.o: src/englinux/words_lib/cet6/cet6_v.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_v.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_v.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_v.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_v.c.o
+
+src/englinux/words_lib/cet6/cet6_v.i: src/englinux/words_lib/cet6/cet6_v.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_v.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_v.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_v.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_v.c.i
+
+src/englinux/words_lib/cet6/cet6_v.s: src/englinux/words_lib/cet6/cet6_v.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_v.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_v.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_v.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_v.c.s
+
+src/englinux/words_lib/cet6/cet6_w.o: src/englinux/words_lib/cet6/cet6_w.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_w.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_w.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_w.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_w.c.o
+
+src/englinux/words_lib/cet6/cet6_w.i: src/englinux/words_lib/cet6/cet6_w.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_w.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_w.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_w.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_w.c.i
+
+src/englinux/words_lib/cet6/cet6_w.s: src/englinux/words_lib/cet6/cet6_w.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_w.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_w.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_w.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_w.c.s
+
+src/englinux/words_lib/cet6/cet6_y.o: src/englinux/words_lib/cet6/cet6_y.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_y.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_y.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_y.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_y.c.o
+
+src/englinux/words_lib/cet6/cet6_y.i: src/englinux/words_lib/cet6/cet6_y.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_y.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_y.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_y.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_y.c.i
+
+src/englinux/words_lib/cet6/cet6_y.s: src/englinux/words_lib/cet6/cet6_y.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_y.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_y.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_y.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_y.c.s
+
+src/englinux/words_lib/cet6/cet6_z.o: src/englinux/words_lib/cet6/cet6_z.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_z.o
+
+# target to build an object file
+src/englinux/words_lib/cet6/cet6_z.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_z.c.o
+.PHONY : src/englinux/words_lib/cet6/cet6_z.c.o
+
+src/englinux/words_lib/cet6/cet6_z.i: src/englinux/words_lib/cet6/cet6_z.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_z.i
+
+# target to preprocess a source file
+src/englinux/words_lib/cet6/cet6_z.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_z.c.i
+.PHONY : src/englinux/words_lib/cet6/cet6_z.c.i
+
+src/englinux/words_lib/cet6/cet6_z.s: src/englinux/words_lib/cet6/cet6_z.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_z.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/cet6/cet6_z.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/cet6/cet6_z.c.s
+.PHONY : src/englinux/words_lib/cet6/cet6_z.c.s
+
+src/englinux/words_lib/word_set.o: src/englinux/words_lib/word_set.c.o
+.PHONY : src/englinux/words_lib/word_set.o
+
+# target to build an object file
+src/englinux/words_lib/word_set.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/word_set.c.o
+.PHONY : src/englinux/words_lib/word_set.c.o
+
+src/englinux/words_lib/word_set.i: src/englinux/words_lib/word_set.c.i
+.PHONY : src/englinux/words_lib/word_set.i
+
+# target to preprocess a source file
+src/englinux/words_lib/word_set.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/word_set.c.i
+.PHONY : src/englinux/words_lib/word_set.c.i
+
+src/englinux/words_lib/word_set.s: src/englinux/words_lib/word_set.c.s
+.PHONY : src/englinux/words_lib/word_set.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/word_set.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/word_set.c.s
+.PHONY : src/englinux/words_lib/word_set.c.s
+
+src/englinux/words_lib/words.o: src/englinux/words_lib/words.c.o
+.PHONY : src/englinux/words_lib/words.o
+
+# target to build an object file
+src/englinux/words_lib/words.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/words.c.o
+.PHONY : src/englinux/words_lib/words.c.o
+
+src/englinux/words_lib/words.i: src/englinux/words_lib/words.c.i
+.PHONY : src/englinux/words_lib/words.i
+
+# target to preprocess a source file
+src/englinux/words_lib/words.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/words.c.i
+.PHONY : src/englinux/words_lib/words.c.i
+
+src/englinux/words_lib/words.s: src/englinux/words_lib/words.c.s
+.PHONY : src/englinux/words_lib/words.s
+
+# target to generate assembly for a file
+src/englinux/words_lib/words.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/englinux/words_lib/words.c.s
+.PHONY : src/englinux/words_lib/words.c.s
 
 src/main.o: src/main.c.o
 .PHONY : src/main.o
@@ -657,101 +2073,629 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.c.s
 .PHONY : src/main.c.s
 
-src/other/myTime.o: src/other/myTime.c.o
-.PHONY : src/other/myTime.o
+src/shellText/all_pages/text_all_pages.o: src/shellText/all_pages/text_all_pages.c.o
+.PHONY : src/shellText/all_pages/text_all_pages.o
 
 # target to build an object file
-src/other/myTime.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/other/myTime.c.o
-.PHONY : src/other/myTime.c.o
+src/shellText/all_pages/text_all_pages.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/all_pages/text_all_pages.c.o
+.PHONY : src/shellText/all_pages/text_all_pages.c.o
 
-src/other/myTime.i: src/other/myTime.c.i
-.PHONY : src/other/myTime.i
+src/shellText/all_pages/text_all_pages.i: src/shellText/all_pages/text_all_pages.c.i
+.PHONY : src/shellText/all_pages/text_all_pages.i
 
 # target to preprocess a source file
-src/other/myTime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/other/myTime.c.i
-.PHONY : src/other/myTime.c.i
+src/shellText/all_pages/text_all_pages.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/all_pages/text_all_pages.c.i
+.PHONY : src/shellText/all_pages/text_all_pages.c.i
 
-src/other/myTime.s: src/other/myTime.c.s
-.PHONY : src/other/myTime.s
+src/shellText/all_pages/text_all_pages.s: src/shellText/all_pages/text_all_pages.c.s
+.PHONY : src/shellText/all_pages/text_all_pages.s
 
 # target to generate assembly for a file
-src/other/myTime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/other/myTime.c.s
-.PHONY : src/other/myTime.c.s
+src/shellText/all_pages/text_all_pages.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/all_pages/text_all_pages.c.s
+.PHONY : src/shellText/all_pages/text_all_pages.c.s
 
-src/other/rain.o: src/other/rain.c.o
-.PHONY : src/other/rain.o
+src/shellText/chapters/text_chapter1.o: src/shellText/chapters/text_chapter1.c.o
+.PHONY : src/shellText/chapters/text_chapter1.o
 
 # target to build an object file
-src/other/rain.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/other/rain.c.o
-.PHONY : src/other/rain.c.o
+src/shellText/chapters/text_chapter1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter1.c.o
+.PHONY : src/shellText/chapters/text_chapter1.c.o
 
-src/other/rain.i: src/other/rain.c.i
-.PHONY : src/other/rain.i
+src/shellText/chapters/text_chapter1.i: src/shellText/chapters/text_chapter1.c.i
+.PHONY : src/shellText/chapters/text_chapter1.i
 
 # target to preprocess a source file
-src/other/rain.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/other/rain.c.i
-.PHONY : src/other/rain.c.i
+src/shellText/chapters/text_chapter1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter1.c.i
+.PHONY : src/shellText/chapters/text_chapter1.c.i
 
-src/other/rain.s: src/other/rain.c.s
-.PHONY : src/other/rain.s
+src/shellText/chapters/text_chapter1.s: src/shellText/chapters/text_chapter1.c.s
+.PHONY : src/shellText/chapters/text_chapter1.s
 
 # target to generate assembly for a file
-src/other/rain.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/other/rain.c.s
-.PHONY : src/other/rain.c.s
+src/shellText/chapters/text_chapter1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter1.c.s
+.PHONY : src/shellText/chapters/text_chapter1.c.s
 
-src/page_preprocess/page_preprocess.o: src/page_preprocess/page_preprocess.c.o
-.PHONY : src/page_preprocess/page_preprocess.o
+src/shellText/chapters/text_chapter2.o: src/shellText/chapters/text_chapter2.c.o
+.PHONY : src/shellText/chapters/text_chapter2.o
 
 # target to build an object file
-src/page_preprocess/page_preprocess.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/page_preprocess/page_preprocess.c.o
-.PHONY : src/page_preprocess/page_preprocess.c.o
+src/shellText/chapters/text_chapter2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter2.c.o
+.PHONY : src/shellText/chapters/text_chapter2.c.o
 
-src/page_preprocess/page_preprocess.i: src/page_preprocess/page_preprocess.c.i
-.PHONY : src/page_preprocess/page_preprocess.i
+src/shellText/chapters/text_chapter2.i: src/shellText/chapters/text_chapter2.c.i
+.PHONY : src/shellText/chapters/text_chapter2.i
 
 # target to preprocess a source file
-src/page_preprocess/page_preprocess.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/page_preprocess/page_preprocess.c.i
-.PHONY : src/page_preprocess/page_preprocess.c.i
+src/shellText/chapters/text_chapter2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter2.c.i
+.PHONY : src/shellText/chapters/text_chapter2.c.i
 
-src/page_preprocess/page_preprocess.s: src/page_preprocess/page_preprocess.c.s
-.PHONY : src/page_preprocess/page_preprocess.s
+src/shellText/chapters/text_chapter2.s: src/shellText/chapters/text_chapter2.c.s
+.PHONY : src/shellText/chapters/text_chapter2.s
 
 # target to generate assembly for a file
-src/page_preprocess/page_preprocess.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/page_preprocess/page_preprocess.c.s
-.PHONY : src/page_preprocess/page_preprocess.c.s
+src/shellText/chapters/text_chapter2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter2.c.s
+.PHONY : src/shellText/chapters/text_chapter2.c.s
 
-src/show_page/show_page.o: src/show_page/show_page.c.o
-.PHONY : src/show_page/show_page.o
+src/shellText/chapters/text_chapter3.o: src/shellText/chapters/text_chapter3.c.o
+.PHONY : src/shellText/chapters/text_chapter3.o
 
 # target to build an object file
-src/show_page/show_page.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/show_page/show_page.c.o
-.PHONY : src/show_page/show_page.c.o
+src/shellText/chapters/text_chapter3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter3.c.o
+.PHONY : src/shellText/chapters/text_chapter3.c.o
 
-src/show_page/show_page.i: src/show_page/show_page.c.i
-.PHONY : src/show_page/show_page.i
+src/shellText/chapters/text_chapter3.i: src/shellText/chapters/text_chapter3.c.i
+.PHONY : src/shellText/chapters/text_chapter3.i
 
 # target to preprocess a source file
-src/show_page/show_page.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/show_page/show_page.c.i
-.PHONY : src/show_page/show_page.c.i
+src/shellText/chapters/text_chapter3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter3.c.i
+.PHONY : src/shellText/chapters/text_chapter3.c.i
 
-src/show_page/show_page.s: src/show_page/show_page.c.s
-.PHONY : src/show_page/show_page.s
+src/shellText/chapters/text_chapter3.s: src/shellText/chapters/text_chapter3.c.s
+.PHONY : src/shellText/chapters/text_chapter3.s
 
 # target to generate assembly for a file
-src/show_page/show_page.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/show_page/show_page.c.s
-.PHONY : src/show_page/show_page.c.s
+src/shellText/chapters/text_chapter3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter3.c.s
+.PHONY : src/shellText/chapters/text_chapter3.c.s
+
+src/shellText/chapters/text_chapter4.o: src/shellText/chapters/text_chapter4.c.o
+.PHONY : src/shellText/chapters/text_chapter4.o
+
+# target to build an object file
+src/shellText/chapters/text_chapter4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter4.c.o
+.PHONY : src/shellText/chapters/text_chapter4.c.o
+
+src/shellText/chapters/text_chapter4.i: src/shellText/chapters/text_chapter4.c.i
+.PHONY : src/shellText/chapters/text_chapter4.i
+
+# target to preprocess a source file
+src/shellText/chapters/text_chapter4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter4.c.i
+.PHONY : src/shellText/chapters/text_chapter4.c.i
+
+src/shellText/chapters/text_chapter4.s: src/shellText/chapters/text_chapter4.c.s
+.PHONY : src/shellText/chapters/text_chapter4.s
+
+# target to generate assembly for a file
+src/shellText/chapters/text_chapter4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter4.c.s
+.PHONY : src/shellText/chapters/text_chapter4.c.s
+
+src/shellText/chapters/text_chapter5.o: src/shellText/chapters/text_chapter5.c.o
+.PHONY : src/shellText/chapters/text_chapter5.o
+
+# target to build an object file
+src/shellText/chapters/text_chapter5.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter5.c.o
+.PHONY : src/shellText/chapters/text_chapter5.c.o
+
+src/shellText/chapters/text_chapter5.i: src/shellText/chapters/text_chapter5.c.i
+.PHONY : src/shellText/chapters/text_chapter5.i
+
+# target to preprocess a source file
+src/shellText/chapters/text_chapter5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter5.c.i
+.PHONY : src/shellText/chapters/text_chapter5.c.i
+
+src/shellText/chapters/text_chapter5.s: src/shellText/chapters/text_chapter5.c.s
+.PHONY : src/shellText/chapters/text_chapter5.s
+
+# target to generate assembly for a file
+src/shellText/chapters/text_chapter5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter5.c.s
+.PHONY : src/shellText/chapters/text_chapter5.c.s
+
+src/shellText/chapters/text_chapter6.o: src/shellText/chapters/text_chapter6.c.o
+.PHONY : src/shellText/chapters/text_chapter6.o
+
+# target to build an object file
+src/shellText/chapters/text_chapter6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter6.c.o
+.PHONY : src/shellText/chapters/text_chapter6.c.o
+
+src/shellText/chapters/text_chapter6.i: src/shellText/chapters/text_chapter6.c.i
+.PHONY : src/shellText/chapters/text_chapter6.i
+
+# target to preprocess a source file
+src/shellText/chapters/text_chapter6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter6.c.i
+.PHONY : src/shellText/chapters/text_chapter6.c.i
+
+src/shellText/chapters/text_chapter6.s: src/shellText/chapters/text_chapter6.c.s
+.PHONY : src/shellText/chapters/text_chapter6.s
+
+# target to generate assembly for a file
+src/shellText/chapters/text_chapter6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter6.c.s
+.PHONY : src/shellText/chapters/text_chapter6.c.s
+
+src/shellText/chapters/text_chapter7.o: src/shellText/chapters/text_chapter7.c.o
+.PHONY : src/shellText/chapters/text_chapter7.o
+
+# target to build an object file
+src/shellText/chapters/text_chapter7.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter7.c.o
+.PHONY : src/shellText/chapters/text_chapter7.c.o
+
+src/shellText/chapters/text_chapter7.i: src/shellText/chapters/text_chapter7.c.i
+.PHONY : src/shellText/chapters/text_chapter7.i
+
+# target to preprocess a source file
+src/shellText/chapters/text_chapter7.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter7.c.i
+.PHONY : src/shellText/chapters/text_chapter7.c.i
+
+src/shellText/chapters/text_chapter7.s: src/shellText/chapters/text_chapter7.c.s
+.PHONY : src/shellText/chapters/text_chapter7.s
+
+# target to generate assembly for a file
+src/shellText/chapters/text_chapter7.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter7.c.s
+.PHONY : src/shellText/chapters/text_chapter7.c.s
+
+src/shellText/chapters/text_chapter8.o: src/shellText/chapters/text_chapter8.c.o
+.PHONY : src/shellText/chapters/text_chapter8.o
+
+# target to build an object file
+src/shellText/chapters/text_chapter8.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter8.c.o
+.PHONY : src/shellText/chapters/text_chapter8.c.o
+
+src/shellText/chapters/text_chapter8.i: src/shellText/chapters/text_chapter8.c.i
+.PHONY : src/shellText/chapters/text_chapter8.i
+
+# target to preprocess a source file
+src/shellText/chapters/text_chapter8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter8.c.i
+.PHONY : src/shellText/chapters/text_chapter8.c.i
+
+src/shellText/chapters/text_chapter8.s: src/shellText/chapters/text_chapter8.c.s
+.PHONY : src/shellText/chapters/text_chapter8.s
+
+# target to generate assembly for a file
+src/shellText/chapters/text_chapter8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter8.c.s
+.PHONY : src/shellText/chapters/text_chapter8.c.s
+
+src/shellText/chapters/text_chapter9.o: src/shellText/chapters/text_chapter9.c.o
+.PHONY : src/shellText/chapters/text_chapter9.o
+
+# target to build an object file
+src/shellText/chapters/text_chapter9.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter9.c.o
+.PHONY : src/shellText/chapters/text_chapter9.c.o
+
+src/shellText/chapters/text_chapter9.i: src/shellText/chapters/text_chapter9.c.i
+.PHONY : src/shellText/chapters/text_chapter9.i
+
+# target to preprocess a source file
+src/shellText/chapters/text_chapter9.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter9.c.i
+.PHONY : src/shellText/chapters/text_chapter9.c.i
+
+src/shellText/chapters/text_chapter9.s: src/shellText/chapters/text_chapter9.c.s
+.PHONY : src/shellText/chapters/text_chapter9.s
+
+# target to generate assembly for a file
+src/shellText/chapters/text_chapter9.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter9.c.s
+.PHONY : src/shellText/chapters/text_chapter9.c.s
+
+src/shellText/chapters/text_chapter_show.o: src/shellText/chapters/text_chapter_show.c.o
+.PHONY : src/shellText/chapters/text_chapter_show.o
+
+# target to build an object file
+src/shellText/chapters/text_chapter_show.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter_show.c.o
+.PHONY : src/shellText/chapters/text_chapter_show.c.o
+
+src/shellText/chapters/text_chapter_show.i: src/shellText/chapters/text_chapter_show.c.i
+.PHONY : src/shellText/chapters/text_chapter_show.i
+
+# target to preprocess a source file
+src/shellText/chapters/text_chapter_show.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter_show.c.i
+.PHONY : src/shellText/chapters/text_chapter_show.c.i
+
+src/shellText/chapters/text_chapter_show.s: src/shellText/chapters/text_chapter_show.c.s
+.PHONY : src/shellText/chapters/text_chapter_show.s
+
+# target to generate assembly for a file
+src/shellText/chapters/text_chapter_show.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_chapter_show.c.s
+.PHONY : src/shellText/chapters/text_chapter_show.c.s
+
+src/shellText/chapters/text_common.o: src/shellText/chapters/text_common.c.o
+.PHONY : src/shellText/chapters/text_common.o
+
+# target to build an object file
+src/shellText/chapters/text_common.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_common.c.o
+.PHONY : src/shellText/chapters/text_common.c.o
+
+src/shellText/chapters/text_common.i: src/shellText/chapters/text_common.c.i
+.PHONY : src/shellText/chapters/text_common.i
+
+# target to preprocess a source file
+src/shellText/chapters/text_common.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_common.c.i
+.PHONY : src/shellText/chapters/text_common.c.i
+
+src/shellText/chapters/text_common.s: src/shellText/chapters/text_common.c.s
+.PHONY : src/shellText/chapters/text_common.s
+
+# target to generate assembly for a file
+src/shellText/chapters/text_common.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/chapters/text_common.c.s
+.PHONY : src/shellText/chapters/text_common.c.s
+
+src/shellText/commonTools/color/text_color.o: src/shellText/commonTools/color/text_color.c.o
+.PHONY : src/shellText/commonTools/color/text_color.o
+
+# target to build an object file
+src/shellText/commonTools/color/text_color.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/commonTools/color/text_color.c.o
+.PHONY : src/shellText/commonTools/color/text_color.c.o
+
+src/shellText/commonTools/color/text_color.i: src/shellText/commonTools/color/text_color.c.i
+.PHONY : src/shellText/commonTools/color/text_color.i
+
+# target to preprocess a source file
+src/shellText/commonTools/color/text_color.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/commonTools/color/text_color.c.i
+.PHONY : src/shellText/commonTools/color/text_color.c.i
+
+src/shellText/commonTools/color/text_color.s: src/shellText/commonTools/color/text_color.c.s
+.PHONY : src/shellText/commonTools/color/text_color.s
+
+# target to generate assembly for a file
+src/shellText/commonTools/color/text_color.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/commonTools/color/text_color.c.s
+.PHONY : src/shellText/commonTools/color/text_color.c.s
+
+src/shellText/commonTools/eliminateSpace/text_eliminateSpace.o: src/shellText/commonTools/eliminateSpace/text_eliminateSpace.c.o
+.PHONY : src/shellText/commonTools/eliminateSpace/text_eliminateSpace.o
+
+# target to build an object file
+src/shellText/commonTools/eliminateSpace/text_eliminateSpace.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/commonTools/eliminateSpace/text_eliminateSpace.c.o
+.PHONY : src/shellText/commonTools/eliminateSpace/text_eliminateSpace.c.o
+
+src/shellText/commonTools/eliminateSpace/text_eliminateSpace.i: src/shellText/commonTools/eliminateSpace/text_eliminateSpace.c.i
+.PHONY : src/shellText/commonTools/eliminateSpace/text_eliminateSpace.i
+
+# target to preprocess a source file
+src/shellText/commonTools/eliminateSpace/text_eliminateSpace.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/commonTools/eliminateSpace/text_eliminateSpace.c.i
+.PHONY : src/shellText/commonTools/eliminateSpace/text_eliminateSpace.c.i
+
+src/shellText/commonTools/eliminateSpace/text_eliminateSpace.s: src/shellText/commonTools/eliminateSpace/text_eliminateSpace.c.s
+.PHONY : src/shellText/commonTools/eliminateSpace/text_eliminateSpace.s
+
+# target to generate assembly for a file
+src/shellText/commonTools/eliminateSpace/text_eliminateSpace.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/commonTools/eliminateSpace/text_eliminateSpace.c.s
+.PHONY : src/shellText/commonTools/eliminateSpace/text_eliminateSpace.c.s
+
+src/shellText/copyRight/text_copyRight.o: src/shellText/copyRight/text_copyRight.c.o
+.PHONY : src/shellText/copyRight/text_copyRight.o
+
+# target to build an object file
+src/shellText/copyRight/text_copyRight.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/copyRight/text_copyRight.c.o
+.PHONY : src/shellText/copyRight/text_copyRight.c.o
+
+src/shellText/copyRight/text_copyRight.i: src/shellText/copyRight/text_copyRight.c.i
+.PHONY : src/shellText/copyRight/text_copyRight.i
+
+# target to preprocess a source file
+src/shellText/copyRight/text_copyRight.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/copyRight/text_copyRight.c.i
+.PHONY : src/shellText/copyRight/text_copyRight.c.i
+
+src/shellText/copyRight/text_copyRight.s: src/shellText/copyRight/text_copyRight.c.s
+.PHONY : src/shellText/copyRight/text_copyRight.s
+
+# target to generate assembly for a file
+src/shellText/copyRight/text_copyRight.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/copyRight/text_copyRight.c.s
+.PHONY : src/shellText/copyRight/text_copyRight.c.s
+
+src/shellText/endSay/text_endSay.o: src/shellText/endSay/text_endSay.c.o
+.PHONY : src/shellText/endSay/text_endSay.o
+
+# target to build an object file
+src/shellText/endSay/text_endSay.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/endSay/text_endSay.c.o
+.PHONY : src/shellText/endSay/text_endSay.c.o
+
+src/shellText/endSay/text_endSay.i: src/shellText/endSay/text_endSay.c.i
+.PHONY : src/shellText/endSay/text_endSay.i
+
+# target to preprocess a source file
+src/shellText/endSay/text_endSay.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/endSay/text_endSay.c.i
+.PHONY : src/shellText/endSay/text_endSay.c.i
+
+src/shellText/endSay/text_endSay.s: src/shellText/endSay/text_endSay.c.s
+.PHONY : src/shellText/endSay/text_endSay.s
+
+# target to generate assembly for a file
+src/shellText/endSay/text_endSay.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/endSay/text_endSay.c.s
+.PHONY : src/shellText/endSay/text_endSay.c.s
+
+src/shellText/englinux/egnlinux.o: src/shellText/englinux/egnlinux.c.o
+.PHONY : src/shellText/englinux/egnlinux.o
+
+# target to build an object file
+src/shellText/englinux/egnlinux.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/englinux/egnlinux.c.o
+.PHONY : src/shellText/englinux/egnlinux.c.o
+
+src/shellText/englinux/egnlinux.i: src/shellText/englinux/egnlinux.c.i
+.PHONY : src/shellText/englinux/egnlinux.i
+
+# target to preprocess a source file
+src/shellText/englinux/egnlinux.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/englinux/egnlinux.c.i
+.PHONY : src/shellText/englinux/egnlinux.c.i
+
+src/shellText/englinux/egnlinux.s: src/shellText/englinux/egnlinux.c.s
+.PHONY : src/shellText/englinux/egnlinux.s
+
+# target to generate assembly for a file
+src/shellText/englinux/egnlinux.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/englinux/egnlinux.c.s
+.PHONY : src/shellText/englinux/egnlinux.c.s
+
+src/shellText/execute/text_execute.o: src/shellText/execute/text_execute.c.o
+.PHONY : src/shellText/execute/text_execute.o
+
+# target to build an object file
+src/shellText/execute/text_execute.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/execute/text_execute.c.o
+.PHONY : src/shellText/execute/text_execute.c.o
+
+src/shellText/execute/text_execute.i: src/shellText/execute/text_execute.c.i
+.PHONY : src/shellText/execute/text_execute.i
+
+# target to preprocess a source file
+src/shellText/execute/text_execute.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/execute/text_execute.c.i
+.PHONY : src/shellText/execute/text_execute.c.i
+
+src/shellText/execute/text_execute.s: src/shellText/execute/text_execute.c.s
+.PHONY : src/shellText/execute/text_execute.s
+
+# target to generate assembly for a file
+src/shellText/execute/text_execute.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/execute/text_execute.c.s
+.PHONY : src/shellText/execute/text_execute.c.s
+
+src/shellText/find/text_find_text.o: src/shellText/find/text_find_text.c.o
+.PHONY : src/shellText/find/text_find_text.o
+
+# target to build an object file
+src/shellText/find/text_find_text.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/find/text_find_text.c.o
+.PHONY : src/shellText/find/text_find_text.c.o
+
+src/shellText/find/text_find_text.i: src/shellText/find/text_find_text.c.i
+.PHONY : src/shellText/find/text_find_text.i
+
+# target to preprocess a source file
+src/shellText/find/text_find_text.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/find/text_find_text.c.i
+.PHONY : src/shellText/find/text_find_text.c.i
+
+src/shellText/find/text_find_text.s: src/shellText/find/text_find_text.c.s
+.PHONY : src/shellText/find/text_find_text.s
+
+# target to generate assembly for a file
+src/shellText/find/text_find_text.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/find/text_find_text.c.s
+.PHONY : src/shellText/find/text_find_text.c.s
+
+src/shellText/findSimilarInstructions/text_similarInstructions.o: src/shellText/findSimilarInstructions/text_similarInstructions.c.o
+.PHONY : src/shellText/findSimilarInstructions/text_similarInstructions.o
+
+# target to build an object file
+src/shellText/findSimilarInstructions/text_similarInstructions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/findSimilarInstructions/text_similarInstructions.c.o
+.PHONY : src/shellText/findSimilarInstructions/text_similarInstructions.c.o
+
+src/shellText/findSimilarInstructions/text_similarInstructions.i: src/shellText/findSimilarInstructions/text_similarInstructions.c.i
+.PHONY : src/shellText/findSimilarInstructions/text_similarInstructions.i
+
+# target to preprocess a source file
+src/shellText/findSimilarInstructions/text_similarInstructions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/findSimilarInstructions/text_similarInstructions.c.i
+.PHONY : src/shellText/findSimilarInstructions/text_similarInstructions.c.i
+
+src/shellText/findSimilarInstructions/text_similarInstructions.s: src/shellText/findSimilarInstructions/text_similarInstructions.c.s
+.PHONY : src/shellText/findSimilarInstructions/text_similarInstructions.s
+
+# target to generate assembly for a file
+src/shellText/findSimilarInstructions/text_similarInstructions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/findSimilarInstructions/text_similarInstructions.c.s
+.PHONY : src/shellText/findSimilarInstructions/text_similarInstructions.c.s
+
+src/shellText/help/text_help.o: src/shellText/help/text_help.c.o
+.PHONY : src/shellText/help/text_help.o
+
+# target to build an object file
+src/shellText/help/text_help.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/help/text_help.c.o
+.PHONY : src/shellText/help/text_help.c.o
+
+src/shellText/help/text_help.i: src/shellText/help/text_help.c.i
+.PHONY : src/shellText/help/text_help.i
+
+# target to preprocess a source file
+src/shellText/help/text_help.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/help/text_help.c.i
+.PHONY : src/shellText/help/text_help.c.i
+
+src/shellText/help/text_help.s: src/shellText/help/text_help.c.s
+.PHONY : src/shellText/help/text_help.s
+
+# target to generate assembly for a file
+src/shellText/help/text_help.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/help/text_help.c.s
+.PHONY : src/shellText/help/text_help.c.s
+
+src/shellText/instructionsLists/text_instructionList.o: src/shellText/instructionsLists/text_instructionList.c.o
+.PHONY : src/shellText/instructionsLists/text_instructionList.o
+
+# target to build an object file
+src/shellText/instructionsLists/text_instructionList.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/instructionsLists/text_instructionList.c.o
+.PHONY : src/shellText/instructionsLists/text_instructionList.c.o
+
+src/shellText/instructionsLists/text_instructionList.i: src/shellText/instructionsLists/text_instructionList.c.i
+.PHONY : src/shellText/instructionsLists/text_instructionList.i
+
+# target to preprocess a source file
+src/shellText/instructionsLists/text_instructionList.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/instructionsLists/text_instructionList.c.i
+.PHONY : src/shellText/instructionsLists/text_instructionList.c.i
+
+src/shellText/instructionsLists/text_instructionList.s: src/shellText/instructionsLists/text_instructionList.c.s
+.PHONY : src/shellText/instructionsLists/text_instructionList.s
+
+# target to generate assembly for a file
+src/shellText/instructionsLists/text_instructionList.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/instructionsLists/text_instructionList.c.s
+.PHONY : src/shellText/instructionsLists/text_instructionList.c.s
+
+src/shellText/other/text_myTime.o: src/shellText/other/text_myTime.c.o
+.PHONY : src/shellText/other/text_myTime.o
+
+# target to build an object file
+src/shellText/other/text_myTime.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/other/text_myTime.c.o
+.PHONY : src/shellText/other/text_myTime.c.o
+
+src/shellText/other/text_myTime.i: src/shellText/other/text_myTime.c.i
+.PHONY : src/shellText/other/text_myTime.i
+
+# target to preprocess a source file
+src/shellText/other/text_myTime.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/other/text_myTime.c.i
+.PHONY : src/shellText/other/text_myTime.c.i
+
+src/shellText/other/text_myTime.s: src/shellText/other/text_myTime.c.s
+.PHONY : src/shellText/other/text_myTime.s
+
+# target to generate assembly for a file
+src/shellText/other/text_myTime.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/other/text_myTime.c.s
+.PHONY : src/shellText/other/text_myTime.c.s
+
+src/shellText/other/text_rain.o: src/shellText/other/text_rain.c.o
+.PHONY : src/shellText/other/text_rain.o
+
+# target to build an object file
+src/shellText/other/text_rain.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/other/text_rain.c.o
+.PHONY : src/shellText/other/text_rain.c.o
+
+src/shellText/other/text_rain.i: src/shellText/other/text_rain.c.i
+.PHONY : src/shellText/other/text_rain.i
+
+# target to preprocess a source file
+src/shellText/other/text_rain.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/other/text_rain.c.i
+.PHONY : src/shellText/other/text_rain.c.i
+
+src/shellText/other/text_rain.s: src/shellText/other/text_rain.c.s
+.PHONY : src/shellText/other/text_rain.s
+
+# target to generate assembly for a file
+src/shellText/other/text_rain.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/other/text_rain.c.s
+.PHONY : src/shellText/other/text_rain.c.s
+
+src/shellText/page_preprocess/text_page_preprocess.o: src/shellText/page_preprocess/text_page_preprocess.c.o
+.PHONY : src/shellText/page_preprocess/text_page_preprocess.o
+
+# target to build an object file
+src/shellText/page_preprocess/text_page_preprocess.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/page_preprocess/text_page_preprocess.c.o
+.PHONY : src/shellText/page_preprocess/text_page_preprocess.c.o
+
+src/shellText/page_preprocess/text_page_preprocess.i: src/shellText/page_preprocess/text_page_preprocess.c.i
+.PHONY : src/shellText/page_preprocess/text_page_preprocess.i
+
+# target to preprocess a source file
+src/shellText/page_preprocess/text_page_preprocess.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/page_preprocess/text_page_preprocess.c.i
+.PHONY : src/shellText/page_preprocess/text_page_preprocess.c.i
+
+src/shellText/page_preprocess/text_page_preprocess.s: src/shellText/page_preprocess/text_page_preprocess.c.s
+.PHONY : src/shellText/page_preprocess/text_page_preprocess.s
+
+# target to generate assembly for a file
+src/shellText/page_preprocess/text_page_preprocess.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/page_preprocess/text_page_preprocess.c.s
+.PHONY : src/shellText/page_preprocess/text_page_preprocess.c.s
+
+src/shellText/show_page/text_show_page.o: src/shellText/show_page/text_show_page.c.o
+.PHONY : src/shellText/show_page/text_show_page.o
+
+# target to build an object file
+src/shellText/show_page/text_show_page.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/show_page/text_show_page.c.o
+.PHONY : src/shellText/show_page/text_show_page.c.o
+
+src/shellText/show_page/text_show_page.i: src/shellText/show_page/text_show_page.c.i
+.PHONY : src/shellText/show_page/text_show_page.i
+
+# target to preprocess a source file
+src/shellText/show_page/text_show_page.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/show_page/text_show_page.c.i
+.PHONY : src/shellText/show_page/text_show_page.c.i
+
+src/shellText/show_page/text_show_page.s: src/shellText/show_page/text_show_page.c.s
+.PHONY : src/shellText/show_page/text_show_page.s
+
+# target to generate assembly for a file
+src/shellText/show_page/text_show_page.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/shellText/show_page/text_show_page.c.s
+.PHONY : src/shellText/show_page/text_show_page.c.s
 
 # Help Target
 help:
@@ -762,84 +2706,327 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... src/all_pages/all_pages.o"
-	@echo "... src/all_pages/all_pages.i"
-	@echo "... src/all_pages/all_pages.s"
-	@echo "... src/chapters/chapter1.o"
-	@echo "... src/chapters/chapter1.i"
-	@echo "... src/chapters/chapter1.s"
-	@echo "... src/chapters/chapter2.o"
-	@echo "... src/chapters/chapter2.i"
-	@echo "... src/chapters/chapter2.s"
-	@echo "... src/chapters/chapter3.o"
-	@echo "... src/chapters/chapter3.i"
-	@echo "... src/chapters/chapter3.s"
-	@echo "... src/chapters/chapter4.o"
-	@echo "... src/chapters/chapter4.i"
-	@echo "... src/chapters/chapter4.s"
-	@echo "... src/chapters/chapter5.o"
-	@echo "... src/chapters/chapter5.i"
-	@echo "... src/chapters/chapter5.s"
-	@echo "... src/chapters/chapter6.o"
-	@echo "... src/chapters/chapter6.i"
-	@echo "... src/chapters/chapter6.s"
-	@echo "... src/chapters/chapter7.o"
-	@echo "... src/chapters/chapter7.i"
-	@echo "... src/chapters/chapter7.s"
-	@echo "... src/chapters/chapter8.o"
-	@echo "... src/chapters/chapter8.i"
-	@echo "... src/chapters/chapter8.s"
-	@echo "... src/chapters/chapter9.o"
-	@echo "... src/chapters/chapter9.i"
-	@echo "... src/chapters/chapter9.s"
-	@echo "... src/chapters/chapter_show.o"
-	@echo "... src/chapters/chapter_show.i"
-	@echo "... src/chapters/chapter_show.s"
-	@echo "... src/chapters/common.o"
-	@echo "... src/chapters/common.i"
-	@echo "... src/chapters/common.s"
-	@echo "... src/commonTools/color/color.o"
-	@echo "... src/commonTools/color/color.i"
-	@echo "... src/commonTools/color/color.s"
-	@echo "... src/commonTools/eliminateSpace/eliminateSpace.o"
-	@echo "... src/commonTools/eliminateSpace/eliminateSpace.i"
-	@echo "... src/commonTools/eliminateSpace/eliminateSpace.s"
-	@echo "... src/copyRight/copyRight.o"
-	@echo "... src/copyRight/copyRight.i"
-	@echo "... src/copyRight/copyRight.s"
-	@echo "... src/endSay/endSay.o"
-	@echo "... src/endSay/endSay.i"
-	@echo "... src/endSay/endSay.s"
-	@echo "... src/execute/execute.o"
-	@echo "... src/execute/execute.i"
-	@echo "... src/execute/execute.s"
-	@echo "... src/find/find_text.o"
-	@echo "... src/find/find_text.i"
-	@echo "... src/find/find_text.s"
-	@echo "... src/findSimilarInstructions/similarInstructions.o"
-	@echo "... src/findSimilarInstructions/similarInstructions.i"
-	@echo "... src/findSimilarInstructions/similarInstructions.s"
-	@echo "... src/help/help.o"
-	@echo "... src/help/help.i"
-	@echo "... src/help/help.s"
-	@echo "... src/instructionsLists/instructionList.o"
-	@echo "... src/instructionsLists/instructionList.i"
-	@echo "... src/instructionsLists/instructionList.s"
+	@echo "... src/englinux/display/eg_author.o"
+	@echo "... src/englinux/display/eg_author.i"
+	@echo "... src/englinux/display/eg_author.s"
+	@echo "... src/englinux/display/eg_copyRight.o"
+	@echo "... src/englinux/display/eg_copyRight.i"
+	@echo "... src/englinux/display/eg_copyRight.s"
+	@echo "... src/englinux/display/eg_display.o"
+	@echo "... src/englinux/display/eg_display.i"
+	@echo "... src/englinux/display/eg_display.s"
+	@echo "... src/englinux/display/eg_display_width.o"
+	@echo "... src/englinux/display/eg_display_width.i"
+	@echo "... src/englinux/display/eg_display_width.s"
+	@echo "... src/englinux/display/eg_endSay.o"
+	@echo "... src/englinux/display/eg_endSay.i"
+	@echo "... src/englinux/display/eg_endSay.s"
+	@echo "... src/englinux/display/eg_error.o"
+	@echo "... src/englinux/display/eg_error.i"
+	@echo "... src/englinux/display/eg_error.s"
+	@echo "... src/englinux/display/eg_find_help.o"
+	@echo "... src/englinux/display/eg_find_help.i"
+	@echo "... src/englinux/display/eg_find_help.s"
+	@echo "... src/englinux/display/eg_print_help.o"
+	@echo "... src/englinux/display/eg_print_help.i"
+	@echo "... src/englinux/display/eg_print_help.s"
+	@echo "... src/englinux/display/eg_print_other.o"
+	@echo "... src/englinux/display/eg_print_other.i"
+	@echo "... src/englinux/display/eg_print_other.s"
+	@echo "... src/englinux/display/eg_print_words.o"
+	@echo "... src/englinux/display/eg_print_words.i"
+	@echo "... src/englinux/display/eg_print_words.s"
+	@echo "... src/englinux/eg_main.o"
+	@echo "... src/englinux/eg_main.i"
+	@echo "... src/englinux/eg_main.s"
+	@echo "... src/englinux/execute/eg_clear.o"
+	@echo "... src/englinux/execute/eg_clear.i"
+	@echo "... src/englinux/execute/eg_clear.s"
+	@echo "... src/englinux/execute/eg_execute.o"
+	@echo "... src/englinux/execute/eg_execute.i"
+	@echo "... src/englinux/execute/eg_execute.s"
+	@echo "... src/englinux/execute/eg_execute_four_token.o"
+	@echo "... src/englinux/execute/eg_execute_four_token.i"
+	@echo "... src/englinux/execute/eg_execute_four_token.s"
+	@echo "... src/englinux/execute/eg_execute_one_token.o"
+	@echo "... src/englinux/execute/eg_execute_one_token.i"
+	@echo "... src/englinux/execute/eg_execute_one_token.s"
+	@echo "... src/englinux/execute/eg_execute_three_token.o"
+	@echo "... src/englinux/execute/eg_execute_three_token.i"
+	@echo "... src/englinux/execute/eg_execute_three_token.s"
+	@echo "... src/englinux/execute/eg_execute_two_token.o"
+	@echo "... src/englinux/execute/eg_execute_two_token.i"
+	@echo "... src/englinux/execute/eg_execute_two_token.s"
+	@echo "... src/englinux/execute/eg_find.o"
+	@echo "... src/englinux/execute/eg_find.i"
+	@echo "... src/englinux/execute/eg_find.s"
+	@echo "... src/englinux/execute/eg_help.o"
+	@echo "... src/englinux/execute/eg_help.i"
+	@echo "... src/englinux/execute/eg_help.s"
+	@echo "... src/englinux/execute/eg_is_all_digit.o"
+	@echo "... src/englinux/execute/eg_is_all_digit.i"
+	@echo "... src/englinux/execute/eg_is_all_digit.s"
+	@echo "... src/englinux/execute/eg_match.o"
+	@echo "... src/englinux/execute/eg_match.i"
+	@echo "... src/englinux/execute/eg_match.s"
+	@echo "... src/englinux/execute/eg_parser_first_token.o"
+	@echo "... src/englinux/execute/eg_parser_first_token.i"
+	@echo "... src/englinux/execute/eg_parser_first_token.s"
+	@echo "... src/englinux/execute/eg_parser_fourth_token.o"
+	@echo "... src/englinux/execute/eg_parser_fourth_token.i"
+	@echo "... src/englinux/execute/eg_parser_fourth_token.s"
+	@echo "... src/englinux/execute/eg_parser_second_token.o"
+	@echo "... src/englinux/execute/eg_parser_second_token.i"
+	@echo "... src/englinux/execute/eg_parser_second_token.s"
+	@echo "... src/englinux/execute/eg_parser_third_token.o"
+	@echo "... src/englinux/execute/eg_parser_third_token.i"
+	@echo "... src/englinux/execute/eg_parser_third_token.s"
+	@echo "... src/englinux/lexer/eg_lexer.o"
+	@echo "... src/englinux/lexer/eg_lexer.i"
+	@echo "... src/englinux/lexer/eg_lexer.s"
+	@echo "... src/englinux/words_lib/cet4.o"
+	@echo "... src/englinux/words_lib/cet4.i"
+	@echo "... src/englinux/words_lib/cet4.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_a.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_a.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_a.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_b.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_b.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_b.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_c.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_c.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_c.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_d.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_d.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_d.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_e.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_e.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_e.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_f.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_f.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_f.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_g.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_g.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_g.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_h.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_h.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_h.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_i.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_i.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_i.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_j.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_j.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_j.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_k.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_k.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_k.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_l.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_l.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_l.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_m.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_m.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_m.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_n.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_n.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_n.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_o.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_o.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_o.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_p.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_p.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_p.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_q.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_q.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_q.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_r.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_r.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_r.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_s.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_s.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_s.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_t.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_t.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_t.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_u.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_u.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_u.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_v.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_v.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_v.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_w.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_w.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_w.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_y.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_y.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_y.s"
+	@echo "... src/englinux/words_lib/cet4/cet4_z.o"
+	@echo "... src/englinux/words_lib/cet4/cet4_z.i"
+	@echo "... src/englinux/words_lib/cet4/cet4_z.s"
+	@echo "... src/englinux/words_lib/cet6.o"
+	@echo "... src/englinux/words_lib/cet6.i"
+	@echo "... src/englinux/words_lib/cet6.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_a.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_a.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_a.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_b.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_b.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_b.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_c.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_c.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_c.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_d.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_d.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_d.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_e.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_e.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_e.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_f.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_f.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_f.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_g.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_g.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_g.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_h.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_h.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_h.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_i.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_i.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_i.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_j.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_j.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_j.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_k.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_k.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_k.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_l.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_l.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_l.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_m.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_m.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_m.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_n.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_n.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_n.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_o.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_o.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_o.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_p.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_p.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_p.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_q.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_q.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_q.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_r.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_r.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_r.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_s.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_s.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_s.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_t.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_t.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_t.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_u.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_u.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_u.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_v.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_v.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_v.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_w.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_w.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_w.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_y.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_y.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_y.s"
+	@echo "... src/englinux/words_lib/cet6/cet6_z.o"
+	@echo "... src/englinux/words_lib/cet6/cet6_z.i"
+	@echo "... src/englinux/words_lib/cet6/cet6_z.s"
+	@echo "... src/englinux/words_lib/word_set.o"
+	@echo "... src/englinux/words_lib/word_set.i"
+	@echo "... src/englinux/words_lib/word_set.s"
+	@echo "... src/englinux/words_lib/words.o"
+	@echo "... src/englinux/words_lib/words.i"
+	@echo "... src/englinux/words_lib/words.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/other/myTime.o"
-	@echo "... src/other/myTime.i"
-	@echo "... src/other/myTime.s"
-	@echo "... src/other/rain.o"
-	@echo "... src/other/rain.i"
-	@echo "... src/other/rain.s"
-	@echo "... src/page_preprocess/page_preprocess.o"
-	@echo "... src/page_preprocess/page_preprocess.i"
-	@echo "... src/page_preprocess/page_preprocess.s"
-	@echo "... src/show_page/show_page.o"
-	@echo "... src/show_page/show_page.i"
-	@echo "... src/show_page/show_page.s"
+	@echo "... src/shellText/all_pages/text_all_pages.o"
+	@echo "... src/shellText/all_pages/text_all_pages.i"
+	@echo "... src/shellText/all_pages/text_all_pages.s"
+	@echo "... src/shellText/chapters/text_chapter1.o"
+	@echo "... src/shellText/chapters/text_chapter1.i"
+	@echo "... src/shellText/chapters/text_chapter1.s"
+	@echo "... src/shellText/chapters/text_chapter2.o"
+	@echo "... src/shellText/chapters/text_chapter2.i"
+	@echo "... src/shellText/chapters/text_chapter2.s"
+	@echo "... src/shellText/chapters/text_chapter3.o"
+	@echo "... src/shellText/chapters/text_chapter3.i"
+	@echo "... src/shellText/chapters/text_chapter3.s"
+	@echo "... src/shellText/chapters/text_chapter4.o"
+	@echo "... src/shellText/chapters/text_chapter4.i"
+	@echo "... src/shellText/chapters/text_chapter4.s"
+	@echo "... src/shellText/chapters/text_chapter5.o"
+	@echo "... src/shellText/chapters/text_chapter5.i"
+	@echo "... src/shellText/chapters/text_chapter5.s"
+	@echo "... src/shellText/chapters/text_chapter6.o"
+	@echo "... src/shellText/chapters/text_chapter6.i"
+	@echo "... src/shellText/chapters/text_chapter6.s"
+	@echo "... src/shellText/chapters/text_chapter7.o"
+	@echo "... src/shellText/chapters/text_chapter7.i"
+	@echo "... src/shellText/chapters/text_chapter7.s"
+	@echo "... src/shellText/chapters/text_chapter8.o"
+	@echo "... src/shellText/chapters/text_chapter8.i"
+	@echo "... src/shellText/chapters/text_chapter8.s"
+	@echo "... src/shellText/chapters/text_chapter9.o"
+	@echo "... src/shellText/chapters/text_chapter9.i"
+	@echo "... src/shellText/chapters/text_chapter9.s"
+	@echo "... src/shellText/chapters/text_chapter_show.o"
+	@echo "... src/shellText/chapters/text_chapter_show.i"
+	@echo "... src/shellText/chapters/text_chapter_show.s"
+	@echo "... src/shellText/chapters/text_common.o"
+	@echo "... src/shellText/chapters/text_common.i"
+	@echo "... src/shellText/chapters/text_common.s"
+	@echo "... src/shellText/commonTools/color/text_color.o"
+	@echo "... src/shellText/commonTools/color/text_color.i"
+	@echo "... src/shellText/commonTools/color/text_color.s"
+	@echo "... src/shellText/commonTools/eliminateSpace/text_eliminateSpace.o"
+	@echo "... src/shellText/commonTools/eliminateSpace/text_eliminateSpace.i"
+	@echo "... src/shellText/commonTools/eliminateSpace/text_eliminateSpace.s"
+	@echo "... src/shellText/copyRight/text_copyRight.o"
+	@echo "... src/shellText/copyRight/text_copyRight.i"
+	@echo "... src/shellText/copyRight/text_copyRight.s"
+	@echo "... src/shellText/endSay/text_endSay.o"
+	@echo "... src/shellText/endSay/text_endSay.i"
+	@echo "... src/shellText/endSay/text_endSay.s"
+	@echo "... src/shellText/englinux/egnlinux.o"
+	@echo "... src/shellText/englinux/egnlinux.i"
+	@echo "... src/shellText/englinux/egnlinux.s"
+	@echo "... src/shellText/execute/text_execute.o"
+	@echo "... src/shellText/execute/text_execute.i"
+	@echo "... src/shellText/execute/text_execute.s"
+	@echo "... src/shellText/find/text_find_text.o"
+	@echo "... src/shellText/find/text_find_text.i"
+	@echo "... src/shellText/find/text_find_text.s"
+	@echo "... src/shellText/findSimilarInstructions/text_similarInstructions.o"
+	@echo "... src/shellText/findSimilarInstructions/text_similarInstructions.i"
+	@echo "... src/shellText/findSimilarInstructions/text_similarInstructions.s"
+	@echo "... src/shellText/help/text_help.o"
+	@echo "... src/shellText/help/text_help.i"
+	@echo "... src/shellText/help/text_help.s"
+	@echo "... src/shellText/instructionsLists/text_instructionList.o"
+	@echo "... src/shellText/instructionsLists/text_instructionList.i"
+	@echo "... src/shellText/instructionsLists/text_instructionList.s"
+	@echo "... src/shellText/other/text_myTime.o"
+	@echo "... src/shellText/other/text_myTime.i"
+	@echo "... src/shellText/other/text_myTime.s"
+	@echo "... src/shellText/other/text_rain.o"
+	@echo "... src/shellText/other/text_rain.i"
+	@echo "... src/shellText/other/text_rain.s"
+	@echo "... src/shellText/page_preprocess/text_page_preprocess.o"
+	@echo "... src/shellText/page_preprocess/text_page_preprocess.i"
+	@echo "... src/shellText/page_preprocess/text_page_preprocess.s"
+	@echo "... src/shellText/show_page/text_show_page.o"
+	@echo "... src/shellText/show_page/text_show_page.i"
+	@echo "... src/shellText/show_page/text_show_page.s"
 .PHONY : help
 
 
